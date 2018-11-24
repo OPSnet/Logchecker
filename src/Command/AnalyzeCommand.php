@@ -4,7 +4,7 @@ namespace OrpheusNET\Logchecker\Command;
 
 use OrpheusNET\Logchecker\Logchecker;
 use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\{InputArgument,InputOption,InputInterface};
 use Symfony\Component\Console\Output\OutputInterface;
 
 class AnalyzeCommand extends Command {
@@ -13,7 +13,8 @@ class AnalyzeCommand extends Command {
             ->setName('analyze')
             ->setDescription('analyze log file')
             ->setHelp('This command analyzes a log file')
-            ->addArgument('file', true, 'Log file to analyze');
+            ->addOption('output', null, InputOption::VALUE_NONE, 'Print the HTML log text')
+            ->addArgument('file', InputArgument::REQUIRED, 'Log file to analyze');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output) {
@@ -34,6 +35,12 @@ class AnalyzeCommand extends Command {
             foreach ($details as $detail) {
                 $output->writeln('    '.$detail);
             }
+        }
+
+        if ($input->getOption('output')) {
+            $output->writeln('');
+            $output->writeln('Log Text:');
+            $output->writeln($log_text);
         }
     }
 }

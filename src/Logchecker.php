@@ -87,7 +87,7 @@ class Logchecker {
 				}
 			}
 			catch (\Exception $exc) {
-				$this->account('chardet failed to analyze log encoding', false, false, true, true);
+				$this->account('chardet failed to analyze log encoding', false, false, false, true);
 			}
 		}
 	}
@@ -144,9 +144,15 @@ class Logchecker {
 					if (empty($this->EAC_LANG['en'][$Key])) {
 						continue;
 					}
-					$Log = preg_replace('/'.preg_quote($Value, '/').'/ui', $this->EAC_LANG['en'][$Key], $this->Log);
-					if ($Log !== null) {
-						$this->Log = $Log;
+
+					if (!is_array($Value)) {
+						$Value = [$Value];
+					}
+					foreach ($Value as $VValue) {
+						$Log = preg_replace('/'.preg_quote($VValue, '/').'/ui', $this->EAC_LANG['en'][$Key], $this->Log);
+						if ($Log !== null) {
+							$this->Log = $Log;
+						}
 					}
 				}
 				break;
