@@ -42,10 +42,13 @@ class Logchecker {
 	var $DubiousTracks = 0;
 	var $EAC_LANG = array();
 	var $Chardet = null;
+	var $FakeDrives = [
+		'Generic DVD-ROM SCSI CdRom Device'
+	];
 
 	var $ValidateChecksum = true;
 
-	function __construct() {
+	public function __construct() {
 		$this->EAC_LANG = require_once(__DIR__ . '/eac_languages.php');
 		try {
 			$this->Chardet = new Chardet();
@@ -58,6 +61,10 @@ class Logchecker {
 		$this->AllDrives = array_map(function($elem) { return explode(',', $elem); }, file(__DIR__.'/offsets.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES));
 	}
 
+	public function get_log() {
+		return $this->Log;
+	}
+
 	/**
 	 * @param string $LogPath path to log file on local filesystem
 	 */
@@ -65,31 +72,6 @@ class Logchecker {
 		$this->reset();
 		$this->LogPath = $LogPath;
 		$this->Log = file_get_contents($this->LogPath);
-
-		// To parse the log, we want to deal with the log in UTF-8. EAC by default should
-		// always output to UTF-16 and XLD to UTF-8, but sometimes people view the log and
-		// re-encode them to something else (like Windows-1251), and we need to use chardet
-		// to detect this so we can then convert it to UTF-8.
-		if (ord($this->Log[0]) . ord($this->Log[1]) == 0xFF . 0xFE) {
-			$this->Log = mb_convert_encoding(substr($this->Log, 2), 'UTF-8', 'UTF-16LE');
-		}
-		elseif (ord($this->Log[0]) . ord($this->Log[1]) == 0xFE . 0xFF) {
-			$this->Log = mb_convert_encoding(substr($this->Log, 2), 'UTF-8', 'UTF-16BE');
-		}
-		elseif (ord($this->Log[0]) == 0xEF && ord($this->Log[1]) == 0xBB && ord($this->Log[2]) == 0xBF) {
-			$this->Log = substr($this->Log, 3);
-		}
-		elseif ($this->Chardet !== null) {
-			try {
-				$Results = $this->Chardet->analyze($this->LogPath);
-				if ($Results['charset'] !== 'utf-8' && $Results['confidence'] > 0.7) {
-					$this->Log = mb_convert_encoding($this->Log, 'UTF-8', $Results['charset']);
-				}
-			}
-			catch (\Exception $exc) {
-				$this->account('chardet failed to analyze log encoding', false, false, false, true);
-			}
-		}
 	}
 
 	function reset() {
@@ -130,10 +112,179 @@ class Logchecker {
 		$this->ValidateChecksum = $Bool;
 	}
 
+	private function convert_encoding() {
+		// To parse the log, we want to deal with the log in UTF-8. EAC by default should
+		// always output to UTF-16 and XLD to UTF-8, but sometimes people view the log and
+		// re-encode them to something else (like Windows-1251), and we need to use chardet
+		// to detect this so we can then convert it to UTF-8.
+		if (ord($this->Log[0]) . ord($this->Log[1]) == 0xFF . 0xFE) {
+			$this->Log = mb_convert_encoding(substr($this->Log, 2), 'UTF-8', 'UTF-16LE');
+		}
+		elseif (ord($this->Log[0]) . ord($this->Log[1]) == 0xFE . 0xFF) {
+			$this->Log = mb_convert_encoding(substr($this->Log, 2), 'UTF-8', 'UTF-16BE');
+		}
+		elseif (ord($this->Log[0]) == 0xEF && ord($this->Log[1]) == 0xBB && ord($this->Log[2]) == 0xBF) {
+			$this->Log = substr($this->Log, 3);
+		}
+		elseif ($this->Chardet !== null) {
+			$Results = $this->Chardet->analyze($this->LogPath);
+			if ($Results['charset'] !== 'utf-8' && $Results['confidence'] > 0.7) {
+				$this->Log = mb_convert_encoding($this->Log, 'UTF-8', $Results['charset']);
+			}
+		}
+	}
+
 	/**
 	 * @return array Returns an array that contains [Score, Details, Checksum, Log]
 	 */
 	function parse() {
+		try {
+			$this->convert_encoding();
+		}
+		catch (\Exception $exc) {
+			$this->Checksum = false;
+			$this->Score = 0;
+			$this->account('Could not detect log encoding, log is corrupt.');
+			return $this->return_parse();
+		}
+		
+		if (strpos($this->Log, "Log created by: whipper") !== false) {
+			return $this->whipper_parse();
+		}
+		else {
+			return $this->legacy_parse();
+		}
+	}
+
+	private function whipper_parse() {
+		$Yaml = @yaml_parse($this->Log);
+		if ($Yaml === false) {
+			$this->Score = 0;
+			$this->account('Could not parse whipper log.');
+		}
+
+		if (!empty($Yaml['SHA-256 hash'])) {
+			$Hash = $Yaml['SHA-256 hash'];
+			$lines = explode("\n", trim($this->Log));
+			$Slice = array_slice($lines, 0, count($lines)-1);
+			$this->Checksum = strtolower(hash('sha256', implode("\n", $Slice))) === strtolower($Hash);
+			$Class = $this->Checksum ? 'good' : 'bad';
+			$Yaml['SHA-256 hash'] = "<span class='{$Class}'>{$Hash}</span>";
+		}
+		else {
+			$this->Checksum = false;
+		}
+		
+		$Drive = $Yaml['Ripping phase information']['Drive'];
+		$Offset = $Yaml['Ripping phase information']['Read offset correction'];
+
+		if (in_array(trim($Drive), $this->FakeDrives)) {
+			$this->account('Virtual drive used: ' . $Drive, 20, false, false, false, 20);
+			$Yaml['Ripping phase information']['Drive'] = "<span class='bad'>{$Drive}</span>";
+		}
+		else {
+			$this->get_drives($Drive);
+
+			$DriveClass = 'badish';
+	
+			if (count($this->Drives) > 0) {
+				$DriveClass = 'good';
+				if (in_array((string) $Offset, $this->Offsets)) {
+					$OffsetClass = 'good';
+				}
+				else {
+					$OffsetClass = 'bad';
+					$this->account('Incorrect read offset for drive. Correct offsets are: ' . implode(', ', $this->Offsets) . ' (Checked against the following drive(s): ' . implode(', ', $this->Drives) . ')', 5, false, false, false, 5);
+				}
+			}
+			else {
+				$Drive .= ' (not found in database)';
+				$OffsetClass = 'badish';
+				if ($Offset === '0') {
+					$OffsetClass = 'bad';
+					$this->account('The drive was not found in the database, so we cannot determine the correct read offset. However, the read offset in this case was 0, which is almost never correct. As such, we are assuming that the offset is incorrect', 5, false, false, false, 5);
+				}
+			}
+			$Yaml['Ripping phase information']['Drive'] = "<span class='{$DriveClass}'>{$Drive}</span>";
+			$Offset = ($Offset > 0) ? '+' . (string) $Offset : (string) $Offset;
+			$Yaml['Ripping phase information']['Read offset correction'] = "<span class='{$OffsetClass}'>{$Offset}</span>";
+		}
+
+		$DefeatCache = $Yaml['Ripping phase information']['Defeat audio cache'];
+		if ($DefeatCache) {
+			$Value = 'Yes';
+			$Class = 'good';
+		}
+		else {
+			$Value = 'No';
+			$Class = 'bad';
+			$this->account('"Defeat audio cache" should be yes', 10);
+		}
+		$Yaml['Ripping phase information']['Defeat audio cache'] = "<span class='{$Class}'>{$Value}</span>";
+
+		foreach ($Yaml['Tracks'] as $Key => $Track) {
+			$Class = 'good';
+			if ($Track['Test CRC'] !== $Track['Copy CRC']) {
+				$Class = 'bad';
+				$this->account("CRC mismatch: {$Track['Test CRC']} and {$Track['Copy CRC']}", 30);
+			}
+
+			$Yaml['Tracks'][$Key]['Test CRC'] = "<span class='{$Class}'>{$Track['Test CRC']}</span>";
+			$Yaml['Tracks'][$Key]['Copy CRC'] = "<span class='{$Class}'>{$Track['Copy CRC']}</span>";
+		}
+
+		$this->Log = "Log created by: {$Yaml['Log created by']}\nLog creation date: {$Yaml['Log creation date']}\n\n";
+		$this->Log .= "Ripping phase information:\n";
+		foreach ($Yaml['Ripping phase information'] as $Key => $Value) {
+			$this->Log .= "  {$Key}: {$Value}\n";
+		}
+		$this->Log .= "\n";
+
+		$this->Log .= "CD metadata:\n";
+		foreach ($Yaml['CD metadata'] as $Key => $Value) {
+			$this->Log .= "  {$Key}: {$Value}\n";
+		}
+		$this->Log .= "\n";
+
+		$this->Log .= "TOC:\n";
+		foreach ($Yaml['TOC'] as $Key => $Track) {
+			$this->Log .= "  {$Key}:\n";
+			foreach ($Track as $KKey => $Value) {
+				$this->Log .= "    {$KKey}: {$Value}\n";
+			}
+			$this->Log .= "\n";
+		}
+		$this->Log .= "\n";
+
+		$this->Log .= "Tracks:\n";
+		foreach ($Yaml['Tracks'] as $Key => $Track) {
+			$this->Log .= "  {$Key}:\n";
+			foreach ($Track as $KKey => $Value) {
+				if (is_array($Value)) {
+					$this->Log .= "    {$KKey}:\n";
+					foreach ($Value as $KKKey => $VValue) {
+						$this->Log .= "      {$KKKey}: {$VValue}\n";
+					}
+				}
+				else {
+					$this->Log .= "    {$KKey}: {$Value}\n";
+				}
+			}
+			$this->Log .= "\n";
+		}
+		$this->Log .= "\n";
+
+		$this->Log .= "Conclusive status report:\n";
+		foreach ($Yaml['Conclusive status report'] as $Key => $Value) {
+			$this->Log .= "{$Key}: {$Value}\n";
+		}
+		$this->Log .= "\n";
+		$this->Log .= "SHA-256 hash: {$Yaml['SHA-256 hash']}\n";
+		return $this->return_parse();
+
+	}
+
+	private function legacy_parse() {
 		foreach ($this->EAC_LANG as $Lang => $Dict) {
 			if ($Lang === 'en') {
 				continue;
@@ -256,30 +407,27 @@ class Logchecker {
 					$this->Details[] = "Unrecognized log file! Feel free to report for manual review.";
 				}
 				$this->Score = 0;
-				return $this->returnParse();
+				return $this->return_parse();
 			} else {
 				$this->RIPPER = ($EAC) ? "EAC" : "XLD";
 			}
 
 			if ($this->ValidateChecksum && $this->Checksum && !empty($this->LogPath)) {
 				if ($EAC) {
-					$CommandExists = Util::commandExists('eac_logchecker');
-					if ($CommandExists) {
-						$Out = shell_exec("eac_logchecker {$this->LogPath}");
-						$Strings = ['Log entry has no checksum!', 'Log entry was modified, checksum incorrect!'];
-						if (Util::strposArray($Out, $Strings) !== false || strpos($Out, 'Log entry is fine!') === false) {
-							$this->Checksum = false;
-						}
-					}
+					$Command = 'eac_logchecker';
+					$BadStrings = ['Log entry has no checksum!', 'Log entry was modified, checksum incorrect!'];
+					$GoodString = 'Log entry is fine!';
 				}
 				else {
-					$Exe = __DIR__ . '/logchecker/xld_logchecker';
-					if (file_exists($Exe)) {
-						$Out = shell_exec("{$Exe} {$this->LogPath}");
-						if (strpos($Out, "Malformed") !== false || strpos($Out, "OK") === false) {
-							$this->Checksum = false;
-						}
-					}
+					$Command = 'xld_logchecker';
+					$BadStrings = ['Malformed', 'Not a logfile'];
+					$GoodString = 'OK';
+				}
+
+				$CommandExists = Util::commandExists($Command);
+				$Out = shell_exec("{$Command} {$this->LogPath}");
+				if (Util::strposArray($Out, $BadStrings) !== false || strpos($Out, $GoodString) === false) {
+					$this->Checksum = false;
 				}
 			}
 
@@ -815,20 +963,32 @@ class Logchecker {
 		if ($this->Combined) {
 			array_unshift($this->Details, "Combined Log (" . $this->Combined . ")");
 		} //combined log msg
-		return $this->returnParse();
+		return $this->return_parse();
 	}
 	// Callback functions
 	function drive($Matches)
 	{
-		global $DB;
-		$FakeDrives = array(
-			'Generic DVD-ROM SCSI CdRom Device'
-		);
-		if (in_array(trim($Matches[2]), $FakeDrives)) {
+		if (in_array(trim($Matches[2]), $this->FakeDrives)) {
 			$this->account('Virtual drive used: ' . $Matches[2], 20, false, false, false, 20);
 			return "<span class=\"log5\">Used Drive$Matches[1]</span>: <span class=\"bad\">$Matches[2]</span>";
 		}
 		$DriveName = $Matches[2];
+
+		$this->get_drives($DriveName);
+
+		if (count($this->Drives) > 0) {
+			$Class			= 'good';
+			$this->DriveFound = true;
+		} else {
+			$Class = 'badish';
+			$Matches[2] .= ' (not found in database)';
+		}
+		return "<span class=\"log5\">Used Drive$Matches[1]</span>: <span class=\"$Class\">$Matches[2]</span>";
+	}
+
+	private function get_drives($DriveName) {
+		// Necessary transformations to get what the drives report themselves to match up into
+		// what is from the AccurateRIP DB
 		$DriveName = str_replace('JLMS', 'Lite-ON', $DriveName);
 		$DriveName = preg_replace('/TSSTcorp(BD|CD|DVD)/', 'TSSTcorp \1', $DriveName);
 		$DriveName = preg_replace('/HL-DT-ST(BD|CD|DVD)/', 'HL-DT-ST \1', $DriveName);
@@ -860,18 +1020,9 @@ class Logchecker {
 				break;
 			}
 		}
-
-		if (count($this->Drives) > 0) {
-			$Class			= 'good';
-			$this->DriveFound = true;
-		} else {
-			$Class = 'badish';
-			$Matches[2] .= ' (not found in database)';
-		}
-		return "<span class=\"log5\">Used Drive$Matches[1]</span>: <span class=\"$Class\">$Matches[2]</span>";
 	}
-	function media_type_xld($Matches)
-	{
+
+	function media_type_xld($Matches) {
 		// Pressed CD
 		if (trim($Matches[2]) == "Pressed CD") {
 			$Class = 'good';
@@ -1052,7 +1203,7 @@ class Logchecker {
 				$Class = 'badish';
 			}
 		}
-		return '<span class="log5">' . ($this->RIPPER == "DBPA" ? '' : 'Read offset correction') . $Matches[1] . '</span>: <span class="' . $Class . '">' . $Matches[2] . '</span>';
+		return '<span class="log5">Read offset correction' . $Matches[1] . '</span>: <span class="' . $Class . '">' . $Matches[2] . '</span>';
 	}
 	function fill_offset_samples($Matches)
 	{
@@ -1241,7 +1392,7 @@ class Logchecker {
 				$this->Details[] = "Invalid log, no tracks!";
 			}
 			$this->Score = 0;
-			return $this->returnParse();
+			return $this->return_parse();
 		}
 	}
 
@@ -1285,7 +1436,7 @@ class Logchecker {
 		$this->BadTrack[] = $Prepend . $Msg . $Append;
 	}
 
-	function returnParse() {
+	function return_parse() {
 		return array(
 			$this->Score,
 			$this->Details,

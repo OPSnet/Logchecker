@@ -16,13 +16,69 @@ setting up the necessary programs to validate the checksum, see below for the gi
 ## Requirements
 * PHP 7.0+
 * Python3.4+
-* chardet
-* eac_logchecker.py
-* xld_logchecker.py
+* [chardet](https://github.com/chardet/chardet)
+* [eac_logchecker.py](https://github.com/OPSnet/eac_logchecker.py)
+* [xld_logchecker.py](https://github.com/OPSnet/xld_logchecker.py)
 
 ## Installation
 ```
 $ composer require orpheusnet/logchecker
-$ pip3 install chardet
-$ pip3 install eac-logchecker
+$ pip3 install chardet eac-logchecker xld-logchecker
+```
+
+## Usage
+### CLI
+```
+$ logchecker list
+Logchecker by Orpheus 0.5.0
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help            Display this help message
+  -V, --version         Display this application version
+
+Available commands:
+  analyze  analyze log file
+  help     Displays help for a command
+  list     Lists commands
+
+$ logchecker analyze --help
+Description:
+  analyze log file
+
+Usage:
+  analyze [options] [--] <file>
+
+Arguments:
+  file                  Log file to analyze
+
+Options:
+      --output          Print the HTML log text
+  -h, --help            Display this help message
+
+Help:
+  This command analyzes a log file
+
+$ logchecker analyze tests/logs/wgdbcm.log
+Score   : 57
+Checksum: false
+Details :
+    [Notice] Translated log from Русский (Russian) to English.
+    EAC version older than 0.99 (-30 points)
+    Could not verify read mode (-1 point)
+    Could not verify read offset (-1 point)
+    Could not verify null samples
+    Could not verify gap handling (-10 points)
+    Could not verify id3 tag setting (-1 point)
+```
+
+### Code
+```
+<?php
+
+$logchecker = new OrpheusNET\Logchecker\Logchecker();
+$logchecker->add_file('path/to/file.log');
+list($score, $details, $checksum, $log_text) = $logchecker->parse();
 ```
