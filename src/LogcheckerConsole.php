@@ -13,8 +13,12 @@ class LogcheckerConsole extends Application {
 
         parent::__construct('Logchecker by Orpheus', $version);
 
+        $analyze_command = new Command\AnalyzeCommand();
+
         $this->addCommands([
-            new Command\AnalyzeCommand()
+            $analyze_command
         ]);
+
+        $this->setDefaultCommand($analyze_command->getName());
     }
 }
