@@ -1,0 +1,36 @@
+language: php
+sudo: true
+dist: trusty
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+php:
+  - 7.0
+  - 7.1
+  - 7.2
+  - 7.3
+  - nightly
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: nightly
+
+before_install:
+  - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
+
+before_deploy:
+  - php -d phar.readonly=0 bin/compile
+
+deploy:
+  provider: releases
+  api_key:
+    secure: jlvbD7nzOz/8vssSI75loBMJE9OosAofTu1IDMc3bfxfRaPT6c2duebJF7Bm0VCTGYWK3Wc+19wwyLpCMoueUUEtKqi6RGIUQyboQvbSEe/cje7/9PgqmFstV8LdBLNOwRVj01YcmGw/iMVc+GxPTtDZtcwVU9bzlMCwXFAlggeId0Qw6KgxN+wTbm+oS3zrIh+TnWhgeWhmMYn0/UAEUEQCsYDI+UJjGWStWdpdJqdMhidg5GQyVtomFg82ZjIw+ywYGMGgq38S4PMRBLoqbxuWs++9LPblWboxtktb4+U0xUMdHfrv/r94b8+nI2SJ1xzzUKTXS/glkk0lJAovSYew6jJiu+gsejiNyR89WNgRGwnWAUA8ZBptrM2b3sxLuZ6RuxQXP3TMpxhQQE/3aodOrACPOHa8uuct0JAj/a2p0WCIj4r76McHrXTjFzDPsbdxD1GwOQmFJGqY5EV7Vez6q++Erp/64JEZJk9/jieTv0arLe76VZPQcZ6TB488tH699MvK7Gg1cc4114FbKIEZrOKF2FOrMAZJ3husjELN0zJYeRPZUy6Y7A2PAWsqfdswlxjP9IxuDFVE/3TW8O1sVItWo4+SSkKTILzsC0qgxVL2lW9WDmyka8U5T2SAa8ye/RRZ3FJYugep49wjUsfLraRdA+Lj7KQXSaMlFa8=
+  file: logchecker.phar
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: OPSnet/Logchecker
+    php: '7.2'

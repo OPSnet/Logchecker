@@ -1,0 +1,59 @@
+#!/usr/bin/env php
+<?php
+
+$phar_file = 'logchecker.phar';
+
+if (file_exists($phar_file)) {
+    unlink($phar_file);
+}
+
+$phar = new Phar(__DIR__.'/../'.$phar_file, FilesystemIterator::CURRENT_AS_FILEINFO | FilesystemIterator::KEY_AS_FILENAME, $phar_file);
+$phar->startBuffering();
+
+$base_dir = realpath(__DIR__.'/../');
+
+$it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator(realpath(__DIR__.'/../src'), RecursiveDirectoryIterator::SKIP_DOTS));
+foreach ($it as $entry) {
+    $phar->addFile($entry->getPathName(), str_replace($base_dir, '', $entry->getPathName()));
+}
+
+$vendor = [
+    'composer',
+    'symfony'
+];
+
+foreach ($vendor as $dir) {
+    $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator(realpath(__DIR__.'/../vendor/'.$dir), RecursiveDirectoryIterator::SKIP_DOTS));
+    foreach ($it as $entry) {
+        $phar->addFile($entry->getPathName(), str_replace($base_dir, '', $entry->getPathName()));
+    }
+}
+
+$phar->addFile(realpath(__DIR__.'/../vendor/autoload.php'), 'vendor/autoload.php');
+
+
+$phar->addFile(realpath(__DIR__.'/../composer.json'), 'composer.json');
+$phar->addFile(realpath(__DIR__.'/../LICENSE.md'), 'LICENSE.md');
+$phar->addFile(realpath(__DIR__.'/../README.md'), 'README.md');
+
+$bin_file = file_get_contents(__DIR__.'/logchecker');
+$bin_file = preg_replace('{^#!/usr/bin/env php\s*}', '', $bin_file);
+$phar->addFromString('bin/logchecker', $bin_file);
+
+$stub = <<<PHP
+#!/usr/bin/env php
+<?php
+Phar::mapPhar('{$phar_file}');
+require 'phar://{$phar_file}/bin/logchecker';
+
+__HALT_COMPILER();
+PHP;
+
+$phar->setStub($stub);
+
+
+$phar->stopBuffering();
+
+//$phar->compress(Phar::GZ);
+
+echo "{$phar_file} generated...";
