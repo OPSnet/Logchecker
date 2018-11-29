@@ -19,8 +19,8 @@ matrix:
     - php: nightly
 
 before_install:
-  - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
   - pecl install yaml
+  - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
 
 before_deploy:
   - php -d phar.readonly=0 bin/compile
