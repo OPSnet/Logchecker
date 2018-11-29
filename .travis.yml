@@ -19,7 +19,7 @@ matrix:
     - php: nightly
 
 before_install:
-  - pecl install yaml
+  - yes | pecl install yaml
   - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
 
 before_deploy:
