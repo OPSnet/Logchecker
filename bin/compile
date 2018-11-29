@@ -19,6 +19,7 @@ foreach ($it as $entry) {
 
 $vendor = [
     'composer',
+    'psr',
     'symfony'
 ];
 
