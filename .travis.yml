@@ -22,6 +22,10 @@ before_install:
   - yes | pecl install yaml
   - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
 
+script:
+  - bin/logchecker --version
+  - bin/logchecker --help
+
 before_deploy:
   - php -d phar.readonly=0 bin/compile
 
