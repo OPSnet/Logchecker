@@ -2,6 +2,9 @@
 
 namespace OrpheusNET\Logchecker;
 
+use Symfony\Component\Yaml\Yaml;
+use Symfony\Component\Yaml\Exception\ParseException;
+
 /*******************************************************************
  * Automated EAC/XLD log checker *
  ********************************************************************/
@@ -142,7 +145,6 @@ class Logchecker {
 			$this->convert_encoding();
 		}
 		catch (\Exception $exc) {
-			$this->Checksum = false;
 			$this->Score = 0;
 			$this->account('Could not detect log encoding, log is corrupt.');
 			return $this->return_parse();
@@ -157,17 +159,21 @@ class Logchecker {
 	}
 
 	private function whipper_parse() {
-		$Yaml = @yaml_parse($this->Log);
-		if ($Yaml === false) {
-			$this->Score = 0;
-			$this->account('Could not parse whipper log.');
+		try {
+			$Yaml = Yaml::parse($this->Log);
+		}
+		catch (ParseException $exception) {
+			$this->account('Could not parse whipper log.', 100);
+			return $this->return_parse();
 		}
 
 		if (!empty($Yaml['SHA-256 hash'])) {
 			$Hash = $Yaml['SHA-256 hash'];
-			$lines = explode("\n", trim($this->Log));
-			$Slice = array_slice($lines, 0, count($lines)-1);
+			$Lines = explode("\n", trim($this->Log));
+			$Slice = array_slice($Lines, 0, count($Lines)-1);
 			$this->Checksum = strtolower(hash('sha256', implode("\n", $Slice))) === strtolower($Hash);
+			unset($Slice);
+			unset($Lines);
 			$Class = $this->Checksum ? 'good' : 'bad';
 			$Yaml['SHA-256 hash'] = "<span class='{$Class}'>{$Hash}</span>";
 		}
@@ -223,6 +229,7 @@ class Logchecker {
 		$Yaml['Ripping phase information']['Defeat audio cache'] = "<span class='{$Class}'>{$Value}</span>";
 
 		foreach ($Yaml['Tracks'] as $Key => $Track) {
+			$Yaml['Tracks'][$Key]['Peak level'] = sprintf('%.6f', $Track['Peak level']);
 			$Class = 'good';
 			if ($Track['Test CRC'] !== $Track['Copy CRC']) {
 				$Class = 'bad';
@@ -233,15 +240,22 @@ class Logchecker {
 			$Yaml['Tracks'][$Key]['Copy CRC'] = "<span class='{$Class}'>{$Track['Copy CRC']}</span>";
 		}
 
-		$this->Log = "Log created by: {$Yaml['Log created by']}\nLog creation date: {$Yaml['Log creation date']}\n\n";
+		$CreationDate = gmdate("Y-m-d\TH:i:s\Z", $Yaml['Log creation date']);
+		$this->Log = "Log created by: {$Yaml['Log created by']}\nLog creation date: {$CreationDate}\n\n";
 		$this->Log .= "Ripping phase information:\n";
 		foreach ($Yaml['Ripping phase information'] as $Key => $Value) {
+			if (is_bool($Value)) {
+				$Value = ($Value) ? 'Yes' : 'No';
+			}
 			$this->Log .= "  {$Key}: {$Value}\n";
 		}
 		$this->Log .= "\n";
 
 		$this->Log .= "CD metadata:\n";
 		foreach ($Yaml['CD metadata'] as $Key => $Value) {
+			if (is_bool($Value)) {
+				$Value = ($Value) ? 'Yes' : 'No';
+			}
 			$this->Log .= "  {$Key}: {$Value}\n";
 		}
 		$this->Log .= "\n";
@@ -254,7 +268,6 @@ class Logchecker {
 			}
 			$this->Log .= "\n";
 		}
-		$this->Log .= "\n";
 
 		$this->Log .= "Tracks:\n";
 		foreach ($Yaml['Tracks'] as $Key => $Track) {
@@ -267,16 +280,18 @@ class Logchecker {
 					}
 				}
 				else {
+					if (is_bool($Value)) {
+						$Value = ($Value) ? 'Yes' : 'No';
+					}
 					$this->Log .= "    {$KKey}: {$Value}\n";
 				}
 			}
 			$this->Log .= "\n";
 		}
-		$this->Log .= "\n";
 
 		$this->Log .= "Conclusive status report:\n";
 		foreach ($Yaml['Conclusive status report'] as $Key => $Value) {
-			$this->Log .= "{$Key}: {$Value}\n";
+			$this->Log .= "  {$Key}: {$Value}\n";
 		}
 		$this->Log .= "\n";
 		$this->Log .= "SHA-256 hash: {$Yaml['SHA-256 hash']}\n";

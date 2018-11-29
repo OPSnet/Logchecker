@@ -19,7 +19,8 @@
         "php": ">=7",
         "ext-mbstring": "*",
         "ext-yaml": "*",
-        "symfony/console": "^3.4|^4.1"
+        "symfony/console": "^3.4",
+        "symfony/yaml": "^3.4"
     },
     "bin": ["bin/logchecker"]
 }
