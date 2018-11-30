@@ -15,11 +15,12 @@ class Chardet {
         foreach ($this->executables as $executable) {
             if (Util::commandExists($executable)) {
                 $this->executable = $executable;
+                break;
             }
         }
 
         if ($this->executable === null) {
-            throw new \RuntimeException('Chardet not installed');
+            throw new \RuntimeException('chardet not installed');
         }
     }
 
