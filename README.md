@@ -15,39 +15,32 @@ setting up the necessary programs to validate the checksum, see below for the gi
 
 ## Requirements
 * PHP 7.0+
-* Python3.4+
+
+## Optional Requirements
+* Python 3.5+
 * [chardet](https://github.com/chardet/chardet)
 * [eac_logchecker.py](https://github.com/OPSnet/eac_logchecker.py)
 * [xld_logchecker.py](https://github.com/OPSnet/xld_logchecker.py)
 
-## Installation
 ```
-$ composer require orpheusnet/logchecker
 $ pip3 install chardet eac-logchecker xld-logchecker
 ```
 
-## Usage
-### CLI
+## Standalone
+### Installation
+Go to our [releases](https://github.com/OPSnet/Logchecker/releases) and grab the logchecker.phar
+file. Download this file, and then it can executed via CLI by running `php logchecker.phar`.
+Alternatively, if you `chmod +x logchecker.phar`, it can be executed directly by doing `./logchecker.phar`.
+
+To install it globally, run:
 ```
-$ logchecker list
-Logchecker by Orpheus 0.5.0
+mv logchecker.phar /usr/local/bin/logchecker
+chmod +x /usr/local/bin/logchecker
+```
 
-Usage:
-  command [options] [arguments]
-
-Options:
-  -h, --help            Display this help message
-  -V, --version         Display this application version
-
-Available commands:
-  analyze  analyze log file
-  help     Displays help for a command
-  list     Lists commands
-
-$ logchecker analyze --help
-Description:
-  analyze log file
-
+### Usage
+```
+$ logchecker --help
 Usage:
   analyze [options] [--] <file>
 
@@ -57,11 +50,18 @@ Arguments:
 Options:
       --output          Print the HTML log text
   -h, --help            Display this help message
+  -q, --quiet           Do not output any message
+  -V, --version         Display this application version
+      --ansi            Force ANSI output
+      --no-ansi         Disable ANSI output
+  -n, --no-interaction  Do not ask any interactive question
+  -file, --out=OUT      File to write HTML log text to
+  -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
 
 Help:
   This command analyzes a log file
 
-$ logchecker analyze tests/logs/wgdbcm.log
+$ logchecker tests/logs/wgdbcm.log
 Score   : 57
 Checksum: false
 Details :
@@ -81,4 +81,37 @@ Details :
 $logchecker = new OrpheusNET\Logchecker\Logchecker();
 $logchecker->add_file('path/to/file.log');
 list($score, $details, $checksum, $log_text) = $logchecker->parse();
+```
+
+## Library Usage
+### Installation
+```
+$ composer require orpheusnet/logchecker
+```
+
+### Usage
+```
+use OrpheusNET\Logchecker\Logchecker();
+
+$logchecker = new Logchecker();
+$logchecker->new_file('/path/to/log/file');
+list($score, $details, $checksum, $log_text) = $logchecker->parse();
+print('Score: ' . $score . "\n");
+print('Checksum: ' . ($checksum ? 'true' : 'false') . "\n");
+print("\nDetails:\n");
+foreach ($details as $detail) {
+    print("  {$detail}\n");
+}
+print("\nLog Text:\n{$log_text}");
+```
+
+## Building
+
+To build your own phar, you can checkout this repository, and then
+run the `bin/compile` script. To do this, run the following commands:
+```
+git clone https://github.com/OPSnet/Logchecker
+cd Logchecker
+composer install
+php -d phar.readonly=0 /bin/compile
 ```
