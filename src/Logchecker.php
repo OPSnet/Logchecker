@@ -439,10 +439,14 @@ class Logchecker {
 					$GoodString = 'OK';
 				}
 
-				$CommandExists = Util::commandExists($Command);
-				$Out = shell_exec("{$Command} {$this->LogPath}");
-				if (Util::strposArray($Out, $BadStrings) !== false || strpos($Out, $GoodString) === false) {
-					$this->Checksum = false;
+				if (Util::commandExists($Command)) {
+					$Out = shell_exec("{$Command} ".escapeshellarg($this->LogPath));
+					if ($Out == null || Util::strposArray($Out, $BadStrings) !== false || strpos($Out, $GoodString) === false) {
+						$this->Checksum = false;
+					}
+				}
+				else {
+					$this->account("Could not find {$Command}, checksum not validated.", false, false, false, true);
 				}
 			}
 
