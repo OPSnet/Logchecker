@@ -113,5 +113,5 @@ run the `bin/compile` script. To do this, run the following commands:
 git clone https://github.com/OPSnet/Logchecker
 cd Logchecker
 composer install
-php -d phar.readonly=0 /bin/compile
+php -d phar.readonly=0 bin/compile
 ```
