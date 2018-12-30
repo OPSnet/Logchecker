@@ -91,7 +91,7 @@ $ composer require orpheusnet/logchecker
 
 ### Usage
 ```
-use OrpheusNET\Logchecker\Logchecker();
+use OrpheusNET\Logchecker\Logchecker;
 
 $logchecker = new Logchecker();
 $logchecker->new_file('/path/to/log/file');
