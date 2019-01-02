@@ -1024,7 +1024,7 @@ class Logchecker {
 			$MatchedDrives[$i] = ['drives' => [], 'offsets' => []];
 		}
 
-		foreach ($this->AllDrives as [$Drive, $Offset]) {
+		foreach ($this->AllDrives as list($Drive, $Offset)) {
 			$Distance = levenshtein($Drive, $DriveName);
 			if ($Distance < 5) {
 				$MatchedDrives[$Distance]['drives'][] = $Drive;
