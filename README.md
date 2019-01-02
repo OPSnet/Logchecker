@@ -33,7 +33,7 @@ file. Download this file, and then it can executed via CLI by running `php logch
 Alternatively, if you `chmod +x logchecker.phar`, it can be executed directly by doing `./logchecker.phar`.
 
 To install it globally, run:
-```
+```bash
 mv logchecker.phar /usr/local/bin/logchecker
 chmod +x /usr/local/bin/logchecker
 ```
@@ -75,7 +75,7 @@ Details :
 ```
 
 ### Code
-```
+```php
 <?php
 
 $logchecker = new OrpheusNET\Logchecker\Logchecker();
@@ -90,8 +90,12 @@ $ composer require orpheusnet/logchecker
 ```
 
 ### Usage
-```
-use OrpheusNET\Logchecker\Logchecker();
+```php
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use OrpheusNET\Logchecker\Logchecker;
 
 $logchecker = new Logchecker();
 $logchecker->new_file('/path/to/log/file');
@@ -109,9 +113,9 @@ print("\nLog Text:\n{$log_text}");
 
 To build your own phar, you can checkout this repository, and then
 run the `bin/compile` script. To do this, run the following commands:
-```
+```bash
 git clone https://github.com/OPSnet/Logchecker
 cd Logchecker
 composer install
-php -d phar.readonly=0 /bin/compile
+php -d phar.readonly=0 bin/compile
 ```
