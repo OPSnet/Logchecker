@@ -20,7 +20,9 @@ matrix:
     - php: nightly
 
 before_install:
-  - sudo apt-get install python3 python3-pip
+  - sudo apt-get install python3
+  - wget https://bootstrap.pypa.io/get-pip.py
+  - python3 get-pip.py
 
 install:
   - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
