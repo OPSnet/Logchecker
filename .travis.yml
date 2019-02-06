@@ -20,9 +20,12 @@ matrix:
     - php: nightly
 
 before_install:
+  - sudo apt-get install python3 python3-pip
+
+install:
   - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
   - pip3 install xld_logchecker eac_logchecker
-
+  
 script:
   - bin/logchecker --version
   - bin/logchecker --help
