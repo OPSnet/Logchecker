@@ -22,11 +22,11 @@ matrix:
 before_install:
   - sudo apt-get install python3
   - wget https://bootstrap.pypa.io/get-pip.py
-  - python3 get-pip.py
+  - sudo python3 get-pip.py
 
 install:
   - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
-  - pip3 install xld_logchecker eac_logchecker
+  - pip3 install --user xld_logchecker eac_logchecker
   
 script:
   - bin/logchecker --version
