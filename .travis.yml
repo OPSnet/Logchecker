@@ -1,9 +1,10 @@
 language: php
 sudo: true
-dist: trusty
+dist: xenial
 
 cache:
   directories:
+    - $HOME/.cache/pip
     - $HOME/.composer/cache
 
 php:
@@ -20,10 +21,13 @@ matrix:
 
 before_install:
   - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
+  - pip3 install xld_logchecker eac_logchecker
 
 script:
   - bin/logchecker --version
   - bin/logchecker --help
+  - bin/logchecker tests/logs/wgdbcm.log
+  - bin/logchecker tests/logs/xld_perfect.log
 
 before_deploy:
   - php -d phar.readonly=0 bin/compile
