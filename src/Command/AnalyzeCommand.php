@@ -28,6 +28,8 @@ class AnalyzeCommand extends Command {
         $logchecker = new Logchecker();
         $logchecker->new_file($filename);
         list($score, $details, $checksum, $log_text) = $logchecker->parse();
+        $output->writeln('Ripper  : ' . $logchecker->get_ripper());
+        $output->writeln('Version : ' . $logchecker->get_version());
         $output->writeln('Score   : ' . $score);
         $output->writeln('Checksum: ' . ($checksum ? 'true' : 'false'));
 

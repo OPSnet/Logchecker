@@ -167,6 +167,17 @@ class Logchecker {
 			return $this->return_parse();
 		}
 
+		$this->RIPPER = 'whipper';
+		$this->Version = explode(" ", $Yaml['Log created by'])[1];
+
+		// Releases before this used octal numbers for tracks in the log which
+		// gets messed up in parsing and we lose track data (e.g. tracks 08 and
+		// 09 get merged into one entry).
+		if (empty($this->Version) || version_compare('0.7.3', $this->Version) === 1) {
+			$this->account('Logs must be produced by whipper 0.7.3+', 100);
+			return $this->return_parse();
+		}
+
 		if (!empty($Yaml['SHA-256 hash'])) {
 			$Hash = $Yaml['SHA-256 hash'];
 			$Lines = explode("\n", trim($this->Log));
@@ -217,15 +228,18 @@ class Logchecker {
 		}
 
 		$DefeatCache = $Yaml['Ripping phase information']['Defeat audio cache'];
-		if ($DefeatCache) {
-			$Value = 'Yes';
-			$Class = 'good';
+		if (is_string($DefeatCache)) {
+			$Value = (strtolower($DefeatCache) === 'yes') ? 'Yes' : 'No';
+			$Class = (strtolower($DefeatCache) === 'yes') ? 'good' : 'bad';
 		}
 		else {
-			$Value = 'No';
-			$Class = 'bad';
-			$this->account('"Defeat audio cache" should be yes', 10);
+			$Value = ($DefeatCache === true) ? 'true' : 'false';
+			$Class = ($DefeatCache === true) ? 'good' : 'bad';
 		}
+		if ($Class === 'bad') {
+			$this->account('"Defeat audio cache" should be Yes/true', 10);
+		}
+
 		$Yaml['Ripping phase information']['Defeat audio cache'] = "<span class='{$Class}'>{$Value}</span>";
 
 		foreach ($Yaml['Tracks'] as $Key => $Track) {
@@ -245,7 +259,7 @@ class Logchecker {
 		$this->Log .= "Ripping phase information:\n";
 		foreach ($Yaml['Ripping phase information'] as $Key => $Value) {
 			if (is_bool($Value)) {
-				$Value = ($Value) ? 'Yes' : 'No';
+				$Value = ($Value) ? 'true' : 'false';
 			}
 			$this->Log .= "  {$Key}: {$Value}\n";
 		}
@@ -254,7 +268,7 @@ class Logchecker {
 		$this->Log .= "CD metadata:\n";
 		foreach ($Yaml['CD metadata'] as $Key => $Value) {
 			if (is_bool($Value)) {
-				$Value = ($Value) ? 'Yes' : 'No';
+				$Value = ($Value) ? 'true' : 'false';
 			}
 			$this->Log .= "  {$Key}: {$Value}\n";
 		}
@@ -1462,6 +1476,14 @@ class Logchecker {
 			$this->Checksum,
 			$this->Log
 		);
+	}
+
+	function get_ripper() {
+		return $this->RIPPER;
+	}
+
+	function get_version() {
+		return $this->Version;
 	}
 
 	public static function get_accept_values() {
