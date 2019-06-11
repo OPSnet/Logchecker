@@ -26,7 +26,7 @@ before_install:
 
 install:
   - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
-  - pip3 install --user xld_logchecker eac_logchecker
+  - pip3 install --user chardet xld_logchecker eac_logchecker
   
 script:
   - bin/logchecker --version
