@@ -1154,18 +1154,20 @@ class Logchecker {
 	function accurate_stream($Matches)
 	{
 		if ($Matches[2] == 'Yes') {
-			$Class = 'goodish';
+			$Class = 'good';
 		} else {
-			$Class = 'badish';
+			$Class = 'bad';
+			$this->account('"Utilize accurate stream" should be yes', 20);
 		}
 		return '<span class="log5">Utilize accurate stream' . $Matches[1] . '</span>: <span class="' . $Class . '">' . $Matches[2] . '</span>';
 	}
 	function accurate_stream_eac_pre99($Matches)
 	{
 		if (strtolower($Matches[1]) != 'no ') {
-			$Class = 'goodish';
+			$Class = 'good';
 		} else {
-			$Class = 'badish';
+			$Class = 'bad';
+			$this->account('"accurate stream" should be yes', 20);
 		}
 		return ', <span class="' . $Class . '">' . $Matches[1] . 'accurate stream</span>';
 	}
