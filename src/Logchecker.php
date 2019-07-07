@@ -512,7 +512,7 @@ class Logchecker {
 				'accurate_stream_eac_pre99'
 			), $Log, 1, $EAC_ac_stream_pre99);
 			if (!$EAC_ac_stream && !$EAC_ac_stream_pre99 && !$this->NonSecureMode && $EAC) {
-				$this->account('Could not verify accurate stream');
+				$this->account('Could not verify accurate stream', 20);
 			}
 			$Log = preg_replace_callback('/Defeat audio cache( +): (Yes|No)/i', array(
 				$this,
