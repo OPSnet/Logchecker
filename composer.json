@@ -1,7 +1,7 @@
 {
     "name": "orpheusnet/logchecker",
     "description": "Logchecker for validating logs generated from supported ripping programs (like EAC and XLD)",
-    "version": "0.8.3",
+    "version": "0.8.4",
     "license": "Unlicense",
     "type": "library",
     "authors": [
