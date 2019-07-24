@@ -167,8 +167,8 @@ class Logchecker {
 		// Whipper 0.7.x has an issue where it can produce invalid YAML
 		// as it hand writes out the values without dealing properly
 		// with the escaping the output, so we fix that here
-		$log = preg_replace_callback('/^  Release: (.+)$/m', function ($match) {
-			return "  Release: ".Yaml::dump($match[1]);
+		$log = preg_replace_callback('/^  (Release|Album): (.+)$/m', function ($match) {
+			return "  {$match[1]}: ".Yaml::dump($match[2]);
 		}, $this->Log);
 
 		try {
