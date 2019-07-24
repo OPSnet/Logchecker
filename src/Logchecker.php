@@ -116,6 +116,11 @@ class Logchecker {
 	}
 
 	private function convert_encoding() {
+		// Whipper uses UTF-8 so we don't need to bother checking, especially as it's
+		// possible a log may be falsely detected as a different encoding by chardet
+		if (strpos($this->Log, "Log created by: whipper") !== false) {
+			return;
+		}
 		// To parse the log, we want to deal with the log in UTF-8. EAC by default should
 		// always output to UTF-16 and XLD to UTF-8, but sometimes people view the log and
 		// re-encode them to something else (like Windows-1251), and we need to use chardet
@@ -159,8 +164,15 @@ class Logchecker {
 	}
 
 	private function whipper_parse() {
+		// Whipper 0.7.x has an issue where it can produce invalid YAML
+		// as it hand writes out the values without dealing properly
+		// with the escaping the output, so we fix that here
+		$log = preg_replace_callback('/^  Release: (.+)$/m', function ($match) {
+			return "  Release: ".Yaml::dump($match[1]);
+		}, $this->Log);
+
 		try {
-			$Yaml = Yaml::parse($this->Log);
+			$Yaml = Yaml::parse($log);
 		}
 		catch (ParseException $exception) {
 			$this->account('Could not parse whipper log.', 100);
