@@ -20,7 +20,8 @@
         "ext-mbstring": "*",
         "symfony/console": "^3.4",
         "symfony/debug": "^3.4",
-        "symfony/yaml": "^3.4"
+        "symfony/yaml": "^3.4",
+        "symfony/process": "^5.0"
     },
     "bin": ["bin/logchecker"]
 }

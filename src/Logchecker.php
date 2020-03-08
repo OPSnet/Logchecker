@@ -2,6 +2,7 @@
 
 namespace OrpheusNET\Logchecker;
 
+use Symfony\Component\Process\Process;
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
 
@@ -466,7 +467,10 @@ class Logchecker {
 				}
 
 				if (Util::commandExists($Command)) {
-					$Out = shell_exec("{$Command} ".escapeshellarg($this->LogPath));
+					$process = new Process([$Command, $this->LogPath]);
+					$process->run();
+					$Out = $process->getOutput();
+
 					if ($Out == null || Util::strposArray($Out, $BadStrings) !== false || strpos($Out, $GoodString) === false) {
 						$this->Checksum = false;
 					}
