@@ -3,6 +3,7 @@
 namespace OrpheusNET\Logchecker;
 
 use OrpheusNET\Logchecker\Exception\{FileNotFoundException};
+use Symfony\Component\Process\Process;
 
 class Chardet {
     private $executable = null;
@@ -29,8 +30,10 @@ class Chardet {
         if (!file_exists($filename)) {
             throw new FileNotFoundException($filename);
         }
+		$process = new Process([$this->executable, $filename]);
+        $process->run();
+		$output = $process->getOutput();
 
-        $output = shell_exec($this->executable . " " . escapeshellarg($filename));
         // Following regex:
         //    matches[1] - file path
         //    matches[2] - charset
