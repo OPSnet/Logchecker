@@ -14,7 +14,7 @@ class Logchecker {
 	var $LogPath = null;
 	var $Logs = array();
 	var $Tracks = array();
-	var $Checksum = true;
+	var $checksumStatus = Checks\ChecksumStates::CHECKSUM_OK;
 	var $Score = 100;
 	var $Details = array();
 	var $Offsets = array();
@@ -81,7 +81,7 @@ class Logchecker {
 		$this->LogPath = null;
 		$this->Logs = array();
 		$this->Tracks = array();
-		$this->Checksum = true;
+		$this->checksumStatus = Checks\ChecksumStates::CHECKSUM_OK;
 		$this->Score = 100;
 		$this->Details = array();
 		$this->Offsets = array();
@@ -154,7 +154,7 @@ class Logchecker {
 			$this->account('Could not detect log encoding, log is corrupt.');
 			return $this->return_parse();
 		}
-		
+
 		if (strpos($this->Log, "Log created by: whipper") !== false) {
 			return $this->whipper_parse();
 		}
@@ -194,16 +194,16 @@ class Logchecker {
 			$Hash = $Yaml['SHA-256 hash'];
 			$Lines = explode("\n", trim($this->Log));
 			$Slice = array_slice($Lines, 0, count($Lines)-1);
-			$this->Checksum = strtolower(hash('sha256', implode("\n", $Slice))) === strtolower($Hash);
+			$this->checksumStatus = strtolower(hash('sha256', implode("\n", $Slice))) === strtolower($Hash);
 			unset($Slice);
 			unset($Lines);
-			$Class = $this->Checksum ? 'good' : 'bad';
+			$Class = $this->checksumStatus ? 'good' : 'bad';
 			$Yaml['SHA-256 hash'] = "<span class='{$Class}'>{$Hash}</span>";
 		}
 		else {
-			$this->Checksum = false;
+			$this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
 		}
-		
+
 		$Drive = $Yaml['Ripping phase information']['Drive'];
 		$Offset = $Yaml['Ripping phase information']['Read offset correction'];
 
@@ -215,7 +215,7 @@ class Logchecker {
 			$this->get_drives($Drive);
 
 			$DriveClass = 'badish';
-	
+
 			if (count($this->Drives) > 0) {
 				$DriveClass = 'good';
 				if (in_array((string) $Offset, $this->Offsets)) {
@@ -359,7 +359,7 @@ class Logchecker {
 		} elseif (preg_match("/[\-]+BEGIN XLD SIGNATURE[\S\n\-]+END XLD SIGNATURE[\-]+/i", $this->Log)) { // xld checksum (plugin)
 			$this->Logs = preg_split("/(\n[\-]+BEGIN XLD SIGNATURE[\S\n\-]+END XLD SIGNATURE[\-]+)/i", $this->Log, -1, PREG_SPLIT_DELIM_CAPTURE);
 		} else { //no checksum
-			$this->Checksum = false;
+			$this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
 			$this->Logs = preg_split("/(\nEnd of status report)/i", $this->Log, -1, PREG_SPLIT_DELIM_CAPTURE);
 			foreach ($this->Logs as $Key => $Value) {
 				if (preg_match("/---- CUETools DB Plugin V.+/i", $Value)) {
@@ -374,13 +374,13 @@ class Logchecker {
 				unset($this->Logs[$Key]);
 			} //strip empty
 			//append stat msgs
-			elseif (!$this->Checksum && preg_match("/End of status report/i", $Log)) {
+			elseif ($this->checksumStatus !== Checks\ChecksumStates::CHECKSUM_OK && preg_match("/End of status report/i", $Log)) {
 				$this->Logs[$Key - 1] .= $Log;
 				unset($this->Logs[$Key]);
-			} elseif ($this->Checksum && preg_match("/[\=]+\s+Log checksum/i", $Log)) {
+			} elseif ($this->checksumStatus === Checks\ChecksumStates::CHECKSUM_OK && preg_match("/[\=]+\s+Log checksum/i", $Log)) {
 				$this->Logs[$Key - 1] .= $Log;
 				unset($this->Logs[$Key]);
-			} elseif ($this->Checksum && preg_match("/[\-]+BEGIN XLD SIGNATURE/i", $Log)) {
+			} elseif ($this->checksumStatus === Checks\ChecksumStates::CHECKSUM_OK && preg_match("/[\-]+BEGIN XLD SIGNATURE/i", $Log)) {
 				$this->Logs[$Key - 1] .= $Log;
 				unset($this->Logs[$Key]);
 			}
@@ -395,32 +395,25 @@ class Logchecker {
 			$CurrScore	 = $this->Score;
 			$Log		   = preg_replace('/(\=+\s+Log checksum.*)/i', '<span class="good">$1</span>', $Log, 1, $Count);
 			if (preg_match('/Exact Audio Copy (.+) from/i', $Log, $Matches)) { //eac v1 & checksum
-				// we set $this->Checksum to true here as these torrents are already trumpable by virtue of a bad score
 				if ($Matches[1]) {
 					$this->Version = floatval(explode(" ", substr($Matches[1], 1))[0]);
-					if ($this->Version <= 0.95) {
-						$this->Checksum = false;
-						$this->account("EAC version older than 0.99", 30);
-					}
-
 					if ($this->Version < 1) {
-						$this->Checksum = false;
-					}
-					elseif ($this->Version >= 1 && $Count) {
-						$this->Checksum = $this->Checksum && true;
-					}
-					else {
+						$this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
+						if ($this->Version <= 0.95) {
+							# EAC 0.95 and before was missing a handful of stuff for full log validation that 0.99 included (-30 points)
+							$this->account("EAC version older than 0.99", 30);
+						}
+					} else {
 						// Above version 1 and no checksum
-						$this->Checksum = false;
+						$this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
 					}
-				}
-				else {
-					$this->Checksum = false;
+				} else {
+					$this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
 					$this->account("EAC version older than 0.99", 30);
 				}
 			}
 			elseif (preg_match('/EAC extraction logfile from/i', $Log)) {
-				$this->Checksum = false;
+				$this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
 				$this->account("EAC version older than 0.99", 30);
 			}
 
@@ -428,11 +421,8 @@ class Logchecker {
 			if (preg_match('/X Lossless Decoder version (\d+) \((.+)\)/i', $Log, $Matches)) { //xld version & checksum
 				$this->Version = $Matches[1];
 				if ($this->Version >= 20121222 && !$Count) {
-					$this->Checksum = false;
+					$this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
 					//$this->account('No checksum with XLD 20121222 or newer', 15);
-				}
-				else {
-					$this->Checksum = $this->Checksum && true;
 				}
 			}
 			$Log = preg_replace('/Exact Audio Copy (.+) from (.+)/i', 'Exact Audio Copy <span class="log1">$1</span> from <span class="log1">$2</span>', $Log, 1, $Count);
@@ -453,26 +443,11 @@ class Logchecker {
 				$this->RIPPER = ($EAC) ? "EAC" : "XLD";
 			}
 
-			if ($this->ValidateChecksum && $this->Checksum && !empty($this->LogPath)) {
-				if ($EAC) {
-					$Command = 'eac_logchecker';
-					$BadStrings = ['Log entry has no checksum!', 'Log entry was modified, checksum incorrect!'];
-					$GoodString = 'Log entry is fine!';
-				}
-				else {
-					$Command = 'xld_logchecker';
-					$BadStrings = ['Malformed', 'Not a logfile'];
-					$GoodString = 'OK';
-				}
-
-				if (Util::commandExists($Command)) {
-					$Out = shell_exec("{$Command} ".escapeshellarg($this->LogPath));
-					if ($Out == null || Util::strposArray($Out, $BadStrings) !== false || strpos($Out, $GoodString) === false) {
-						$this->Checksum = false;
-					}
-				}
-				else {
-					$this->account("Could not find {$Command}, checksum not validated.", false, false, false, true);
+			if ($this->ValidateChecksum && $this->checksumStatus == Checks\ChecksumStates::CHECKSUM_OK && !empty($this->LogPath)) {
+				if (Checks\Checksum::logchecker_exist($EAC)){
+					$this->checksumStatus = Checks\Checksum::validate($this->LogPath, $EAC);
+				} else {
+					$this->account("Could not find {$this->RIPPER} logchecker, checksum not validated.", false, false, false, true);
 				}
 			}
 
@@ -1484,12 +1459,12 @@ class Logchecker {
 	}
 
 	function return_parse() {
-		return array(
+		return [
 			$this->Score,
 			$this->Details,
-			$this->Checksum,
+			$this->checksumStatus,
 			$this->Log
-		);
+		];
 	}
 
 	function get_ripper() {

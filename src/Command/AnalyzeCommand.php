@@ -24,14 +24,14 @@ class AnalyzeCommand extends Command {
             $output->writeln("Invalid file");
             return;
         }
-        
+
         $logchecker = new Logchecker();
         $logchecker->new_file($filename);
-        list($score, $details, $checksum, $log_text) = $logchecker->parse();
+        list($score, $details, $checksumState, $log_text) = $logchecker->parse();
         $output->writeln('Ripper  : ' . $logchecker->get_ripper());
         $output->writeln('Version : ' . $logchecker->get_version());
         $output->writeln('Score   : ' . $score);
-        $output->writeln('Checksum: ' . ($checksum ? 'true' : 'false'));
+        $output->writeln('Checksum: ' . $checksumState);
 
         if (count($details) > 0) {
             $output->writeln('Details :');

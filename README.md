@@ -63,7 +63,7 @@ Help:
 
 $ logchecker tests/logs/wgdbcm.log
 Score   : 57
-Checksum: false
+Checksum: checksum_missing
 Details :
     [Notice] Translated log from Русский (Russian) to English.
     EAC version older than 0.99 (-30 points)
@@ -80,7 +80,7 @@ Details :
 
 $logchecker = new OrpheusNET\Logchecker\Logchecker();
 $logchecker->add_file('path/to/file.log');
-list($score, $details, $checksum, $log_text) = $logchecker->parse();
+list($score, $details, $checksum_state, $log_text) = $logchecker->parse();
 ```
 
 ## Library Usage
@@ -99,9 +99,9 @@ use OrpheusNET\Logchecker\Logchecker;
 
 $logchecker = new Logchecker();
 $logchecker->new_file('/path/to/log/file');
-list($score, $details, $checksum, $log_text) = $logchecker->parse();
+list($score, $details, $checksum_state, $log_text) = $logchecker->parse();
 print('Score: ' . $score . "\n");
-print('Checksum: ' . ($checksum ? 'true' : 'false') . "\n");
+print('Checksum: ' . $checksum_state . "\n");
 print("\nDetails:\n");
 foreach ($details as $detail) {
     print("  {$detail}\n");

@@ -9,13 +9,4 @@ class Util {
         exec("{$where} {$cmd} 2>/dev/null", $output, $return_var);
         return $return_var === 0;
     }
-
-    public static function strposArray(string $haystack, array $needles) {
-        foreach ($needles as $needle) {
-            if (($pos = strpos($haystack, $needle)) !== false) {
-                return $pos;
-            }
-        }
-        return false;
-    }
 }
