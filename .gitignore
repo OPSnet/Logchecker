@@ -1,3 +1,5 @@
 .idea/
 vendor/
 logchecker.phar
+.DS_Store
+.vscode/
