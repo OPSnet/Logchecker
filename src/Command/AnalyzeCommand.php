@@ -4,11 +4,15 @@ namespace OrpheusNET\Logchecker\Command;
 
 use OrpheusNET\Logchecker\Logchecker;
 use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\{InputArgument,InputOption,InputInterface};
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class AnalyzeCommand extends Command {
-    protected function configure() {
+class AnalyzeCommand extends Command
+{
+    protected function configure()
+    {
         $this
             ->setName('analyze')
             ->setDescription('analyze log file')
@@ -18,32 +22,34 @@ class AnalyzeCommand extends Command {
             ->addArgument('file', InputArgument::REQUIRED, 'Log file to analyze');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output) {
+    protected function execute(InputInterface $input, OutputInterface $output)
+    {
         $filename = $input->getArgument('file');
         if (!file_exists($filename)) {
             $output->writeln("Invalid file");
-            return;
+            return 1;
         }
 
         $logchecker = new Logchecker();
-        $logchecker->new_file($filename);
-        list($score, $details, $checksumState, $log_text) = $logchecker->parse();
-        $output->writeln('Ripper  : ' . $logchecker->get_ripper());
-        $output->writeln('Version : ' . $logchecker->get_version());
-        $output->writeln('Score   : ' . $score);
-        $output->writeln('Checksum: ' . $checksumState);
+        $logchecker->newFile($filename);
+        $logchecker->parse();
+        $output->writeln('Ripper  : ' . $logchecker->getRipper());
+        $output->writeln('Version : ' . $logchecker->getVersion());
+        $output->writeln('Score   : ' . $logchecker->getScore());
+        $output->writeln('Checksum: ' . $logchecker->getChecksumState());
 
+        $details = $logchecker->getDetails();
         if (count($details) > 0) {
             $output->writeln('Details :');
             foreach ($details as $detail) {
-                $output->writeln('    '.$detail);
+                $output->writeln('    ' . $detail);
             }
         }
 
         if ($input->getOption('output')) {
             $output->writeln('');
             $output->writeln('Log Text:');
-            $output->writeln($log_text);
+            $output->writeln($logchecker->getLog());
         }
 
         if ($input->getOption('out')) {
@@ -96,11 +102,13 @@ class AnalyzeCommand extends Command {
     </style>
 </head>
 <body>
-<pre>{$log_text}</pre>
+<pre>{$logchecker->getLog()}</pre>
 </body>
 </html>
 HTML;
             file_put_contents($input->getOption('out'), $html_out);
         }
+
+        return 0;
     }
 }

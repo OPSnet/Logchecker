@@ -1,0 +1,109 @@
+{
+    "bg": {
+        "eac_strings": [
+            "Отчет на EAC за извличане, извършено на "
+        ],
+        "name": "Български",
+        "name_english": "Bulgarian"
+    },
+    "cs": {
+        "eac_strings": [
+            "Protokol extrakce EAC z "
+        ],
+        "name": "Čeština",
+        "name_english": "Czech"
+    },
+    "de": {
+        "eac_strings": [
+            "EAC Auslese-Logdatei vom "
+        ],
+        "name": "Deutsch",
+        "name_english": "German"
+    },
+    "en": {
+        "eac_strings": [
+            "EAC extraction logfile from "
+        ],
+        "name": "English",
+        "name_english": "English"
+    },
+    "es": {
+        "eac_strings": [
+            "Archivo Log de extracciones desde "
+        ],
+        "name": "Español",
+        "name_english": "Spanish"
+    },
+    "fr": {
+        "eac_strings": [
+            "Journal d'extraction EAC depuis "
+        ],
+        "name": "Français",
+        "name_english": "French"
+    },
+    "it": {
+        "eac_strings": [
+            "File di log EAC per l'estrazione del "
+        ],
+        "name": "Italiano",
+        "name_english": "Italian"
+    },
+    "jp": {
+        "eac_strings": [
+            "EAC 展開 ログファイル 日付： ",
+            "EAC 取り込みログファイル 日付"
+        ],
+        "name": "日本語",
+        "name_english": "Japanese"
+    },
+    "nl": {
+        "eac_strings": [
+            "EAC uitlezen log bestand van "
+        ],
+        "name": "Nederlands",
+        "name_english": "Dutch"
+    },
+    "pl": {
+        "eac_strings": [
+            "Sprawozdanie ze zgrywania programem EAC z "
+        ],
+        "name": "Polski",
+        "name_english": "Polish"
+    },
+    "ru": {
+        "eac_strings": [
+            "Отчёт EAC об извлечении, выполненном "
+        ],
+        "name": "Русский",
+        "name_english": "Russian"
+    },
+    "se": {
+        "eac_strings": [
+            "EAC extraheringsloggfil frĺn ",
+            "EAC extraheringsloggfil från "
+        ],
+        "name": "Svenska",
+        "name_english": "Swedish"
+    },
+    "sk": {
+        "eac_strings": [
+            "EAC log súbor extrakcie z "
+        ],
+        "name": "Slovenský",
+        "name_english": "Slovak"
+    },
+    "sr": {
+        "eac_strings": [
+            "EAC-ov fajl dnevnika ekstrakcije iz "
+        ],
+        "name": "Srpski",
+        "name_english": "Serbian"
+    },
+    "zh-Hans": {
+        "eac_strings": [
+            "EAC 抓取日志文件从"
+        ],
+        "name": "简体中文",
+        "name_english": "Simplified Chinese"
+    }
+}

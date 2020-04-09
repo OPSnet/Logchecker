@@ -2,16 +2,18 @@
 
 namespace OrpheusNET\Logchecker;
 
-use OrpheusNET\Logchecker\Exception\{FileNotFoundException};
+use OrpheusNET\Logchecker\Exception\FileNotFoundException;
 
-class Chardet {
+class Chardet
+{
     private $executable = null;
     private $executables = [
         'chardet',
         'chardetect'
     ];
 
-    public function __construct() {
+    public function __construct()
+    {
         foreach ($this->executables as $executable) {
             if (Util::commandExists($executable)) {
                 $this->executable = $executable;
@@ -24,7 +26,8 @@ class Chardet {
         }
     }
 
-    public function analyze($filename) {
+    public function analyze($filename)
+    {
 
         if (!file_exists($filename)) {
             throw new FileNotFoundException($filename);
@@ -38,8 +41,7 @@ class Chardet {
         
         if ((preg_match('/(.+): (.+) .+confidence:? ([^\)]+)/', $output, $matches) === 0)) {
             throw new \Exception('This file is not analyzed');
-        }
-        elseif (isset($matches[2]) && $matches[2] === 'None') {
+        } elseif (isset($matches[2]) && $matches[2] === 'None') {
             throw new \Exception('Could not determine character set');
         }
 

@@ -1,0 +1,609 @@
+{
+    "31": [
+        "Filename will be ignored",
+        "Filnamnet kommer att ignoreras"
+    ],
+    "50": [
+        "Value out of range !",
+        "Värdet är utom valt område !"
+    ],
+    "51": [
+        "Invalid characters !",
+        "Felaktiga tecken !"
+    ],
+    "52": [
+        "Invalid filename !",
+        "Felaktigt filnamn !"
+    ],
+    "1200": [
+        "Status and Error Messages",
+        "Status och Fel Meddelanden"
+    ],
+    "2501": [
+        "Track status and errors",
+        "Spårstatus och fel"
+    ],
+    "1203": [
+        "Possible Errors",
+        "Möjliga fel"
+    ],
+    "1204": [
+        "Create Log",
+        "Skapa Logg"
+    ],
+    "1210": [
+        "Range status and errors",
+        "Områdets status och fel"
+    ],
+    "1211": [
+        "Selected range",
+        "Utvalt område"
+    ],
+    "1212": [
+        "     Timing problem ",
+        "     Timing-problem "
+    ],
+    "1213": [
+        "     Suspicious position ",
+        "     Misstänkt position "
+    ],
+    "1214": [
+        "     Missing samples",
+        "     Saknade samplingar"
+    ],
+    "1215": [
+        "     Too many samples",
+        "     För många samplingar"
+    ],
+    "1216": [
+        "     File write error",
+        "     Fil-skrivfel"
+    ],
+    "1217": [
+        "     Peak-nivĺ ",
+        "     Peak-nivå "
+    ],
+    "1299": [
+        "     Extraction speed ",
+        "     Extraheringshastighet "
+    ],
+    "1218": [
+        "     Range quality ",
+        "     Områdets kvalité "
+    ],
+    "1219": [
+        "     CRC "
+    ],
+    "1220": [
+        "     Kopia OK"
+    ],
+    "1221": [
+        "     Copy finished",
+        "     Kopia färdig"
+    ],
+    "1227": [
+        "     Spĺrkvalité ",
+        "     Spårkvalité "
+    ],
+    "1228": [
+        "     Copy aborted",
+        "     Kopia avbruten"
+    ],
+    "1269": [
+        "     Filnamn "
+    ],
+    "1270": [
+        "     Pre-gap length ",
+        "     För-gap längd "
+    ],
+    "1271": [
+        "     Testar CRC "
+    ],
+    "1272": [
+        "     Kopiera CRC "
+    ],
+    "1273": [
+        "     Compressing",
+        "     Komprimerar"
+    ],
+    "1280": [
+        "     Track not fully ripped for AccurateRip lookup",
+        "     Spåret är inte fullständigt kopierat så att det kan sökas i AccurateRip"
+    ],
+    "1281": [
+        "     Accurately ripped (konfidens ",
+        "     Korrekt kopierat (konfidens "
+    ],
+    "1282": [
+        "     Kan ej verifieras som korrekt (konfidens ",
+        "     Ej korrekt kopierat (konfidens "
+    ],
+    "1283": [
+        "     Track not present in AccurateRip database",
+        "     Spåret finns inte i AccurateRip's databas"
+    ],
+    "1330": [
+        "     Cannot be verified as accurate",
+        "     Kan inte verifieras som korrekt"
+    ],
+    "1337": [
+        "cannot be verified as accurate",
+        "kan inte verifieras som korrekt"
+    ],
+    "1331": [
+        ", AccurateRip returnerade",
+        ", AccurateRip återsände"
+    ],
+    "1332": [
+        "(konfidens ",
+        "(Konfidens "
+    ],
+    "1333": [
+        "Inga spĺr kunde verifieras som korrekta",
+        "Inga spår kunde verifieras som korrekta"
+    ],
+    "1334": [
+        "Du kan ha en annan pressning än de(n) som finns i databasen"
+    ],
+    "1335": [
+        "Some tracks could not be verified as accurate",
+        "Några spår kunde inte verifieras som korrekta"
+    ],
+    "1336": [
+        "All tracks accurately ripped",
+        "Alla spår korrekt kopierade"
+    ],
+    "1338": [
+        "Nollsamplingar har använts i CRC beräkningarna",
+        "Nollsamplingar används i CRC-beräkningarna"
+    ],
+    "1339": [
+        "track(s) not present in the AccurateRip database",
+        "spåret(en) finns inte i AccurateRip databasen"
+    ],
+    "1340": [
+        "track(s) accurately ripped",
+        "spåret(en) korrekt kopierat"
+    ],
+    "1341": [
+        "track(s) could not be verified as accurate",
+        "spåret(en) kunde inte verifieras som korrekt"
+    ],
+    "1342": [
+        "track(s) not fully ripped for AccurateRip lookup",
+        "spåret(en) är inte fullständigt kopierat så att det kan sökas i AccurateRip"
+    ],
+    "1343": [
+        "track(s) canceled",
+        "spåret(en) avbrutet"
+    ],
+    "1344": [
+        "None of the tracks are present in the AccurateRip database",
+        "Inget av spåren finns i AccurateRip's databas"
+    ],
+    "1284": [
+        "Not all tracks ripped accurately",
+        "Alla spår kopierades inte korrekt"
+    ],
+    "1222": [
+        "Inga fel uppstod"
+    ],
+    "1223": [
+        "Review Range",
+        "Granska Område"
+    ],
+    "1224": [
+        "There were errors",
+        "Det fanns fel"
+    ],
+    "1225": [
+        "Slut pĺ status rapport",
+        "Slut på status rapport"
+    ],
+    "1321": [
+        "Ej pĺvisat, alltsĺ tillagt till föregĺende spĺr",
+        "Hittades inte, därigenom tillagt till föregående spår"
+    ],
+    "1322": [
+        "Appended to previous track",
+        "Lägg till föregående spår"
+    ],
+    "1323": [
+        "Appended to next track",
+        "Lägg till nästa spår"
+    ],
+    "1325": [
+        "Log checksum",
+        "Logg-kontrollsumma"
+    ],
+    "1226": [
+        "Track",
+        "Spår"
+    ],
+    "1230": [
+        "Index"
+    ],
+    "1229": [
+        "Review Tracks",
+        "Granska Spår"
+    ],
+    "1274": [
+        "EAC extraheringsloggfil frĺn ",
+        "EAC extraheringsloggfil från "
+    ],
+    "1240": [
+        "January",
+        "januari"
+    ],
+    "1241": [
+        "February",
+        "februari"
+    ],
+    "1242": [
+        "March",
+        "mars"
+    ],
+    "1243": [
+        "April",
+        "april"
+    ],
+    "1244": [
+        "May",
+        "maj"
+    ],
+    "1245": [
+        "June",
+        "juni"
+    ],
+    "1246": [
+        "July",
+        "juli"
+    ],
+    "1247": [
+        "August",
+        "augusti"
+    ],
+    "1248": [
+        "September",
+        "september"
+    ],
+    "1249": [
+        "October",
+        "oktober"
+    ],
+    "1250": [
+        "November",
+        "november"
+    ],
+    "1251": [
+        "December",
+        "december"
+    ],
+    "1232": [
+        "EAC extraction log file",
+        "EAC extraheringsloggfil"
+    ],
+    "1233": [
+        "Använd enhet  : "
+    ],
+    "1234": [
+        "Läsmetod"
+    ],
+    "1235": [
+        "Burst"
+    ],
+    "1236": [
+        "Fast",
+        "Snabb"
+    ],
+    "1237": [
+        "Paranoid"
+    ],
+    "1238": [
+        "Secure with NO C2, accurate stream, NO disable cache",
+        "Säker UTAN C2, accurate stream, EJ bortkopplad cache"
+    ],
+    "1239": [
+        "Secure with NO C2, NO accurate stream, disable cache",
+        "Säker UTAN C2, EJ accurate stream, bortkopplad cache"
+    ],
+    "1252": [
+        "Secure with C2, accurate stream, NO disable cache",
+        "Säker MED C2, accurate stream, EJ bortkopplad cache"
+    ],
+    "1253": [
+        "Secure with C2, accurate stream, disable cache",
+        "Säker MED C2, accurate stream, bortkopplad cache"
+    ],
+    "1254": [
+        "Secure with NO C2, accurate stream, disable cache",
+        "Säker UTAN C2, accurate stream, bortkopplad cache"
+    ],
+    "1255": [
+        "Combined read/write offset correction",
+        "Kombinerad läs/skriv offset-korrigering"
+    ],
+    "1256": [
+        "Läs-offset-korrigering"
+    ],
+    "1257": [
+        "Läs in i Lead-In och Lead-Out"
+    ],
+    "1258": [
+        "Använt output format"
+    ],
+    "1259": [
+        "Ytterligare kommandoradsinställningar"
+    ],
+    "1260": [
+        "Internal WAV Routines",
+        "Interna WAV Rutiner"
+    ],
+    "1261": [
+        "44.100 Hz; 16 Bit; Stereo"
+    ],
+    "1262": [
+        "Use compression offset",
+        "Använd komprimerings-offset"
+    ],
+    "1263": [
+        "Other options      : ",
+        "Andra inställningar      : "
+    ],
+    "1264": [
+        "Fyll upp saknade offset-samplingar med tystnad"
+    ],
+    "1265": [
+        "Radera inledande och eftersläpande tysta block"
+    ],
+    "1266": [
+        "Normalize to",
+        "Normalisera till "
+    ],
+    "1267": [
+        "Native Win32 interface for Win NT & 2000",
+        "Native Win32 gränssnitt för Win NT & 2000"
+    ],
+    "1268": [
+        "Installerat externt ASPI gränssnitt"
+    ],
+    "1275": [
+        "AccurateRip summary",
+        "AccurateRip summering"
+    ],
+    "1276": [
+        "not ripped completely",
+        "inte fullständigt kopierat"
+    ],
+    "1277": [
+        "accurately ripped (confidence ",
+        "korrekt kopierat (konfidens "
+    ],
+    "1278": [
+        "not ripped accurately (confidence ",
+        "inte korrekt kopierat (konfidens "
+    ],
+    "1279": [
+        "not present in database",
+        "finns inte i databas"
+    ],
+    "1285": [
+        ", but should be",
+        ", men borde vara"
+    ],
+    "1286": [
+        "Performing a test extraction only",
+        "Utför en test-extrahering enbart"
+    ],
+    "1287": [
+        "Sectors",
+        "Sektorer"
+    ],
+    "1288": [
+        "Exact Audio Copy"
+    ],
+    "1289": [
+        "TOC pĺ den extraherade CD'n",
+        "TOC på den extraherade CD'n"
+    ],
+    "1309": [
+        "Lägg till ID3 taggar",
+        "Lägg till ID3 tag"
+    ],
+    "1310": [
+        "Sample format",
+        "Samplingsformat"
+    ],
+    "1320": [
+        "Gap hantering",
+        "Gap-hantering"
+    ],
+    "1324": [
+        "Left out",
+        "Utelämnat"
+    ],
+    "81700": [
+        "L3Enc MP3 Encoder & Compatible",
+        "L3Enc MP3 Kodare & Kompatibla"
+    ],
+    "81701": [
+        "Fraunhofer MP3Enc MP3 Encoder",
+        "Fraunhofer MP3Enc MP3 Kodare"
+    ],
+    "81702": [
+        "Xing X3Enc MP3 Encoder",
+        "Xing X3Enc MP3 Kodare"
+    ],
+    "81703": [
+        "Xing ToMPG MP3 Encoder",
+        "Xing ToMPG MP3 Kodare"
+    ],
+    "81704": [
+        "LAME MP3 Encoder",
+        "LAME MP3 Kodare"
+    ],
+    "81705": [
+        "GOGO MP3 Encoder",
+        "GOGO MP3 Kodare"
+    ],
+    "81706": [
+        "MPC Encoder",
+        "MPC Kodare"
+    ],
+    "81707": [
+        "Ogg Vorbis Encoder",
+        "Ogg Vorbis Kodare"
+    ],
+    "81708": [
+        "Microsoft WMA9 Encoder",
+        "Microsoft WMA9 Kodare"
+    ],
+    "81709": [
+        "FAAC AAC Encoder",
+        "FAAC AAC Kodare"
+    ],
+    "81710": [
+        "Homeboy AAC Encoder",
+        "Homeboy AAC Kodare"
+    ],
+    "81711": [
+        "Quartex AAC Encoder",
+        "Quartex AAC Kodare"
+    ],
+    "81712": [
+        "PsyTEL AAC Encoder",
+        "PsyTEL AAC Kodare"
+    ],
+    "81713": [
+        "MBSoft AAC Encoder",
+        "MBSoft AAC Kodare"
+    ],
+    "81714": [
+        "Yamaha VQF Encoder",
+        "Yamaha VQF Kodare"
+    ],
+    "81715": [
+        "Real Audio Encoder",
+        "Real Audio Kodare"
+    ],
+    "81716": [
+        "Monkey's Audio Lossless Encoder",
+        "Monkey's Audio Förlustfri Kodare"
+    ],
+    "81717": [
+        "Shorten Lossless Encoder",
+        "Shorten Förlustfri Kodare"
+    ],
+    "81718": [
+        "RKAU Lossless Encoder",
+        "RKAU Förlustfri Kodare"
+    ],
+    "81719": [
+        "LPAC Lossless Encoder",
+        "LPAC Förlustfri Kodare"
+    ],
+    "81720": [
+        "Användardefinierad kodare",
+        "Användardefinierad Kodare"
+    ],
+    "1000000": [
+        "for disc"
+    ],
+    "1290": [
+        "Spĺr",
+        "Spår"
+    ],
+    "1291": [
+        "Start"
+    ],
+    "1292": [
+        "Längd"
+    ],
+    "1293": [
+        "Startsektor"
+    ],
+    "1294": [
+        "Slutsektor"
+    ],
+    "1295": [
+        "Säker"
+    ],
+    "1296": [
+        "Använd C2 pekare"
+    ],
+    "1297": [
+        "Utnyttja accurate stream"
+    ],
+    "1298": [
+        "Bekämpa ljudcache ",
+        "Motverka ljud-cache"
+    ],
+    "1305": [
+        "Änvänt interface",
+        "Använt gränssnitt"
+    ],
+    "1306": [
+        "Kommandolinjekompressor",
+        "Kommandolinjekomprimerare"
+    ],
+    "1307": [
+        "Vald bitrate",
+        "Vald bit-hastighet"
+    ],
+    "1308": [
+        "Kvalite",
+        "Kvalité"
+    ],
+    "1328": [
+        "Hög"
+    ],
+    "1329": [
+        "Låg"
+    ],
+    "4270": [
+        "Låg"
+    ],
+    "4271": [
+        "Medium"
+    ],
+    "4272": [
+        "Hög"
+    ],
+    "1": [
+        "Svenska"
+    ],
+    "2": [
+        "Swedish"
+    ],
+    "5": [
+        "Error Message",
+        "Felmeddelande"
+    ],
+    "6": [
+        "Varning"
+    ],
+    "7": [
+        "Framgång",
+        "Framgångsrik"
+    ],
+    "8": [
+        "Information"
+    ],
+    "10": [
+        "OK"
+    ],
+    "11": [
+        "Annullera",
+        "Avbryt"
+    ],
+    "12": [
+        "Tillämpa",
+        "Verkställ"
+    ],
+    "15": [
+        "Ja"
+    ],
+    "16": [
+        "Nej"
+    ]
+}

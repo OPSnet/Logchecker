@@ -1,0 +1,183 @@
+Exact Audio Copy V1.0 beta 3 from 29. August 2011
+
+EAC extraction logfile from  : 9. January 2012, 16:46
+
+ゴールデンボンバー / ゴールデン・アルバム
+
+Used drive  :    : ATAPI   iHAS324   B   Adapter: 0  ID: 1
+
+Read mode            : Secure
+Utilize accurate stream : Yes
+Defeat audio cache   : Yes
+Make use of C2 pointers       : Yes
+
+Read offset correction       : 0
+Overread into Lead-In and Lead-Out : No
+Fill up missing offset samples with silence  : Yes
+Delete leading and trailing silent blocks      : No
+Null samples used in CRC calculations    : Yes
+Used interface             :  Native Win32 interface for XP/Vista/Win 7 
+Gap handling            : Not detected, thus appended to previous track
+
+Used output format         : User Defined Encoder
+Selected bitrate       : 896 kBit/s
+Quality              : High
+Add ID3 tag     : Yes
+Command line compressor           : C:\Program Files\Exact Audio Copy\Flac\flac.exe
+Additional command line options  : -T "artist=%artist%" -T "title=%title%" -T "album=%albumtitle%" -T "date=%year%" -T "Tracknumber=%Tracknr%" -T "genre=%genre%" -5 %source%
+
+
+TOC of the extracted CD
+
+     Track |   Start   |    Length    | Start sector | End sector 
+    -----------------------------------------------
+       1  |  0:00.00 |  0:50.69 |      0  |   3818 
+       2  |  0:50.69 |  3:50.17 |   3819  |  21085 
+       3  |  4:41.11 |  4:11.12 |  21086  |  39922 
+       4  |  8:52.23 |  4:22.44 |  39923  |  59616 
+       5  | 13:14.67 |  4:18.33 |  59617  |  78999 
+       6  | 17:33.25 |  3:31.50 |  79000  |  94874 
+       7  | 21:05.00 |  3:13.54 |  94875  | 109403 
+       8  | 24:18.54 |  4:05.69 | 109404  | 127847 
+       9  | 28:24.48 |  3:45.14 | 127848  | 144736 
+      10  | 32:09.62 |  3:36.44 | 144737  | 160980 
+      11  | 35:46.31 |  4:08.54 | 160981  | 179634 
+      12  | 39:55.10 |  2:53.18 | 179635  | 192627 
+      13  | 42:48.28 |  6:42.62 | 192628  | 222839 
+
+
+Track  1
+
+     Filename C:\Users\tomo\Desktop\music\01 パトス.wav
+
+     Peak level 100.0 %
+     Extraction speed  1.4 X
+     Track Quality 100.0 %
+     Copy CRC 60E2124E
+     Copy OK
+
+Track  2
+
+     Filename C:\Users\tomo\Desktop\music\02 デスメンタル.wav
+
+     Peak level 100.0 %
+     Extraction speed  2.5 X
+     Track Quality 100.0 %
+     Copy CRC 00CD3372
+     Copy OK
+
+Track  3
+
+     Filename C:\Users\tomo\Desktop\music\03 僕クエスト.wav
+
+     Peak level 100.0 %
+     Extraction speed  2.8 X
+     Track Quality 100.0 %
+     Copy CRC 87A7E922
+     Copy OK
+
+Track  4
+
+     Filename C:\Users\tomo\Desktop\music\04 夜汽車.wav
+
+     Peak level 100.0 %
+     Extraction speed  2.1 X
+     Track Quality 99.9 %
+     Copy CRC 0DF7E872
+     Copy OK
+
+Track  5
+
+     Filename C:\Users\tomo\Desktop\music\05 酔わせてモヒート.wav
+
+     Peak level 100.0 %
+     Extraction speed  2.3 X
+     Track Quality 99.9 %
+     Copy CRC 873318E7
+     Copy OK
+
+Track  6
+
+     Filename C:\Users\tomo\Desktop\music\06 成很酷.wav
+
+     Peak level 100.0 %
+     Extraction speed  3.4 X
+     Track Quality 100.0 %
+     Copy CRC 53D32BFE
+     Copy OK
+
+Track  7
+
+     Filename C:\Users\tomo\Desktop\music\07 さよなら冬美 -Euro Mix-.wav
+
+     Peak level 100.0 %
+     Extraction speed  3.5 X
+     Track Quality 100.0 %
+     Copy CRC 381984A2
+     Copy OK
+
+Track  8
+
+     Filename C:\Users\tomo\Desktop\music\08 今夜はトゥナイト.wav
+
+     Peak level 100.0 %
+     Extraction speed  3.9 X
+     Track Quality 100.0 %
+     Copy CRC 54BCF22A
+     Copy OK
+
+Track  9
+
+     Filename C:\Users\tomo\Desktop\music\09 もう会えなくなるなんて.wav
+
+     Peak level 100.0 %
+     Extraction speed  4.0 X
+     Track Quality 100.0 %
+     Copy CRC 32645380
+     Copy OK
+
+Track 10
+
+     Filename C:\Users\tomo\Desktop\music\10 今夜も眠れない (病的な意味で).wav
+
+     Peak level 100.0 %
+     Extraction speed  4.1 X
+     Track Quality 100.0 %
+     Copy CRC EB34FCEF
+     Copy OK
+
+Track 11
+
+     Filename C:\Users\tomo\Desktop\music\11 女々しくて -K-POPバージョン-.wav
+
+     Peak level 100.0 %
+     Extraction speed  4.4 X
+     Track Quality 100.0 %
+     Copy CRC 1C7E3C4C
+     Copy OK
+
+Track 12
+
+     Filename C:\Users\tomo\Desktop\music\12 愛なんていらねいよ.wav
+
+     Peak level 100.0 %
+     Extraction speed  4.1 X
+     Track Quality 100.0 %
+     Copy CRC CB81661A
+     Copy OK
+
+Track 13
+
+     Filename C:\Users\tomo\Desktop\music\13 広がる世界.wav
+
+     Peak level 100.0 %
+     Extraction speed  5.0 X
+     Track Quality 100.0 %
+     Copy CRC F5C76AE7
+     Copy OK
+
+No errors occurred
+
+End of status report
+
+====  E8FB6FCD74B0C448C9083B6E5B0BB9D78632ACF824B5085A53B8E1DDE2484932 ====
