@@ -3,6 +3,8 @@
 namespace OrpheusNET\Logchecker;
 
 use OrpheusNET\Logchecker\Exception\FileNotFoundException;
+use Symfony\Component\Process\Exception\ProcessFailedException;
+use Symfony\Component\Process\Process;
 
 class Chardet
 {
@@ -33,13 +35,15 @@ class Chardet
             throw new FileNotFoundException($filename);
         }
 
-        $output = shell_exec($this->executable . " " . escapeshellarg($filename));
+        $process = new Process([$this->executable, $filename]);
+        $process->run();
+
         // Following regex:
         //    matches[1] - file path
         //    matches[2] - charset
         //    matches[3] - confidence
-        
-        if ((preg_match('/(.+): (.+) .+confidence:? ([^\)]+)/', $output, $matches) === 0)) {
+
+        if ((preg_match('/(.+): (.+) .+confidence:? ([^\)]+)/', $process->getOutput(), $matches) === 0)) {
             throw new \Exception('This file is not analyzed');
         } elseif (isset($matches[2]) && $matches[2] === 'None') {
             throw new \Exception('Could not determine character set');

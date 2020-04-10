@@ -18,9 +18,10 @@
     "require": {
         "php": ">=7.2",
         "ext-mbstring": "*",
-        "symfony/console": "^3.4",
-        "symfony/debug": "^3.4",
-        "symfony/yaml": "^3.4"
+        "symfony/console": "^3.4 | ^4.0 | ^5.0",
+        "symfony/debug": "^3.4 | ^4.0 | ^5.0",
+        "symfony/yaml": "^3.4 | ^4.0 | ^5.0",
+        "symfony/process": "^3.4 | ^4.0 | ^5.0"
     },
     "bin": ["bin/logchecker"],
     "require-dev": {

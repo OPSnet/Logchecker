@@ -3,6 +3,7 @@
 namespace OrpheusNET\Logchecker\Checks;
 
 use OrpheusNET\Logchecker\Util;
+use Symfony\Component\Process\Process;
 
 class Checksum
 {
@@ -25,7 +26,9 @@ class Checksum
         }
 
         if (static::logcheckerExists($command)) {
-            $output = shell_exec("{$command} " . escapeshellarg($logPath));
+            $process = new Process([$command, $logPath]);
+            $process->run();
+            $output = $process->getOutput();
             if (strpos($output, $goodResult) === false) {
                 if ($output == null) {
                     return ChecksumStates::CHECKSUM_MISSING;
