@@ -13,7 +13,7 @@ class TranslatorTest extends TestCase
     public function foreignLogDataProvider()
     {
         $logs = [];
-        $logPath = implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'transcoded_foreign_logs']);
+        $logPath = implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'eac', 'transcoded_logs']);
         foreach (new FilesystemIterator($logPath, FilesystemIterator::SKIP_DOTS) as $dir) {
             if ($dir->isFile()) {
                 continue;

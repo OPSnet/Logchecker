@@ -1,6 +1,6 @@
 <?php
 
-namespace OrpheusNET\Logchecker\Checks;
+namespace OrpheusNET\Logchecker\Check;
 
 use OrpheusNET\Logchecker\Util;
 use Symfony\Component\Process\Process;

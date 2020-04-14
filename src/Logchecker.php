@@ -2,7 +2,7 @@
 
 namespace OrpheusNET\Logchecker;
 
-use OrpheusNET\Logchecker\Checks\Ripper;
+use OrpheusNET\Logchecker\Check\Ripper;
 use OrpheusNET\Logchecker\Parser\EAC\Translator;
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
@@ -17,7 +17,7 @@ class Logchecker
     private $logPath = null;
     private $logs = array();
     private $Tracks = array();
-    private $checksumStatus = Checks\ChecksumStates::CHECKSUM_OK;
+    private $checksumStatus = Check\ChecksumStates::CHECKSUM_OK;
     private $Score = 100;
     private $Details = array();
     private $Offsets = array();
@@ -37,7 +37,6 @@ class Logchecker
     private $Range = null;
     private $ARSummary = null;
     private $XLDSecureRipper = false;
-    private $Chardet = null;
     private $FakeDrives = [
         'Generic DVD-ROM SCSI CdRom Device'
     ];
@@ -46,13 +45,6 @@ class Logchecker
 
     public function __construct()
     {
-        try {
-            $this->Chardet = new Chardet();
-        } catch (\Exception $exc) {
-            // Could not find chardet
-            $this->Chardet = null;
-        }
-
         $this->AllDrives = array_map(function ($elem) {
             return explode(',', $elem);
         }, file(__DIR__ . '/offsets.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES));
@@ -78,7 +70,7 @@ class Logchecker
         $this->logPath = null;
         $this->logs = array();
         $this->Tracks = array();
-        $this->checksumStatus = Checks\ChecksumStates::CHECKSUM_OK;
+        $this->checksumStatus = Check\ChecksumStates::CHECKSUM_OK;
         $this->Score = 100;
         $this->Details = array();
         $this->Offsets = array();
@@ -104,31 +96,6 @@ class Logchecker
         $this->ValidateChecksum = $Bool;
     }
 
-    private function convertEncoding()
-    {
-        // Whipper uses UTF-8 so we don't need to bother checking, especially as it's
-        // possible a log may be falsely detected as a different encoding by chardet
-        if (strpos($this->log, "Log created by: whipper") !== false) {
-            return;
-        }
-        // To parse the log, we want to deal with the log in UTF-8. EAC by default should
-        // always output to UTF-16 and XLD to UTF-8, but sometimes people view the log and
-        // re-encode them to something else (like Windows-1251), and we need to use chardet
-        // to detect this so we can then convert it to UTF-8.
-        if (ord($this->log[0]) . ord($this->log[1]) == 0xFF . 0xFE) {
-            $this->log = mb_convert_encoding(substr($this->log, 2), 'UTF-8', 'UTF-16LE');
-        } elseif (ord($this->log[0]) . ord($this->log[1]) == 0xFE . 0xFF) {
-            $this->log = mb_convert_encoding(substr($this->log, 2), 'UTF-8', 'UTF-16BE');
-        } elseif (ord($this->log[0]) == 0xEF && ord($this->log[1]) == 0xBB && ord($this->log[2]) == 0xBF) {
-            $this->log = substr($this->log, 3);
-        } elseif ($this->Chardet !== null) {
-            $Results = $this->Chardet->analyze($this->logPath);
-            if ($Results['charset'] !== 'utf-8' && $Results['confidence'] > 0.7) {
-                $this->log = mb_convert_encoding($this->log, 'UTF-8', $Results['charset']);
-            }
-        }
-    }
-
     /**
      * @return array Returns an array that contains [Score, Details, Checksum, Log]
      */
@@ -136,7 +103,7 @@ class Logchecker
     {
 
         try {
-            $this->convertEncoding();
+            $this->log = Util::decodeEncoding($this->log, $this->logPath);
         } catch (\Exception $exc) {
             $this->Score = 0;
             $this->account('Could not detect log encoding, log is corrupt.');
@@ -186,7 +153,7 @@ class Logchecker
             $Class = $this->checksumStatus ? 'good' : 'bad';
             $Yaml['SHA-256 hash'] = "<span class='{$Class}'>{$Hash}</span>";
         } else {
-            $this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
+            $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
         }
 
         $RippingKey = 'Ripping phase information';
@@ -356,7 +323,7 @@ class Logchecker
                 PREG_SPLIT_DELIM_CAPTURE
             );
         } else { //no checksum
-            $this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
+            $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
             $this->logs = preg_split("/(\nEnd of status report)/i", $this->log, -1, PREG_SPLIT_DELIM_CAPTURE);
             foreach ($this->logs as $Key => $Value) {
                 if (preg_match("/---- CUETools DB Plugin V.+/i", $Value)) {
@@ -370,7 +337,7 @@ class Logchecker
             if ($Log === "" || preg_match('/^\-+$/i', $Log)) {
                 unset($this->logs[$Key]);
             } elseif (
-                $this->checksumStatus !== Checks\ChecksumStates::CHECKSUM_OK
+                $this->checksumStatus !== Check\ChecksumStates::CHECKSUM_OK
                 && preg_match("/End of status report/i", $Log)
             ) {
                 //strip empty
@@ -378,13 +345,13 @@ class Logchecker
                 $this->logs[$Key - 1] .= $Log;
                 unset($this->logs[$Key]);
             } elseif (
-                $this->checksumStatus === Checks\ChecksumStates::CHECKSUM_OK
+                $this->checksumStatus === Check\ChecksumStates::CHECKSUM_OK
                 && preg_match("/[\=]+\s+Log checksum/i", $Log)
             ) {
                 $this->logs[$Key - 1] .= $Log;
                 unset($this->logs[$Key]);
             } elseif (
-                $this->checksumStatus === Checks\ChecksumStates::CHECKSUM_OK
+                $this->checksumStatus === Check\ChecksumStates::CHECKSUM_OK
                 && preg_match("/[\-]+BEGIN XLD SIGNATURE/i", $Log)
             ) {
                 $this->logs[$Key - 1] .= $Log;
@@ -404,7 +371,7 @@ class Logchecker
                 if ($Matches[1]) {
                     $this->version = floatval(explode(" ", substr($Matches[1], 1))[0]);
                     if ($this->version < 1) {
-                        $this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
+                        $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
                         if ($this->version <= 0.95) {
                             # EAC 0.95 and before was missing a handful of stuff for full log validation
                             # that 0.99 included (-30 points)
@@ -412,14 +379,14 @@ class Logchecker
                         }
                     } else {
                         // Above version 1 and no checksum
-                        $this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
+                        $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
                     }
                 } else {
-                    $this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
+                    $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
                     $this->account("EAC version older than 0.99", 30);
                 }
             } elseif (preg_match('/EAC extraction logfile from/i', $Log)) {
-                $this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
+                $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
                 $this->account("EAC version older than 0.99", 30);
             }
 
@@ -433,7 +400,7 @@ class Logchecker
             if (preg_match('/X Lossless Decoder version (\d+) \((.+)\)/i', $Log, $Matches)) { //xld version & checksum
                 $this->version = $Matches[1];
                 if ($this->version >= 20121222 && !$Count) {
-                    $this->checksumStatus = Checks\ChecksumStates::CHECKSUM_MISSING;
+                    $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
                     //$this->account('No checksum with XLD 20121222 or newer', 15);
                 }
             }
@@ -482,11 +449,11 @@ class Logchecker
 
             if (
                 $this->ValidateChecksum
-                && $this->checksumStatus == Checks\ChecksumStates::CHECKSUM_OK
+                && $this->checksumStatus == Check\ChecksumStates::CHECKSUM_OK
                 && !empty($this->logPath)
             ) {
-                if (Checks\Checksum::logcheckerExists($EAC)) {
-                    $this->checksumStatus = Checks\Checksum::validate($this->logPath, $EAC);
+                if (Check\Checksum::logcheckerExists($EAC)) {
+                    $this->checksumStatus = Check\Checksum::validate($this->logPath, $EAC);
                 } else {
                     $this->account(
                         "Could not find {$this->ripper} logchecker, checksum not validated.",

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrpheusNET\Logchecker\Checks;
+namespace OrpheusNET\Logchecker\Check;
 
 use OrpheusNET\Logchecker\Exception\UnknownRipperException;
 
@@ -21,10 +21,13 @@ class Ripper
             return Ripper::XLD;
         } elseif (strpos($log, "Exact Audio Copy") !== false) {
             return Ripper::EAC;
-        } else if (strpos($log, "EAC") === 0) {
-            return Ripper::EAC;
         } else {
-            throw new UnknownRipperException("Could not determine ripper");
+            $firstLine = strstr($log, "\n", true);
+            if ($firstLine !== false && strpos($firstLine, "EAC") !== false) {
+                return Ripper::EAC;
+            } else {
+                throw new UnknownRipperException("Could not determine ripper");
+            }
         }
     }
 }

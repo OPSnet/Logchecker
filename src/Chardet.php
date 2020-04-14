@@ -3,12 +3,11 @@
 namespace OrpheusNET\Logchecker;
 
 use OrpheusNET\Logchecker\Exception\FileNotFoundException;
-use Symfony\Component\Process\Exception\ProcessFailedException;
 use Symfony\Component\Process\Process;
 
 class Chardet
 {
-    private $executable = null;
+    private static $executable = null;
     private $executables = [
         'chardet',
         'chardetect'
@@ -16,15 +15,17 @@ class Chardet
 
     public function __construct()
     {
-        foreach ($this->executables as $executable) {
-            if (Util::commandExists($executable)) {
-                $this->executable = $executable;
-                break;
+        if (static::$executable === null) {
+            foreach ($this->executables as $executable) {
+                if (Util::commandExists($executable)) {
+                    static::$executable = $executable;
+                    break;
+                }
             }
-        }
 
-        if ($this->executable === null) {
-            throw new \RuntimeException('chardet not installed');
+            if (static::$executable === null) {
+                throw new \RuntimeException('chardet not installed');
+            }
         }
     }
 
@@ -35,7 +36,7 @@ class Chardet
             throw new FileNotFoundException($filename);
         }
 
-        $process = new Process([$this->executable, $filename]);
+        $process = new Process([static::$executable, $filename]);
         $process->run();
 
         // Following regex:

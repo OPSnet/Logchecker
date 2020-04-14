@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace OrpheusNET\Logchecker\Checks;
+namespace OrpheusNET\Logchecker\Check;
 
 use PHPUnit\Framework\TestCase;
-use OrpheusNET\Logchecker\Checks\Ripper;
+use OrpheusNET\Logchecker\Check\Ripper;
 use OrpheusNET\Logchecker\Exception\UnknownRipperException;
 
 class RipperTest extends TestCase
@@ -18,7 +18,12 @@ class RipperTest extends TestCase
                 Ripper::EAC
             ],
             [
-                "EAC 展開 ログファイル 日付： 24. 12月 2005, 18:37 for CD",
+                "EAC 展開 ログファイル 日付： 24. 12月 2005, 18:37 for CD\nTest",
+                Ripper::EAC
+            ],
+            [
+                "Отчёт EAC об извлечении, выполненном 15. января 2010, 16:06 для диска:\n" .
+                    "Girls Against Boys / Cruise Yourself",
                 Ripper::EAC
             ],
             [

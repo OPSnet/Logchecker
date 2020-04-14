@@ -6,6 +6,13 @@
         "name": "Български",
         "name_english": "Bulgarian"
     },
+    "co": {
+        "eac_strings": [
+            "Estrazione file di log EAC da"
+        ],
+        "name": "Corsu",
+        "name_english": "Corsican"
+    },
     "cs": {
         "eac_strings": [
             "Protokol extrakce EAC z "

@@ -16,9 +16,11 @@ class LogcheckerConsole extends Application
         $analyze_command = new Command\AnalyzeCommand();
 
         $this->addCommands([
-            $analyze_command
+            $analyze_command,
+            new Command\DecodeCommand(),
+            new Command\TranslateCommand()
         ]);
 
-        $this->setDefaultCommand($analyze_command->getName(), true);
+        //$this->setDefaultCommand($analyze_command->getName(), false);
     }
 }

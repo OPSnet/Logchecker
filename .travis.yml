@@ -27,12 +27,12 @@ before_install:
 install:
   - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
   - pip3 install --user chardet xld_logchecker eac_logchecker
-  
+
 script:
   - bin/logchecker --version
   - bin/logchecker --help
-  - bin/logchecker tests/logs/wgdbcm.log
-  - bin/logchecker tests/logs/xld_perfect.log
+  - bin/logchecker analyze tests/logs/wgdbcm.log
+  - bin/logchecker analyze tests/logs/xld_perfect.log
 
 before_deploy:
   - php -d phar.readonly=0 bin/compile
