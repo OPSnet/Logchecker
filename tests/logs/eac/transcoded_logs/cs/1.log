@@ -1,0 +1,195 @@
+Exact Audio Copy V0.99 prebeta 4 from 23. January 2008
+
+Záznam extrakce EAC z 5. Březen 2008, 12:41
+
+Thrushes / Sun Come Undone
+
+Použitá mechanika : HL-DT-STDVDRAM GSA-4167B   Adapter: 0  ID: 0
+
+Režim čtení                : Bezpečný
+Použít accurate stream     : Ano
+Obejít zvukovou vyr. paměť : Ano
+Použít C2 ukazatele        : Ne
+
+Korekce vychýlení čtení                 : 667
+Číst lead-in a lead-out                 : Ne
+Nahradit chybějící vzorky tichem        : Ano
+Smazat ticho na začátku a na konci stop : Ne
+Při výpočtu CRC použity nulové vzorky   : Ano
+Použité rozhraní                        : Extení ASPI rozhraní
+Nakládání s mezerami                    : Přidány k předchozí stopě
+
+Použitý výstupní formát                 : Uživatelsky definovaný encoder
+Zvolený bitrate                         : 128 kBit/s
+Kvalita                                 : Vysoká
+Přidat ID3 tag                          : Ne
+Komprimační program pro příkazový řádek : C:\Program Files\Exact Audio Copy\Codecs\flac.exe
+Dodatečné parametry                     : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC extrahovaného CD
+
+     Stopa |  Počátek |   Délka  | Počáteční sektor | Koncový sektor 
+    -----------------------------------------------------------------
+        1  |  0:00.00 |  3:24.04 |           0      |      15303     
+        2  |  3:24.04 |  4:17.21 |       15304      |      34599     
+        3  |  7:41.25 |  4:43.67 |       34600      |      55891     
+        4  | 12:25.17 |  2:43.71 |       55892      |      68187     
+        5  | 15:09.13 |  3:30.54 |       68188      |      83991     
+        6  | 18:39.67 |  3:46.46 |       83992      |     100987     
+        7  | 22:26.38 |  3:09.52 |      100988      |     115214     
+        8  | 25:36.15 |  2:42.43 |      115215      |     127407     
+        9  | 28:18.58 |  3:32.36 |      127408      |     143343     
+       10  | 31:51.19 |  5:00.25 |      143344      |     165868     
+       11  | 36:51.44 |  4:12.49 |      165869      |     184817     
+
+
+Stopa  1
+
+     název souboru C:\Ripping\01 - Aidan Quinn.wav
+
+     délka mezery  0:00:02.00
+
+     špičková úrověň 97.7 %
+     kvalita stopy 100.0 %
+     CRC testu 194F7881
+     CRC kopie 194F7881
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa  2
+
+     název souboru C:\Ripping\02 - Heartbeats.wav
+
+     délka mezery  0:00:03.00
+
+     špičková úrověň 97.7 %
+     kvalita stopy 100.0 %
+     CRC testu 255860D5
+     CRC kopie 255860D5
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa  3
+
+     název souboru C:\Ripping\03 - Loyalty.wav
+
+     délka mezery  0:00:03.00
+
+     špičková úrověň 97.7 %
+     kvalita stopy 99.9 %
+     CRC testu 295CED49
+     CRC kopie 295CED49
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa  4
+
+     název souboru C:\Ripping\04 - Into The Woods.wav
+
+     délka mezery  0:00:03.00
+
+     špičková úrověň 97.7 %
+     kvalita stopy 100.0 %
+     CRC testu D71CC2CA
+     CRC kopie D71CC2CA
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa  5
+
+     název souboru C:\Ripping\05 - Flying.wav
+
+     délka mezery  0:00:02.53
+
+     špičková úrověň 97.7 %
+     kvalita stopy 100.0 %
+     CRC testu DD185584
+     CRC kopie DD185584
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa  6
+
+     název souboru C:\Ripping\06 - Ghost Train.wav
+
+     délka mezery  0:00:01.26
+
+     špičková úrověň 95.5 %
+     kvalita stopy 100.0 %
+     CRC testu 6819C157
+     CRC kopie 6819C157
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa  7
+
+     název souboru C:\Ripping\07 - Halloween.wav
+
+     délka mezery  0:00:03.40
+
+     špičková úrověň 97.7 %
+     kvalita stopy 100.0 %
+     CRC testu 91F94B3C
+     CRC kopie 91F94B3C
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa  8
+
+     název souboru C:\Ripping\08 - New Years Kiss.wav
+
+     délka mezery  0:00:02.53
+
+     špičková úrověň 96.5 %
+     kvalita stopy 100.0 %
+     CRC testu 6F05A831
+     CRC kopie 6F05A831
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa  9
+
+     název souboru C:\Ripping\09 - Wake Up.wav
+
+     délka mezery  0:00:02.53
+
+     špičková úrověň 97.7 %
+     kvalita stopy 100.0 %
+     CRC testu FB3C9F81
+     CRC kopie FB3C9F81
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa 10
+
+     název souboru C:\Ripping\10 - Roy.wav
+
+     délka mezery  0:00:01.40
+
+     špičková úrověň 97.7 %
+     kvalita stopy 100.0 %
+     CRC testu AD3E1644
+     CRC kopie AD3E1644
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+Stopa 11
+
+     název souboru C:\Ripping\11 - The Hardest Part.wav
+
+     délka mezery  0:00:03.00
+
+     špičková úrověň 97.7 %
+     kvalita stopy 100.0 %
+     CRC testu 1A1C92A3
+     CRC kopie 1A1C92A3
+     Stopa není v AccurateRip databázi
+     kopie OK
+
+
+Ani jedna ze stop není v AccurateRip databázi
+
+Nedošlo k žádným chybám
+
+Konec stavového hlášení

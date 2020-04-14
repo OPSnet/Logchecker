@@ -6,16 +6,10 @@
         "name": "Български",
         "name_english": "Bulgarian"
     },
-    "co": {
-        "eac_strings": [
-            "Estrazione file di log EAC da"
-        ],
-        "name": "Corsu",
-        "name_english": "Corsican"
-    },
     "cs": {
         "eac_strings": [
-            "Protokol extrakce EAC z "
+            "Protokol extrakce EAC z ",
+            "Záznam extrakce EAC z "
         ],
         "name": "Čeština",
         "name_english": "Czech"
@@ -50,7 +44,8 @@
     },
     "it": {
         "eac_strings": [
-            "File di log EAC per l'estrazione del "
+            "File di log EAC per l'estrazione del ",
+            "Estrazione file di log EAC da "
         ],
         "name": "Italiano",
         "name_english": "Italian"
@@ -72,7 +67,8 @@
     },
     "pl": {
         "eac_strings": [
-            "Sprawozdanie ze zgrywania programem EAC z "
+            "Sprawozdanie ze zgrywania programem EAC z ",
+            "Plik sprawozdania ze zgrywania programem EAC z "
         ],
         "name": "Polski",
         "name_english": "Polish"
@@ -106,11 +102,12 @@
         "name": "Srpski",
         "name_english": "Serbian"
     },
-    "zh-Hans": {
+    "zh": {
         "eac_strings": [
-            "EAC 抓取日志文件从"
+            "EAC 抓取日志文件从",
+            "EAC日志文件创建时间"
         ],
-        "name": "简体中文",
-        "name_english": "Simplified Chinese"
+        "name": "中文",
+        "name_english": "Chinese"
     }
 }

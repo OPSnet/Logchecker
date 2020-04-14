@@ -9,8 +9,9 @@ class Chardet
 {
     private static $executable = null;
     private $executables = [
-        'chardet',
-        'chardetect'
+        'cchardetect',
+        'chardetect',
+        'chardet'
     ];
 
     public function __construct()
@@ -31,7 +32,6 @@ class Chardet
 
     public function analyze($filename)
     {
-
         if (!file_exists($filename)) {
             throw new FileNotFoundException($filename);
         }
@@ -44,7 +44,7 @@ class Chardet
         //    matches[2] - charset
         //    matches[3] - confidence
 
-        if ((preg_match('/(.+): (.+) .+confidence:? ([^\)]+)/', $process->getOutput(), $matches) === 0)) {
+        if ((preg_match('/(.+): (.+) .+confidence:? ([^\)]+)/', strtolower($process->getOutput()), $matches) === 0)) {
             throw new \Exception('This file is not analyzed');
         } elseif (isset($matches[2]) && $matches[2] === 'None') {
             throw new \Exception('Could not determine character set');

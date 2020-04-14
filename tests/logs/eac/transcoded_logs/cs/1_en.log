@@ -1,0 +1,195 @@
+Exact Audio Copy V0.99 prebeta 4 from 23. January 2008
+
+EAC extraction logfile from 5. March 2008, 12:41
+
+Thrushes / Sun Come Undone
+
+Used drive  : HL-DT-STDVDRAM GSA-4167B   Adapter: 0  ID: 0
+
+Read mode             : Secure
+Utilize accurate stream     : Yes
+Defeat audio cache : Yes
+Make use of C2 pointers        : No
+
+Read offset correction                 : 667
+Overread into Lead-In and Lead-Out                 : No
+Fill up missing offset samples with silence        : Yes
+Delete leading and trailing silent blocks : No
+Null samples used in CRC calculations   : Yes
+Used interface                        : Installed external ASPI interface
+Gap handling                    : Appended to previous track
+
+Used output format                 : User Defined Encoder
+Selected bitrate                         : 128 kBit/s
+Quality                                 : High
+Add ID3 tag                          : No
+Command line compressor : C:\Program Files\Exact Audio Copy\Codecs\flac.exe
+Additional command line options                     : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC of the extracted CD
+
+     Track |  Start |   Length  | Start sector | End sector 
+    -----------------------------------------------------------------
+        1  |  0:00.00 |  3:24.04 |           0      |      15303     
+        2  |  3:24.04 |  4:17.21 |       15304      |      34599     
+        3  |  7:41.25 |  4:43.67 |       34600      |      55891     
+        4  | 12:25.17 |  2:43.71 |       55892      |      68187     
+        5  | 15:09.13 |  3:30.54 |       68188      |      83991     
+        6  | 18:39.67 |  3:46.46 |       83992      |     100987     
+        7  | 22:26.38 |  3:09.52 |      100988      |     115214     
+        8  | 25:36.15 |  2:42.43 |      115215      |     127407     
+        9  | 28:18.58 |  3:32.36 |      127408      |     143343     
+       10  | 31:51.19 |  5:00.25 |      143344      |     165868     
+       11  | 36:51.44 |  4:12.49 |      165869      |     184817     
+
+
+Track  1
+
+     Filename C:\Ripping\01 - Aidan Quinn.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 194F7881
+     Copy CRC 194F7881
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track  2
+
+     Filename C:\Ripping\02 - Heartbeats.wav
+
+     Pre-gap length  0:00:03.00
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 255860D5
+     Copy CRC 255860D5
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track  3
+
+     Filename C:\Ripping\03 - Loyalty.wav
+
+     Pre-gap length  0:00:03.00
+
+     Peak level 97.7 %
+     Track quality 99.9 %
+     Test CRC 295CED49
+     Copy CRC 295CED49
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track  4
+
+     Filename C:\Ripping\04 - Into The Woods.wav
+
+     Pre-gap length  0:00:03.00
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC D71CC2CA
+     Copy CRC D71CC2CA
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track  5
+
+     Filename C:\Ripping\05 - Flying.wav
+
+     Pre-gap length  0:00:02.53
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC DD185584
+     Copy CRC DD185584
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track  6
+
+     Filename C:\Ripping\06 - Ghost Train.wav
+
+     Pre-gap length  0:00:01.26
+
+     Peak level 95.5 %
+     Track quality 100.0 %
+     Test CRC 6819C157
+     Copy CRC 6819C157
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track  7
+
+     Filename C:\Ripping\07 - Halloween.wav
+
+     Pre-gap length  0:00:03.40
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 91F94B3C
+     Copy CRC 91F94B3C
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track  8
+
+     Filename C:\Ripping\08 - Now Years Kiss.wav
+
+     Pre-gap length  0:00:02.53
+
+     Peak level 96.5 %
+     Track quality 100.0 %
+     Test CRC 6F05A831
+     Copy CRC 6F05A831
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track  9
+
+     Filename C:\Ripping\09 - Wake Up.wav
+
+     Pre-gap length  0:00:02.53
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC FB3C9F81
+     Copy CRC FB3C9F81
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track 10
+
+     Filename C:\Ripping\10 - Roy.wav
+
+     Pre-gap length  0:00:01.40
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC AD3E1644
+     Copy CRC AD3E1644
+     Track not present in AccurateRip summary database
+     Copy OK
+
+Track 11
+
+     Filename C:\Ripping\11 - The Hardest Part.wav
+
+     Pre-gap length  0:00:03.00
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 1A1C92A3
+     Copy CRC 1A1C92A3
+     Track not present in AccurateRip summary database
+     Copy OK
+
+
+None of the tracks are present in the AccurateRip summary database
+
+No errors occurred
+
+End of status report

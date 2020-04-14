@@ -60,7 +60,10 @@
 	"1226":  "Traccia",
 	"1230":  "Indice",
 	"1229":  "Esamina Tracce",
-	"1274":  "File di log EAC per l'estrazione del ",
+	"1274":  [
+		"File di log EAC per l'estrazione del ",
+		"Estrazione file di log EAC da "
+	],
 	"1240":  "Gennaio",
 	"1241":  "Febbraio",
 	"1242":  "Marzo",
@@ -74,7 +77,10 @@
 	"1250":  "Novembre",
 	"1251":  "Dicembre",
 	"1232":  "File di log EAC per l'estrazione CD",
-	"1233":  "Unità predefinita : ",
+	"1233":  [
+		"Unità predefinita : ",
+		"Unità predefinita: "
+	],
 	"1234":  "Modalità di lettura",
 	"1235":  "Burst",
 	"1236":  "Rapida",
@@ -86,7 +92,10 @@
 	"1254":  "Sicuro con NO C2, Lettura accurata, Disattiva cache",
 	"1255":  "Correzione offset combinata Lettura/Scrittura",
 	"1256":  "Correzione offset di lettura",
-	"1257":  "Compensa lettura nel Lead-In e nel Lead-Out",
+	"1257":  [
+		"Compensa lettura nel Lead-In e nel Lead-Out",
+		"Sovrascrivi anche nel Lead-In e Lead-Out"
+	],
 	"1258":  "Formato di destinazione scelto",
 	"1259":  "Parametri aggiuntivi da riga di comando",
 	"1260":  "Routine Interne WAV",
@@ -94,7 +103,10 @@
 	"1262":  "Usa offset di compressione",
 	"1263":  "Altre opzioni      : ",
 	"1264":  "Riempi sample offset mancanti con silenzio",
-	"1265":  "Rimuovi blocchi di silenzio ad inizio e fine traccia",
+	"1265":  [
+		"Rimuovi blocchi di silenzio ad inizio e fine traccia",
+		"Rimuovi blocchi di silezio ad inizio e fine"
+	],
 	"1266":  "Normalizza al",
 	"1267":  "Interfaccia nativa Win32 Per Windows XP/Vista/Win 7",
 	"1268":  "Interfaccia esterna ASPI (Installata)",

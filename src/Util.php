@@ -19,6 +19,7 @@ class Util
         } catch (\RuntimeException $exc) {
             $chardet = null;
         }
+        /** @var Chardet $chardet */
 
         // Whipper uses UTF-8 so we don't need to bother checking, especially as it's
         // possible a log may be falsely detected as a different encoding by chardet
@@ -36,9 +37,10 @@ class Util
         } elseif (ord($log[0]) == 0xEF && ord($log[1]) == 0xBB && ord($log[2]) == 0xBF) {
             $log = substr($log, 3);
         } elseif ($chardet !== null) {
-            $Results = $chardet->analyze($logPath);
-            if ($Results['charset'] !== 'utf-8' && $Results['confidence'] > 0.7) {
-                $log = mb_convert_encoding($log, 'UTF-8', $Results['charset']);
+            $results = $chardet->analyze($logPath);
+            if ($results['charset'] !== 'utf-8' && $results['confidence'] > 0.7) {
+                // $log = mb_convert_encoding($log, 'UTF-8', $results['charset']);
+                $log = iconv($results['charset'], 'UTF-8', $log);
             }
         }
         return $log;

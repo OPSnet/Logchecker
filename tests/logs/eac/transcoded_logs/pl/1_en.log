@@ -1,0 +1,29 @@
+EAC extraction logfile from 6. March 2005, 18:18 dla płyty
+Horace Tapscott / The Dark Tree, Vol 1
+
+Used drive  : TEAC    CD-W54E   Adapter: 0  ID: 1
+Read mode: Secure with NO C2, accurate stream, NO disable cache
+Combined read/write offset correction: 0
+Overread into Lead-In and Lead-Out  : No
+
+Used output format: Internal WAV Routines
+                     44.100 Hz; 16 Bit; Stereo
+
+Other options      :  
+    Fill up missing offset samples with silence  : Yes
+    Delete leading and trailing silent blocks  : No
+    Installed external ASPI interface
+
+
+Range status and errors
+Selected range
+     Filename E:\Moja muzyka\Horace Tapscott-The Dark Tree 1.EAC.flac\CDImage.wav
+
+     Peak level 100.0 %
+     Range quality  100.0 %
+     CRC E6972C48
+     Copy OK
+
+No errors occurred
+
+End of status report

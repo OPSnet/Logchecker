@@ -45,6 +45,9 @@ HELP
         if ($input->getArgument('out_file')) {
             file_put_contents($input->getArgument('out_file'), $log);
         }
+        else {
+            $output->write($log);
+        }
 
         return 0;
     }

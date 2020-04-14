@@ -1,8 +1,8 @@
-EAC extraction logfile from 13. GiugNo 2006, 12:34 for disc
+EAC extraction logfile from 13. June 2006, 12:34 per CD
 Cousteau / Cousteau
 
 Used drive  : HL-DT-STCD-RW GCE-8480B   Adapter: 2  ID: 1
-Read mode: Sicuro con No C2, Lettura Accurata, Disattiva Cache
+Read mode: Secure with NO C2, accurate stream, disable cache
 Read offset correction:6
 Overread into Lead-In and Lead-Out : No
 
@@ -10,7 +10,7 @@ Used output format: Internal WAV Routines
                      44.100 Hz; 16 Bit; Stereo
 
 Other options      : 
-    Fill up missing offset samples with silence : Sì
+    Fill up missing offset samples with silence : Yes
     Delete leading and trailing silent blocks : No
     Installed external ASPI interface
 
@@ -20,7 +20,7 @@ Selected range
      Filename C:\Documents and Settings\maurizio\Desktop\Cousteau - Cousteau.wav
 
      Peak level 99.9 %
-     Range Quality 100.0 %
+     Range quality 100.0 %
      CRC 5B545F17
      Copy OK
 

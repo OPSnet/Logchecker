@@ -31,6 +31,10 @@ class TranslateCommand extends Command
         }
 
         $log = file_get_contents($filename);
+        $outFile = $input->getArgument('out_file');
+        if (!is_null($outFile)) {
+            $output->setVerbosity(OutputInterface::VERBOSITY_QUIET);
+        }
         if ($input->getOption('language')) {
             $code = $input->getOption('language');
             $output->writeln("Translating from {$code} to English");
@@ -42,8 +46,8 @@ class TranslateCommand extends Command
 
         $log = Translator::translate($log, $language['code']);
 
-        if ($input->getArgument('out_file')) {
-            file_put_contents($input->getArgument('out_file'), $log);
+        if (!is_null($outFile)) {
+            file_put_contents($outFile, $log);
         } else {
             $output->write($log);
         }

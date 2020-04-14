@@ -15,7 +15,10 @@
 	"1214":  "     chybějící vzorky",
 	"1215":  "     příliš mnoho vzorků",
 	"1216":  "     chyba zápisu souboru",
-	"1217":  "     špičková úroveň ",
+	"1217":  [
+		"     špičková úroveň ",
+		"     špičková úrověň "
+	],
 	"1299":  "     rychlost extrakce",
 	"1218":  "     kvalita rozsahu ",
 	"1219":  "     CRC ",
@@ -51,7 +54,10 @@
 	"1222":  "Nedošlo k žádným chybám",
 	"1223":  "Přehled rozsahu",
 	"1224":  "Vyskytly se chyby",
-	"1225":  "Konec protokolu",
+	"1225":  [
+		"Konec protokolu",
+		"Konec stavového hlášení"
+	],
 	"1321":  "Nedetekovány - přidány k předchozí stopě",
 	"1322":  "Přidány k předchozí stopě",
 	"1323":  "Přidány k následující stopě",
@@ -59,7 +65,10 @@
 	"1226":  "Stopa",
 	"1230":  "Index",
 	"1229":  "Přehled stop",
-	"1274":  "Protokol extrakce EAC z ",
+	"1274":  [
+		"Protokol extrakce EAC z ",
+		"Záznam extrakce EAC z "
+	],
 	"1240":  "Leden",
 	"1241":  "Únor",
 	"1242":  "Březen",
@@ -96,7 +105,10 @@
 	"1265":  "Smazat ticho na začátku a na konci stop",
 	"1266":  "Normalizovat na ",
 	"1267":  "Integrované Win32 rozhraní pro NT/2k/XP",
-	"1268":  "Externí ASPI rozhraní",
+	"1268":  [
+		"Externí ASPI rozhraní",
+		"Extení ASPI rozhraní"
+	],
 	"1275":  "AccurateRip",
 	"1276":  "nekompletně extrahováno",
 	"1277":  "extrahováno správně (spolehlivost ",
@@ -118,7 +130,10 @@
 	"1298":  "Obejít zvukovou vyr. paměť",
 	"1305":  "Použité rozhraní",
 	"1306":  "Komprimační program pro příkazový řádek",
-	"1307":  "Zvolený datový tok",
+	"1307":  [
+		"Zvolený datový tok",
+		"Zvolený bitrate"
+	],
 	"1308":  "Kvalita",
 	"1328":  "Vysoká",
 	"1329":  "Nízká",
@@ -147,8 +162,10 @@
 	"81717":  "Shorten lossless enkodér",
 	"81718":  "RKAU lossless enkodér",
 	"81719":  "LPAC lossless enkodér",
-	"81720":  "Uživatelsky definovaný enkodér",
-
+	"81720":  [
+		"Uživatelsky definovaný enkodér",
+		"Uživatelsky definovaný encoder"
+	],
 	"4270":  "Nízká",
 	"4271":  "Střední",
 	"4272":  "Vysoká",

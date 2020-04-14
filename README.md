@@ -1,5 +1,5 @@
-Logchecker
-==========
+# Logchecker
+
 
 A CD rip logchecker, used for analyzing the generated logs for any problems that would potentially
 indicate a non-perfect rip was produced. Of course, just because a log doesn't score a perfect 100%
@@ -14,31 +14,37 @@ the necessary programs, then we will just skip this external step and assume the
 setting up the necessary programs to validate the checksum, see below for the given program you care about.
 
 ## Requirements
+
 * PHP 7.0+
 
 ## Optional Requirements
+
 * Python 3.5+
-* [chardet](https://github.com/chardet/chardet)
+* [cchardet](https://github.com/PyYoshi/cChardet) (or [chardet](https://github.com/chardet/chardet))
 * [eac_logchecker.py](https://github.com/OPSnet/eac_logchecker.py)
 * [xld_logchecker.py](https://github.com/OPSnet/xld_logchecker.py)
 
-```
-$ pip3 install chardet eac-logchecker xld-logchecker
+```bash
+pip3 install chardet eac-logchecker xld-logchecker
 ```
 
 ## Standalone
+
 ### Installation
+
 Go to our [releases](https://github.com/OPSnet/Logchecker/releases) and grab the logchecker.phar
 file. Download this file, and then it can executed via CLI by running `php logchecker.phar`.
 Alternatively, if you `chmod +x logchecker.phar`, it can be executed directly by doing `./logchecker.phar`.
 
 To install it globally, run:
+
 ```bash
 mv logchecker.phar /usr/local/bin/logchecker
 chmod +x /usr/local/bin/logchecker
 ```
 
 ### Usage
+
 ```
 $ logchecker --help
 Usage:
@@ -75,6 +81,7 @@ Details :
 ```
 
 ### Code
+
 ```php
 <?php
 
@@ -84,12 +91,15 @@ list($score, $details, $checksum_state, $log_text) = $logchecker->parse();
 ```
 
 ## Library Usage
+
 ### Installation
+
 ```
 $ composer require orpheusnet/logchecker
 ```
 
 ### Usage
+
 ```php
 <?php
 
@@ -113,6 +123,7 @@ print("\nLog Text:\n{$log_text}");
 
 To build your own phar, you can checkout this repository, and then
 run the `bin/compile` script. To do this, run the following commands:
+
 ```bash
 git clone https://github.com/OPSnet/Logchecker
 cd Logchecker

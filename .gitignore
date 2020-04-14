@@ -6,3 +6,6 @@ logchecker.phar
 
 .phpunit.result.cache
 report/
+
+/tests/logs/old
+/tests/logs/*/holding

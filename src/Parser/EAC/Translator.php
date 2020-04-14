@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace OrpheusNET\Logchecker\Parser\EAC;
 
-use OrpheusNET\Logchecker\Exception\UnknownLanguageException;
+use OrpheusNET\Logchecker\Exception\{
+    InvalidFileException,
+    UnknownLanguageException
+};
 
 class Translator
 {
@@ -16,6 +19,9 @@ class Translator
         $lang_directory = __DIR__ . DIRECTORY_SEPARATOR . 'languages' . DIRECTORY_SEPARATOR;
         $english = json_decode(file_get_contents($lang_directory . 'en.json'), true);
         $translation = json_decode(file_get_contents($lang_directory . $language_code . '.json'), true);
+        if ($translation === null) {
+            throw new InvalidFileException('Could not parse translation file for ' . $language_code);
+        }
 
         foreach ($translation as $key => $value) {
             if (empty($english[$key])) {
@@ -26,7 +32,9 @@ class Translator
                 $value = [$value];
             }
             foreach ($value as $vvalue) {
-                $tmp_log = preg_replace('/' . preg_quote($vvalue, '/') . '/ui', $english[$key], $log);
+                // want to be case insensitive for most things, but not "No", "Yes", etc
+                $flags = ($key > 16) ? 'ui' : 'u';
+                $tmp_log = preg_replace('/' . preg_quote($vvalue, '/') . '/' . $flags, $english[$key], $log);
                 if ($tmp_log !== null) {
                     $log = $tmp_log;
                 }

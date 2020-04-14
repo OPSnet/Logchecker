@@ -9,7 +9,10 @@
 	"2501":  "Stan i błędy nagrań",
 	"1203":  "Możliwe błędy",
 	"1204":  "Zapisz raport",
-	"1210":  "Stan i błędy zakresu",
+	"1210":  [
+		"Stan i błędy zakresu",
+		"Stan i błędy  zakresu"
+	],
 	"1211":  "Wybrany zakres",
 	"1212":  "     Problem z taktowaniem ",
 	"1213":  "     Podejrzane miejsce ",
@@ -20,7 +23,10 @@
 	"1299":  "     Szybkość zgrywania",
 	"1218":  "     Jakość zakresu",
 	"1219":  "     Suma kontrolna ",
-	"1220":  "     Kopia bezbłędna",
+	"1220":  [
+		"     Kopia bezbłędna",
+		"     Kopia doskonała"
+	],
 	"1221":  "     Zgrywanie zakończone",
 	"1227":  "     Jakość nagrania ",
 	"1228":  "     Zgrywanie anulowane",
@@ -60,7 +66,10 @@
 	"1226":  "Nagranie",
 	"1230":  "Indeks",
 	"1229":  "Zobacz nagrania",
-	"1274":  "Sprawozdanie ze zgrywania programem EAC z ",
+	"1274":  [
+		"Sprawozdanie ze zgrywania programem EAC z ",
+		"Plik sprawozdania ze zgrywania programem EAC z "
+	],
 	"1240":  "Stycznia",
 	"1241":  "Lutego",
 	"1242":  "Marca",
@@ -75,11 +84,14 @@
 	"1251":  "Grudnia",
 	"1232":  "Plik sprawozdania ze zgrywania",
 	"1233":  "Użyty napęd: ",
-	"1234":  "Tryb odczytu: ",
+	"1234":  "Tryb odczytu",
 	"1235":  "Ciągły",
 	"1236":  "Szybki",
 	"1237":  "Paranoidalny",
-	"1238":  "Pewny BEZ C2, z dokładnym strumieniem, WŁĄCZONE buforowanie",
+	"1238":  [
+		"Pewny BEZ C2, z dokładnym strumieniem, WŁĄCZONE buforowanie",
+		"Pewny BEZ C2, z dokładnym strumieniem, BEZ wyłączenia buforowania"
+	],
 	"1239":  "Pewny BEZ C2, BEZ dokładnego strumienia, WYŁĄCZONE buforowanie",
 	"1252":  "Pewny z C2, z dokładnym strumieniem, WŁĄCZONE buforowanie",
 	"1253":  "Pewny z C2, z dokładnym strumieniem, WYŁĄCZONE buforowanie",
@@ -92,12 +104,21 @@
 	"1260":  "Wewnętrzne procedury WAV",
 	"1261":  "44.100 Hz; 16 bitów; stereo",
 	"1262":  "Użyte przesunięcie położenia dla kompresji",
-	"1263":  "Inne opcje      : ",
-	"1264":  "Dopełnianie ciszą brakujących próbek",
+	"1263":  [
+		"Inne opcje      : ",
+		"Inne opcje:"
+	],
+	"1264":  [
+		"Dopełnianie ciszą brakujących próbek",
+		"Dopełnienie ciszą brakujących przesuniętych próbek"
+	],
 	"1265":  "Usuwanie początkowych i końcowych bloków ciszy",
 	"1266":  "Normalizacja do ",
 	"1267":  "Wewnętrzny interfejs Win32 dla Windows NT i 2000",
-	"1268":  "Zainstalowane zewnętrzne sterowniki ASPI",
+	"1268":  [
+		"Zainstalowane zewnętrzne sterowniki ASPI",
+		"Zainstalowane zewnętrzne sterowniki ASPA"
+	],
 	"1275":  "Podsumowanie AccurateRip",
 	"1276":  "nie w pełni zgrane",
 	"1277":  "zgrane bezbłędnie (wiarygodność ",
