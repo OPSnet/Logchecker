@@ -11,7 +11,7 @@ class LogcheckerConsole extends Application
         $composer_config = json_decode(file_get_contents(__DIR__ . '/../composer.json'), true);
         $version = $composer_config['version'];
 
-        parent::__construct('Logchecker by Orpheus', $version);
+        parent::__construct('Logchecker', $version);
 
         $analyze_command = new Command\AnalyzeCommand();
 
@@ -20,7 +20,5 @@ class LogcheckerConsole extends Application
             new Command\DecodeCommand(),
             new Command\TranslateCommand()
         ]);
-
-        //$this->setDefaultCommand($analyze_command->getName(), false);
     }
 }
