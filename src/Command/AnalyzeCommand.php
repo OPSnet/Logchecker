@@ -15,6 +15,7 @@ class AnalyzeCommand extends Command
     {
         $this
             ->setName('analyze')
+            ->setAliases(['analyse'])
             ->setDescription('analyze log file')
             ->setHelp('This command analyzes a log file')
             ->addOption('output', null, InputOption::VALUE_NONE, 'Print the HTML log text')
