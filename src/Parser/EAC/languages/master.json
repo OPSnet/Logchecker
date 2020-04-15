@@ -58,6 +58,13 @@
         "name": "日本語",
         "name_english": "Japanese"
     },
+    "ko": {
+        "eac_strings": [
+            "EAC 추출 로그 파일 from "
+        ],
+        "name": "한국어",
+        "name_english": "Korean"
+    },
     "nl": {
         "eac_strings": [
             "EAC uitlezen log bestand van "

@@ -1,0 +1,93 @@
+EAC extraction logfile from 12. October 2011, 17:02 for disc
+Andr?Previn - London Symphony Orchestra / Rachmaninov: Symphony No.2, Vocalise, Aleko [EMI Classics]
+
+Used drive  : ATAPI   BD E DH6E2S   Adapter: 0  ID: 1
+Read mode   : Secure with C2, accurate stream, disable cache
+Read offset correction : 6
+Overread into Lead-In and Lead-Out : No
+
+Used output format : C:\FLAC_frontend\FLAC frontend.exe   (User Defined Encoder)
+                     128 kBit/s
+                     Additional command line options : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "Tracknumber=%n" -T "genre=%m" %s
+
+Other options      : 
+    Fill up missing offset samples with silence : Yes
+    Delete leading and trailing silent blocks : No
+    Native Win32 interface for Win NT & 2000
+
+
+Track  1
+     Filename C:\M\Sergei Rachmaninoff\Symphony No.2\Andre Previn, LSO\01 - Symphony No.2 in E minor, op.27 - 1. Largo - Allegro moderato.wav
+
+     Pre-gap Length  0:00:02.00
+
+     Peak level 88.7 %
+     Track Quality 100.0 %
+     Test CRC D511886D
+     Copy CRC D511886D
+     Copy OK
+
+Track  2
+     Filename C:\M\Sergei Rachmaninoff\Symphony No.2\Andre Previn, LSO\02 - 2. Scherzo. Allegro molto.wav
+
+     Peak level 89.5 %
+     Track Quality 99.9 %
+     Test CRC FBAF74F3
+     Copy CRC FBAF74F3
+     Copy OK
+
+Track  3
+     Filename C:\M\Sergei Rachmaninoff\Symphony No.2\Andre Previn, LSO\03 - 3. Adagio.wav
+
+     Peak level 80.2 %
+     Track Quality 100.0 %
+     Test CRC 493A7812
+     Copy CRC 493A7812
+     Copy OK
+
+Track  4
+     Filename C:\M\Sergei Rachmaninoff\Symphony No.2\Andre Previn, LSO\04 - 4. Finale. Allegro vivace.wav
+
+     Peak level 95.5 %
+     Track Quality 100.0 %
+     Test CRC 05227922
+     Copy CRC 05227922
+     Copy OK
+
+Track  5
+     Filename C:\M\Sergei Rachmaninoff\Symphony No.2\Andre Previn, LSO\05 - Vocalise, op.34 no.14.wav
+
+     Pre-gap Length  0:00:10.00
+
+     Peak level 74.0 %
+     Track Quality 100.0 %
+     Test CRC 58EDF22E
+     Copy CRC 58EDF22E
+     Copy OK
+
+Track  6
+     Filename C:\M\Sergei Rachmaninoff\Symphony No.2\Andre Previn, LSO\06 - 'Aleko' - Intermezzo.wav
+
+     Pre-gap Length  0:00:06.73
+
+     Peak level 69.5 %
+     Track Quality 100.0 %
+     Test CRC 757802C6
+     Copy CRC 757802C6
+     Copy OK
+
+Track  7
+     Filename C:\M\Sergei Rachmaninoff\Symphony No.2\Andre Previn, LSO\07 - 'Aleko' - Woman's Dance.wav
+
+     Pre-gap Length  0:00:03.70
+
+     Peak level 77.8 %
+     Track Quality 100.0 %
+     Test CRC D1BBD9F7
+     Copy CRC D1BBD9F7
+     Copy OK
+
+No errors occurred
+
+
+End of status report
