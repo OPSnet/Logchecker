@@ -18,9 +18,13 @@ class Translator
         }
         $lang_directory = __DIR__ . DIRECTORY_SEPARATOR . 'languages' . DIRECTORY_SEPARATOR;
         $english = json_decode(file_get_contents($lang_directory . 'en.json'), true);
+
+        if (!file_exists($lang_directory . $language_code . '.json')) {
+            throw new InvalidFileException('Could not find translation file for ' . $language_code . '.');
+        }
         $translation = json_decode(file_get_contents($lang_directory . $language_code . '.json'), true);
         if ($translation === null) {
-            throw new InvalidFileException('Could not parse translation file for ' . $language_code);
+            throw new InvalidFileException('Could not parse translation file for ' . $language_code . '.');
         }
 
         foreach ($translation as $key => $value) {
