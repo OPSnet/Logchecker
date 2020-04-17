@@ -1,5 +1,4 @@
 language: php
-sudo: true
 dist: xenial
 
 cache:
@@ -8,8 +7,6 @@ cache:
     - $HOME/.composer/cache
 
 php:
-  - 7.0
-  - 7.1
   - 7.2
   - 7.3
   - 7.4
@@ -19,28 +16,30 @@ matrix:
   fast_finish: true
   allow_failures:
     - php: nightly
+  include:
+    - php: 7.2
+      env: PREFER_LOWEST=1
+    - php: 7.4
+      env: LINT=1
 
 before_install:
-  - sudo apt-get install python3
-  - wget https://bootstrap.pypa.io/get-pip.py
-  - sudo python3 get-pip.py
+  - PYTHON3_VERSION=$(pyenv versions | grep -oP "3.[0-9]{1,}.[0-9]{1,}" | tail -1)
+  - pyenv global ${PYTHON3_VERSION}
 
 install:
-  - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
-  - pip3 install --user cchardet xld_logchecker eac_logchecker
+  - if [[ $PREFER_LOWEST != 1 ]]; then travis_retry composer update --no-interaction --prefer-dist; fi
+  - if [[ $PREFER_LOWEST == 1 ]]; then travis_retry composer update --no-interaction --prefer-dist --prefer-lowest; fi
+  - if [[ $LINT != 1 ]]; then pip3 install --user cchardet xld_logchecker eac_logchecker; fi
 
 script:
-  - composer run lint
-  - composer run static-analysis
-  - composer run test
-  - bin/logchecker --version
-  - bin/logchecker list
-  - bin/logchecker analyze tests/logs/wgdbcm.log
-  - bin/logchecker analyze tests/logs/xld_perfect.log
+  - if [[ $LINT == 1 ]]; then composer run lint; fi
+  - if [[ $LINT == 1 ]]; then composer run static-analysis; fi
+  - if [[ $LINT != 1 ]]; then composer run test; fi
+  - if [[ $LINT != 1 ]]; then bin/logchecker --version; fi
 
 before_deploy:
   - rm -rf vendor
-  - composer install --no-dev
+  - composer install --no-dev --optimize-autoloader
   - php -d phar.readonly=0 bin/compile
 
 deploy:
