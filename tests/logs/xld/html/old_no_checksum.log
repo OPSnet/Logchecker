@@ -1,0 +1,363 @@
+X Lossless Decoder version <span class="log1">20100711</span> (<span class="log1">120.5</span>)
+
+<span class='good'>XLD extraction logfile from <span class='log5'>2010-08-03 11:28:51 -0500</span></span>
+
+<span class="log4">Various Artists / The Catalogue of Télépopmusik</span>
+
+<span class="log5">Used Drive </span>: <span class="good">ATAPI eHAU424   A (revision 7L1P)</span>
+
+<span class="log5">Use cdparanoia mode     </span>: <span class="good">YES (CDParanoia III 10.2 engine)</span>
+<span class="log5">Disable audio cache     </span>: <span class="good">OK for the drive with cache less than 2750KB</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">NO</span>
+<span class="log5">Read offset correction  </span>: <span class="good">6</span>
+<span class="log5">Max retry count         </span>: <span class="goodish">100</span>
+<span class="log5">Gap status              </span>: <span class="good">Analyzed, Appended</span>
+
+<span class="log4 log5">TOC of the extracted CD</span>
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong> <span class="log1">00:00:00</span> <strong>|</strong> <span class="log1">01:50:23</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>     <span class="log1">8272</span>   
+        <span class="log4">2</span>  <strong>|</strong> <span class="log1">01:50:23</span> <strong>|</strong> <span class="log1">02:59:46</span> <strong>|</strong>      <span class="log1">8273</span>    <strong>|</strong>    <span class="log1">21743</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">04:49:69</span> <strong>|</strong> <span class="log1">02:09:46</span> <strong>|</strong>     <span class="log1">21744</span>    <strong>|</strong>    <span class="log1">31464</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">06:59:40</span> <strong>|</strong> <span class="log1">02:59:70</span> <strong>|</strong>     <span class="log1">31465</span>    <strong>|</strong>    <span class="log1">44959</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">09:59:35</span> <strong>|</strong> <span class="log1">05:10:22</span> <strong>|</strong>     <span class="log1">44960</span>    <strong>|</strong>    <span class="log1">68231</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">15:09:57</span> <strong>|</strong> <span class="log1">03:42:55</span> <strong>|</strong>     <span class="log1">68232</span>    <strong>|</strong>    <span class="log1">84936</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">18:52:37</span> <strong>|</strong> <span class="log1">02:45:03</span> <strong>|</strong>     <span class="log1">84937</span>    <strong>|</strong>    <span class="log1">97314</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">21:37:40</span> <strong>|</strong> <span class="log1">04:57:67</span> <strong>|</strong>     <span class="log1">97315</span>    <strong>|</strong>   <span class="log1">119656</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">26:35:32</span> <strong>|</strong> <span class="log1">04:17:55</span> <strong>|</strong>    <span class="log1">119657</span>    <strong>|</strong>   <span class="log1">138986</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">30:53:12</span> <strong>|</strong> <span class="log1">02:35:50</span> <strong>|</strong>    <span class="log1">138987</span>    <strong>|</strong>   <span class="log1">150661</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">33:28:62</span> <strong>|</strong> <span class="log1">04:30:65</span> <strong>|</strong>    <span class="log1">150662</span>    <strong>|</strong>   <span class="log1">170976</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">37:59:52</span> <strong>|</strong> <span class="log1">04:46:72</span> <strong>|</strong>    <span class="log1">170977</span>    <strong>|</strong>   <span class="log1">192498</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">42:46:49</span> <strong>|</strong> <span class="log1">04:44:21</span> <strong>|</strong>    <span class="log1">192499</span>    <strong>|</strong>   <span class="log1">213819</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">47:30:70</span> <strong>|</strong> <span class="log1">06:54:00</span> <strong>|</strong>    <span class="log1">213820</span>    <strong>|</strong>   <span class="log1">244869</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">54:24:70</span> <strong>|</strong> <span class="log1">03:38:52</span> <strong>|</strong>    <span class="log1">244870</span>    <strong>|</strong>   <span class="log1">261271</span>   
+       <span class="log4">16</span>  <strong>|</strong> <span class="log1">58:03:47</span> <strong>|</strong> <span class="log1">02:19:00</span> <strong>|</strong>    <span class="log1">261272</span>    <strong>|</strong>   <span class="log1">271696</span>   
+
+<span class="log5">All Tracks</span>
+<strong>    Album gain             : <span class="log3">-7.05 dB</span>
+    Peak                   : <span class="log3">1.000000</span></strong>
+
+<span class="log5">Track</span> <span class="log4 log1">01</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/01 - Le Mystère des voix bulgares - Ei Mori Roujke (2003) [CD - FLAC].flac</span></span>
+
+    <span class="log4">Pre-gap length : <span class="log3">00:02:00</span></span>
+
+<strong>    Track gain             : <span class="log3">-7.65 dB</span>
+    Peak                   : <span class="log3">0.925537</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">8A8617C3</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">8A8617C3</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> B370AA71</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">BE5DB5C4</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">02</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/02 - Pixies - Bone Machine (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-10.52 dB</span>
+    Peak                   : <span class="log3">1.000000</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">393F38D3</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">393F38D3</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> 6990C753</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">5B2EE1C5</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">03</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/03 - Orly - Construction #1 (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-9.09 dB</span>
+    Peak                   : <span class="log3">0.829041</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">8AA85A7E</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">8AA85A7E</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> A95E9D1F</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">4D06194F</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">04</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/04 - Yma Sumac - Ataypura (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-4.85 dB</span>
+    Peak                   : <span class="log3">1.000000</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">8062DA3B</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">8062DA3B</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> 32B36DEB</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">C4BAED2D</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">05</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/05 - Terranova - Bombing Bastards (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-7.63 dB</span>
+    Peak                   : <span class="log3">0.993073</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">CF68EF09</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">CF68EF09</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> A0946EB1</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">0E4C4D09</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">06</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/06 - Seelenluft - Manilla (Headman mix) (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-6.64 dB</span>
+    Peak                   : <span class="log3">0.942017</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">BB4D10A7</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">BB4D10A7</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> 4C46A161</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">C560037E</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="badish">1</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="badish">1</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">07</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/07 - ESG - Moody (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-7.66 dB</span>
+    Peak                   : <span class="log3">0.992676</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">085D2517</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">085D2517</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> FDD38564</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">A9714F04</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">08</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/08 - Bobby Konders - Nervous Acid (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-5.90 dB</span>
+    Peak                   : <span class="log3">1.000000</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">982A8B80</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">982A8B80</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> DB1102FE</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">14715CDA</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">09</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/09 - Squarepusher - Plaistow Flex Out (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-4.90 dB</span>
+    Peak                   : <span class="log3">1.000000</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">D26063B1</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">D26063B1</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> 15E03332</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">C6993247</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/10 - Yes - The Fish (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-5.33 dB</span>
+    Peak                   : <span class="log3">1.000000</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">AEFF1468</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">AEFF1468</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> 874DF328</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">C277504C</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/11 - Lali Puna - Scary World Theory (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-5.92 dB</span>
+    Peak                   : <span class="log3">0.977234</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">29CE1774</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">29CE1774</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> A1C263EE</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">12C9C6CA</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/12 - múm - Green Grass of Tunnel (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-6.15 dB</span>
+    Peak                   : <span class="log3">1.000000</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">C0056A75</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">C0056A75</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> BEAF29CC</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">DBF39716</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/13 - Swimmingpool - Diver (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-7.37 dB</span>
+    Peak                   : <span class="log3">0.981689</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">0E010137</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">0E010137</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> 1E953B01</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">F778404A</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/14 - Superpitcher - Tomorrow (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-5.80 dB</span>
+    Peak                   : <span class="log3">0.999969</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">90ABAF71</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">90ABAF71</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> 699470CF</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">FA98392B</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">15</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/15 - Vincent Gallo - Yes I'm Lonely (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-4.38 dB</span>
+    Peak                   : <span class="log3">0.984009</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">C4D50F71</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">C4D50F71</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> BE1CA1DD</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">61E407F1</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">16</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/16 - Chet Baker - My Funny Valentine (2003) [CD - FLAC].flac</span></span>
+
+<strong>    Track gain             : <span class="log3">-1.79 dB</span>
+    Peak                   : <span class="log3">0.919250</span></strong>
+    <span class="log4">CRC32 hash (test run)  : <span class="good">8C6C38FF</span></span>
+     <span class="log4">CRC32 hash             : <span class="good">8C6C38FF</span></span>
+    <span class="log4">CRC32 hash (skip zero) :<span class="log3"> 941A262D</span></span>
+    <span class="log4">AccurateRip signature  : <span class="badish">20750117</span></span>
+        -><span class="badish"><span class="badish">Track not present in AccurateRip database</span></span>.
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Skipped (treated as error)           :</span> <span class="good">0</span>
+        <span class="log4">Edge jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Atom jitter error (maybe fixed)      :</span> <span class="goodish">0</span>
+        <span class="log4">Drift error (maybe fixed)            :</span> <span class="goodish">0</span>
+        <span class="log4">Dropped bytes error (maybe fixed)    :</span> <span class="goodish">0</span>
+        <span class="log4">Duplicated bytes error (maybe fixed) :</span> <span class="goodish">0</span>
+        <span class="log4">Inconsistency in error sectors       :</span> <span class="good">0</span>
+
+<span class="good">No errors occurred</span>
+<span class="good">End of status report</span>

@@ -7,6 +7,7 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\Output;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class AnalyzeCommand extends Command
@@ -18,9 +19,9 @@ class AnalyzeCommand extends Command
             ->setAliases(['analyse'])
             ->setDescription('analyze log file')
             ->setHelp('This command analyzes a log file')
-            ->addOption('output', null, InputOption::VALUE_NONE, 'Print the HTML log text')
-            ->addOption('out', 'file', InputOption::VALUE_REQUIRED, 'File to write HTML log text to')
-            ->addArgument('file', InputArgument::REQUIRED, 'Log file to analyze');
+            ->addOption('html', null, InputOption::VALUE_NONE, 'Print the HTML version of log, without color')
+            ->addArgument('file', InputArgument::REQUIRED, 'Log file to analyze')
+            ->addArgument('out_file', InputArgument::OPTIONAL, 'Write HTML log to outfile');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -34,8 +35,15 @@ class AnalyzeCommand extends Command
         $logchecker = new Logchecker();
         $logchecker->newFile($filename);
         $logchecker->parse();
+
+        if ($input->getArgument('out_file')) {
+            file_put_contents($input->getArgument('out_file'), $logchecker->getLog());
+            return 0;
+        }
+
         $output->writeln('Ripper  : ' . $logchecker->getRipper());
-        $output->writeln('Version : ' . $logchecker->getVersion());
+        $output->writeln('Version : ' . $logchecker->getRipperVersion());
+        $output->writeln('Language: ' . $logchecker->getLanguage());
         $output->writeln('Score   : ' . $logchecker->getScore());
         $output->writeln('Checksum: ' . $logchecker->getChecksumState());
 
@@ -47,68 +55,33 @@ class AnalyzeCommand extends Command
             }
         }
 
-        if ($input->getOption('output')) {
-            $output->writeln('');
-            $output->writeln('Log Text:');
-            $output->writeln($logchecker->getLog());
+        $output->writeln('');
+        $output->writeln('Log Text:');
+        $output->writeln('');
+        $replaces = [
+            "</span>" => "</>",
+            "</strong>" => "</>",
+            "<span class='good'>" => "<fg=green;options=bold>",
+            "<span class='bad'>" => "<fg=red;options=bold>",
+            "<span class='goodish'>" => "<fg=cyan;options=bold>",
+            "<span class='badish'>" => "<fg=yellow;options=bold>",
+            "<span class='log1'>" => "<options=underscore>",
+            "<span class='log2'>" => "<fg=yellow>",
+            "<span class='log3'>" => "<fg=blue>",
+            "<span class='log4'>" => "<options=bold>",
+            "<span class='log5'>" => "<options=underscore>",
+            "<span class='log4 log1'>" => "<options=bold>",
+            "<span class='log4 log3'>" => "<fg=blue;options=bold>",
+            "<span class='log4 log5'>" => "<options=bold,underscore>",
+            "<strong>" => "<options=bold>",
+        ];
+        $log = preg_replace('/<span class="([a-zA-Z0-9 ]+)">/', "<span class='$1'>", $logchecker->getLog());
+
+        if (!$input->getOption('html')) {
+            $log = str_replace(array_keys($replaces), array_values($replaces), $log);
         }
 
-        if ($input->getOption('out')) {
-            $html_out = <<<HTML
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Test</title>
-    <meta charset="utf-8"/>
-    <style>
-.log1 {
-
-}
-
-.log2 {
-	color: yellow;
-}
-
-.log3 {
-	color: #0E88C6;
-}
-
-.log4 {
- 	font-weight: bold;
-}
-
-.log5 {
- 	text-decoration: underline;
-}
-
-.good {
-	font-weight: bold;
-	color: green;
-}
-
-.bad {
-	font-weight: bold;
-	color: red;
-}
-
-.goodish {
-	font-weight: bold;
-	color: #35BF00;
-}
-
-.badish {
-	font-weight: bold;
-	color: #E5B244;
-}
-    </style>
-</head>
-<body>
-<pre>{$logchecker->getLog()}</pre>
-</body>
-</html>
-HTML;
-            file_put_contents($input->getOption('out'), $html_out);
-        }
+        $output->writeln($log, $input->getOption('html') ? Output::OUTPUT_RAW : Output::OUTPUT_NORMAL);
 
         return 0;
     }

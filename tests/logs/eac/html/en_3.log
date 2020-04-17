@@ -1,0 +1,266 @@
+Exact Audio Copy <span class="log1">V1.0 beta 3</span> from <span class="log1">29. August 2011</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>4. September 2013, 9:58</span></span>
+
+<span class="log4">Craig G / This Is Now</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">hp      DVDRAM GT80N   Adapter: 1  ID: 1</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="bad">No</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">102</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="badish">Yes</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "ALBUM ARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=EAC V1.0 beta 2, Secure Mode, Test & Copy, AccurateRip, FLAC -8" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:53.15</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">17489</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:53.15</span> <strong>|</strong>  <span class="log1">3:19.45</span> <strong>|</strong>     <span class="log1">17490</span>    <strong>|</strong>    <span class="log1">32459</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">7:12.60</span> <strong>|</strong>  <span class="log1">3:23.49</span> <strong>|</strong>     <span class="log1">32460</span>    <strong>|</strong>    <span class="log1">47733</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">10:36.34</span> <strong>|</strong>  <span class="log1">4:12.69</span> <strong>|</strong>     <span class="log1">47734</span>    <strong>|</strong>    <span class="log1">66702</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">14:49.28</span> <strong>|</strong>  <span class="log1">3:53.49</span> <strong>|</strong>     <span class="log1">66703</span>    <strong>|</strong>    <span class="log1">84226</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">18:43.02</span> <strong>|</strong>  <span class="log1">1:32.69</span> <strong>|</strong>     <span class="log1">84227</span>    <strong>|</strong>    <span class="log1">91195</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">20:15.71</span> <strong>|</strong>  <span class="log1">3:19.61</span> <strong>|</strong>     <span class="log1">91196</span>    <strong>|</strong>   <span class="log1">106181</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">23:35.57</span> <strong>|</strong>  <span class="log1">3:42.37</span> <strong>|</strong>    <span class="log1">106182</span>    <strong>|</strong>   <span class="log1">122868</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">27:18.19</span> <strong>|</strong>  <span class="log1">3:43.54</span> <strong>|</strong>    <span class="log1">122869</span>    <strong>|</strong>   <span class="log1">139647</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">31:01.73</span> <strong>|</strong>  <span class="log1">1:07.42</span> <strong>|</strong>    <span class="log1">139648</span>    <strong>|</strong>   <span class="log1">144714</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">32:09.40</span> <strong>|</strong>  <span class="log1">4:17.37</span> <strong>|</strong>    <span class="log1">144715</span>    <strong>|</strong>   <span class="log1">164026</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">36:27.02</span> <strong>|</strong>  <span class="log1">2:14.24</span> <strong>|</strong>    <span class="log1">164027</span>    <strong>|</strong>   <span class="log1">174100</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">38:41.26</span> <strong>|</strong>  <span class="log1">3:56.57</span> <strong>|</strong>    <span class="log1">174101</span>    <strong>|</strong>   <span class="log1">191857</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">42:38.08</span> <strong>|</strong>  <span class="log1">4:54.72</span> <strong>|</strong>    <span class="log1">191858</span>    <strong>|</strong>   <span class="log1">213979</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">47:33.05</span> <strong>|</strong>  <span class="log1">2:35.69</span> <strong>|</strong>    <span class="log1">213980</span>    <strong>|</strong>   <span class="log1">225673</span>   
+       <span class="log4">16</span>  <strong>|</strong> <span class="log1">50:08.74</span> <strong>|</strong>  <span class="log1">3:37.24</span> <strong>|</strong>    <span class="log1">225674</span>    <strong>|</strong>   <span class="log1">241972</span>   
+       <span class="log4">17</span>  <strong>|</strong> <span class="log1">53:46.23</span> <strong>|</strong>  <span class="log1">5:43.39</span> <strong>|</strong>    <span class="log1">241973</span>    <strong>|</strong>   <span class="log1">267736</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\01. Dont Care Who We Bang.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.2 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D47293B1</span></span>
+     <span class="log4">Copy CRC <span class="good">D47293B1</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\02. Wrong Chick.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">28214808</span></span>
+     <span class="log4">Copy CRC <span class="good">28214808</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\03. Ready Set Begin.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">AC755FEC</span></span>
+     <span class="log4">Copy CRC <span class="good">AC755FEC</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\04. Place Ya Bets.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">483D4B3E</span></span>
+     <span class="log4">Copy CRC <span class="good">483D4B3E</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\05. Now Thats Whats Up Ft. Mr Cheeks.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">CF7F073B</span></span>
+     <span class="log4">Copy CRC <span class="good">CF7F073B</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\06. Words From Warbucks.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">193620BE</span></span>
+     <span class="log4">Copy CRC <span class="good">193620BE</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\07. Stomped.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">9C4F60C4</span></span>
+     <span class="log4">Copy CRC <span class="good">9C4F60C4</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\08. Lets Get Up.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">BFC17856</span></span>
+     <span class="log4">Copy CRC <span class="good">BFC17856</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\09. Damn This Day.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">AAF0C407</span></span>
+     <span class="log4">Copy CRC <span class="good">AAF0C407</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\10. Frostbit Ft. Will Pack.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D659DD9C</span></span>
+     <span class="log4">Copy CRC <span class="good">D659DD9C</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\11. Love Is Love Ft. Large Professor.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">2B3101C4</span></span>
+     <span class="log4">Copy CRC <span class="good">2B3101C4</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\12. Dribble Or Shoot Ft. The Human Orchestra & Afu-Ra.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">EBE3CADA</span></span>
+     <span class="log4">Copy CRC <span class="good">EBE3CADA</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\13. Do It Over Again.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DB45C18E</span></span>
+     <span class="log4">Copy CRC <span class="good">DB45C18E</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\14. Make You Say Yes Ft. Krumbsnatcha.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">E24D8E01</span></span>
+     <span class="log4">Copy CRC <span class="good">E24D8E01</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">15</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\15. Executioner Song.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D6BA949F</span></span>
+     <span class="log4">Copy CRC <span class="good">D6BA949F</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">16</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\16. Say What Ya Want.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">9434E968</span></span>
+     <span class="log4">Copy CRC <span class="good">9434E968</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">17</span>
+
+     <span class="log4">Filename <span class="log3">E:\Музыка\Craig G - 2003 - This Is Now [FLAC (tracks+.cue)]\17. Freestyle Bonus.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B053EAF6</span></span>
+     <span class="log4">Copy CRC <span class="good">B053EAF6</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="badish">None of the tracks are present in the AccurateRip database</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+<span class='good'>==== Log checksum 33173B15EE385AAC092906F47B48F1BC93CDBAA79163036A00280DDE7BB71C05 ====</span>

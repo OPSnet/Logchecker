@@ -1,0 +1,195 @@
+Exact Audio Copy <span class="log1">V1.0 beta 6</span> from <span class="log1">9. April 2015</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>8. August 2015, 13:37</span></span>
+
+<span class="log4">Yodelice / Tree Of Life</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">ATAPI   iHBS112   2   Adapter: 1  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">D:\tools\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "artist=%artist%" -T "title=%title%" -T "album=%albumtitle%" -T "date=%year%" -T 
+"tracknumber=%tracknr%" -T "genre=%genre%" %source% </span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:28.24</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">15623</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:28.24</span> <strong>|</strong>  <span class="log1">2:17.07</span> <strong>|</strong>     <span class="log1">15624</span>    <strong>|</strong>    <span class="log1">25905</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">5:45.31</span> <strong>|</strong>  <span class="log1">3:19.29</span> <strong>|</strong>     <span class="log1">25906</span>    <strong>|</strong>    <span class="log1">40859</span>   
+        <span class="log4">4</span>  <strong>|</strong>  <span class="log1">9:04.60</span> <strong>|</strong>  <span class="log1">3:24.55</span> <strong>|</strong>     <span class="log1">40860</span>    <strong>|</strong>    <span class="log1">56214</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">12:29.40</span> <strong>|</strong>  <span class="log1">6:15.06</span> <strong>|</strong>     <span class="log1">56215</span>    <strong>|</strong>    <span class="log1">84345</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">18:44.46</span> <strong>|</strong>  <span class="log1">3:36.33</span> <strong>|</strong>     <span class="log1">84346</span>    <strong>|</strong>   <span class="log1">100578</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">22:21.04</span> <strong>|</strong>  <span class="log1">2:32.62</span> <strong>|</strong>    <span class="log1">100579</span>    <strong>|</strong>   <span class="log1">112040</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">24:53.66</span> <strong>|</strong>  <span class="log1">4:34.33</span> <strong>|</strong>    <span class="log1">112041</span>    <strong>|</strong>   <span class="log1">132623</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">29:28.24</span> <strong>|</strong>  <span class="log1">5:27.01</span> <strong>|</strong>    <span class="log1">132624</span>    <strong>|</strong>   <span class="log1">157149</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">34:55.25</span> <strong>|</strong>  <span class="log1">8:30.24</span> <strong>|</strong>    <span class="log1">157150</span>    <strong>|</strong>   <span class="log1">195423</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">45:57.49</span> <strong>|</strong>  <span class="log1">6:38.47</span> <strong>|</strong>    <span class="log1">206824</span>    <strong>|</strong>   <span class="log1">236720</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\01 - Insanity.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">1EF66348</span></span>
+     <span class="log4">Copy CRC <span class="good">1EF66348</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [004E3092]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\02 - Sunday With A Flu.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">71615FF3</span></span>
+     <span class="log4">Copy CRC <span class="good">71615FF3</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [5916945E]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\03 - Free.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F65EC17D</span></span>
+     <span class="log4">Copy CRC <span class="good">F65EC17D</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [0B8088F5]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\04 - Alone.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.3 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">214F5FAD</span></span>
+     <span class="log4">Copy CRC <span class="good">214F5FAD</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [ADEF7B22]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\05 - The Other Side.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.34</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">E7CCFCC4</span></span>
+     <span class="log4">Copy CRC <span class="good">E7CCFCC4</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [070757DE]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\06 - Cloud Nine.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.2 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">3B6FA615</span></span>
+     <span class="log4">Copy CRC <span class="good">3B6FA615</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [AF0D1BE5]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\07 - Emergency.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4B2A3377</span></span>
+     <span class="log4">Copy CRC <span class="good">4B2A3377</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [4A405438]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\08 - Noise.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.2 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">9BC461DC</span></span>
+     <span class="log4">Copy CRC <span class="good">9BC461DC</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [721222DB]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\09 - Safe And Scarred.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">5382BE5B</span></span>
+     <span class="log4">Copy CRC <span class="good">5382BE5B</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [B960D358]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">D:\rip\Yodelice - Tree Of Life (2009) [FLAC]\10 - Shadow Boxing , Tree Of Life.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">2EE196E0</span></span>
+     <span class="log4">Copy CRC <span class="good">2EE196E0</span></span>
+     <span class="good">Accurately ripped (confidence 21)  [F926989A]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: p8nYUBevlOL08ObRrnhXkprSTiA-] found
+Submit result: p8nYUBevlOL08ObRrnhXkprSTiA- has been confirmed
+Track | CTDB Status
+  1   | (47/48) Accurately ripped
+  2   | (47/48) Accurately ripped
+  3   | (46/48) Accurately ripped
+  4   | (47/48) Accurately ripped
+  5   | (47/48) Accurately ripped
+  6   | (48/48) Accurately ripped
+  7   | (47/48) Accurately ripped, or (1/48) differs in 16378 samples @00:00:51-00:00:65
+  8   | (47/48) Accurately ripped
+  9   | (47/48) Accurately ripped
+ 10   | (47/48) Accurately ripped
+
+<span class='good'>==== Log checksum 194A665D4FC58576E529CEFA842AEFC2EAB88282816426306756D69F47690BF8 ====</span>

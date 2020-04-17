@@ -1,0 +1,209 @@
+Exact Audio Copy V0.99 prebeta 5 from 4. May 2009
+
+EAC extraction logfile from 14. August 2009, 13:49
+
+Hayden / The Closer I Get
+
+Used drive  : HL-DT-STDVDRAM GSA-4084N   Adapter: 0  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 667
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 128 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files\Exact Audio Copy\Flac\flac.exe
+Additional command line options : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s  
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  3:45.27 |         0    |    16901   
+        2  |  3:45.27 |  2:45.73 |     16902    |    29349   
+        3  |  6:31.25 |  2:43.40 |     29350    |    41614   
+        4  |  9:14.65 |  5:08.57 |     41615    |    64771   
+        5  | 14:23.47 |  2:41.30 |     64772    |    76876   
+        6  | 17:05.02 |  5:11.00 |     76877    |   100201   
+        7  | 22:16.02 |  2:07.33 |    100202    |   109759   
+        8  | 24:23.35 |  3:01.50 |    109760    |   123384   
+        9  | 27:25.10 |  2:22.60 |    123385    |   134094   
+       10  | 29:47.70 |  3:37.05 |    134095    |   150374   
+       11  | 33:25.00 |  2:47.60 |    150375    |   162959   
+       12  | 36:12.60 |  5:40.30 |    162960    |   188489   
+       13  | 41:53.15 |  3:41.27 |    188490    |   205091   
+
+
+Track  1
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\01. The Closer I Get.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 12DF04E5
+     Copy CRC 12DF04E5
+     Accurately ripped (confidence 7)  [CAC0E58F]
+     Copy OK
+
+Track  2
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\02. Stride.wav
+
+     Peak level 95.6 %
+     Track quality 100.0 %
+     Test CRC 9DEC242B
+     Copy CRC 9DEC242B
+     Accurately ripped (confidence 7)  [C10521AF]
+     Copy OK
+
+Track  3
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\03. The Hazards of Sitting Beneath Palm Trees.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 7FAD07F2
+     Copy CRC 7FAD07F2
+     Accurately ripped (confidence 7)  [08F1AF2B]
+     Copy OK
+
+Track  4
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\04. Bullet.wav
+
+     Pre-gap length  0:00:00.70
+
+     Peak level 92.6 %
+     Track quality 100.0 %
+     Test CRC D98B2B86
+     Copy CRC D98B2B86
+     Accurately ripped (confidence 7)  [E9C315BD]
+     Copy OK
+
+Track  5
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\05. Waiting for a Chance to See Her.wav
+
+     Peak level 99.8 %
+     Track quality 100.0 %
+     Test CRC DB666604
+     Copy CRC DB666604
+     Accurately ripped (confidence 7)  [8D6BB2FE]
+     Copy OK
+
+Track  6
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\06. Two Doors.wav
+
+     Pre-gap length  0:00:02.42
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC A5CE6E4E
+     Copy CRC A5CE6E4E
+     Accurately ripped (confidence 7)  [73BD1172]
+     Copy OK
+
+Track  7
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\07. Between Us to Hold.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 84B91DE9
+     Copy CRC 84B91DE9
+     Accurately ripped (confidence 7)  [F4B42375]
+     Copy OK
+
+Track  8
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\08. Better Off Inside.wav
+
+     Pre-gap length  0:00:02.86
+
+     Peak level 84.3 %
+     Track quality 99.9 %
+     Test CRC D68C3624
+     Copy CRC D68C3624
+     Accurately ripped (confidence 7)  [337F38EC]
+     Copy OK
+
+Track  9
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\09. Instrumental With Mellotron.wav
+
+     Peak level 99.8 %
+     Track quality 99.8 %
+     Test CRC 1164FFD3
+     Copy CRC 1164FFD3
+     Accurately ripped (confidence 7)  [C75095F4]
+     Copy OK
+
+Track 10
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\10. Memphis.wav
+
+     Pre-gap length  0:00:00.90
+
+     Peak level 99.8 %
+     Track quality 100.0 %
+     Test CRC 9421AEBA
+     Copy CRC 9421AEBA
+     Accurately ripped (confidence 7)  [CB5D04AA]
+     Copy OK
+
+Track 11
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\11. Nights Like These.wav
+
+     Peak level 71.1 %
+     Track quality 100.0 %
+     Test CRC 01D0ABB2
+     Copy CRC 01D0ABB2
+     Accurately ripped (confidence 7)  [4B3B094B]
+     Copy OK
+
+Track 12
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\12. You Are All I Have.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC F50763E4
+     Copy CRC F50763E4
+     Accurately ripped (confidence 7)  [B8D04A8A]
+     Copy OK
+
+Track 13
+
+     Filename F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\13. I'll Tell Him Tonight.wav
+
+     Pre-gap length  0:00:24.97
+
+     Peak level 62.2 %
+     Track quality 100.0 %
+     Test CRC 3BDFF085
+     Copy CRC 3BDFF085
+     Accurately ripped (confidence 7)  [A90878B1]
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report

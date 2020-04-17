@@ -1,0 +1,417 @@
+X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1">151.1</span>)
+
+<span class='good'>XLD extraction logfile from <span class='log5'>2018-12-19 06:29:54 -0800</span></span>
+
+<span class="log4">Michael Jackson / The Definitive Collection</span>
+
+<span class="log5">Used Drive </span>: <span class="good">PIONEER BD-RW   BDR-XD05 (revision 3.10)</span>
+<span class="log5">Media type </span>: <span class="good">Pressed CD</span>
+
+<span class="log5">Ripper mode             </span>: <span class="good">XLD Secure Ripper</span>
+<span class="log5">Disable audio cache     </span>: <span class="good">OK for the drive with a cache less than 1375KiB</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">NO</span>
+<span class="log5">Read offset correction  </span>: <span class="good">667</span>
+<span class="log5">Max retry count         </span>: <span class="goodish">100</span>
+<span class="log5">Gap status              </span>: <span class="good">Analyzed, Appended (except HTOA)</span>
+
+<span class="log4 log5">TOC of the extracted CD</span>
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong> <span class="log1">00:00:00</span> <strong>|</strong> <span class="log1">02:59:58</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">13482</span>   
+        <span class="log4">2</span>  <strong>|</strong> <span class="log1">02:59:58</span> <strong>|</strong> <span class="log1">02:58:29</span> <strong>|</strong>     <span class="log1">13483</span>    <strong>|</strong>    <span class="log1">26861</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">05:58:12</span> <strong>|</strong> <span class="log1">03:04:11</span> <strong>|</strong>     <span class="log1">26862</span>    <strong>|</strong>    <span class="log1">40672</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">09:02:23</span> <strong>|</strong> <span class="log1">03:57:27</span> <strong>|</strong>     <span class="log1">40673</span>    <strong>|</strong>    <span class="log1">58474</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">12:59:50</span> <strong>|</strong> <span class="log1">03:00:55</span> <strong>|</strong>     <span class="log1">58475</span>    <strong>|</strong>    <span class="log1">72029</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">16:00:30</span> <strong>|</strong> <span class="log1">04:46:07</span> <strong>|</strong>     <span class="log1">72030</span>    <strong>|</strong>    <span class="log1">93486</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">20:46:37</span> <strong>|</strong> <span class="log1">03:24:12</span> <strong>|</strong>     <span class="log1">93487</span>    <strong>|</strong>   <span class="log1">108798</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">24:10:49</span> <strong>|</strong> <span class="log1">02:32:73</span> <strong>|</strong>    <span class="log1">108799</span>    <strong>|</strong>   <span class="log1">120271</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">26:43:47</span> <strong>|</strong> <span class="log1">03:00:33</span> <strong>|</strong>    <span class="log1">120272</span>    <strong>|</strong>   <span class="log1">133804</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">29:44:05</span> <strong>|</strong> <span class="log1">04:11:10</span> <strong>|</strong>    <span class="log1">133805</span>    <strong>|</strong>   <span class="log1">152639</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">33:55:15</span> <strong>|</strong> <span class="log1">02:45:45</span> <strong>|</strong>    <span class="log1">152640</span>    <strong>|</strong>   <span class="log1">165059</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">36:40:60</span> <strong>|</strong> <span class="log1">03:33:31</span> <strong>|</strong>    <span class="log1">165060</span>    <strong>|</strong>   <span class="log1">181065</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">40:14:16</span> <strong>|</strong> <span class="log1">04:14:32</span> <strong>|</strong>    <span class="log1">181066</span>    <strong>|</strong>   <span class="log1">200147</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">44:28:48</span> <strong>|</strong> <span class="log1">03:45:47</span> <strong>|</strong>    <span class="log1">200148</span>    <strong>|</strong>   <span class="log1">217069</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">48:14:20</span> <strong>|</strong> <span class="log1">02:37:31</span> <strong>|</strong>    <span class="log1">217070</span>    <strong>|</strong>   <span class="log1">228875</span>   
+       <span class="log4">16</span>  <strong>|</strong> <span class="log1">50:51:51</span> <strong>|</strong> <span class="log1">03:13:08</span> <strong>|</strong>    <span class="log1">228876</span>    <strong>|</strong>   <span class="log1">243358</span>   
+       <span class="log4">17</span>  <strong>|</strong> <span class="log1">54:04:59</span> <strong>|</strong> <span class="log1">03:42:40</span> <strong>|</strong>    <span class="log1">243359</span>    <strong>|</strong>   <span class="log1">260048</span>   
+       <span class="log4">18</span>  <strong>|</strong> <span class="log1">57:47:24</span> <strong>|</strong> <span class="log1">04:01:21</span> <strong>|</strong>    <span class="log1">260049</span>    <strong>|</strong>   <span class="log1">278144</span>   
+       <span class="log4">19</span>  <strong>|</strong> <span class="log1">61:48:45</span> <strong>|</strong> <span class="log1">03:54:69</span> <strong>|</strong>    <span class="log1">278145</span>    <strong>|</strong>   <span class="log1">295763</span>   
+
+<span class="log4 log5">AccurateRip Summary</span> (DiscID: 002c194f-026ce8a3-030f6713)
+    Track 01 : OK (v1+v2, confidence 47/47)
+    Track 02 : OK (v1+v2, confidence 47/47)
+    Track 03 : OK (v1+v2, confidence 46/46)
+    Track 04 : OK (v1+v2, confidence 48/48)
+    Track 05 : OK (v1+v2, confidence 44/44)
+    Track 06 : OK (v1+v2, confidence 46/46)
+    Track 07 : OK (v1+v2, confidence 47/47)
+    Track 08 : OK (v1+v2, confidence 47/47)
+    Track 09 : OK (v1+v2, confidence 46/46)
+    Track 10 : OK (v1+v2, confidence 46/46)
+    Track 11 : OK (v1+v2, confidence 47/47)
+    Track 12 : OK (v1+v2, confidence 44/44)
+    Track 13 : OK (v1+v2, confidence 46/46)
+    Track 14 : OK (v1+v2, confidence 43/43)
+    Track 15 : OK (v1+v2, confidence 43/43)
+    Track 16 : OK (v1+v2, confidence 44/44)
+    Track 17 : OK (v1+v2, confidence 42/42)
+    Track 18 : OK (v1+v2, confidence 40/40)
+    Track 19 : OK (v1+v2, confidence 40/42)
+        -><span class="good">All tracks accurately ripped.</span>
+
+<span class="log5">All Tracks</span>
+<strong>    Album gain               : <span class="log3">-7.74 dB</span>
+    Peak                     : <span class="log3">0.999969</span></strong>
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">01</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/01 I Want You Back.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:02:00</span></span>
+
+<strong>    Track gain               : <span class="log3">-8.56 dB</span>
+    Peak                     : <span class="log3">0.804657</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">F9CC7C54</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">F9CC7C54</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 6EA7583D</span></span>
+    AccurateRip v1 signature : 5D6A4B49
+    AccurateRip v2 signature : 470506A9
+        ->Accurately ripped (v1+v2, confidence 16+31/47)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">02</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/02 ABC.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:07</span></span>
+
+<strong>    Track gain               : <span class="log3">-8.78 dB</span>
+    Peak                     : <span class="log3">0.824738</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">9B3FB020</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">9B3FB020</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 35BE1021</span></span>
+    AccurateRip v1 signature : 4C732EC8
+    AccurateRip v2 signature : 920E5BC1
+        ->Accurately ripped (v1+v2, confidence 16+31/47)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">03</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/03 The Love You Save.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:02</span></span>
+
+<strong>    Track gain               : <span class="log3">-9.77 dB</span>
+    Peak                     : <span class="log3">0.894470</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">AB984779</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">AB984779</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 398A192D</span></span>
+    AccurateRip v1 signature : 549F414D
+    AccurateRip v2 signature : 8391F85F
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">04</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/04 I'll Be There.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:06</span></span>
+
+<strong>    Track gain               : <span class="log3">-8.08 dB</span>
+    Peak                     : <span class="log3">0.826508</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">1C923F04</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">1C923F04</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 3AEE71BF</span></span>
+    AccurateRip v1 signature : E99F2DAF
+    AccurateRip v2 signature : 4CB045EC
+        ->Accurately ripped (v1+v2, confidence 17+31/48)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">05</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/05 Never Can Say Goodbye.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:05</span></span>
+
+<strong>    Track gain               : <span class="log3">-8.75 dB</span>
+    Peak                     : <span class="log3">0.837921</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">6A8E1F96</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">6A8E1F96</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 10B73897</span></span>
+    AccurateRip v1 signature : 7E0B5D32
+    AccurateRip v2 signature : 6DEDD996
+        ->Accurately ripped (v1+v2, confidence 15+29/44)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">06</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/06 Maybe Tomorrow.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:06</span></span>
+
+<strong>    Track gain               : <span class="log3">-9.09 dB</span>
+    Peak                     : <span class="log3">0.862854</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">7DC15DAD</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">7DC15DAD</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 4B612C8E</span></span>
+    AccurateRip v1 signature : 0EFCE34C
+    AccurateRip v2 signature : 4AD766A4
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">07</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/07 Got to Be There.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:08</span></span>
+
+<strong>    Track gain               : <span class="log3">-4.72 dB</span>
+    Peak                     : <span class="log3">0.999969</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">78ACBB34</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">78ACBB34</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 481E8C1B</span></span>
+    AccurateRip v1 signature : 318F2357
+    AccurateRip v2 signature : 4D33E100
+        ->Accurately ripped (v1+v2, confidence 15+32/47)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">08</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/08 Rockin' Robin.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:07</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.70 dB</span>
+    Peak                     : <span class="log3">0.920288</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">26466E09</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">26466E09</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 0A3E778B</span></span>
+    AccurateRip v1 signature : 458C8CFB
+    AccurateRip v2 signature : 9B325F0A
+        ->Accurately ripped (v1+v2, confidence 15+32/47)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">09</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/09 I Wanna Be Where You Are.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:04</span></span>
+
+<strong>    Track gain               : <span class="log3">-7.55 dB</span>
+    Peak                     : <span class="log3">0.880646</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">EEEF5987</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">EEEF5987</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 4757A73D</span></span>
+    AccurateRip v1 signature : ADBAAF78
+    AccurateRip v2 signature : FD59930E
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/10 Ain't No Sunshine.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:09</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.82 dB</span>
+    Peak                     : <span class="log3">0.966095</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">352419E8</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">352419E8</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 09490B8C</span></span>
+    AccurateRip v1 signature : 9147FD39
+    AccurateRip v2 signature : 96E3AA66
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/11 Ben.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:04</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.32 dB</span>
+    Peak                     : <span class="log3">0.829559</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">1C7A039F</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">1C7A039F</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> D03E1C4F</span></span>
+    AccurateRip v1 signature : 1DCAFDA8
+    AccurateRip v2 signature : 9CB58FE7
+        ->Accurately ripped (v1+v2, confidence 15+32/47)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/12 With a Child's Heart.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:06</span></span>
+
+<strong>    Track gain               : <span class="log3">-5.80 dB</span>
+    Peak                     : <span class="log3">0.881287</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">20B19C65</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">20B19C65</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> E67944CB</span></span>
+    AccurateRip v1 signature : C15ACFE9
+    AccurateRip v2 signature : C3B096E0
+        ->Accurately ripped (v1+v2, confidence 14+30/44)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/13 One Day in Your Life.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:06</span></span>
+
+<strong>    Track gain               : <span class="log3">-7.70 dB</span>
+    Peak                     : <span class="log3">0.907715</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">084E4300</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">084E4300</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> D82711B2</span></span>
+    AccurateRip v1 signature : F7EA5ABC
+    AccurateRip v2 signature : 519DBDCD
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/14 We're Almost There.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:09</span></span>
+
+<strong>    Track gain               : <span class="log3">-7.78 dB</span>
+    Peak                     : <span class="log3">0.915222</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">75D40298</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">75D40298</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> A77C74AF</span></span>
+    AccurateRip v1 signature : 75259D8B
+    AccurateRip v2 signature : EB6826C2
+        ->Accurately ripped (v1+v2, confidence 14+29/43)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">15</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/15 Dancing Machine.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:06</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.89 dB</span>
+    Peak                     : <span class="log3">0.856598</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">25E6D372</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">25E6D372</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> B7036D36</span></span>
+    AccurateRip v1 signature : 1A001345
+    AccurateRip v2 signature : D6F0505E
+        ->Accurately ripped (v1+v2, confidence 14+29/43)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">16</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/16 Just a Little Bit of You.flac</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.94 dB</span>
+    Peak                     : <span class="log3">0.903748</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">2900F8B3</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">2900F8B3</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 26C18FD1</span></span>
+    AccurateRip v1 signature : E2A61DCA
+    AccurateRip v2 signature : 18383583
+        ->Accurately ripped (v1+v2, confidence 14+30/44)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">17</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/17 Farewell My Summer Love.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:06</span></span>
+
+<strong>    Track gain               : <span class="log3">-7.50 dB</span>
+    Peak                     : <span class="log3">0.826080</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">E4CAC9BB</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">E4CAC9BB</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> E046A7C0</span></span>
+    AccurateRip v1 signature : 9E353BE0
+    AccurateRip v2 signature : 1F3C9FC6
+        ->Accurately ripped (v1+v2, confidence 13+29/42)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">18</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/18 Who's Lovin' You.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:07</span></span>
+
+<strong>    Track gain               : <span class="log3">-8.55 dB</span>
+    Peak                     : <span class="log3">0.812531</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">C636A32C</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">C636A32C</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 4EC70E8E</span></span>
+    AccurateRip v1 signature : 901DF9CD
+    AccurateRip v2 signature : 447E7B89
+        ->Accurately ripped (v1+v2, confidence 13+27/40)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">19</span>
+    <span class="log4">Filename <span class="log3">: /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/19 I'll Be There (Minus mix).flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:07</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.90 dB</span>
+    Peak                     : <span class="log3">0.852905</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">FFC31B33</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">FFC31B33</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 9A9DB814</span></span>
+    AccurateRip v1 signature : CFAB3788
+    AccurateRip v2 signature : 506B4187
+        ->Accurately ripped (v1+v2, confidence 12+28/42)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+<span class='good'>-----BEGIN XLD SIGNATURE-----
+qeJi_C.wHmx2GPQ0Rpep5ff_U_RrqEKKALO9q8pZxuU1d48IiMzGEIr4ZAy0GiqDUuf_LYnxy39VacGr45lsmbLRALuzaTQMgtG.bKy
+-----END XLD SIGNATURE-----</span>

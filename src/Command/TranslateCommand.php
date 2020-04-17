@@ -17,7 +17,7 @@ class TranslateCommand extends Command
             ->setName('translate')
             ->setDescription('Translates a log into english')
             ->setHelp("Translates a log into english")
-            ->addOption('language', 'l', InputOption::VALUE_OPTIONAL, 'Force language to use')
+            ->addOption('language', 'l', InputOption::VALUE_REQUIRED, 'Force language to use')
             ->addArgument('file', InputArgument::REQUIRED, 'Log file to decode')
             ->addArgument('out_file', InputArgument::OPTIONAL, 'File to write decoded log file to');
     }
@@ -35,6 +35,7 @@ class TranslateCommand extends Command
         if (!is_null($outFile)) {
             $output->setVerbosity(OutputInterface::VERBOSITY_QUIET);
         }
+
         if ($input->getOption('language')) {
             $code = $input->getOption('language');
             $output->writeln("Translating from {$code} to English");
@@ -44,7 +45,7 @@ class TranslateCommand extends Command
             $output->writeln("Translating from {$language['name']} ({$language['name_english']}) to English");
         }
 
-        $log = Translator::translate($log, $language['code']);
+        $log = Translator::translate($log, $code);
 
         if (!is_null($outFile)) {
             file_put_contents($outFile, $log);

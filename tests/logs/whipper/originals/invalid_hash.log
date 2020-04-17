@@ -1,0 +1,383 @@
+Log created by: whipper 0.7.4.dev76+g57d386e (internal logger)
+Log creation date: 2019-07-09T19:42:59Z
+
+Ripping phase information:
+  Drive: PLEXTOR DVDR   PX-755A   (revision 1.08)
+  Extraction engine: cdparanoia III 10.2 libcdio 2.1.0 x86_64-pc-linux-gnu
+  Defeat audio cache: true
+  Read offset correction: +30
+  Overread into lead-out: false
+  Gap detection: cdrdao 1.2.4
+  CD-R detected: false
+
+CD metadata:
+  Release: Not on Tour - Growing Pains
+  CDDB Disc ID: c2058d11
+  MusicBrainz Disc ID: wXcMD4BGh8KcpBCxKY.mfAfc_EY-
+  MusicBrainz lookup URL: https://musicbrainz.org/cdtoc/attach?toc=1+17+106728+150+3925+9277+16387+21784+25586+29978+38641+46232+53717+61295+69578+74287+81846+87404+93044+99777&tracks=17&id=wXcMD4BGh8KcpBCxKY.mfAfc_EY-
+  MusicBrainz Release URL: https://musicbrainz.org/release/a985c281-25e4-4533-9db8-e4de5d450d8a
+
+TOC:
+  1:
+    Start: 00:00:00
+    Length: 00:50:25
+    Start sector: 0
+    End sector: 3774
+
+  2:
+    Start: 00:50:25
+    Length: 01:11:27
+    Start sector: 3775
+    End sector: 9126
+
+  3:
+    Start: 02:01:52
+    Length: 01:34:60
+    Start sector: 9127
+    End sector: 16236
+
+  4:
+    Start: 03:36:37
+    Length: 01:11:72
+    Start sector: 16237
+    End sector: 21633
+
+  5:
+    Start: 04:48:34
+    Length: 00:50:52
+    Start sector: 21634
+    End sector: 25435
+
+  6:
+    Start: 05:39:11
+    Length: 00:58:42
+    Start sector: 25436
+    End sector: 29827
+
+  7:
+    Start: 06:37:53
+    Length: 01:55:38
+    Start sector: 29828
+    End sector: 38490
+
+  8:
+    Start: 08:33:16
+    Length: 01:41:16
+    Start sector: 38491
+    End sector: 46081
+
+  9:
+    Start: 10:14:32
+    Length: 01:39:60
+    Start sector: 46082
+    End sector: 53566
+
+  10:
+    Start: 11:54:17
+    Length: 01:41:03
+    Start sector: 53567
+    End sector: 61144
+
+  11:
+    Start: 13:35:20
+    Length: 01:50:33
+    Start sector: 61145
+    End sector: 69427
+
+  12:
+    Start: 15:25:53
+    Length: 01:02:59
+    Start sector: 69428
+    End sector: 74136
+
+  13:
+    Start: 16:28:37
+    Length: 01:40:59
+    Start sector: 74137
+    End sector: 81695
+
+  14:
+    Start: 18:09:21
+    Length: 01:14:08
+    Start sector: 81696
+    End sector: 87253
+
+  15:
+    Start: 19:23:29
+    Length: 01:15:15
+    Start sector: 87254
+    End sector: 92893
+
+  16:
+    Start: 20:38:44
+    Length: 01:29:58
+    Start sector: 92894
+    End sector: 99626
+
+  17:
+    Start: 22:08:27
+    Length: 01:32:51
+    Start sector: 99627
+    End sector: 106577
+
+Tracks:
+  1:
+    Filename: ./album/Not on Tour - Growing Pains/01. Not on Tour - Daddy.flac
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 2.8 X
+    Extraction quality: 100.00 %
+    Test CRC: 4A11920F
+    Copy CRC: 4A11920F
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  2:
+    Filename: ./album/Not on Tour - Growing Pains/02. Not on Tour - Fantasy World.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.2 X
+    Extraction quality: 100.00 %
+    Test CRC: FB110A07
+    Copy CRC: FB110A07
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  3:
+    Filename: ./album/Not on Tour - Growing Pains/03. Not on Tour - Lost and Found.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.3 X
+    Extraction quality: 100.00 %
+    Test CRC: 097A6B65
+    Copy CRC: 097A6B65
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  4:
+    Filename: ./album/Not on Tour - Growing Pains/04. Not on Tour - Growing Pains.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.2 X
+    Extraction quality: 100.00 %
+    Test CRC: B42661CD
+    Copy CRC: B42661CD
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  5:
+    Filename: ./album/Not on Tour - Growing Pains/05. Not on Tour - N.O.T Funny.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 2.8 X
+    Extraction quality: 100.00 %
+    Test CRC: 7BCBAB32
+    Copy CRC: 7BCBAB32
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  6:
+    Filename: ./album/Not on Tour - Growing Pains/06. Not on Tour - Cute.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.2 X
+    Extraction quality: 100.00 %
+    Test CRC: 862B47E3
+    Copy CRC: 862B47E3
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  7:
+    Filename: ./album/Not on Tour - Growing Pains/07. Not on Tour - Saw It Coming.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.3 X
+    Extraction quality: 100.00 %
+    Test CRC: A6DC7D23
+    Copy CRC: A6DC7D23
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  8:
+    Filename: ./album/Not on Tour - Growing Pains/08. Not on Tour - Therapy.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.3 X
+    Extraction quality: 100.00 %
+    Test CRC: 9FA35D6F
+    Copy CRC: 9FA35D6F
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  9:
+    Filename: ./album/Not on Tour - Growing Pains/09. Not on Tour - Witch Hunt.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.2 X
+    Extraction quality: 100.00 %
+    Test CRC: 4ACD3A60
+    Copy CRC: 4ACD3A60
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  10:
+    Filename: ./album/Not on Tour - Growing Pains/10. Not on Tour - The Distance.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.3 X
+    Extraction quality: 100.00 %
+    Test CRC: B1062E0C
+    Copy CRC: B1062E0C
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  11:
+    Filename: ./album/Not on Tour - Growing Pains/11. Not on Tour - Run For It.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.4 X
+    Extraction quality: 100.00 %
+    Test CRC: 6A5E026D
+    Copy CRC: 6A5E026D
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  12:
+    Filename: ./album/Not on Tour - Growing Pains/12. Not on Tour - Try Trust.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.1 X
+    Extraction quality: 100.00 %
+    Test CRC: 596AD234
+    Copy CRC: 596AD234
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  13:
+    Filename: ./album/Not on Tour - Growing Pains/13. Not on Tour - Call It Freedom.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.2 X
+    Extraction quality: 100.00 %
+    Test CRC: C05E902B
+    Copy CRC: C05E902B
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  14:
+    Filename: ./album/Not on Tour - Growing Pains/14. Not on Tour - Fears Come True.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.3 X
+    Extraction quality: 100.00 %
+    Test CRC: E7C5BBDB
+    Copy CRC: E7C5BBDB
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  15:
+    Filename: ./album/Not on Tour - Growing Pains/15. Not on Tour - Outta My Head.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.3 X
+    Extraction quality: 100.00 %
+    Test CRC: EB5A3E41
+    Copy CRC: EB5A3E41
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  16:
+    Filename: ./album/Not on Tour - Growing Pains/16. Not on Tour - Sign.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.3 X
+    Extraction quality: 100.00 %
+    Test CRC: ED475001
+    Copy CRC: ED475001
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+  17:
+    Filename: ./album/Not on Tour - Growing Pains/17. Not on Tour - Waste Your Time With Me.flac
+    Pre-gap length: 00:02:00
+    Peak level: 1.000000
+    Pre-emphasis: false
+    Extraction speed: 3.5 X
+    Extraction quality: 100.00 %
+    Test CRC: DFDD20E0
+    Copy CRC: DFDD20E0
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Track not present in AccurateRip database
+    Status: Copy OK
+
+Conclusive status report:
+  AccurateRip summary: None of the tracks are present in the AccurateRip database
+  Health status: No errors occurred
+  EOF: End of status report
+
+SHA-256 hash: INVALID

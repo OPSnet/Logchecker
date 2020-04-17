@@ -12,6 +12,7 @@ php:
   - 7.1
   - 7.2
   - 7.3
+  - 7.4
   - nightly
 
 matrix:
@@ -26,15 +27,20 @@ before_install:
 
 install:
   - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
-  - pip3 install --user chardet xld_logchecker eac_logchecker
+  - pip3 install --user cchardet xld_logchecker eac_logchecker
 
 script:
+  - composer run lint
+  - composer run static-analysis
+  - composer run test
   - bin/logchecker --version
-  - bin/logchecker --help
+  - bin/logchecker list
   - bin/logchecker analyze tests/logs/wgdbcm.log
   - bin/logchecker analyze tests/logs/xld_perfect.log
 
 before_deploy:
+  - rm -rf vendor
+  - composer install --no-dev
   - php -d phar.readonly=0 bin/compile
 
 deploy:

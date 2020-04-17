@@ -1,0 +1,195 @@
+Exact Audio Copy <span class="log1">V0.99 prebeta 4</span> from <span class="log1">23. January 2008</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>5. March 2008, 12:41</span></span>
+
+<span class="log4">Thrushes / Sun Come Undone</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STDVDRAM GSA-4167B   Adapter: 0  ID: 0</span>
+
+<span class="log5">Read mode             </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream     </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers        </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                 </span>: <span class="good">667</span>
+<span class="log5">Overread into Lead-In and Lead-Out                 </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence        </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations   </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                        </span>: <span class="log4">Installed external ASPI interface</span>
+<span class="log5">Gap handling                    </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format                 </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                         </span>: <span class="log4">128 kBit/s</span>
+<span class="log5">Quality                                 </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                          </span>: <span class="good">No</span>
+<span class="log5">Command line compressor </span>: <span class="log4">C:\Program Files\Exact Audio Copy\Codecs\flac.exe</span>
+<span class="log5">Additional command line options                     </span>: <span class="log4">-V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T 
+"genre=%m" %s</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |  Start |   Length  | Start sector | End sector </strong>
+    <strong>-----------------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:24.04</span> <strong>|</strong>           <span class="log1">0</span>      <strong>|</strong>      <span class="log1">15303</span>     
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:24.04</span> <strong>|</strong>  <span class="log1">4:17.21</span> <strong>|</strong>       <span class="log1">15304</span>      <strong>|</strong>      <span class="log1">34599</span>     
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">7:41.25</span> <strong>|</strong>  <span class="log1">4:43.67</span> <strong>|</strong>       <span class="log1">34600</span>      <strong>|</strong>      <span class="log1">55891</span>     
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">12:25.17</span> <strong>|</strong>  <span class="log1">2:43.71</span> <strong>|</strong>       <span class="log1">55892</span>      <strong>|</strong>      <span class="log1">68187</span>     
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">15:09.13</span> <strong>|</strong>  <span class="log1">3:30.54</span> <strong>|</strong>       <span class="log1">68188</span>      <strong>|</strong>      <span class="log1">83991</span>     
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">18:39.67</span> <strong>|</strong>  <span class="log1">3:46.46</span> <strong>|</strong>       <span class="log1">83992</span>      <strong>|</strong>     <span class="log1">100987</span>     
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">22:26.38</span> <strong>|</strong>  <span class="log1">3:09.52</span> <strong>|</strong>      <span class="log1">100988</span>      <strong>|</strong>     <span class="log1">115214</span>     
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">25:36.15</span> <strong>|</strong>  <span class="log1">2:42.43</span> <strong>|</strong>      <span class="log1">115215</span>      <strong>|</strong>     <span class="log1">127407</span>     
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">28:18.58</span> <strong>|</strong>  <span class="log1">3:32.36</span> <strong>|</strong>      <span class="log1">127408</span>      <strong>|</strong>     <span class="log1">143343</span>     
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">31:51.19</span> <strong>|</strong>  <span class="log1">5:00.25</span> <strong>|</strong>      <span class="log1">143344</span>      <strong>|</strong>     <span class="log1">165868</span>     
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">36:51.44</span> <strong>|</strong>  <span class="log1">4:12.49</span> <strong>|</strong>      <span class="log1">165869</span>      <strong>|</strong>     <span class="log1">184817</span>     
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\01 - Aidan Quinn.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">194F7881</span></span>
+     <span class="log4">Copy CRC <span class="good">194F7881</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\02 - Heartbeats.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">255860D5</span></span>
+     <span class="log4">Copy CRC <span class="good">255860D5</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\03 - Loyalty.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">295CED49</span></span>
+     <span class="log4">Copy CRC <span class="good">295CED49</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\04 - Into The Woods.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D71CC2CA</span></span>
+     <span class="log4">Copy CRC <span class="good">D71CC2CA</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\05 - Flying.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.53</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DD185584</span></span>
+     <span class="log4">Copy CRC <span class="good">DD185584</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\06 - Ghost Train.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.26</span></span>
+
+     <span class="log4">Peak level <span class="log3">95.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">6819C157</span></span>
+     <span class="log4">Copy CRC <span class="good">6819C157</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\07 - Halloween.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.40</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">91F94B3C</span></span>
+     <span class="log4">Copy CRC <span class="good">91F94B3C</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\08 - Now Years Kiss.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.53</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">6F05A831</span></span>
+     <span class="log4">Copy CRC <span class="good">6F05A831</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\09 - Wake Up.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.53</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">FB3C9F81</span></span>
+     <span class="log4">Copy CRC <span class="good">FB3C9F81</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\10 - Roy.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.40</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">AD3E1644</span></span>
+     <span class="log4">Copy CRC <span class="good">AD3E1644</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\Ripping\11 - The Hardest Part.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">1A1C92A3</span></span>
+     <span class="log4">Copy CRC <span class="good">1A1C92A3</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="badish">None of the tracks are present in the AccurateRip database</span>
+
+<span class="good">No errors occurred</span>
+<span class="good">End of status report</span>

@@ -1,0 +1,147 @@
+EAC extraction logfile from 6. March 2007, 19:59 for CD
+Hijack the terrorist group / The Horns of Jericho
+
+Used drive  : HL-DT-STDVD-RAM GSA-H20L   Adapter: 2  ID: 0
+Read mode   : Secure with NO C2, accurate stream, disable cache
+Read offset correction : 102
+Overread into Lead-In and Lead-Out : No
+
+Used output format : C:\Programme\Exact Audio Copy\flac.exe   (User Defined Encoder)
+                     128 kBit/s
+                     Additional command line options : -8 -A tukey(0.25) -A gauss(0.1875) -b 4096 -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s --sector-align
+
+Other options      : 
+    Fill up missing offset samples with silence : Yes
+    Delete leading and trailing silent blocks : No
+    Installed external ASPI interface
+
+
+Track  1
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\01 - Hijack the terrorist group - Intro , Phantom of the Opera.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 99.4 %
+     Track quality 99.9 %
+     Test CRC 55A13DC8
+     Copy CRC 55A13DC8
+     Copy OK
+
+Track  2
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\02 - Hijack the terrorist group - The Syndicate Outta Jail.wav
+
+     Peak level 100.0 %
+     Track quality 99.9 %
+     Test CRC 905EA1F7
+     Copy CRC 905EA1F7
+     Copy OK
+
+Track  3
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\03 - Hijack the terrorist group - Daddy Rich (Part 1).wav
+
+     Peak level 99.0 %
+     Track quality 100.0 %
+     Test CRC C6686648
+     Copy CRC C6686648
+     Copy OK
+
+Track  4
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\04 - Hijack the terrorist group - Back to Brixton.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC B7271123
+     Copy CRC B7271123
+     Copy OK
+
+Track  5
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\05 - Hijack the terrorist group - Airwave Hijack (Part 1).wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 8D602E9E
+     Copy CRC 8D602E9E
+     Copy OK
+
+Track  6
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\06 - Hijack the terrorist group - Hijack the Terrorist Group.wav
+
+     Pre-gap length  0:00:01.53
+
+     Peak level 99.4 %
+     Track quality 100.0 %
+     Test CRC F8E38C25
+     Copy CRC F8E38C25
+     Copy OK
+
+Track  7
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\07 - Hijack the terrorist group - The Badman is Robbin.wav
+
+     Peak level 84.8 %
+     Track quality 99.9 %
+     Test CRC D0ACE574
+     Copy CRC D0ACE574
+     Copy OK
+
+Track  8
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\08 - Hijack the terrorist group - I Had To Serve You.wav
+
+     Peak level 99.9 %
+     Track quality 100.0 %
+     Test CRC 89F591B0
+     Copy CRC 89F591B0
+     Copy OK
+
+Track  9
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\09 - Hijack the terrorist group - Don't Go With Strangers.wav
+
+     Pre-gap length  0:00:00.80
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 8938C3AE
+     Copy CRC 8938C3AE
+     Copy OK
+
+Track 10
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\10 - Hijack the terrorist group - Brother Versus Brother.wav
+
+     Peak level 99.0 %
+     Track quality 100.0 %
+     Test CRC 0FEAA8C7
+     Copy CRC 0FEAA8C7
+     Copy OK
+
+Track 11
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\11 - Hijack the terrorist group - The Paranoid Schizophrenic With Homicidal Tendencies.wav
+
+     Peak level 99.0 %
+     Track quality 100.0 %
+     Test CRC C639CEB3
+     Copy CRC C639CEB3
+     Copy OK
+
+Track 12
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\12 - Hijack the terrorist group - The Contract.wav
+
+     Peak level 99.5 %
+     Track quality 99.9 %
+     Test CRC 904B0457
+     Copy CRC 904B0457
+     Copy OK
+
+Track 13
+     Filename C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\13 - Hijack the terrorist group - Daddy Rich (Part 2).wav
+
+     Pre-gap length  0:00:01.62
+
+     Peak level 94.3 %
+     Track quality 100.0 %
+     Test CRC 989D6EA4
+     Copy CRC 989D6EA4
+     Copy OK
+
+No errors occured
+
+
+End of status report

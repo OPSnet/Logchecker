@@ -1,0 +1,376 @@
+Log created by: whipper 0.7.3 (internal logger)
+Log creation date: 2019-07-09T08:31:01Z
+
+Ripping phase information:
+  Drive: HL-DT-STBD-RE  WH14NS40  (revision 1.03)
+  Extraction engine: cdparanoia III 10.2 libcdio 2.0.0 x86_64-pc-linux-gnu
+  Defeat audio cache: Yes
+  Read offset correction: +6
+  Overread into lead-out: No
+  Gap detection: cdrdao 1.2.4
+  CD-R detected: No
+
+CD metadata:
+  Album: Various Artists - Shark Tale: Motion Picture Soundtrack
+  CDDB Disc ID: c30bde0d
+  MusicBrainz Disc ID: eyjySLXGdKigAjY3_C0nbBmNUHc-
+  MusicBrainz lookup url: https://musicbrainz.org/cdtoc/attach?toc=1+13+228039+150+16414+33638+51378+69369+88891+104871+121645+138672+160748+178096+194680+212628&tracks=13&id=eyjySLXGdKigAjY3_C0nbBmNUHc-
+
+TOC:
+  1:
+    Start: 00:00:00
+    Length: 03:36:64
+    Start sector: 0
+    End sector: 16263
+
+  2:
+    Start: 03:36:64
+    Length: 03:49:49
+    Start sector: 16264
+    End sector: 33487
+
+  3:
+    Start: 07:26:38
+    Length: 03:56:40
+    Start sector: 33488
+    End sector: 51227
+
+  4:
+    Start: 11:23:03
+    Length: 03:59:66
+    Start sector: 51228
+    End sector: 69218
+
+  5:
+    Start: 15:22:69
+    Length: 04:20:22
+    Start sector: 69219
+    End sector: 88740
+
+  6:
+    Start: 19:43:16
+    Length: 03:33:05
+    Start sector: 88741
+    End sector: 104720
+
+  7:
+    Start: 23:16:21
+    Length: 03:43:49
+    Start sector: 104721
+    End sector: 121494
+
+  8:
+    Start: 26:59:70
+    Length: 03:47:02
+    Start sector: 121495
+    End sector: 138521
+
+  9:
+    Start: 30:46:72
+    Length: 04:54:26
+    Start sector: 138522
+    End sector: 160597
+
+  10:
+    Start: 35:41:23
+    Length: 03:51:23
+    Start sector: 160598
+    End sector: 177945
+
+  11:
+    Start: 39:32:46
+    Length: 03:41:09
+    Start sector: 177946
+    End sector: 194529
+
+  12:
+    Start: 43:13:55
+    Length: 03:59:23
+    Start sector: 194530
+    End sector: 212477
+
+  13:
+    Start: 47:13:03
+    Length: 03:25:36
+    Start sector: 212478
+    End sector: 227888
+
+Tracks:
+  1:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/01. Sean Paul & Ziggy Marley - Three Little Birds.flac
+    Peak level: 0.900360
+    Pre-emphasis: No
+    Extraction speed: 7.0 X
+    Extraction quality: 100.00 %
+    Test CRC: 0025D726
+    Copy CRC: 0025D726
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 95E6A189
+      Remote CRC: 95E6A189
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 11
+      Local CRC: 113FA733
+      Remote CRC: 113FA733
+    Status: Copy OK
+
+  2:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/02. Christina Aguilera feat. Missy Elliott - Car Wash (Shark Tale mix).flac
+    Pre-gap length: 00:00:37
+    Peak level: 0.972351
+    Pre-emphasis: No
+    Extraction speed: 7.7 X
+    Extraction quality: 100.00 %
+    Test CRC: F77C14CB
+    Copy CRC: F77C14CB
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 0B3316DB
+      Remote CRC: 0B3316DB
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: A0AE0E57
+      Remote CRC: A0AE0E57
+    Status: Copy OK
+
+  3:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/03. Justin Timberlake & Timbaland - Good Foot.flac
+    Pre-gap length: 00:00:74
+    Peak level: 0.978210
+    Pre-emphasis: No
+    Extraction speed: 8.7 X
+    Extraction quality: 100.00 %
+    Test CRC: 1BC4FD99
+    Copy CRC: 1BC4FD99
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: D2144D08
+      Remote CRC: D2144D08
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: 8C0D599D
+      Remote CRC: 8C0D599D
+    Status: Copy OK
+
+  4:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/04. JoJo - Secret Love.flac
+    Pre-gap length: 00:00:11
+    Peak level: 0.967712
+    Pre-emphasis: No
+    Extraction speed: 8.9 X
+    Extraction quality: 100.00 %
+    Test CRC: 164C2081
+    Copy CRC: 164C2081
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 304BEB16
+      Remote CRC: 304BEB16
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: 397AC6DA
+      Remote CRC: 397AC6DA
+    Status: Copy OK
+
+  5:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/05. D12 - Lies & Rumors.flac
+    Pre-gap length: 00:00:17
+    Peak level: 0.922211
+    Pre-emphasis: No
+    Extraction speed: 9.7 X
+    Extraction quality: 100.00 %
+    Test CRC: 84D025D5
+    Copy CRC: 84D025D5
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 1052B9CC
+      Remote CRC: 1052B9CC
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: 98064DA6
+      Remote CRC: 98064DA6
+    Status: Copy OK
+
+  6:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/06. Mary J. Blige feat. Will Smith - Got to Be Real.flac
+    Pre-gap length: 00:00:48
+    Peak level: 0.924683
+    Pre-emphasis: No
+    Extraction speed: 10.1 X
+    Extraction quality: 100.00 %
+    Test CRC: 72C98A40
+    Copy CRC: 72C98A40
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 5D42F93B
+      Remote CRC: 5D42F93B
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: EDD81D23
+      Remote CRC: EDD81D23
+    Status: Copy OK
+
+  7:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/07. Avant - Can't Wait.flac
+    Pre-gap length: 00:01:21
+    Peak level: 0.895905
+    Pre-emphasis: No
+    Extraction speed: 10.5 X
+    Extraction quality: 100.00 %
+    Test CRC: 9B02D224
+    Copy CRC: 9B02D224
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 71043F2F
+      Remote CRC: 71043F2F
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: 298BD06A
+      Remote CRC: 298BD06A
+    Status: Copy OK
+
+  8:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/08. Ludacris feat. Bobby V. & Lil' Fate - Gold Digger.flac
+    Pre-gap length: 00:00:36
+    Peak level: 0.960388
+    Pre-emphasis: No
+    Extraction speed: 10.9 X
+    Extraction quality: 100.00 %
+    Test CRC: 3F4B6A70
+    Copy CRC: 3F4B6A70
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 951CD627
+      Remote CRC: 951CD627
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 9
+      Local CRC: A860C237
+      Remote CRC: A860C237
+    Status: Copy OK
+
+  9:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/09. India.Arie - Get It Together.flac
+    Pre-gap length: 00:00:74
+    Peak level: 0.967712
+    Pre-emphasis: No
+    Extraction speed: 11.8 X
+    Extraction quality: 100.00 %
+    Test CRC: 44CD4A3B
+    Copy CRC: 44CD4A3B
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 761B60AF
+      Remote CRC: 761B60AF
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: EADC4FE8
+      Remote CRC: EADC4FE8
+    Status: Copy OK
+
+  10:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/10. Pussycat Dolls - We Went as Far as We Felt Like Going.flac
+    Pre-gap length: 00:00:26
+    Peak level: 0.999725
+    Pre-emphasis: No
+    Extraction speed: 12.1 X
+    Extraction quality: 100.00 %
+    Test CRC: D209C6E9
+    Copy CRC: D209C6E9
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 0BFDBE6E
+      Remote CRC: 0BFDBE6E
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: 5D4F7656
+      Remote CRC: 5D4F7656
+    Status: Copy OK
+
+  11:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/11. fan_3 - Digits.flac
+    Pre-gap length: 00:00:74
+    Peak level: 0.967468
+    Pre-emphasis: No
+    Extraction speed: 11.4 X
+    Extraction quality: 100.00 %
+    Test CRC: 744C8A14
+    Copy CRC: 744C8A14
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: 24B9F027
+      Remote CRC: 24B9F027
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: 5C6C2112
+      Remote CRC: 5C6C2112
+    Status: Copy OK
+
+  12:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/12. Cheryl Lynn - Sweet Kind of Life.flac
+    Pre-gap length: 00:00:74
+    Peak level: 0.999969
+    Pre-emphasis: No
+    Extraction speed: 11.3 X
+    Extraction quality: 100.00 %
+    Test CRC: 4F8B805C
+    Copy CRC: 4F8B805C
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 14
+      Local CRC: D2765DE4
+      Remote CRC: D2765DE4
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: B0323938
+      Remote CRC: B0323938
+    Status: Copy OK
+
+  13:
+    Filename: ./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/13. Hans Zimmer - Some of My Best Friends Are Sharks.flac
+    Pre-gap length: 00:00:74
+    Peak level: 0.986694
+    Pre-emphasis: No
+    Extraction speed: 12.1 X
+    Extraction quality: 100.00 %
+    Test CRC: A6755B8E
+    Copy CRC: A6755B8E
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 13
+      Local CRC: 010845D0
+      Remote CRC: 010845D0
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 10
+      Local CRC: 1131D8D8
+      Remote CRC: 1131D8D8
+    Status: Copy OK
+
+Conclusive status report:
+  AccurateRip summary: All tracks accurately ripped
+  Health status: No errors occurred
+  EOF: End of status report
+
+SHA-256 hash: B2F8ADC2565E83386931E33A3C215FBB766FAEA61AD9977695AAAFC47A81BF8E

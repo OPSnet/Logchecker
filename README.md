@@ -1,6 +1,5 @@
 # Logchecker
 
-
 A CD rip logchecker, used for analyzing the generated logs for any problems that would potentially
 indicate a non-perfect rip was produced. Of course, just because a log doesn't score a perfect 100%
 does not mean that the produced rip isn't bit perfect, it's just less likely. While this library can
@@ -25,7 +24,7 @@ setting up the necessary programs to validate the checksum, see below for the gi
 * [xld_logchecker.py](https://github.com/OPSnet/xld_logchecker.py)
 
 ```bash
-pip3 install chardet eac-logchecker xld-logchecker
+pip3 install cchardet eac-logchecker xld-logchecker
 ```
 
 ## Standalone

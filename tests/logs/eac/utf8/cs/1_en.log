@@ -54,7 +54,7 @@ Track  1
      Track quality 100.0 %
      Test CRC 194F7881
      Copy CRC 194F7881
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track  2
@@ -67,7 +67,7 @@ Track  2
      Track quality 100.0 %
      Test CRC 255860D5
      Copy CRC 255860D5
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track  3
@@ -80,7 +80,7 @@ Track  3
      Track quality 99.9 %
      Test CRC 295CED49
      Copy CRC 295CED49
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track  4
@@ -93,7 +93,7 @@ Track  4
      Track quality 100.0 %
      Test CRC D71CC2CA
      Copy CRC D71CC2CA
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track  5
@@ -106,7 +106,7 @@ Track  5
      Track quality 100.0 %
      Test CRC DD185584
      Copy CRC DD185584
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track  6
@@ -119,7 +119,7 @@ Track  6
      Track quality 100.0 %
      Test CRC 6819C157
      Copy CRC 6819C157
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track  7
@@ -132,7 +132,7 @@ Track  7
      Track quality 100.0 %
      Test CRC 91F94B3C
      Copy CRC 91F94B3C
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track  8
@@ -145,7 +145,7 @@ Track  8
      Track quality 100.0 %
      Test CRC 6F05A831
      Copy CRC 6F05A831
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track  9
@@ -158,7 +158,7 @@ Track  9
      Track quality 100.0 %
      Test CRC FB3C9F81
      Copy CRC FB3C9F81
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track 10
@@ -171,7 +171,7 @@ Track 10
      Track quality 100.0 %
      Test CRC AD3E1644
      Copy CRC AD3E1644
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 Track 11
@@ -184,11 +184,11 @@ Track 11
      Track quality 100.0 %
      Test CRC 1A1C92A3
      Copy CRC 1A1C92A3
-     Track not present in AccurateRip summary database
+     Track not present in AccurateRip database
      Copy OK
 
 
-None of the tracks are present in the AccurateRip summary database
+None of the tracks are present in the AccurateRip database
 
 No errors occurred
 

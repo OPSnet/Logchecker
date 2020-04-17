@@ -1,0 +1,418 @@
+X Lossless Decoder version 20181019 (151.1)
+
+XLD extraction logfile from 2018-12-19 06:29:54 -0800
+
+Michael Jackson / The Definitive Collection
+
+Used drive : PIONEER BD-RW   BDR-XD05 (revision 3.10)
+Media type : Pressed CD
+
+Ripper mode             : XLD Secure Ripper
+Disable audio cache     : OK for the drive with a cache less than 1375KiB
+Make use of C2 pointers : NO
+Read offset correction  : 667
+Max retry count         : 100
+Gap status              : Analyzed, Appended (except HTOA)
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 02:59:58 |         0    |    13482   
+        2  | 02:59:58 | 02:58:29 |     13483    |    26861   
+        3  | 05:58:12 | 03:04:11 |     26862    |    40672   
+        4  | 09:02:23 | 03:57:27 |     40673    |    58474   
+        5  | 12:59:50 | 03:00:55 |     58475    |    72029   
+        6  | 16:00:30 | 04:46:07 |     72030    |    93486   
+        7  | 20:46:37 | 03:24:12 |     93487    |   108798   
+        8  | 24:10:49 | 02:32:73 |    108799    |   120271   
+        9  | 26:43:47 | 03:00:33 |    120272    |   133804   
+       10  | 29:44:05 | 04:11:10 |    133805    |   152639   
+       11  | 33:55:15 | 02:45:45 |    152640    |   165059   
+       12  | 36:40:60 | 03:33:31 |    165060    |   181065   
+       13  | 40:14:16 | 04:14:32 |    181066    |   200147   
+       14  | 44:28:48 | 03:45:47 |    200148    |   217069   
+       15  | 48:14:20 | 02:37:31 |    217070    |   228875   
+       16  | 50:51:51 | 03:13:08 |    228876    |   243358   
+       17  | 54:04:59 | 03:42:40 |    243359    |   260048   
+       18  | 57:47:24 | 04:01:21 |    260049    |   278144   
+       19  | 61:48:45 | 03:54:69 |    278145    |   295763   
+
+AccurateRip Summary (DiscID: 002c194f-026ce8a3-030f6713)
+    Track 01 : OK (v1+v2, confidence 47/47)
+    Track 02 : OK (v1+v2, confidence 47/47)
+    Track 03 : OK (v1+v2, confidence 46/46)
+    Track 04 : OK (v1+v2, confidence 48/48)
+    Track 05 : OK (v1+v2, confidence 44/44)
+    Track 06 : OK (v1+v2, confidence 46/46)
+    Track 07 : OK (v1+v2, confidence 47/47)
+    Track 08 : OK (v1+v2, confidence 47/47)
+    Track 09 : OK (v1+v2, confidence 46/46)
+    Track 10 : OK (v1+v2, confidence 46/46)
+    Track 11 : OK (v1+v2, confidence 47/47)
+    Track 12 : OK (v1+v2, confidence 44/44)
+    Track 13 : OK (v1+v2, confidence 46/46)
+    Track 14 : OK (v1+v2, confidence 43/43)
+    Track 15 : OK (v1+v2, confidence 43/43)
+    Track 16 : OK (v1+v2, confidence 44/44)
+    Track 17 : OK (v1+v2, confidence 42/42)
+    Track 18 : OK (v1+v2, confidence 40/40)
+    Track 19 : OK (v1+v2, confidence 40/42)
+        ->All tracks accurately ripped.
+
+All Tracks
+    Album gain               : -7.74 dB
+    Peak                     : 0.999969
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 01
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/01 I Want You Back.flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -8.56 dB
+    Peak                     : 0.804657
+    CRC32 hash (test run)    : F9CC7C54
+    CRC32 hash               : F9CC7C54
+    CRC32 hash (skip zero)   : 6EA7583D
+    AccurateRip v1 signature : 5D6A4B49
+    AccurateRip v2 signature : 470506A9
+        ->Accurately ripped (v1+v2, confidence 16+31/47)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 02
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/02 ABC.flac
+    Pre-gap length : 00:01:07
+
+    Track gain               : -8.78 dB
+    Peak                     : 0.824738
+    CRC32 hash (test run)    : 9B3FB020
+    CRC32 hash               : 9B3FB020
+    CRC32 hash (skip zero)   : 35BE1021
+    AccurateRip v1 signature : 4C732EC8
+    AccurateRip v2 signature : 920E5BC1
+        ->Accurately ripped (v1+v2, confidence 16+31/47)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 03
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/03 The Love You Save.flac
+    Pre-gap length : 00:01:02
+
+    Track gain               : -9.77 dB
+    Peak                     : 0.894470
+    CRC32 hash (test run)    : AB984779
+    CRC32 hash               : AB984779
+    CRC32 hash (skip zero)   : 398A192D
+    AccurateRip v1 signature : 549F414D
+    AccurateRip v2 signature : 8391F85F
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 04
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/04 I'll Be There.flac
+    Pre-gap length : 00:01:06
+
+    Track gain               : -8.08 dB
+    Peak                     : 0.826508
+    CRC32 hash (test run)    : 1C923F04
+    CRC32 hash               : 1C923F04
+    CRC32 hash (skip zero)   : 3AEE71BF
+    AccurateRip v1 signature : E99F2DAF
+    AccurateRip v2 signature : 4CB045EC
+        ->Accurately ripped (v1+v2, confidence 17+31/48)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 05
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/05 Never Can Say Goodbye.flac
+    Pre-gap length : 00:01:05
+
+    Track gain               : -8.75 dB
+    Peak                     : 0.837921
+    CRC32 hash (test run)    : 6A8E1F96
+    CRC32 hash               : 6A8E1F96
+    CRC32 hash (skip zero)   : 10B73897
+    AccurateRip v1 signature : 7E0B5D32
+    AccurateRip v2 signature : 6DEDD996
+        ->Accurately ripped (v1+v2, confidence 15+29/44)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 06
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/06 Maybe Tomorrow.flac
+    Pre-gap length : 00:01:06
+
+    Track gain               : -9.09 dB
+    Peak                     : 0.862854
+    CRC32 hash (test run)    : 7DC15DAD
+    CRC32 hash               : 7DC15DAD
+    CRC32 hash (skip zero)   : 4B612C8E
+    AccurateRip v1 signature : 0EFCE34C
+    AccurateRip v2 signature : 4AD766A4
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 07
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/07 Got to Be There.flac
+    Pre-gap length : 00:01:08
+
+    Track gain               : -4.72 dB
+    Peak                     : 0.999969
+    CRC32 hash (test run)    : 78ACBB34
+    CRC32 hash               : 78ACBB34
+    CRC32 hash (skip zero)   : 481E8C1B
+    AccurateRip v1 signature : 318F2357
+    AccurateRip v2 signature : 4D33E100
+        ->Accurately ripped (v1+v2, confidence 15+32/47)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 08
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/08 Rockin' Robin.flac
+    Pre-gap length : 00:01:07
+
+    Track gain               : -6.70 dB
+    Peak                     : 0.920288
+    CRC32 hash (test run)    : 26466E09
+    CRC32 hash               : 26466E09
+    CRC32 hash (skip zero)   : 0A3E778B
+    AccurateRip v1 signature : 458C8CFB
+    AccurateRip v2 signature : 9B325F0A
+        ->Accurately ripped (v1+v2, confidence 15+32/47)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 09
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/09 I Wanna Be Where You Are.flac
+    Pre-gap length : 00:01:04
+
+    Track gain               : -7.55 dB
+    Peak                     : 0.880646
+    CRC32 hash (test run)    : EEEF5987
+    CRC32 hash               : EEEF5987
+    CRC32 hash (skip zero)   : 4757A73D
+    AccurateRip v1 signature : ADBAAF78
+    AccurateRip v2 signature : FD59930E
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 10
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/10 Ain't No Sunshine.flac
+    Pre-gap length : 00:01:09
+
+    Track gain               : -6.82 dB
+    Peak                     : 0.966095
+    CRC32 hash (test run)    : 352419E8
+    CRC32 hash               : 352419E8
+    CRC32 hash (skip zero)   : 09490B8C
+    AccurateRip v1 signature : 9147FD39
+    AccurateRip v2 signature : 96E3AA66
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 11
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/11 Ben.flac
+    Pre-gap length : 00:01:04
+
+    Track gain               : -6.32 dB
+    Peak                     : 0.829559
+    CRC32 hash (test run)    : 1C7A039F
+    CRC32 hash               : 1C7A039F
+    CRC32 hash (skip zero)   : D03E1C4F
+    AccurateRip v1 signature : 1DCAFDA8
+    AccurateRip v2 signature : 9CB58FE7
+        ->Accurately ripped (v1+v2, confidence 15+32/47)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 12
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/12 With a Child's Heart.flac
+    Pre-gap length : 00:01:06
+
+    Track gain               : -5.80 dB
+    Peak                     : 0.881287
+    CRC32 hash (test run)    : 20B19C65
+    CRC32 hash               : 20B19C65
+    CRC32 hash (skip zero)   : E67944CB
+    AccurateRip v1 signature : C15ACFE9
+    AccurateRip v2 signature : C3B096E0
+        ->Accurately ripped (v1+v2, confidence 14+30/44)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 13
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/13 One Day in Your Life.flac
+    Pre-gap length : 00:01:06
+
+    Track gain               : -7.70 dB
+    Peak                     : 0.907715
+    CRC32 hash (test run)    : 084E4300
+    CRC32 hash               : 084E4300
+    CRC32 hash (skip zero)   : D82711B2
+    AccurateRip v1 signature : F7EA5ABC
+    AccurateRip v2 signature : 519DBDCD
+        ->Accurately ripped (v1+v2, confidence 15+31/46)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 14
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/14 We're Almost There.flac
+    Pre-gap length : 00:01:09
+
+    Track gain               : -7.78 dB
+    Peak                     : 0.915222
+    CRC32 hash (test run)    : 75D40298
+    CRC32 hash               : 75D40298
+    CRC32 hash (skip zero)   : A77C74AF
+    AccurateRip v1 signature : 75259D8B
+    AccurateRip v2 signature : EB6826C2
+        ->Accurately ripped (v1+v2, confidence 14+29/43)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 15
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/15 Dancing Machine.flac
+    Pre-gap length : 00:01:06
+
+    Track gain               : -6.89 dB
+    Peak                     : 0.856598
+    CRC32 hash (test run)    : 25E6D372
+    CRC32 hash               : 25E6D372
+    CRC32 hash (skip zero)   : B7036D36
+    AccurateRip v1 signature : 1A001345
+    AccurateRip v2 signature : D6F0505E
+        ->Accurately ripped (v1+v2, confidence 14+29/43)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 16
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/16 Just a Little Bit of You.flac
+
+    Track gain               : -6.94 dB
+    Peak                     : 0.903748
+    CRC32 hash (test run)    : 2900F8B3
+    CRC32 hash               : 2900F8B3
+    CRC32 hash (skip zero)   : 26C18FD1
+    AccurateRip v1 signature : E2A61DCA
+    AccurateRip v2 signature : 18383583
+        ->Accurately ripped (v1+v2, confidence 14+30/44)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 17
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/17 Farewell My Summer Love.flac
+    Pre-gap length : 00:01:06
+
+    Track gain               : -7.50 dB
+    Peak                     : 0.826080
+    CRC32 hash (test run)    : E4CAC9BB
+    CRC32 hash               : E4CAC9BB
+    CRC32 hash (skip zero)   : E046A7C0
+    AccurateRip v1 signature : 9E353BE0
+    AccurateRip v2 signature : 1F3C9FC6
+        ->Accurately ripped (v1+v2, confidence 13+29/42)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 18
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/18 Who's Lovin' You.flac
+    Pre-gap length : 00:01:07
+
+    Track gain               : -8.55 dB
+    Peak                     : 0.812531
+    CRC32 hash (test run)    : C636A32C
+    CRC32 hash               : C636A32C
+    CRC32 hash (skip zero)   : 4EC70E8E
+    AccurateRip v1 signature : 901DF9CD
+    AccurateRip v2 signature : 447E7B89
+        ->Accurately ripped (v1+v2, confidence 13+27/40)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 19
+    Filename : /Volumes/Hollywood and Vine/Rips/Michael Jackson - The Definitive Collection (2009) [FLAC]/19 I'll Be There (Minus mix).flac
+    Pre-gap length : 00:01:07
+
+    Track gain               : -6.90 dB
+    Peak                     : 0.852905
+    CRC32 hash (test run)    : FFC31B33
+    CRC32 hash               : FFC31B33
+    CRC32 hash (skip zero)   : 9A9DB814
+    AccurateRip v1 signature : CFAB3788
+    AccurateRip v2 signature : 506B4187
+        ->Accurately ripped (v1+v2, confidence 12+28/42)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+No errors occurred
+
+End of status report
+
+-----BEGIN XLD SIGNATURE-----
+qeJi_C.wHmx2GPQ0Rpep5ff_U_RrqEKKALO9q8pZxuU1d48IiMzGEIr4ZAy0GiqDUuf_LYnxy39VacGr45lsmbLRALuzaTQMgtG.bKy
+-----END XLD SIGNATURE-----

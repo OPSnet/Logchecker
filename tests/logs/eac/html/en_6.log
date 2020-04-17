@@ -1,0 +1,69 @@
+Exact Audio Copy <span class="log1">V1.0 beta 3</span> from <span class="log1">29. August 2011</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>1. June 2014, 12:04</span></span>
+
+<span class="log4">Tears For Fears / Songs From The Big Chair PT-SHM</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">PLEXTOR BD-R  PX-B950SA   Adapter: 6  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+
+<span class="log5">Used output format </span>: <span class="log4">Internal WAV Routines</span>
+<span class="log5">Sample format      </span>: <span class="log4">44.100 Hz; 16 Bit; Stereo</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">6:33.37</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">29511</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">6:33.37</span> <strong>|</strong>  <span class="log1">6:31.65</span> <strong>|</strong>     <span class="log1">29512</span>    <strong>|</strong>    <span class="log1">58901</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">13:05.27</span> <strong>|</strong>  <span class="log1">4:11.23</span> <strong>|</strong>     <span class="log1">58902</span>    <strong>|</strong>    <span class="log1">77749</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">17:16.50</span> <strong>|</strong>  <span class="log1">5:08.47</span> <strong>|</strong>     <span class="log1">77750</span>    <strong>|</strong>   <span class="log1">100896</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">22:25.22</span> <strong>|</strong>  <span class="log1">4:55.08</span> <strong>|</strong>    <span class="log1">100897</span>    <strong>|</strong>   <span class="log1">123029</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">27:20.30</span> <strong>|</strong>  <span class="log1">2:38.30</span> <strong>|</strong>    <span class="log1">123030</span>    <strong>|</strong>   <span class="log1">134909</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">29:58.60</span> <strong>|</strong>  <span class="log1">5:02.32</span> <strong>|</strong>    <span class="log1">134910</span>    <strong>|</strong>   <span class="log1">157591</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">35:01.17</span> <strong>|</strong>  <span class="log1">6:52.40</span> <strong>|</strong>    <span class="log1">157592</span>    <strong>|</strong>   <span class="log1">188531</span>   
+
+
+<span class="bad">Range status and errors</span>
+
+<span class="bad">Selected range</span>
+
+     <span class="log5">Filename</span> <span class="log4 log3">C:\Users\Meijin\Desktop\Lossless Galaxy ALLexxess\Tears For Fears\1985 Songs From The Big Chair (Mini LP PT-SHM Universal Japan 2014)\Tears For Fears - Songs From The Big Chair PT-SHM.wav</span>
+
+     <span class="log4">Peak level <span class="log3">98.3 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.8 X</span></span>
+     <span class="log4">Range quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">38370991</span></span>
+     <span class="log4">Copy CRC <span class="good">38370991</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="good">No errors occurred</span>
+
+ 
+<span class="log4 log5">AccurateRip summary</span>
+ 
+<span class="badish">Track  1  not present in database</span>
+<span class="badish">Track  2  not present in database</span>
+<span class="badish">Track  3  not present in database</span>
+<span class="badish">Track  4  not present in database</span>
+<span class="badish">Track  5  not present in database</span>
+<span class="badish">Track  6  not present in database</span>
+<span class="badish">Track  7  not present in database</span>
+<span class="badish">Track  8  not present in database</span>
+ 
+<span class="badish">None of the tracks are present in the AccurateRip database</span>
+
+<span class="good">End of status report</span>
+<span class='good'>==== Log checksum F413753BAB2A22283F8DF472091C272B4507C6908CC321D6FEA351BDD5D18E43 ====</span>

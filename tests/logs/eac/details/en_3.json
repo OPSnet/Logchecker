@@ -1,0 +1,11 @@
+{
+    "ripper": "EAC",
+    "version": "1.0 beta 3",
+    "language": "en",
+    "score": 89,
+    "checksum": "checksum_ok",
+    "details": [
+        "\"Defeat audio cache\" should be yes (-10 points)",
+        "ID3 tags should not be added to FLAC files - they are mainly for MP3 files. FLACs should have vorbis comments for tags instead. (-1 point)"
+    ]
+}

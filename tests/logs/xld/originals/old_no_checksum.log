@@ -1,0 +1,364 @@
+X Lossless Decoder version 20100711 (120.5)
+
+XLD extraction logfile from 2010-08-03 11:28:51 -0500
+
+Various Artists / The Catalogue of Télépopmusik
+
+Used drive : ATAPI eHAU424   A (revision 7L1P)
+
+Use cdparanoia mode     : YES (CDParanoia III 10.2 engine)
+Disable audio cache     : OK for the drive with cache less than 2750KB
+Make use of C2 pointers : NO
+Read offset correction  : 6
+Max retry count         : 100
+Gap status              : Analyzed, Appended
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 01:50:23 |         0    |     8272   
+        2  | 01:50:23 | 02:59:46 |      8273    |    21743   
+        3  | 04:49:69 | 02:09:46 |     21744    |    31464   
+        4  | 06:59:40 | 02:59:70 |     31465    |    44959   
+        5  | 09:59:35 | 05:10:22 |     44960    |    68231   
+        6  | 15:09:57 | 03:42:55 |     68232    |    84936   
+        7  | 18:52:37 | 02:45:03 |     84937    |    97314   
+        8  | 21:37:40 | 04:57:67 |     97315    |   119656   
+        9  | 26:35:32 | 04:17:55 |    119657    |   138986   
+       10  | 30:53:12 | 02:35:50 |    138987    |   150661   
+       11  | 33:28:62 | 04:30:65 |    150662    |   170976   
+       12  | 37:59:52 | 04:46:72 |    170977    |   192498   
+       13  | 42:46:49 | 04:44:21 |    192499    |   213819   
+       14  | 47:30:70 | 06:54:00 |    213820    |   244869   
+       15  | 54:24:70 | 03:38:52 |    244870    |   261271   
+       16  | 58:03:47 | 02:19:00 |    261272    |   271696   
+
+All Tracks
+    Album gain             : -7.05 dB
+    Peak                   : 1.000000
+
+Track 01
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/01 - Le Mystère des voix bulgares - Ei Mori Roujke (2003) [CD - FLAC].flac
+
+    Pre-gap length : 00:02:00
+
+    Track gain             : -7.65 dB
+    Peak                   : 0.925537
+    CRC32 hash (test run)  : 8A8617C3
+    CRC32 hash             : 8A8617C3
+    CRC32 hash (skip zero) : B370AA71
+    AccurateRip signature  : BE5DB5C4
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 02
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/02 - Pixies - Bone Machine (2003) [CD - FLAC].flac
+
+    Track gain             : -10.52 dB
+    Peak                   : 1.000000
+    CRC32 hash (test run)  : 393F38D3
+    CRC32 hash             : 393F38D3
+    CRC32 hash (skip zero) : 6990C753
+    AccurateRip signature  : 5B2EE1C5
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 03
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/03 - Orly - Construction #1 (2003) [CD - FLAC].flac
+
+    Track gain             : -9.09 dB
+    Peak                   : 0.829041
+    CRC32 hash (test run)  : 8AA85A7E
+    CRC32 hash             : 8AA85A7E
+    CRC32 hash (skip zero) : A95E9D1F
+    AccurateRip signature  : 4D06194F
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 04
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/04 - Yma Sumac - Ataypura (2003) [CD - FLAC].flac
+
+    Track gain             : -4.85 dB
+    Peak                   : 1.000000
+    CRC32 hash (test run)  : 8062DA3B
+    CRC32 hash             : 8062DA3B
+    CRC32 hash (skip zero) : 32B36DEB
+    AccurateRip signature  : C4BAED2D
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 05
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/05 - Terranova - Bombing Bastards (2003) [CD - FLAC].flac
+
+    Track gain             : -7.63 dB
+    Peak                   : 0.993073
+    CRC32 hash (test run)  : CF68EF09
+    CRC32 hash             : CF68EF09
+    CRC32 hash (skip zero) : A0946EB1
+    AccurateRip signature  : 0E4C4D09
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 06
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/06 - Seelenluft - Manilla (Headman mix) (2003) [CD - FLAC].flac
+
+    Track gain             : -6.64 dB
+    Peak                   : 0.942017
+    CRC32 hash (test run)  : BB4D10A7
+    CRC32 hash             : BB4D10A7
+    CRC32 hash (skip zero) : 4C46A161
+    AccurateRip signature  : C560037E
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 1
+        Atom jitter error (maybe fixed)      : 1
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 07
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/07 - ESG - Moody (2003) [CD - FLAC].flac
+
+    Track gain             : -7.66 dB
+    Peak                   : 0.992676
+    CRC32 hash (test run)  : 085D2517
+    CRC32 hash             : 085D2517
+    CRC32 hash (skip zero) : FDD38564
+    AccurateRip signature  : A9714F04
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 08
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/08 - Bobby Konders - Nervous Acid (2003) [CD - FLAC].flac
+
+    Track gain             : -5.90 dB
+    Peak                   : 1.000000
+    CRC32 hash (test run)  : 982A8B80
+    CRC32 hash             : 982A8B80
+    CRC32 hash (skip zero) : DB1102FE
+    AccurateRip signature  : 14715CDA
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 09
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/09 - Squarepusher - Plaistow Flex Out (2003) [CD - FLAC].flac
+
+    Track gain             : -4.90 dB
+    Peak                   : 1.000000
+    CRC32 hash (test run)  : D26063B1
+    CRC32 hash             : D26063B1
+    CRC32 hash (skip zero) : 15E03332
+    AccurateRip signature  : C6993247
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 10
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/10 - Yes - The Fish (2003) [CD - FLAC].flac
+
+    Track gain             : -5.33 dB
+    Peak                   : 1.000000
+    CRC32 hash (test run)  : AEFF1468
+    CRC32 hash             : AEFF1468
+    CRC32 hash (skip zero) : 874DF328
+    AccurateRip signature  : C277504C
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 11
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/11 - Lali Puna - Scary World Theory (2003) [CD - FLAC].flac
+
+    Track gain             : -5.92 dB
+    Peak                   : 0.977234
+    CRC32 hash (test run)  : 29CE1774
+    CRC32 hash             : 29CE1774
+    CRC32 hash (skip zero) : A1C263EE
+    AccurateRip signature  : 12C9C6CA
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 12
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/12 - múm - Green Grass of Tunnel (2003) [CD - FLAC].flac
+
+    Track gain             : -6.15 dB
+    Peak                   : 1.000000
+    CRC32 hash (test run)  : C0056A75
+    CRC32 hash             : C0056A75
+    CRC32 hash (skip zero) : BEAF29CC
+    AccurateRip signature  : DBF39716
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 13
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/13 - Swimmingpool - Diver (2003) [CD - FLAC].flac
+
+    Track gain             : -7.37 dB
+    Peak                   : 0.981689
+    CRC32 hash (test run)  : 0E010137
+    CRC32 hash             : 0E010137
+    CRC32 hash (skip zero) : 1E953B01
+    AccurateRip signature  : F778404A
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 14
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/14 - Superpitcher - Tomorrow (2003) [CD - FLAC].flac
+
+    Track gain             : -5.80 dB
+    Peak                   : 0.999969
+    CRC32 hash (test run)  : 90ABAF71
+    CRC32 hash             : 90ABAF71
+    CRC32 hash (skip zero) : 699470CF
+    AccurateRip signature  : FA98392B
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 15
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/15 - Vincent Gallo - Yes I'm Lonely (2003) [CD - FLAC].flac
+
+    Track gain             : -4.38 dB
+    Peak                   : 0.984009
+    CRC32 hash (test run)  : C4D50F71
+    CRC32 hash             : C4D50F71
+    CRC32 hash (skip zero) : BE1CA1DD
+    AccurateRip signature  : 61E407F1
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+Track 16
+    Filename : /Volumes/1TB_audio/_XLD (FLAC rips)/The Catalogue of Telepopmusik (2003) [CD - FLAC]/16 - Chet Baker - My Funny Valentine (2003) [CD - FLAC].flac
+
+    Track gain             : -1.79 dB
+    Peak                   : 0.919250
+    CRC32 hash (test run)  : 8C6C38FF
+    CRC32 hash             : 8C6C38FF
+    CRC32 hash (skip zero) : 941A262D
+    AccurateRip signature  : 20750117
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Skipped (treated as error)           : 0
+        Edge jitter error (maybe fixed)      : 0
+        Atom jitter error (maybe fixed)      : 0
+        Drift error (maybe fixed)            : 0
+        Dropped bytes error (maybe fixed)    : 0
+        Duplicated bytes error (maybe fixed) : 0
+        Inconsistency in error sectors       : 0
+
+No errors occurred
+
+End of status report

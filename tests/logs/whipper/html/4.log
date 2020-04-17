@@ -1,0 +1,376 @@
+Log created by: <span class='good'>whipper</span> <span class='log1'>0.7.3</span> (internal logger)
+Log creation date: 2019-07-09T08:31:01Z
+
+Ripping phase information:
+  Drive: <span class='good'>HL-DT-STBD-RE  WH14NS40  (revision 1.03)</span>
+  Extraction engine: cdparanoia III 10.2 libcdio 2.0.0 x86_64-pc-linux-gnu
+  Defeat audio cache: <span class='good'>Yes</span>
+  Read offset correction: <span class='good'>+6</span>
+  Overread into lead-out: <span class='log4'>No</span>
+  Gap detection: cdrdao 1.2.4
+  CD-R detected: No
+
+CD metadata:
+  Album: <span class='log4'>Various Artists - Shark Tale: Motion Picture Soundtrack</span>
+  CDDB Disc ID: c30bde0d
+  MusicBrainz Disc ID: eyjySLXGdKigAjY3_C0nbBmNUHc-
+  MusicBrainz lookup url: https://musicbrainz.org/cdtoc/attach?toc=1+13+228039+150+16414+33638+51378+69369+88891+104871+121645+138672+160748+178096+194680+212628&tracks=13&id=eyjySLXGdKigAjY3_C0nbBmNUHc-
+
+TOC:
+  1:
+    Start: <span class='log1'>00:00:00</span>
+    Length: <span class='log1'>03:36:64</span>
+    Start sector: <span class='log1'>0</span>
+    End sector: <span class='log1'>16263</span>
+
+  2:
+    Start: <span class='log1'>03:36:64</span>
+    Length: <span class='log1'>03:49:49</span>
+    Start sector: <span class='log1'>16264</span>
+    End sector: <span class='log1'>33487</span>
+
+  3:
+    Start: <span class='log1'>07:26:38</span>
+    Length: <span class='log1'>03:56:40</span>
+    Start sector: <span class='log1'>33488</span>
+    End sector: <span class='log1'>51227</span>
+
+  4:
+    Start: <span class='log1'>11:23:03</span>
+    Length: <span class='log1'>03:59:66</span>
+    Start sector: <span class='log1'>51228</span>
+    End sector: <span class='log1'>69218</span>
+
+  5:
+    Start: <span class='log1'>15:22:69</span>
+    Length: <span class='log1'>04:20:22</span>
+    Start sector: <span class='log1'>69219</span>
+    End sector: <span class='log1'>88740</span>
+
+  6:
+    Start: <span class='log1'>19:43:16</span>
+    Length: <span class='log1'>03:33:05</span>
+    Start sector: <span class='log1'>88741</span>
+    End sector: <span class='log1'>104720</span>
+
+  7:
+    Start: <span class='log1'>23:16:21</span>
+    Length: <span class='log1'>03:43:49</span>
+    Start sector: <span class='log1'>104721</span>
+    End sector: <span class='log1'>121494</span>
+
+  8:
+    Start: <span class='log1'>26:59:70</span>
+    Length: <span class='log1'>03:47:02</span>
+    Start sector: <span class='log1'>121495</span>
+    End sector: <span class='log1'>138521</span>
+
+  9:
+    Start: <span class='log1'>30:46:72</span>
+    Length: <span class='log1'>04:54:26</span>
+    Start sector: <span class='log1'>138522</span>
+    End sector: <span class='log1'>160597</span>
+
+  10:
+    Start: <span class='log1'>35:41:23</span>
+    Length: <span class='log1'>03:51:23</span>
+    Start sector: <span class='log1'>160598</span>
+    End sector: <span class='log1'>177945</span>
+
+  11:
+    Start: <span class='log1'>39:32:46</span>
+    Length: <span class='log1'>03:41:09</span>
+    Start sector: <span class='log1'>177946</span>
+    End sector: <span class='log1'>194529</span>
+
+  12:
+    Start: <span class='log1'>43:13:55</span>
+    Length: <span class='log1'>03:59:23</span>
+    Start sector: <span class='log1'>194530</span>
+    End sector: <span class='log1'>212477</span>
+
+  13:
+    Start: <span class='log1'>47:13:03</span>
+    Length: <span class='log1'>03:25:36</span>
+    Start sector: <span class='log1'>212478</span>
+    End sector: <span class='log1'>227888</span>
+
+Tracks:
+  1:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/01. Sean Paul & Ziggy Marley - Three Little Birds.flac</span>
+    Peak level: <span class='log3'>0.900360</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>7.0 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>0025D726</span>
+    Copy CRC: <span class='good'>0025D726</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>95E6A189</span>
+      Remote CRC: <span class='goodish'>95E6A189</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 11
+      Local CRC: <span class='goodish'>113FA733</span>
+      Remote CRC: <span class='goodish'>113FA733</span>
+    Status: <span class='good'>Copy OK</span>
+
+  2:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/02. Christina Aguilera feat. Missy Elliott - Car Wash (Shark Tale mix).flac</span>
+    Pre-gap length: <span class='log3'>00:00:37</span>
+    Peak level: <span class='log3'>0.972351</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>7.7 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>F77C14CB</span>
+    Copy CRC: <span class='good'>F77C14CB</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>0B3316DB</span>
+      Remote CRC: <span class='goodish'>0B3316DB</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>A0AE0E57</span>
+      Remote CRC: <span class='goodish'>A0AE0E57</span>
+    Status: <span class='good'>Copy OK</span>
+
+  3:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/03. Justin Timberlake & Timbaland - Good Foot.flac</span>
+    Pre-gap length: <span class='log3'>00:00:74</span>
+    Peak level: <span class='log3'>0.978210</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>8.7 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>1BC4FD99</span>
+    Copy CRC: <span class='good'>1BC4FD99</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>D2144D08</span>
+      Remote CRC: <span class='goodish'>D2144D08</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>8C0D599D</span>
+      Remote CRC: <span class='goodish'>8C0D599D</span>
+    Status: <span class='good'>Copy OK</span>
+
+  4:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/04. JoJo - Secret Love.flac</span>
+    Pre-gap length: <span class='log3'>00:00:11</span>
+    Peak level: <span class='log3'>0.967712</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>8.9 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>164C2081</span>
+    Copy CRC: <span class='good'>164C2081</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>304BEB16</span>
+      Remote CRC: <span class='goodish'>304BEB16</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>397AC6DA</span>
+      Remote CRC: <span class='goodish'>397AC6DA</span>
+    Status: <span class='good'>Copy OK</span>
+
+  5:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/05. D12 - Lies & Rumors.flac</span>
+    Pre-gap length: <span class='log3'>00:00:17</span>
+    Peak level: <span class='log3'>0.922211</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>9.7 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>84D025D5</span>
+    Copy CRC: <span class='good'>84D025D5</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>1052B9CC</span>
+      Remote CRC: <span class='goodish'>1052B9CC</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>98064DA6</span>
+      Remote CRC: <span class='goodish'>98064DA6</span>
+    Status: <span class='good'>Copy OK</span>
+
+  6:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/06. Mary J. Blige feat. Will Smith - Got to Be Real.flac</span>
+    Pre-gap length: <span class='log3'>00:00:48</span>
+    Peak level: <span class='log3'>0.924683</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>10.1 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>72C98A40</span>
+    Copy CRC: <span class='good'>72C98A40</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>5D42F93B</span>
+      Remote CRC: <span class='goodish'>5D42F93B</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>EDD81D23</span>
+      Remote CRC: <span class='goodish'>EDD81D23</span>
+    Status: <span class='good'>Copy OK</span>
+
+  7:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/07. Avant - Can't Wait.flac</span>
+    Pre-gap length: <span class='log3'>00:01:21</span>
+    Peak level: <span class='log3'>0.895905</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>10.5 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>9B02D224</span>
+    Copy CRC: <span class='good'>9B02D224</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>71043F2F</span>
+      Remote CRC: <span class='goodish'>71043F2F</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>298BD06A</span>
+      Remote CRC: <span class='goodish'>298BD06A</span>
+    Status: <span class='good'>Copy OK</span>
+
+  8:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/08. Ludacris feat. Bobby V. & Lil' Fate - Gold Digger.flac</span>
+    Pre-gap length: <span class='log3'>00:00:36</span>
+    Peak level: <span class='log3'>0.960388</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>10.9 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>3F4B6A70</span>
+    Copy CRC: <span class='good'>3F4B6A70</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>951CD627</span>
+      Remote CRC: <span class='goodish'>951CD627</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 9
+      Local CRC: <span class='goodish'>A860C237</span>
+      Remote CRC: <span class='goodish'>A860C237</span>
+    Status: <span class='good'>Copy OK</span>
+
+  9:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/09. India.Arie - Get It Together.flac</span>
+    Pre-gap length: <span class='log3'>00:00:74</span>
+    Peak level: <span class='log3'>0.967712</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>11.8 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>44CD4A3B</span>
+    Copy CRC: <span class='good'>44CD4A3B</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>761B60AF</span>
+      Remote CRC: <span class='goodish'>761B60AF</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>EADC4FE8</span>
+      Remote CRC: <span class='goodish'>EADC4FE8</span>
+    Status: <span class='good'>Copy OK</span>
+
+  10:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/10. Pussycat Dolls - We Went as Far as We Felt Like Going.flac</span>
+    Pre-gap length: <span class='log3'>00:00:26</span>
+    Peak level: <span class='log3'>0.999725</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>12.1 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>D209C6E9</span>
+    Copy CRC: <span class='good'>D209C6E9</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>0BFDBE6E</span>
+      Remote CRC: <span class='goodish'>0BFDBE6E</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>5D4F7656</span>
+      Remote CRC: <span class='goodish'>5D4F7656</span>
+    Status: <span class='good'>Copy OK</span>
+
+  11:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/11. fan_3 - Digits.flac</span>
+    Pre-gap length: <span class='log3'>00:00:74</span>
+    Peak level: <span class='log3'>0.967468</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>11.4 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>744C8A14</span>
+    Copy CRC: <span class='good'>744C8A14</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>24B9F027</span>
+      Remote CRC: <span class='goodish'>24B9F027</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>5C6C2112</span>
+      Remote CRC: <span class='goodish'>5C6C2112</span>
+    Status: <span class='good'>Copy OK</span>
+
+  12:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/12. Cheryl Lynn - Sweet Kind of Life.flac</span>
+    Pre-gap length: <span class='log3'>00:00:74</span>
+    Peak level: <span class='log3'>0.999969</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>11.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>4F8B805C</span>
+    Copy CRC: <span class='good'>4F8B805C</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>D2765DE4</span>
+      Remote CRC: <span class='goodish'>D2765DE4</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>B0323938</span>
+      Remote CRC: <span class='goodish'>B0323938</span>
+    Status: <span class='good'>Copy OK</span>
+
+  13:
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/12. Cheryl Lynn - Sweet Kind of Life.flac</span>
+    Pre-gap length: <span class='log3'>00:00:74</span>
+    Peak level: <span class='log3'>0.999969</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>11.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>4F8B805C</span>
+    Copy CRC: <span class='good'>4F8B805C</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 14
+      Local CRC: <span class='goodish'>D2765DE4</span>
+      Remote CRC: <span class='goodish'>D2765DE4</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 10
+      Local CRC: <span class='goodish'>B0323938</span>
+      Remote CRC: <span class='goodish'>B0323938</span>
+    Status: <span class='good'>Copy OK</span>
+
+Conclusive status report:
+  AccurateRip summary: <span class='good'>All tracks accurately ripped</span>
+  Health status: <span class='good'>No errors occurred</span>
+  EOF: End of status report
+
+SHA-256 hash: <span class='good'>B2F8ADC2565E83386931E33A3C215FBB766FAEA61AD9977695AAAFC47A81BF8E</span>

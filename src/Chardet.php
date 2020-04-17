@@ -5,6 +5,12 @@ namespace OrpheusNET\Logchecker;
 use OrpheusNET\Logchecker\Exception\FileNotFoundException;
 use Symfony\Component\Process\Process;
 
+/**
+ * Wrapper class around the cchardet / chardet executables
+ *
+ * @see https://github.com/PyYoshi/cChardet
+ * @see https://github.com/chardet/chardet
+ */
 class Chardet
 {
     private static $executable = null;
@@ -14,6 +20,12 @@ class Chardet
         'chardet'
     ];
 
+    /**
+     * Construct Chardet class. If no chardet executable is found on the system,
+     * this will throw an exception.
+     *
+     * @throws \RuntimeException
+     */
     public function __construct()
     {
         if (static::$executable === null) {
@@ -30,7 +42,10 @@ class Chardet
         }
     }
 
-    public function analyze($filename)
+    /**
+     * @throws \Exception
+     */
+    public function analyze($filename): array
     {
         if (!file_exists($filename)) {
             throw new FileNotFoundException($filename);
@@ -39,10 +54,15 @@ class Chardet
         $process = new Process([static::$executable, $filename]);
         $process->run();
 
-        // Following regex:
-        //    matches[1] - file path
-        //    matches[2] - charset
-        //    matches[3] - confidence
+        /**
+         * General output is something like:
+         * test.log: UTF-8-SIG with confidence 0.9900000095367432
+         *
+         * and our regex should give us the following elements:
+         *      matches[1] - file path
+         *      matches[2] - charset
+         *      matches[3] - confidence
+         */
 
         if ((preg_match('/(.+): (.+) .+confidence:? ([^\)]+)/', strtolower($process->getOutput()), $matches) === 0)) {
             throw new \Exception('This file is not analyzed');

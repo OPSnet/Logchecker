@@ -13,7 +13,7 @@ class TranslatorTest extends TestCase
     public function foreignLogDataProvider()
     {
         $logs = [];
-        $logPath = implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'eac', 'transcoded_logs']);
+        $logPath = implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'eac', 'utf8']);
         foreach (new FilesystemIterator($logPath, FilesystemIterator::SKIP_DOTS) as $dir) {
             if ($dir->isFile()) {
                 continue;
@@ -46,7 +46,9 @@ class TranslatorTest extends TestCase
         $this->expectException(UnknownLanguageException::class);
         $this->expectExceptionMessage('Could not determine language of EAC log');
         Translator::getLanguage(
-            file_get_contents(implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'xld', 'xld_perfect.log']))
+            file_get_contents(
+                implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'xld', 'originals', 'xld_perfect.log'])
+            )
         );
     }
 }

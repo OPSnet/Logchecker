@@ -1,0 +1,19 @@
+{
+    "ripper": "EAC",
+    "version": null,
+    "language": "pl",
+    "score": 4,
+    "checksum": "checksum_missing",
+    "details": [
+        "[Notice] Translated log from Polski (Polish) to English.",
+        "EAC version older than 0.99 (-30 points)",
+        "Audio cache not disabled (-10 points)",
+        "Could not verify read offset (-1 point)",
+        "Combined read/write offset cannot be verified (-4 points)",
+        "Could not verify null samples",
+        "Could not verify gap handling (-10 points)",
+        "Could not verify id3 tag setting (-1 point)",
+        "Range rip detected (-30 points)",
+        "Test and copy was not used (-10 points)"
+    ]
+}

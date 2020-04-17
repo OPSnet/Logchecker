@@ -16,8 +16,9 @@ class Logchecker
     private $log = '';
     private $logPath = null;
     private $logs = array();
+    private $language = 'en';
     private $Tracks = array();
-    private $checksumStatus = Check\ChecksumStates::CHECKSUM_OK;
+    private $checksumStatus = Check\Checksum::CHECKSUM_OK;
     private $Score = 100;
     private $Details = array();
     private $Offsets = array();
@@ -29,7 +30,7 @@ class Logchecker
     private $BadTrack = array();
     private $DecreaseScoreTrack = 0;
     private $ripper = null;
-    private $version = null;
+    private $ripperVersion = null;
     private $TrackNumber = null;
     private $ARTracks = array();
     private $Combined = null;
@@ -45,9 +46,9 @@ class Logchecker
 
     public function __construct()
     {
-        $this->AllDrives = array_map(function ($elem) {
-            return explode(',', $elem);
-        }, file(__DIR__ . '/offsets.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES));
+        $this->AllDrives = json_decode(
+            file_get_contents(implode(DIRECTORY_SEPARATOR, [__DIR__, 'resources', 'drives.json']))
+        );
     }
 
     public function getLog(): string
@@ -58,19 +59,19 @@ class Logchecker
     /**
      * @param string $LogPath path to log file on local filesystem
      */
-    public function newFile($LogPath)
+    public function newFile(string $LogPath): void
     {
         $this->reset();
         $this->logPath = $LogPath;
         $this->log = file_get_contents($this->logPath);
     }
 
-    private function reset()
+    private function reset(): void
     {
         $this->logPath = null;
         $this->logs = array();
         $this->Tracks = array();
-        $this->checksumStatus = Check\ChecksumStates::CHECKSUM_OK;
+        $this->checksumStatus = Check\Checksum::CHECKSUM_OK;
         $this->Score = 100;
         $this->Details = array();
         $this->Offsets = array();
@@ -81,7 +82,7 @@ class Logchecker
         $this->BadTrack = array();
         $this->DecreaseScoreTrack = 0;
         $this->ripper = null;
-        $this->version = null;
+        $this->ripperVersion = null;
         $this->TrackNumber = null;
         $this->ARTracks = array();
         $this->Combined = null;
@@ -91,17 +92,13 @@ class Logchecker
         $this->XLDSecureRipper = false;
     }
 
-    public function validateChecksum($Bool)
+    public function validateChecksum(bool $Bool): void
     {
         $this->ValidateChecksum = $Bool;
     }
 
-    /**
-     * @return array Returns an array that contains [Score, Details, Checksum, Log]
-     */
-    public function parse()
+    public function parse(): void
     {
-
         try {
             $this->log = Util::decodeEncoding($this->log, $this->logPath);
         } catch (\Exception $exc) {
@@ -117,14 +114,26 @@ class Logchecker
         }
     }
 
-    private function whipperParse()
+    private function whipperParse(): void
     {
+        if (preg_match('/whipper ([0-9]+\.[0-9]+\.[0-9])/', $this->log, $matches)) {
+            if (version_compare('0.7.3', $matches[1]) === 1) {
+                $this->account('Logs must be produced by whipper 0.7.3+.', 100);
+                return;
+            }
+        }
+
         // Whipper 0.7.x has an issue where it can produce invalid YAML
         // as it hand writes out the values without dealing properly
         // with the escaping the output, so we fix that here
-        $log = preg_replace_callback('/^  (Release|Album): (.+)$/m', function ($match) {
+        $log = preg_replace_callback('/  (Release|Album): (.+)/', function ($match) {
             return "  {$match[1]}: " . Yaml::dump($match[2]);
         }, $this->log);
+
+        // symfony/yaml will attempt to parse CRCs that start with 0 as octals
+        $log = preg_replace_callback('/CRC: ([A-Z0-9]+)/', function ($match) {
+            return "CRC: \"{$match[1]}\"";
+        }, $log);
 
         try {
             $Yaml = Yaml::parse($log);
@@ -133,37 +142,37 @@ class Logchecker
             return;
         }
 
-        $this->version = explode(" ", $Yaml['Log created by'])[1];
+        $this->ripperVersion = explode(" ", $Yaml['Log created by'])[1];
 
         // Releases before this used octal numbers for tracks in the log which
         // gets messed up in parsing and we lose track data (e.g. tracks 08 and
         // 09 get merged into one entry).
-        if (empty($this->version) || version_compare('0.7.3', $this->version) === 1) {
+        if (empty($this->ripperVersion) || version_compare('0.7.3', $this->ripperVersion) === 1) {
             $this->account('Logs must be produced by whipper 0.7.3+', 100);
             return;
         }
 
-        if (!empty($Yaml['SHA-256 hash'])) {
-            $Hash = $Yaml['SHA-256 hash'];
-            $Lines = explode("\n", trim($this->log));
-            $Slice = array_slice($Lines, 0, count($Lines) - 1);
-            $this->checksumStatus = strtolower(hash('sha256', implode("\n", $Slice))) === strtolower($Hash);
-            unset($Slice);
-            unset($Lines);
-            $Class = $this->checksumStatus ? 'good' : 'bad';
-            $Yaml['SHA-256 hash'] = "<span class='{$Class}'>{$Hash}</span>";
+        $Yaml['Log created by'] = preg_replace(
+            '/^(whipper) ([^\s]+)/',
+            "<span class='good'>$1</span> <span class='log1'>$2</span>",
+            $Yaml['Log created by']
+        );
+
+        if (empty($Yaml['SHA-256 hash'])) {
+            $this->checksumStatus = Check\Checksum::CHECKSUM_MISSING;
         } else {
-            $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
+            $this->checksumStatus = Check\Checksum::validate($this->logPath, $this->ripper);
+            $Class = $this->checksumStatus === Check\Checksum::CHECKSUM_OK ? 'good' : 'bad';
+            $Yaml['SHA-256 hash'] = "<span class='{$Class}'>{$Yaml['SHA-256 hash']}</span>";
         }
 
-        $RippingKey = 'Ripping phase information';
-
-        $Drive = $Yaml[$RippingKey]['Drive'];
-        $Offset = $Yaml[$RippingKey]['Read offset correction'];
+        $Key = 'Ripping phase information';
+        $Drive = $Yaml[$Key]['Drive'];
+        $Offset = $Yaml[$Key]['Read offset correction'];
 
         if (in_array(trim($Drive), $this->FakeDrives)) {
             $this->account('Virtual drive used: ' . $Drive, 20, false, false, false);
-            $Yaml[$RippingKey]['Drive'] = "<span class='bad'>{$Drive}</span>";
+            $Yaml[$Key]['Drive'] = "<span class='bad'>{$Drive}</span>";
         } else {
             $this->getDrives($Drive);
 
@@ -201,12 +210,12 @@ class Logchecker
                     );
                 }
             }
-            $Yaml[$RippingKey]['Drive'] = "<span class='{$DriveClass}'>{$Drive}</span>";
+            $Yaml[$Key]['Drive'] = "<span class='{$DriveClass}'>{$Drive}</span>";
             $Offset = ($Offset > 0) ? '+' . (string) $Offset : (string) $Offset;
-            $Yaml[$RippingKey]['Read offset correction'] = "<span class='{$OffsetClass}'>{$Offset}</span>";
+            $Yaml[$Key]['Read offset correction'] = "<span class='{$OffsetClass}'>{$Offset}</span>";
         }
 
-        $DefeatCache = $Yaml[$RippingKey]['Defeat audio cache'];
+        $DefeatCache = $Yaml[$Key]['Defeat audio cache'];
         if (is_string($DefeatCache)) {
             $Value = (strtolower($DefeatCache) === 'yes') ? 'Yes' : 'No';
             $Class = (strtolower($DefeatCache) === 'yes') ? 'good' : 'bad';
@@ -218,24 +227,73 @@ class Logchecker
             $this->account('"Defeat audio cache" should be Yes/true', 10);
         }
 
-        $Yaml[$RippingKey]['Defeat audio cache'] = "<span class='{$Class}'>{$Value}</span>";
+        $Yaml[$Key]['Defeat audio cache'] = "<span class='{$Class}'>{$Value}</span>";
+        $Yaml[$Key]['Overread into lead-out'] = "<span class='log4'>{$Yaml[$Key]['Overread into lead-out']}</span>";
 
-        foreach ($Yaml['Tracks'] as $Key => $Track) {
-            $Yaml['Tracks'][$Key]['Peak level'] = sprintf('%.6f', $Track['Peak level']);
+        // CD Metadata
+        $Key = 'CD metadata';
+        $ReleaseKey = isset($Yaml[$Key]['Release']) ? 'Release' : 'Album';
+        if (is_string($Yaml[$Key][$ReleaseKey])) {
+            $Yaml[$Key][$ReleaseKey] = "<span class='log4'>{$Yaml[$Key][$ReleaseKey]}</span>";
+        } else {
+            $Yaml[$Key][$ReleaseKey]['Artist'] = "<span class='log4'>{$Yaml[$Key][$ReleaseKey]['Artist']}</span>";
+            $Yaml[$Key][$ReleaseKey]['Title'] = "<span class='log4'>{$Yaml[$Key][$ReleaseKey]['Title']}</span>";
+        }
+
+        // TOC
+        foreach ($Yaml['TOC'] as &$Track) {
+            foreach (['Start', 'Length', 'Start sector', 'End sector'] as $Key) {
+                $Track[$Key] = "<span class='log1'>{$Track[$Key]}</span>";
+            }
+        }
+
+        // Tracks
+        foreach ($Yaml['Tracks'] as &$Track) {
+            $Track['Peak level'] = sprintf('%.6f', $Track['Peak level']);
             $Class = 'good';
             if ($Track['Test CRC'] !== $Track['Copy CRC']) {
                 $Class = 'bad';
                 $this->account("CRC mismatch: {$Track['Test CRC']} and {$Track['Copy CRC']}", 30);
             }
 
-            $Yaml['Tracks'][$Key]['Test CRC'] = "<span class='{$Class}'>{$Track['Test CRC']}</span>";
-            $Yaml['Tracks'][$Key]['Copy CRC'] = "<span class='{$Class}'>{$Track['Copy CRC']}</span>";
+            $Track['Test CRC'] = "<span class='{$Class}'>{$Track['Test CRC']}</span>";
+            $Track['Copy CRC'] = "<span class='{$Class}'>{$Track['Copy CRC']}</span>";
+
+            $Class = ($Track['Status'] === 'Copy OK') ? 'good' : 'bad';
+            $Track['Status'] = "<span class='{$Class}'>{$Track['Status']}</span>";
+
+            foreach (['Filename', 'Pre-gap length', 'Peak level', 'Extraction speed', 'Extraction quality'] as $Key) {
+                if (!isset($Track[$Key])) {
+                    continue;
+                }
+                $Track[$Key] = "<span class='log3'>{$Track[$Key]}</span>";
+            }
+
+            foreach (['v1', 'v2'] as $Version) {
+                $Key = 'AccurateRip ' . $Version;
+                if (isset($Track[$Key])) {
+                    $Class = $Track[$Key]['Result']  === 'Found, exact match' ? 'good' : 'badish';
+                    $Track[$Key]['Result'] = "<span class='{$Class}'>{$Track[$Key]['Result']}</span>";
+                    if (isset($Track[$Key]['Local CRC']) && isset($Track[$Key]['Remote CRC'])) {
+                        $Class = ($Track[$Key]['Local CRC'] === $Track[$Key]['Remote CRC']) ? 'goodish' : 'badish';
+                        $Track[$Key]['Local CRC'] = "<span class='{$Class}'>{$Track[$Key]['Local CRC']}</span>";
+                        $Track[$Key]['Remote CRC'] = "<span class='{$Class}'>{$Track[$Key]['Remote CRC']}</span>";
+                    }
+                }
+            }
         }
+
+        // Conclusive status report
+        $Key = 'Conclusive status report';
+        $Class = $Yaml[$Key]['AccurateRip summary'] === 'All tracks accurately ripped' ? 'good' : 'badish';
+        $Yaml[$Key]['AccurateRip summary'] = "<span class='{$Class}'>{$Yaml[$Key]['AccurateRip summary']}</span>";
+        $Class = $Yaml[$Key]['Health status'] === 'No errors occurred' ? 'good' : 'bad';
+        $Yaml[$Key]['Health status'] = "<span class='{$Class}'>{$Yaml[$Key]['Health status']}</span>";
 
         $CreationDate = gmdate("Y-m-d\TH:i:s\Z", $Yaml['Log creation date']);
         $this->log = "Log created by: {$Yaml['Log created by']}\nLog creation date: {$CreationDate}\n\n";
         $this->log .= "Ripping phase information:\n";
-        foreach ($Yaml[$RippingKey] as $Key => $Value) {
+        foreach ($Yaml['Ripping phase information'] as $Key => $Value) {
             if (is_bool($Value)) {
                 $Value = ($Value) ? 'true' : 'false';
             }
@@ -285,7 +343,9 @@ class Logchecker
             $this->log .= "  {$Key}: {$Value}\n";
         }
         $this->log .= "\n";
-        $this->log .= "SHA-256 hash: {$Yaml['SHA-256 hash']}\n";
+        if (isset($Yaml['SHA-256 hash'])) {
+            $this->log .= "SHA-256 hash: {$Yaml['SHA-256 hash']}\n";
+        }
     }
 
     private function legacyParse()
@@ -294,6 +354,7 @@ class Logchecker
             $translator = new Translator();
             $lang = $translator->getLanguage($this->log);
             if ($lang['code'] !== 'en') {
+                $this->language = $lang['code'];
                 $this->account(
                     "Translated log from {$lang['name']} ({$lang['name_english']}) to English.",
                     false,
@@ -323,7 +384,7 @@ class Logchecker
                 PREG_SPLIT_DELIM_CAPTURE
             );
         } else { //no checksum
-            $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
+            $this->checksumStatus = Check\Checksum::CHECKSUM_MISSING;
             $this->logs = preg_split("/(\nEnd of status report)/i", $this->log, -1, PREG_SPLIT_DELIM_CAPTURE);
             foreach ($this->logs as $Key => $Value) {
                 if (preg_match("/---- CUETools DB Plugin V.+/i", $Value)) {
@@ -337,7 +398,7 @@ class Logchecker
             if ($Log === "" || preg_match('/^\-+$/i', $Log)) {
                 unset($this->logs[$Key]);
             } elseif (
-                $this->checksumStatus !== Check\ChecksumStates::CHECKSUM_OK
+                $this->checksumStatus !== Check\Checksum::CHECKSUM_OK
                 && preg_match("/End of status report/i", $Log)
             ) {
                 //strip empty
@@ -345,13 +406,13 @@ class Logchecker
                 $this->logs[$Key - 1] .= $Log;
                 unset($this->logs[$Key]);
             } elseif (
-                $this->checksumStatus === Check\ChecksumStates::CHECKSUM_OK
+                $this->checksumStatus === Check\Checksum::CHECKSUM_OK
                 && preg_match("/[\=]+\s+Log checksum/i", $Log)
             ) {
                 $this->logs[$Key - 1] .= $Log;
                 unset($this->logs[$Key]);
             } elseif (
-                $this->checksumStatus === Check\ChecksumStates::CHECKSUM_OK
+                $this->checksumStatus === Check\Checksum::CHECKSUM_OK
                 && preg_match("/[\-]+BEGIN XLD SIGNATURE/i", $Log)
             ) {
                 $this->logs[$Key - 1] .= $Log;
@@ -365,42 +426,37 @@ class Logchecker
         } //is_combined
         foreach ($this->logs as $LogArrayKey => $Log) {
             $this->CurrLog = $LogArrayKey + 1;
-            $CurrScore   = $this->Score;
-            $Log           = preg_replace('/(\=+\s+Log checksum.*)/i', '<span class="good">$1</span>', $Log, 1, $Count);
             if (preg_match('/Exact Audio Copy (.+) from/i', $Log, $Matches)) { //eac v1 & checksum
                 if ($Matches[1]) {
-                    $this->version = floatval(explode(" ", substr($Matches[1], 1))[0]);
-                    if ($this->version < 1) {
-                        $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
-                        if ($this->version <= 0.95) {
+                    $this->ripperVersion = ltrim($Matches[1], 'V');
+                    $versionCheck = explode(" ", $this->ripperVersion)[0];
+                    if (version_compare($versionCheck, "1.0") < 0) {
+                        $this->checksumStatus = Check\Checksum::CHECKSUM_MISSING;
+                        if ($this->ripperVersion <= 0.95) {
                             # EAC 0.95 and before was missing a handful of stuff for full log validation
                             # that 0.99 included (-30 points)
                             $this->account("EAC version older than 0.99", 30);
                         }
-                    } else {
+                    } elseif (!preg_match('/(\=+\s+Log checksum.*)/i', $Log)) {
                         // Above version 1 and no checksum
-                        $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
+                        $this->checksumStatus = Check\Checksum::CHECKSUM_MISSING;
                     }
                 } else {
-                    $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
+                    $this->checksumStatus = Check\Checksum::CHECKSUM_MISSING;
                     $this->account("EAC version older than 0.99", 30);
                 }
             } elseif (preg_match('/EAC extraction logfile from/i', $Log)) {
-                $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
+                $this->checksumStatus = Check\Checksum::CHECKSUM_MISSING;
                 $this->account("EAC version older than 0.99", 30);
             }
 
-            $Log = preg_replace(
-                '/([\-]+BEGIN XLD SIGNATURE[\S\n\-]+END XLD SIGNATURE[\-]+)/i',
-                '<span class="good">$1</span>',
-                $Log,
-                1,
-                $Count
-            );
             if (preg_match('/X Lossless Decoder version (\d+) \((.+)\)/i', $Log, $Matches)) { //xld version & checksum
-                $this->version = $Matches[1];
-                if ($this->version >= 20121222 && !$Count) {
-                    $this->checksumStatus = Check\ChecksumStates::CHECKSUM_MISSING;
+                $this->ripperVersion = $Matches[1];
+                if (
+                    version_compare($this->ripperVersion, "20121222") >= 0
+                    && !preg_match('/([\-]+BEGIN XLD SIGNATURE[\S\n\-]+END XLD SIGNATURE[\-]+)/i', $Log)
+                ) {
+                    $this->checksumStatus = Check\Checksum::CHECKSUM_MISSING;
                     //$this->account('No checksum with XLD 20121222 or newer', 15);
                 }
             }
@@ -413,8 +469,8 @@ class Logchecker
             );
             $Log = preg_replace(
                 "/EAC extraction logfile from (.+)\n+(.+)/i",
-                '<span class="good">EAC extraction logfile from <span class="log5">$1</span></span>\n\n' .
-                '<span class="log4">$2</span>',
+                "<span class='good'>EAC extraction logfile from <span class='log5'>$1</span></span>\n\n" .
+                    '<span class="log4">$2</span>',
                 $Log,
                 1,
                 $EAC
@@ -428,8 +484,8 @@ class Logchecker
             );
             $Log = preg_replace(
                 "/XLD extraction logfile from (.+)\n+(.+)/i",
-                '<span class="good">XLD extraction logfile from <span class="log5">$1</span></span>\n\n' .
-                '<span class="log4">$2</span>',
+                "<span class='good'>XLD extraction logfile from <span class='log5'>$1</span></span>\n\n" .
+                    '<span class="log4">$2</span>',
                 $Log,
                 1,
                 $XLD
@@ -449,11 +505,11 @@ class Logchecker
 
             if (
                 $this->ValidateChecksum
-                && $this->checksumStatus == Check\ChecksumStates::CHECKSUM_OK
+                && $this->checksumStatus === Check\Checksum::CHECKSUM_OK
                 && !empty($this->logPath)
             ) {
-                if (Check\Checksum::logcheckerExists($EAC)) {
-                    $this->checksumStatus = Check\Checksum::validate($this->logPath, $EAC);
+                if (Check\Checksum::logcheckerExists($this->ripper)) {
+                    $this->checksumStatus = Check\Checksum::validate($this->logPath, $this->ripper);
                 } else {
                     $this->account(
                         "Could not find {$this->ripper} logchecker, checksum not validated.",
@@ -465,46 +521,56 @@ class Logchecker
                 }
             }
 
-            $Log = preg_replace_callback("/Used drive( +): (.+)/i", array(
+            $Class = $this->checksumStatus === Check\Checksum::CHECKSUM_OK ? 'good' : 'bad';
+            $Log = preg_replace('/(\=+\s+Log checksum.*)/i', "<span class='{$Class}'>$1</span>", $Log, 1, $Count);
+            $Log = preg_replace(
+                '/([\-]+BEGIN XLD SIGNATURE[\S\n\-]+END XLD SIGNATURE[\-]+)/i',
+                "<span class='{$Class}'>$1</span>",
+                $Log,
+                1,
+                $Count
+            );
+
+            $Log = preg_replace_callback("/Used drive( *): (.+)/i", array(
                 $this,
                 'drive'
             ), $Log, 1, $Count);
             if (!$Count) {
                 $this->account('Could not verify used drive', 1);
             }
-            $Log = preg_replace_callback("/Media type( +): (.+)/i", array(
+            $Log = preg_replace_callback("/Media type( *): (.+)/i", array(
                 $this,
                 'mediaTypeXld'
             ), $Log, 1, $Count);
-            if ($XLD && $this->version && $this->version >= 20130127 && !$Count) {
+            if ($XLD && $this->ripperVersion && $this->ripperVersion >= 20130127 && !$Count) {
                 $this->account('Could not verify media type', 1);
             }
-            $Log = preg_replace_callback('/Read mode( +): ([a-z]+)(.*)?/i', array(
+            $Log = preg_replace_callback('/Read mode( *): ([a-z]+)(.*)?/i', array(
                 $this,
                 'readMode'
             ), $Log, 1, $Count);
             if (!$Count && $EAC) {
                 $this->account('Could not verify read mode', 1);
             }
-            $Log = preg_replace_callback('/Ripper mode( +): (.*)/i', array(
+            $Log = preg_replace_callback('/Ripper mode( *): (.*)/i', array(
                 $this,
                 'ripperModeXld'
             ), $Log, 1, $XLDRipperMode);
-            $Log = preg_replace_callback('/Use cdparanoia mode( +): (.*)/i', array(
+            $Log = preg_replace_callback('/Use cdparanoia mode( *): (.*)/i', array(
                 $this,
                 'cdparanoiaModeXld'
             ), $Log, 1, $XLDCDParanoiaMode);
             if (!$XLDRipperMode && !$XLDCDParanoiaMode && $XLD) {
                 $this->account('Could not verify read mode', 1);
             }
-            $Log = preg_replace_callback('/Max retry count( +): (\d+)/i', array(
+            $Log = preg_replace_callback('/Max retry count( *): (\d+)/i', array(
                 $this,
                 'maxRetryCount'
             ), $Log, 1, $Count);
             if (!$Count && $XLD) {
                 $this->account('Could not verify max retry count');
             }
-            $Log = preg_replace_callback('/Utilize accurate stream( +): (Yes|No)/i', array(
+            $Log = preg_replace_callback('/Utilize accurate stream( *): (Yes|No)/i', array(
                 $this,
                 'accurateStream'
             ), $Log, 1, $EAC_ac_stream);
@@ -515,7 +581,7 @@ class Logchecker
             if (!$EAC_ac_stream && !$EAC_ac_stream_pre99 && !$this->NonSecureMode && $EAC) {
                 $this->account('Could not verify accurate stream', 20);
             }
-            $Log = preg_replace_callback('/Defeat audio cache( +): (Yes|No)/i', array(
+            $Log = preg_replace_callback('/Defeat audio cache( *): (Yes|No)/i', array(
                 $this,
                 'defeatAudioCache'
             ), $Log, 1, $EAC_defeat_cache);
@@ -526,14 +592,14 @@ class Logchecker
             if (!$EAC_defeat_cache && !$EAC_defeat_cache_pre99 && !$this->NonSecureMode && $EAC) {
                 $this->account('Could not verify defeat audio cache', 1);
             }
-            $Log = preg_replace_callback('/Disable audio cache( +): (.*)/i', array(
+            $Log = preg_replace_callback('/Disable audio cache( *): (.*)/i', array(
                 $this,
                 'defeatAudioCacheXld'
             ), $Log, 1, $Count);
             if (!$Count && $XLD) {
                 $this->account('Could not verify defeat audio cache', 1);
             }
-            $Log = preg_replace_callback('/Make use of C2 pointers( +): (Yes|No)/i', array(
+            $Log = preg_replace_callback('/Make use of C2 pointers( *): (Yes|No)/i', array(
                 $this,
                 'c2Pointers'
             ), $Log, 1, $C2);
@@ -544,7 +610,7 @@ class Logchecker
             if (!$C2 && !$C2_EACpre99 && !$this->NonSecureMode) {
                 $this->account('Could not verify C2 pointers', 1);
             }
-            $Log = preg_replace_callback('/Read offset correction( +): ([+-]?[0-9]+)/i', array(
+            $Log = preg_replace_callback('/Read offset correction( *): ([+-]?[0-9]+)/i', array(
                 $this,
                 'readOffset'
             ), $Log, 1, $Count);
@@ -552,7 +618,7 @@ class Logchecker
                 $this->account('Could not verify read offset', 1);
             }
             $Log = preg_replace(
-                "/(Combined read\/write offset correction\s+:\s+\d+)/i",
+                "/(Combined read\/write offset correction\s*:\s+\d+)/i",
                 "<span class=\"bad\">$1</span>",
                 $Log,
                 1,
@@ -627,7 +693,7 @@ class Logchecker
                 $this->account('Could not verify gap status', 10);
             }
             $Log = preg_replace(
-                '/Used output format( +): ([^\n]+)/i',
+                '/Used output format( *): ([^\n]+)/i',
                 '<span class="log5">Used output format$1</span>: <span class="log4">$2</span>',
                 $Log,
                 1,
@@ -649,7 +715,7 @@ class Logchecker
             );
             $Log = preg_replace(
                 '/( +)(\d+ kBit\/s)/i',
-                '<span>$1</span><span class="log4">$2</span>',
+                '$1<span class="log4">$2</span>',
                 $Log,
                 1,
                 $Count
@@ -876,8 +942,8 @@ class Logchecker
                 // The number of spaces between 'Track' and the number, to keep formatting intact
                 $Spaces                = $FullTracks[($Key * 3)];
                 // Track number
-                $TrackNumber              = $FullTracks[($Key * 3) + 1];
-                $this->TrackNumber      = $TrackNumber;
+                $TrackNumber           = $FullTracks[($Key * 3) + 1];
+                $this->TrackNumber     = $TrackNumber;
                 // How much to decrease the overall score by, if this track fails and
                 // no attempt at recovery is made later on
                 $this->DecreaseScoreTrack = 0;
@@ -1101,7 +1167,7 @@ class Logchecker
                     $Count
                 );
                 $TrackBody = preg_replace(
-                    '/Range quality ([0-9]{1,3}\.[0-9] %)/i',
+                    '/Range quality\s+([0-9]{1,3}\.[0-9] %)/i',
                     '<span class="log4">Range quality <span class="log3">$1</span></span>',
                     $TrackBody,
                     -1,
@@ -1243,7 +1309,7 @@ class Logchecker
                     'bad' => $this->BadTrack
                 );
                 $FormattedTrackListing .= "\n" . $TrackBody;
-                $this->Tracks[$TrackNumber] = $Tracks[$TrackNumber];
+                $this->Tracks[$LogArrayKey][$TrackNumber] = $Tracks[$TrackNumber];
             }
             unset($Tracks);
             $Log = str_replace($TrackListing, $FormattedTrackListing, $Log);
@@ -1293,16 +1359,8 @@ class Logchecker
             ), $Log, 1);
             //end xld all tracks statistics
             $this->logs[$LogArrayKey] = $Log;
-            $this->checkTracks();
-            foreach ($this->Tracks as $Track) { //send score/bad
-                if ($Track['decreasescore']) {
-                    $this->Score -= $Track['decreasescore'];
-                }
-                if (count($Track['bad']) > 0) {
-                    $this->Details = array_merge($this->Details, $Track['bad']);
-                }
-            }
-            unset($this->Tracks); //fixes weird bug
+            $this->checkTracks($LogArrayKey);
+
             if ($this->NonSecureMode) { #non-secure mode
                 $this->account($this->NonSecureMode . ' mode was used', 20);
             }
@@ -1312,12 +1370,30 @@ class Logchecker
             $this->SecureMode   = true;
             $this->NonSecureMode = null;
         } //end log loop
+
+        $FinalTracks = [];
+        foreach ($this->Tracks as $LogArrayKey => $Tracks) {
+            foreach ($Tracks as $Number => $Track) {
+                $FinalTracks[$Number] = $Track;
+            }
+        }
+        foreach ($FinalTracks as $Track) {
+            if ($Track['decreasescore']) {
+                $this->Score -= $Track['decreasescore'];
+            }
+            if (count($Track['bad']) > 0) {
+                $this->Details = array_merge($this->Details, $Track['bad']);
+            }
+        }
+        unset($FinalTracks);
+        unset($this->Tracks);
+
         $this->log = implode($this->logs);
         if (strlen($this->log) === 0) {
             $this->Score = 0;
             $this->account('Unrecognized log file! Feel free to report for manual review.');
         }
-        $this->Score = ($this->Score < 0) ? 0 : $this->Score; //min. score
+
         if ($this->Combined) {
             array_unshift($this->Details, "Combined Log (" . $this->Combined . ")");
         } //combined log msg
@@ -1364,7 +1440,7 @@ class Logchecker
             $MatchedDrives[$i] = ['drives' => [], 'offsets' => []];
         }
 
-        foreach ($this->AllDrives as list($Drive, $Offset)) {
+        foreach ($this->AllDrives as [$Drive, $Offset]) {
             $Distance = levenshtein($Drive, $DriveName);
             if ($Distance < 5) {
                 $MatchedDrives[$Distance]['drives'][] = $Drive;
@@ -1535,7 +1611,7 @@ class Logchecker
             $Class = 'bad';
             $this->account('Audio cache not disabled', 10);
         }
-        return '<span> </span><span class="' . $Class . '">' . $Matches[1] . 'disable cache</span>';
+        return ' <span class="' . $Class . '">' . $Matches[1] . 'disable cache</span>';
     }
 
     private function defeatAudioCacheXld($Matches)
@@ -1570,7 +1646,7 @@ class Logchecker
             $Class = 'bad';
             $this->account('C2 pointers were used', 10);
         }
-        return '<span>with </span><span class="' . $Class . '">' . $Matches[1] . 'C2</span>';
+        return 'with <span class="' . $Class . '">' . $Matches[1] . 'C2</span>';
     }
 
     private function readOffset($Matches)
@@ -1829,9 +1905,9 @@ class Logchecker
         "$Matches[15]<span class=\"log1\">$Matches[16]</span>$Matches[17]" . "\n";
     }
 
-    private function checkTracks()
+    private function checkTracks($LogArrayKey)
     {
-        if (!count($this->Tracks)) { //no tracks
+        if (count($this->Tracks[$LogArrayKey]) === 0) { //no tracks
             unset($this->Details);
             if ($this->Combined) {
                 $this->Details[] = "Combined Log (" . $this->Combined . ")";
@@ -1890,9 +1966,9 @@ class Logchecker
         return $this->ripper;
     }
 
-    public function getVersion()
+    public function getRipperVersion()
     {
-        return $this->version;
+        return $this->ripperVersion;
     }
 
     public function getScore(): int
@@ -1910,8 +1986,22 @@ class Logchecker
         return $this->checksumStatus;
     }
 
-    public static function getAcceptValues()
+    public function getLanguage(): string
+    {
+        return $this->language;
+    }
+
+    public static function getAcceptValues(): string
     {
         return ".txt,.TXT,.log,.LOG";
+    }
+
+    public static function getLogcheckerVersion(): string
+    {
+        $composer = json_decode(
+            file_get_contents(implode(DIRECTORY_SEPARATOR, [__DIR__, '..', 'composer.json'])),
+            true
+        );
+        return $composer['version'];
     }
 }

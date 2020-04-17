@@ -1,0 +1,148 @@
+<span class='good'>EAC extraction logfile from <span class='log5'>6. March 2007, 19:59 for CD</span></span>
+
+<span class="log4">Hijack the terrorist group / The Horns of Jericho</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STDVD-RAM GSA-H20L   Adapter: 2  ID: 0</span>
+<span class="log5">Read mode   </span>: <span class="good">Secure</span><span class="log4"> with <span class="good">NO C2</span>, <span class="good">accurate stream</span>, <span class="good">disable cache</span></span>
+<span class="log5">Read offset correction </span>: <span class="good">102</span>
+<span class="log5">Overread into Lead-In and Lead-Out </span>: <span class="log4">No</span>
+
+<span class="log5">Used output format </span>: <span class="log4">C:\Programme\Exact Audio Copy\flac.exe   (User Defined Encoder)</span>
+                     <span class="log4">128 kBit/s</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -A tukey(0.25) -A gauss(0.1875) -b 4096 -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T 
+"tracknumber=%n" -T "genre=%m" %s --sector-align</span>
+
+<span class="log5">Other options      </span>: 
+    <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+    <span class="log5">Delete leading and trailing silent blocks </span>: <span class="good">No</span>
+    Installed external ASPI interface
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\01 - Hijack the terrorist group - Intro , Phantom of the Opera.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.4 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">55A13DC8</span></span>
+     <span class="log4">Copy CRC <span class="good">55A13DC8</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\02 - Hijack the terrorist group - The Syndicate Outta Jail.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">905EA1F7</span></span>
+     <span class="log4">Copy CRC <span class="good">905EA1F7</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\03 - Hijack the terrorist group - Daddy Rich (Part 1).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C6686648</span></span>
+     <span class="log4">Copy CRC <span class="good">C6686648</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\04 - Hijack the terrorist group - Back to Brixton.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B7271123</span></span>
+     <span class="log4">Copy CRC <span class="good">B7271123</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\05 - Hijack the terrorist group - Airwave Hijack (Part 1).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">8D602E9E</span></span>
+     <span class="log4">Copy CRC <span class="good">8D602E9E</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\06 - Hijack the terrorist group - Hijack the Terrorist Group.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.53</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.4 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F8E38C25</span></span>
+     <span class="log4">Copy CRC <span class="good">F8E38C25</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\07 - Hijack the terrorist group - The Badman is Robbin.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">84.8 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">D0ACE574</span></span>
+     <span class="log4">Copy CRC <span class="good">D0ACE574</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\08 - Hijack the terrorist group - I Had To Serve You.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">89F591B0</span></span>
+     <span class="log4">Copy CRC <span class="good">89F591B0</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\09 - Hijack the terrorist group - Don't Go With Strangers.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.80</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">8938C3AE</span></span>
+     <span class="log4">Copy CRC <span class="good">8938C3AE</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\10 - Hijack the terrorist group - Brother Versus Brother.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0FEAA8C7</span></span>
+     <span class="log4">Copy CRC <span class="good">0FEAA8C7</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\11 - Hijack the terrorist group - The Paranoid Schizophrenic With Homicidal Tendencies.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C639CEB3</span></span>
+     <span class="log4">Copy CRC <span class="good">C639CEB3</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\12 - Hijack the terrorist group - The Contract.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">904B0457</span></span>
+     <span class="log4">Copy CRC <span class="good">904B0457</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+     <span class="log4">Filename <span class="log3">C:\Dokumente und Einstellungen\Eigene Dateien\Musique\Neuer Ordner\13 - Hijack the terrorist group - Daddy Rich (Part 2).wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.62</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.3 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">989D6EA4</span></span>
+     <span class="log4">Copy CRC <span class="good">989D6EA4</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>

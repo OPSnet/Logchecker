@@ -1,0 +1,383 @@
+Log created by: <span class='good'>whipper</span> <span class='log1'>0.7.4.dev76+g57d386e</span> (internal logger)
+Log creation date: 2019-07-09T19:42:59Z
+
+Ripping phase information:
+  Drive: <span class='good'>PLEXTOR DVDR   PX-755A   (revision 1.08)</span>
+  Extraction engine: cdparanoia III 10.2 libcdio 2.1.0 x86_64-pc-linux-gnu
+  Defeat audio cache: <span class='good'>true</span>
+  Read offset correction: <span class='good'>+30</span>
+  Overread into lead-out: <span class='log4'></span>
+  Gap detection: cdrdao 1.2.4
+  CD-R detected: false
+
+CD metadata:
+  Release: <span class='log4'>Not on Tour - Growing Pains</span>
+  CDDB Disc ID: c2058d11
+  MusicBrainz Disc ID: wXcMD4BGh8KcpBCxKY.mfAfc_EY-
+  MusicBrainz lookup URL: https://musicbrainz.org/cdtoc/attach?toc=1+17+106728+150+3925+9277+16387+21784+25586+29978+38641+46232+53717+61295+69578+74287+81846+87404+93044+99777&tracks=17&id=wXcMD4BGh8KcpBCxKY.mfAfc_EY-
+  MusicBrainz Release URL: https://musicbrainz.org/release/a985c281-25e4-4533-9db8-e4de5d450d8a
+
+TOC:
+  1:
+    Start: <span class='log1'>00:00:00</span>
+    Length: <span class='log1'>00:50:25</span>
+    Start sector: <span class='log1'>0</span>
+    End sector: <span class='log1'>3774</span>
+
+  2:
+    Start: <span class='log1'>00:50:25</span>
+    Length: <span class='log1'>01:11:27</span>
+    Start sector: <span class='log1'>3775</span>
+    End sector: <span class='log1'>9126</span>
+
+  3:
+    Start: <span class='log1'>02:01:52</span>
+    Length: <span class='log1'>01:34:60</span>
+    Start sector: <span class='log1'>9127</span>
+    End sector: <span class='log1'>16236</span>
+
+  4:
+    Start: <span class='log1'>03:36:37</span>
+    Length: <span class='log1'>01:11:72</span>
+    Start sector: <span class='log1'>16237</span>
+    End sector: <span class='log1'>21633</span>
+
+  5:
+    Start: <span class='log1'>04:48:34</span>
+    Length: <span class='log1'>00:50:52</span>
+    Start sector: <span class='log1'>21634</span>
+    End sector: <span class='log1'>25435</span>
+
+  6:
+    Start: <span class='log1'>05:39:11</span>
+    Length: <span class='log1'>00:58:42</span>
+    Start sector: <span class='log1'>25436</span>
+    End sector: <span class='log1'>29827</span>
+
+  7:
+    Start: <span class='log1'>06:37:53</span>
+    Length: <span class='log1'>01:55:38</span>
+    Start sector: <span class='log1'>29828</span>
+    End sector: <span class='log1'>38490</span>
+
+  8:
+    Start: <span class='log1'>08:33:16</span>
+    Length: <span class='log1'>01:41:16</span>
+    Start sector: <span class='log1'>38491</span>
+    End sector: <span class='log1'>46081</span>
+
+  9:
+    Start: <span class='log1'>10:14:32</span>
+    Length: <span class='log1'>01:39:60</span>
+    Start sector: <span class='log1'>46082</span>
+    End sector: <span class='log1'>53566</span>
+
+  10:
+    Start: <span class='log1'>11:54:17</span>
+    Length: <span class='log1'>01:41:03</span>
+    Start sector: <span class='log1'>53567</span>
+    End sector: <span class='log1'>61144</span>
+
+  11:
+    Start: <span class='log1'>13:35:20</span>
+    Length: <span class='log1'>01:50:33</span>
+    Start sector: <span class='log1'>61145</span>
+    End sector: <span class='log1'>69427</span>
+
+  12:
+    Start: <span class='log1'>15:25:53</span>
+    Length: <span class='log1'>01:02:59</span>
+    Start sector: <span class='log1'>69428</span>
+    End sector: <span class='log1'>74136</span>
+
+  13:
+    Start: <span class='log1'>16:28:37</span>
+    Length: <span class='log1'>01:40:59</span>
+    Start sector: <span class='log1'>74137</span>
+    End sector: <span class='log1'>81695</span>
+
+  14:
+    Start: <span class='log1'>18:09:21</span>
+    Length: <span class='log1'>01:14:08</span>
+    Start sector: <span class='log1'>81696</span>
+    End sector: <span class='log1'>87253</span>
+
+  15:
+    Start: <span class='log1'>19:23:29</span>
+    Length: <span class='log1'>01:15:15</span>
+    Start sector: <span class='log1'>87254</span>
+    End sector: <span class='log1'>92893</span>
+
+  16:
+    Start: <span class='log1'>20:38:44</span>
+    Length: <span class='log1'>01:29:58</span>
+    Start sector: <span class='log1'>92894</span>
+    End sector: <span class='log1'>99626</span>
+
+  17:
+    Start: <span class='log1'>22:08:27</span>
+    Length: <span class='log1'>01:32:51</span>
+    Start sector: <span class='log1'>99627</span>
+    End sector: <span class='log1'>106577</span>
+
+Tracks:
+  1:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/01. Not on Tour - Daddy.flac</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>2.8 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>4A11920F</span>
+    Copy CRC: <span class='good'>4A11920F</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  2:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/02. Not on Tour - Fantasy World.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.2 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>FB110A07</span>
+    Copy CRC: <span class='good'>FB110A07</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  3:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/03. Not on Tour - Lost and Found.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>B97A6B65</span>
+    Copy CRC: <span class='good'>B97A6B65</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  4:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/04. Not on Tour - Growing Pains.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.2 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>B42661CD</span>
+    Copy CRC: <span class='good'>B42661CD</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  5:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/05. Not on Tour - N.O.T Funny.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>2.8 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>7BCBAB32</span>
+    Copy CRC: <span class='good'>7BCBAB32</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  6:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/06. Not on Tour - Cute.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.2 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>862B47E3</span>
+    Copy CRC: <span class='good'>862B47E3</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  7:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/07. Not on Tour - Saw It Coming.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>A6DC7D23</span>
+    Copy CRC: <span class='good'>A6DC7D23</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  8:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/08. Not on Tour - Therapy.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>9FA35D6F</span>
+    Copy CRC: <span class='good'>9FA35D6F</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  9:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/09. Not on Tour - Witch Hunt.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.2 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>4ACD3A60</span>
+    Copy CRC: <span class='good'>4ACD3A60</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  10:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/10. Not on Tour - The Distance.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>B1062E0C</span>
+    Copy CRC: <span class='good'>B1062E0C</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  11:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/11. Not on Tour - Run For It.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.4 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>6A5E026D</span>
+    Copy CRC: <span class='good'>6A5E026D</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  12:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/12. Not on Tour - Try Trust.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.1 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>596AD234</span>
+    Copy CRC: <span class='good'>596AD234</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  13:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/13. Not on Tour - Call It Freedom.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.2 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>C05E902B</span>
+    Copy CRC: <span class='good'>C05E902B</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  14:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/14. Not on Tour - Fears Come True.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>E7C5BBDB</span>
+    Copy CRC: <span class='good'>E7C5BBDB</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  15:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/15. Not on Tour - Outta My Head.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>EB5A3E41</span>
+    Copy CRC: <span class='good'>EB5A3E41</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  16:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/16. Not on Tour - Sign.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>ED475001</span>
+    Copy CRC: <span class='good'>ED475001</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+  17:
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/16. Not on Tour - Sign.flac</span>
+    Pre-gap length: <span class='log3'>00:02:00</span>
+    Peak level: <span class='log3'>1.000000</span>
+    Pre-emphasis: No
+    Extraction speed: <span class='log3'>3.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>ED475001</span>
+    Copy CRC: <span class='good'>ED475001</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    Status: <span class='good'>Copy OK</span>
+
+Conclusive status report:
+  AccurateRip summary: <span class='badish'>None of the tracks are present in the AccurateRip database</span>
+  Health status: <span class='good'>No errors occurred</span>
+  EOF: End of status report
+
+SHA-256 hash: <span class='good'>78E5055D39F216CF71387337399E7DE3B77197F294D47514E7F32E4E0302164A</span>

@@ -1,0 +1,12 @@
+{
+    "ripper": "EAC",
+    "version": "1.0 beta 3",
+    "language": "en",
+    "score": 59,
+    "checksum": "checksum_ok",
+    "details": [
+        "Could not verify gap handling (-10 points)",
+        "Could not verify id3 tag setting (-1 point)",
+        "Range rip detected (-30 points)"
+    ]
+}

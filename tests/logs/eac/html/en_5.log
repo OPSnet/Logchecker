@@ -1,0 +1,209 @@
+Exact Audio Copy <span class="log1">V0.99 prebeta 5</span> from <span class="log1">4. May 2009</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>14. August 2009, 13:49</span></span>
+
+<span class="log4">Hayden / The Closer I Get</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STDVDRAM GSA-4084N   Adapter: 0  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">667</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">128 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s  
+</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:45.27</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">16901</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:45.27</span> <strong>|</strong>  <span class="log1">2:45.73</span> <strong>|</strong>     <span class="log1">16902</span>    <strong>|</strong>    <span class="log1">29349</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">6:31.25</span> <strong>|</strong>  <span class="log1">2:43.40</span> <strong>|</strong>     <span class="log1">29350</span>    <strong>|</strong>    <span class="log1">41614</span>   
+        <span class="log4">4</span>  <strong>|</strong>  <span class="log1">9:14.65</span> <strong>|</strong>  <span class="log1">5:08.57</span> <strong>|</strong>     <span class="log1">41615</span>    <strong>|</strong>    <span class="log1">64771</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">14:23.47</span> <strong>|</strong>  <span class="log1">2:41.30</span> <strong>|</strong>     <span class="log1">64772</span>    <strong>|</strong>    <span class="log1">76876</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">17:05.02</span> <strong>|</strong>  <span class="log1">5:11.00</span> <strong>|</strong>     <span class="log1">76877</span>    <strong>|</strong>   <span class="log1">100201</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">22:16.02</span> <strong>|</strong>  <span class="log1">2:07.33</span> <strong>|</strong>    <span class="log1">100202</span>    <strong>|</strong>   <span class="log1">109759</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">24:23.35</span> <strong>|</strong>  <span class="log1">3:01.50</span> <strong>|</strong>    <span class="log1">109760</span>    <strong>|</strong>   <span class="log1">123384</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">27:25.10</span> <strong>|</strong>  <span class="log1">2:22.60</span> <strong>|</strong>    <span class="log1">123385</span>    <strong>|</strong>   <span class="log1">134094</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">29:47.70</span> <strong>|</strong>  <span class="log1">3:37.05</span> <strong>|</strong>    <span class="log1">134095</span>    <strong>|</strong>   <span class="log1">150374</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">33:25.00</span> <strong>|</strong>  <span class="log1">2:47.60</span> <strong>|</strong>    <span class="log1">150375</span>    <strong>|</strong>   <span class="log1">162959</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">36:12.60</span> <strong>|</strong>  <span class="log1">5:40.30</span> <strong>|</strong>    <span class="log1">162960</span>    <strong>|</strong>   <span class="log1">188489</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">41:53.15</span> <strong>|</strong>  <span class="log1">3:41.27</span> <strong>|</strong>    <span class="log1">188490</span>    <strong>|</strong>   <span class="log1">205091</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\01. The Closer I Get.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">12DF04E5</span></span>
+     <span class="log4">Copy CRC <span class="good">12DF04E5</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [CAC0E58F]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\02. Stride.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">95.6 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">9DEC242B</span></span>
+     <span class="log4">Copy CRC <span class="good">9DEC242B</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [C10521AF]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\03. The Hazards of Sitting Beneath Palm Trees.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7FAD07F2</span></span>
+     <span class="log4">Copy CRC <span class="good">7FAD07F2</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [08F1AF2B]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\04. Bullet.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.70</span></span>
+
+     <span class="log4">Peak level <span class="log3">92.6 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D98B2B86</span></span>
+     <span class="log4">Copy CRC <span class="good">D98B2B86</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [E9C315BD]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\05. Waiting for a Chance to See Her.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.8 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DB666604</span></span>
+     <span class="log4">Copy CRC <span class="good">DB666604</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [8D6BB2FE]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\06. Two Doors.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.42</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">A5CE6E4E</span></span>
+     <span class="log4">Copy CRC <span class="good">A5CE6E4E</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [73BD1172]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\07. Between Us to Hold.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">84B91DE9</span></span>
+     <span class="log4">Copy CRC <span class="good">84B91DE9</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [F4B42375]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\08. Better Off Inside.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.86</span></span>
+
+     <span class="log4">Peak level <span class="log3">84.3 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">D68C3624</span></span>
+     <span class="log4">Copy CRC <span class="good">D68C3624</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [337F38EC]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\09. Instrumental With Mellotron.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.8 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.8 %</span></span>
+     <span class="log4">Test CRC <span class="good">1164FFD3</span></span>
+     <span class="log4">Copy CRC <span class="good">1164FFD3</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [C75095F4]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\10. Memphis.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.90</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.8 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">9421AEBA</span></span>
+     <span class="log4">Copy CRC <span class="good">9421AEBA</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [CB5D04AA]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\11. Nights Like These.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">71.1 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">01D0ABB2</span></span>
+     <span class="log4">Copy CRC <span class="good">01D0ABB2</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [4B3B094B]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\12. You Are All I Have.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F50763E4</span></span>
+     <span class="log4">Copy CRC <span class="good">F50763E4</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [B8D04A8A]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">F:\Austin & Jackie's MUSIC\what cd\#Rips\Hayden. 1998 - The Closer I Get\13. I'll Tell Him Tonight.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:24.97</span></span>
+
+     <span class="log4">Peak level <span class="log3">62.2 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3BDFF085</span></span>
+     <span class="log4">Copy CRC <span class="good">3BDFF085</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [A90878B1]</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="good">No errors occurred</span>
+<span class="good">End of status report</span>
