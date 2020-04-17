@@ -26,16 +26,20 @@ class LogcheckerTest extends TestCase
      */
     public function testLogchecker(string $ripper, string $filePath, string $fileName): void
     {
-        $basePath = implode(DIRECTORY_SEPARATOR, [__DIR__, 'logs', $ripper]);
+        $basePath = implode(DIRECTORY_SEPARATOR, [__DIR__, 'logs', strtolower($ripper)]);
         if (!Checksum::logcheckerExists($ripper)) {
             $this->markTestSkipped("Need to install {$ripper} logchecker");
         }
 
         $detailsFile = implode(DIRECTORY_SEPARATOR, [$basePath, 'details', str_replace('.log', '.json', $fileName)]);
-        $htmlFile = implode(DIRECTORY_SEPARATOR, [$basePath, 'html', $fileName]);
-        if (!file_exists($detailsFile) || !file_exists($htmlFile)) {
-            $this->markTestIncomplete('Missing details or html output file: ' . $filePath);
+        if (!file_exists($detailsFile)) {
+            $this->markTestIncomplete("Missing details file:\n- " . $detailsFile . "\n- " . $filePath);
         }
+        $htmlFile = implode(DIRECTORY_SEPARATOR, [$basePath, 'html', $fileName]);
+        if (!file_exists($htmlFile)) {
+            $this->markTestIncomplete("Missing html file:\n- " . $htmlFile . "\n- " . $filePath);
+        }
+
         $logchecker = new Logchecker();
         $logchecker->newFile($filePath);
         $logchecker->parse();

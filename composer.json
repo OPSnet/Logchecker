@@ -30,7 +30,7 @@
         "brainmaestro/composer-git-hooks": "^2.8"
     },
     "scripts": {
-        "test": "phpunit",
+        "test": "phpunit -v",
         "lint": "phpcs",
         "lint:fix": "phpcbf",
         "static-analysis": "phpstan analyze src/"

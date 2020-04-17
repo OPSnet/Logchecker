@@ -29,7 +29,7 @@ before_install:
 install:
   - if [[ $PREFER_LOWEST != 1 ]]; then travis_retry composer update --no-interaction --prefer-dist; fi
   - if [[ $PREFER_LOWEST == 1 ]]; then travis_retry composer update --no-interaction --prefer-dist --prefer-lowest; fi
-  - if [[ $LINT != 1 ]]; then pip3 install --user cchardet xld_logchecker eac_logchecker; fi
+  - if [[ $LINT != 1 ]]; then pip3 install cchardet xld_logchecker eac_logchecker; fi
 
 script:
   - if [[ $LINT == 1 ]]; then composer run lint; fi
