@@ -43,6 +43,7 @@ class LogcheckerTest extends TestCase
             'ripper' => $logchecker->getRipper(),
             'version' => $logchecker->getRipperVersion(),
             'language' => $logchecker->getLanguage(),
+            'combined' => $logchecker->isCombinedLog(),
             'score' => $logchecker->getScore(),
             'checksum' => $logchecker->getChecksumState(),
             'details' => $logchecker->getDetails()

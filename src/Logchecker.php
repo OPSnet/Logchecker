@@ -1991,6 +1991,11 @@ class Logchecker
         return $this->language;
     }
 
+    public function isCombinedLog(): bool
+    {
+        return !is_null($this->Combined) && $this->Combined > 0;
+    }
+
     public static function getAcceptValues(): string
     {
         return ".txt,.TXT,.log,.LOG";

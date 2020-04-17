@@ -2,6 +2,7 @@
     "ripper": "EAC",
     "version": null,
     "language": "en",
+    "combined": false,
     "score": 59,
     "checksum": "checksum_missing",
     "details": [
