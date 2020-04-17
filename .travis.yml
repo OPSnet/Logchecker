@@ -45,10 +45,11 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
-    secure: jlvbD7nzOz/8vssSI75loBMJE9OosAofTu1IDMc3bfxfRaPT6c2duebJF7Bm0VCTGYWK3Wc+19wwyLpCMoueUUEtKqi6RGIUQyboQvbSEe/cje7/9PgqmFstV8LdBLNOwRVj01YcmGw/iMVc+GxPTtDZtcwVU9bzlMCwXFAlggeId0Qw6KgxN+wTbm+oS3zrIh+TnWhgeWhmMYn0/UAEUEQCsYDI+UJjGWStWdpdJqdMhidg5GQyVtomFg82ZjIw+ywYGMGgq38S4PMRBLoqbxuWs++9LPblWboxtktb4+U0xUMdHfrv/r94b8+nI2SJ1xzzUKTXS/glkk0lJAovSYew6jJiu+gsejiNyR89WNgRGwnWAUA8ZBptrM2b3sxLuZ6RuxQXP3TMpxhQQE/3aodOrACPOHa8uuct0JAj/a2p0WCIj4r76McHrXTjFzDPsbdxD1GwOQmFJGqY5EV7Vez6q++Erp/64JEZJk9/jieTv0arLe76VZPQcZ6TB488tH699MvK7Gg1cc4114FbKIEZrOKF2FOrMAZJ3husjELN0zJYeRPZUy6Y7A2PAWsqfdswlxjP9IxuDFVE/3TW8O1sVItWo4+SSkKTILzsC0qgxVL2lW9WDmyka8U5T2SAa8ye/RRZ3FJYugep49wjUsfLraRdA+Lj7KQXSaMlFa8=
+    secure: fsMbI9nYrxmSQRXNjNPqd7Oxdnnv5HyKPd2Va7AqQzbOsdTTPY5tz3/6RdeaG2cPjG19qxbWu/g21ysb/hWWeVyFpmIc8pl4TZcJTOrv28VNJiru87ynjjCKbP5N0AD6pnaVs3A6u8zjVZy2vlW1eOXU18xgTgA+yk/IoZX2AChItXdphgVI0rd941d/hkrnMj5shzy1Uv6wgbJSpD27UQ4d3zgGAgc6gteuXGRy0dizo4g0VrvQ21rpezLAgT0e1cefjIqAYwLFP2tm/Nsi5QLLYhSsQptkCUto+gFeGCLBgIMV5dz2IWIkFXQOdiVYjIGmT86GFN32bMLMDpO0ppTc8NPDjnni1cnM6/N/gMm/JvmLzGHMMEGYMgO+Yg1qgQi8MwjTk5twklsiJSUHIsa1WWo1+uj1rO5TQ8CzgajmNr5upJ9PI75rbOw+cn2DzR8UBPVDl+1YxJfz4XhmRgSdF98s+7kGS3Ehaby+gXnH76m2dU43CWukaz9hwGvDdG4nc0C7XDtLq15vbKcK5BywI0pCJRVwa81KBrt9mP4CU1hY2VidS1iQubegJ59bNN/B+xBW92i4AmBd1QhbBnExQ05xFpusIxjSx/7ty9GNTqm3P5JDRQUj+dgNGNgfoaq/ACkWfd68W/IHqPLnh6saReQd2mrTBKtoDs0Atik=
   file: logchecker.phar
   skip_cleanup: true
   on:
     tags: true
     repo: OPSnet/Logchecker
     php: '7.2'
+    condition: $PREFER_LOWEST != 1 && $Lint != 1
