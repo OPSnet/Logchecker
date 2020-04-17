@@ -7,6 +7,10 @@ use OrpheusNET\Logchecker\Parser\EAC\Translator;
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
 
+if (!defined('LOGCHECKER_LEVENSTEIN_DISTANCE')) {
+    define('LOGCHECKER_LEVENSTEIN_DISTANCE', 0);
+}
+
 /*******************************************************************
  * Automated EAC/XLD log checker *
  ********************************************************************/
@@ -1433,16 +1437,16 @@ class Logchecker
         $DriveName = preg_replace('/\s+/', ' ', $DriveName);
         $DriveName = preg_replace('/\(revision [a-zA-Z0-9\.\,\-]*\)/', '', $DriveName);
         $DriveName = preg_replace('/ Adapter.*$/', '', $DriveName);
-        $DriveName = strtolower($DriveName);
+        $DriveName = trim(strtolower($DriveName));
 
         $MatchedDrives = [];
-        for ($i = 0; $i < 5; $i++) {
+        for ($i = 0; $i < LOGCHECKER_LEVENSTEIN_DISTANCE + 1; $i++) {
             $MatchedDrives[$i] = ['drives' => [], 'offsets' => []];
         }
 
         foreach ($this->AllDrives as [$Drive, $Offset]) {
             $Distance = levenshtein($Drive, $DriveName);
-            if ($Distance < 5) {
+            if ($Distance < LOGCHECKER_LEVENSTEIN_DISTANCE + 1) {
                 $MatchedDrives[$Distance]['drives'][] = $Drive;
                 $MatchedDrives[$Distance]['offsets'][] = preg_replace('/[^0-9]/s', '', (string) $Offset);
             }
