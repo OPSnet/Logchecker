@@ -93,8 +93,8 @@ list($score, $details, $checksum_state, $log_text) = $logchecker->parse();
 
 ### Installation
 
-```
-$ composer require orpheusnet/logchecker
+```bash
+composer require orpheusnet/logchecker
 ```
 
 ### Usage
@@ -107,15 +107,17 @@ require __DIR__ . '/vendor/autoload.php';
 use OrpheusNET\Logchecker\Logchecker;
 
 $logchecker = new Logchecker();
-$logchecker->new_file('/path/to/log/file');
-list($score, $details, $checksum_state, $log_text) = $logchecker->parse();
-print('Score: ' . $score . "\n");
-print('Checksum: ' . $checksum_state . "\n");
+$logchecker->newFile('/path/to/log/file');
+$logchecker->parse();
+print('Ripper   : ' . $logchecker->getRipper() . "\n");
+print('Version  : ' . $logchecker->getRipperVersion() . "\n");
+print('Score    : ' . $logchecker->getScore() . "\n");
+print('Checksum : ' . $logchecker->getChecksumState() . "\n");
 print("\nDetails:\n");
-foreach ($details as $detail) {
+foreach ($logchecker->getDetails() as $detail) {
     print("  {$detail}\n");
 }
-print("\nLog Text:\n{$log_text}");
+print("\nLog Text:\n\n{$logchecker->getLog()}");
 ```
 
 ## Building
