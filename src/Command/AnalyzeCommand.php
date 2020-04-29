@@ -20,6 +20,7 @@ class AnalyzeCommand extends Command
             ->setDescription('analyze log file')
             ->setHelp('This command analyzes a log file')
             ->addOption('html', null, InputOption::VALUE_NONE, 'Print the HTML version of log, without color')
+            ->addOption('no_text', null, InputOption::VALUE_NONE, 'Do not print log text to console')
             ->addArgument('file', InputArgument::REQUIRED, 'Log file to analyze')
             ->addArgument('out_file', InputArgument::OPTIONAL, 'Write HTML log to outfile');
     }
@@ -55,6 +56,9 @@ class AnalyzeCommand extends Command
             }
         }
 
+        if ($input->getOption('no_text')) {
+            return 0;
+        }
         $output->writeln('');
         $output->writeln('Log Text:');
         $output->writeln('');
