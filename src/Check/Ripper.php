@@ -8,7 +8,7 @@ use OrpheusNET\Logchecker\Exception\UnknownRipperException;
 
 class Ripper
 {
-
+    public const UNKNOWN = 'unknown';
     public const WHIPPER = 'whipper';
     public const XLD = 'XLD';
     public const EAC = 'EAC';

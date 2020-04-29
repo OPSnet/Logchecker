@@ -3,6 +3,7 @@
 namespace OrpheusNET\Logchecker;
 
 use OrpheusNET\Logchecker\Check\Ripper;
+use OrpheusNET\Logchecker\Exception\UnknownRipperException;
 use OrpheusNET\Logchecker\Parser\EAC\Translator;
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
@@ -108,9 +109,18 @@ class Logchecker
         } catch (\Exception $exc) {
             $this->Score = 0;
             $this->account('Could not detect log encoding, log is corrupt.');
+            return;
         }
 
-        $this->ripper = Ripper::getRipper($this->log);
+        try {
+            $this->ripper = Ripper::getRipper($this->log);
+        } catch (UnknownRipperException $exc) {
+            $this->Score = 0;
+            $this->account('Unknown log file, could not determine ripper.');
+            $this->ripper = Ripper::UNKNOWN;
+            return;
+        }
+
         if ($this->ripper === Ripper::WHIPPER) {
             $this->whipperParse();
         } else {

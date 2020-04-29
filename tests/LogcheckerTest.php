@@ -70,4 +70,17 @@ class LogcheckerTest extends TestCase
         );
         $this->assertSame($composer['version'], Logchecker::getLogcheckerVersion());
     }
+
+    public function testCheckUnknownLog(): void
+    {
+        $logchecker = new Logchecker();
+        $logchecker->newFile(implode(DIRECTORY_SEPARATOR, [__DIR__, 'LogcheckerTest.php']));
+        $logchecker->parse();
+
+        $this->assertSame(Ripper::UNKNOWN, $logchecker->getRipper());
+        $this->assertNull($logchecker->getRipperVersion());
+        $this->assertSame(0, $logchecker->getScore());
+        $this->assertSame('en', $logchecker->getLanguage());
+        $this->assertSame(['Unknown log file, could not determine ripper.'], $logchecker->getDetails());
+    }
 }
