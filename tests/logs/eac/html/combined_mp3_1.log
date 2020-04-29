@@ -1,0 +1,223 @@
+Exact Audio Copy <span class="log1">V1.5</span> from <span class="log1">20. February 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>17. April 2020, 19:35</span></span>
+
+<span class="log4">John Coltrane / A Love Supreme</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STDVDRAM GH24NSB0   Adapter: 1  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">768 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\FLAC\FLAC.EXE</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -e -p -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">7:42.65</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">34714</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">7:42.65</span> <strong>|</strong>  <span class="log1">7:19.34</span> <strong>|</strong>     <span class="log1">34715</span>    <strong>|</strong>    <span class="log1">67673</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">15:02.24</span> <strong>|</strong> <span class="log1">10:42.38</span> <strong>|</strong>     <span class="log1">67674</span>    <strong>|</strong>   <span class="log1">115861</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">25:44.62</span> <strong>|</strong>  <span class="log1">7:02.68</span> <strong>|</strong>    <span class="log1">115862</span>    <strong>|</strong>   <span class="log1">147579</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">E:\Test Rip\01 Acknowledgement.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">322247B3</span></span>
+     <span class="log4">Copy CRC <span class="good">322247B3</span></span>
+     <span class="good">Accurately ripped (confidence 200)  [FB072CAB]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">E:\Test Rip\02 Resolution.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4732C420</span></span>
+     <span class="log4">Copy CRC <span class="good">4732C420</span></span>
+     <span class="good">Accurately ripped (confidence 200)  [F8254929]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">E:\Test Rip\03 Pursuance.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.46</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">71958F92</span></span>
+     <span class="log4">Copy CRC <span class="good">71958F92</span></span>
+     <span class="good">Accurately ripped (confidence 200)  [4FC2DCC6]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">E:\Test Rip\04 Psalm.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">95.7 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0C8D6B7E</span></span>
+     <span class="log4">Copy CRC <span class="good">0C8D6B7E</span></span>
+     <span class="good">Accurately ripped (confidence 200)  [36EF184C]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: 3Ymtej0heE3Qv3LM2ZTKNGwiRV8-] found
+Submit result: already submitted
+Track | CTDB Status
+  1   | (961/1326) Accurately ripped
+  2   | (966/1326) Accurately ripped
+  3   | (961/1326) Accurately ripped
+  4   | (963/1326) Accurately ripped
+
+<span class='bad'>==== Log checksum 5168768818AD8271F9E33889E0FF7123188A08EB490B3FD922F4335E1C74BEDC ====</span>
+
+<strong>------------------------------------------------------------</strong>
+
+Exact Audio Copy <span class="log1">V1.5</span> from <span class="log1">20. February 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>17. April 2020, 19:35</span></span>
+
+<span class="log4">John Coltrane / A Love Supreme</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STDVDRAM GH24NSB0   Adapter: 1  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">320 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="badish">Yes</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">E:\Tools\lame.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-V0 --vbr-new --tt "%title%" --ta "%artist%" --tl "%albumtitle%" --ty "%year%" --tn "%tracknr%"  %source% 
+%dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">7:42.65</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">34714</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">7:42.65</span> <strong>|</strong>  <span class="log1">7:19.34</span> <strong>|</strong>     <span class="log1">34715</span>    <strong>|</strong>    <span class="log1">67673</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">15:02.24</span> <strong>|</strong> <span class="log1">10:42.38</span> <strong>|</strong>     <span class="log1">67674</span>    <strong>|</strong>   <span class="log1">115861</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">25:44.62</span> <strong>|</strong>  <span class="log1">7:02.68</span> <strong>|</strong>    <span class="log1">115862</span>    <strong>|</strong>   <span class="log1">147579</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">E:\Test Rip\01 Acknowledgement.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">322247B3</span></span>
+     <span class="log4">Copy CRC <span class="good">322247B3</span></span>
+     <span class="good">Accurately ripped (confidence 200)  [FB072CAB]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">E:\Test Rip\02 Resolution.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4732C420</span></span>
+     <span class="log4">Copy CRC <span class="good">4732C420</span></span>
+     <span class="good">Accurately ripped (confidence 200)  [F8254929]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">E:\Test Rip\03 Pursuance.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.46</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">71958F92</span></span>
+     <span class="log4">Copy CRC <span class="good">71958F92</span></span>
+     <span class="good">Accurately ripped (confidence 200)  [4FC2DCC6]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">E:\Test Rip\04 Psalm.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">95.7 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0C8D6B7E</span></span>
+     <span class="log4">Copy CRC <span class="good">0C8D6B7E</span></span>
+     <span class="good">Accurately ripped (confidence 200)  [36EF184C]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: 3Ymtej0heE3Qv3LM2ZTKNGwiRV8-] found
+Submit result: already submitted
+Track | CTDB Status
+  1   | (961/1326) Accurately ripped
+  2   | (966/1326) Accurately ripped
+  3   | (961/1326) Accurately ripped
+  4   | (963/1326) Accurately ripped
+
+<span class='bad'>==== Log checksum 9FE4FA4CE31EF3C9B70A448AFA4B9E5862E040593FE0673DC1C8A4BA257D9E97 ====</span>

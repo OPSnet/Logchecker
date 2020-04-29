@@ -1,0 +1,223 @@
+Exact Audio Copy V1.5 from 20. February 2020
+
+EAC extraction logfile from 17. April 2020, 19:35
+
+John Coltrane / A Love Supreme
+
+Used drive  : HL-DT-STDVDRAM GH24NSB0   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 6
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files (x86)\Exact Audio Copy\FLAC\FLAC.EXE
+Additional command line options : -8 -e -p -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T "TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  7:42.65 |         0    |    34714   
+        2  |  7:42.65 |  7:19.34 |     34715    |    67673   
+        3  | 15:02.24 | 10:42.38 |     67674    |   115861   
+        4  | 25:44.62 |  7:02.68 |    115862    |   147579   
+
+
+Track  1
+
+     Filename E:\Test Rip\01 Acknowledgement.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 97.6 %
+     Extraction speed 5.3 X
+     Track quality 100.0 %
+     Test CRC 322247B3
+     Copy CRC 322247B3
+     Accurately ripped (confidence 200)  [FB072CAB]  (AR v2)
+     Copy OK
+
+Track  2
+
+     Filename E:\Test Rip\02 Resolution.wav
+
+     Peak level 97.6 %
+     Extraction speed 6.1 X
+     Track quality 100.0 %
+     Test CRC 4732C420
+     Copy CRC 4732C420
+     Accurately ripped (confidence 200)  [F8254929]  (AR v2)
+     Copy OK
+
+Track  3
+
+     Filename E:\Test Rip\03 Pursuance.wav
+
+     Pre-gap length  0:00:01.46
+
+     Peak level 97.6 %
+     Extraction speed 7.1 X
+     Track quality 100.0 %
+     Test CRC 71958F92
+     Copy CRC 71958F92
+     Accurately ripped (confidence 200)  [4FC2DCC6]  (AR v2)
+     Copy OK
+
+Track  4
+
+     Filename E:\Test Rip\04 Psalm.wav
+
+     Peak level 95.7 %
+     Extraction speed 7.6 X
+     Track quality 100.0 %
+     Test CRC 0C8D6B7E
+     Copy CRC 0C8D6B7E
+     Accurately ripped (confidence 200)  [36EF184C]  (AR v2)
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: 3Ymtej0heE3Qv3LM2ZTKNGwiRV8-] found
+Submit result: already submitted
+Track | CTDB Status
+  1   | (961/1326) Accurately ripped
+  2   | (966/1326) Accurately ripped
+  3   | (961/1326) Accurately ripped
+  4   | (963/1326) Accurately ripped
+
+
+==== Log checksum 5168768818AD8271F9E33889E0FF7123188A08EB490B3FD922F4335E1C74BEDC ====
+
+------------------------------------------------------------
+
+Exact Audio Copy V1.5 from 20. February 2020
+
+EAC extraction logfile from 17. April 2020, 19:35
+
+John Coltrane / A Love Supreme
+
+Used drive  : HL-DT-STDVDRAM GH24NSB0   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 6
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 320 kBit/s
+Quality                         : High
+Add ID3 tag                     : Yes
+Command line compressor         : E:\Tools\lame.exe
+Additional command line options : -V0 --vbr-new --tt "%title%" --ta "%artist%" --tl "%albumtitle%" --ty "%year%" --tn "%tracknr%"  %source% %dest%
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  7:42.65 |         0    |    34714   
+        2  |  7:42.65 |  7:19.34 |     34715    |    67673   
+        3  | 15:02.24 | 10:42.38 |     67674    |   115861   
+        4  | 25:44.62 |  7:02.68 |    115862    |   147579   
+
+
+Track  1
+
+     Filename E:\Test Rip\01 Acknowledgement.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 97.6 %
+     Extraction speed 5.3 X
+     Track quality 100.0 %
+     Test CRC 322247B3
+     Copy CRC 322247B3
+     Accurately ripped (confidence 200)  [FB072CAB]  (AR v2)
+     Copy OK
+
+Track  2
+
+     Filename E:\Test Rip\02 Resolution.wav
+
+     Peak level 97.6 %
+     Extraction speed 6.1 X
+     Track quality 100.0 %
+     Test CRC 4732C420
+     Copy CRC 4732C420
+     Accurately ripped (confidence 200)  [F8254929]  (AR v2)
+     Copy OK
+
+Track  3
+
+     Filename E:\Test Rip\03 Pursuance.wav
+
+     Pre-gap length  0:00:01.46
+
+     Peak level 97.6 %
+     Extraction speed 7.1 X
+     Track quality 100.0 %
+     Test CRC 71958F92
+     Copy CRC 71958F92
+     Accurately ripped (confidence 200)  [4FC2DCC6]  (AR v2)
+     Copy OK
+
+Track  4
+
+     Filename E:\Test Rip\04 Psalm.wav
+
+     Peak level 95.7 %
+     Extraction speed 7.6 X
+     Track quality 100.0 %
+     Test CRC 0C8D6B7E
+     Copy CRC 0C8D6B7E
+     Accurately ripped (confidence 200)  [36EF184C]  (AR v2)
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: 3Ymtej0heE3Qv3LM2ZTKNGwiRV8-] found
+Submit result: already submitted
+Track | CTDB Status
+  1   | (961/1326) Accurately ripped
+  2   | (966/1326) Accurately ripped
+  3   | (961/1326) Accurately ripped
+  4   | (963/1326) Accurately ripped
+
+
+==== Log checksum 9FE4FA4CE31EF3C9B70A448AFA4B9E5862E040593FE0673DC1C8A4BA257D9E97 ====

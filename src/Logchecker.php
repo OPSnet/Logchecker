@@ -536,14 +536,18 @@ class Logchecker
             }
 
             $Class = $this->checksumStatus === Check\Checksum::CHECKSUM_OK ? 'good' : 'bad';
-            $Log = preg_replace('/(\=+\s+Log checksum.*)/i', "<span class='{$Class}'>$1</span>", $Log, 1, $Count);
+            $Log = preg_replace('/(\=+\s+Log checksum.*)/i', "<span class='{$Class}'>$1</span>", $Log, 1, $eacCount);
             $Log = preg_replace(
                 '/([\-]+BEGIN XLD SIGNATURE[\S\n\-]+END XLD SIGNATURE[\-]+)/i',
                 "<span class='{$Class}'>$1</span>",
                 $Log,
                 1,
-                $Count
+                $xldCount
             );
+            // EAC will at least output "no checksum" for some malformed logs with checksums
+            if (($eacCount > 0 || $xldCount > 0) && $this->checksumStatus === Check\Checksum::CHECKSUM_MISSING) {
+                $this->checksumStatus = Check\Checksum::CHECKSUM_INVALID;
+            }
 
             $Log = preg_replace_callback("/Used drive( *): (.+)/i", array(
                 $this,
