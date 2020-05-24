@@ -3,6 +3,7 @@
 namespace OrpheusNET\Logchecker;
 
 use OrpheusNET\Logchecker\Check\Ripper;
+use OrpheusNET\Logchecker\Exception\UnknownLanguageException;
 use OrpheusNET\Logchecker\Exception\UnknownRipperException;
 use OrpheusNET\Logchecker\Parser\EAC\Translator;
 use Symfony\Component\Yaml\Yaml;
@@ -366,17 +367,22 @@ class Logchecker
     {
         if ($this->ripper === Ripper::EAC) {
             $translator = new Translator();
-            $lang = $translator->getLanguage($this->log);
-            if ($lang['code'] !== 'en') {
-                $this->language = $lang['code'];
-                $this->account(
-                    "Translated log from {$lang['name']} ({$lang['name_english']}) to English.",
-                    false,
-                    false,
-                    false,
-                    true
-                );
-                $this->log = $translator->translate($this->log, $lang['code']);
+            try {
+                $lang = $translator->getLanguage($this->log);
+                if ($lang['code'] !== 'en') {
+                    $this->language = $lang['code'];
+                    $this->account(
+                        "Translated log from {$lang['name']} ({$lang['name_english']}) to English.",
+                        false,
+                        false,
+                        false,
+                        true
+                    );
+                    $this->log = $translator->translate($this->log, $lang['code']);
+                }
+            } catch (UnknownLanguageException $exc) {
+                $this->language = 'en';
+                $this->account('Could not determine language. Assuming English.', false, false, false, true);
             }
         }
 
