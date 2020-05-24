@@ -41,6 +41,12 @@ class Util
             if ($results['charset'] !== 'utf-8' && $results['confidence'] > 0.7) {
                 // $log = mb_convert_encoding($log, 'UTF-8', $results['charset']);
                 $log = iconv($results['charset'], 'UTF-8', $log);
+            } elseif ($results['charset'] !== 'utf-8' && $results['confidence'] > 0.3) {
+                // If we've got a poor confidence on our decoding, we just use a generic
+                // ISO-8859-1 as that covers a decent range of things that people would
+                // inadvertently re-encode a log into. I seriously cannot express how
+                // much I hate how EAC does not use always UTF-8.
+                $log = iconv('ISO-8859-1', 'UTF-8', $log);
             }
         }
         return $log;

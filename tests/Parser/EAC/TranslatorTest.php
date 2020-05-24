@@ -6,6 +6,7 @@ namespace OrpheusNET\Logchecker\Parser\EAC;
 
 use FilesystemIterator;
 use OrpheusNET\Logchecker\Exception\UnknownLanguageException;
+use OrpheusNET\Logchecker\Util;
 use PHPUnit\Framework\TestCase;
 
 class TranslatorTest extends TestCase
@@ -50,5 +51,34 @@ class TranslatorTest extends TestCase
                 implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'xld', 'originals', 'xld_perfect.log'])
             )
         );
+    }
+
+    public function englishLogProvider()
+    {
+        return array_map(
+            function ($file) {
+                return [$file];
+            },
+            array_filter(
+                scandir(implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'eac', 'originals'])),
+                function ($file) {
+                    return substr($file, 0, 2) === 'en';
+                }
+            )
+        );
+    }
+
+    /**
+     * @dataProvider englishLogProvider
+     */
+    public function testEnglishLanguage(string $file)
+    {
+        $logPath = implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'eac', 'originals', $file]);
+        $log = file_get_contents($logPath);
+        $log = Util::decodeEncoding($log, $logPath);
+        $langDetails = Translator::getLanguage($log);
+        $this->assertSame('en', $langDetails['code']);
+        $this->assertSame('English', $langDetails['name']);
+        $this->assertSame('English', $langDetails['name_english']);
     }
 }

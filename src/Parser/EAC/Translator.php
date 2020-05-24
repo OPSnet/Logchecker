@@ -54,6 +54,7 @@ class Translator
             file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'languages' . DIRECTORY_SEPARATOR . 'master.json'),
             true
         );
+
         foreach ($languages as $code => $lang) {
             foreach ($lang['eac_strings'] as $eac_string) {
                 if (preg_match('/' . preg_quote($eac_string, "/") . '/ui', $log) === 1) {

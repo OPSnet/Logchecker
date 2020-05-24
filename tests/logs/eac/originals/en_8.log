@@ -1,0 +1,194 @@
+EAC extraction logfile from 20. November 2006, 20:20 for CD
+Banco del Mutuo Soccorso / Seguendo le Tracce
+
+Used drive  : _NEC    DVD+-RW ND-6450A   Adapter: 1  ID: 0
+Read mode   : Secure with NO C2, accurate stream, disable cache
+Read offset correction : 594
+Overread into Lead-In and Lead-Out : No
+
+Used output format : Internal WAV Routines
+                     44.100 Hz; 16 Bit; Stereo
+
+Other options      : 
+    Fill up missing offset samples with silence : Yes
+    Delete leading and trailing silent blocks : No
+    Installed external ASPI interface
+
+
+Track  1
+     Filename C:\Documents and Settings\user\Documenti\file flac\01R.I.P. (english version).wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC EC43BAD3
+     Copy CRC EC43BAD3
+     Copy OK
+
+Track  2
+     Filename C:\Documents and Settings\user\Documenti\file flac\02L'albero del pane.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 70584B1D
+     Copy CRC 70584B1D
+     Copy OK
+
+Track  3
+     Filename C:\Documents and Settings\user\Documenti\file flac\03La danza dei grandi rettili.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 4E17BAEF
+     Copy CRC 4E17BAEF
+     Copy OK
+
+Track  4
+     Filename C:\Documents and Settings\user\Documenti\file flac\04Passaggio.wav
+
+     Peak level 44.4 %
+     Track quality 100.0 %
+     Test CRC D76BE99A
+     Copy CRC D76BE99A
+     Copy OK
+
+Track  5
+     Filename C:\Documents and Settings\user\Documenti\file flac\05Non mi rompete.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 826A9F81
+     Copy CRC 826A9F81
+     Copy OK
+
+Track  6
+     Filename C:\Documents and Settings\user\Documenti\file flac\06Dopo... niente più è lo stesso.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC CFB6C6BA
+     Copy CRC CFB6C6BA
+     Copy OK
+
+Track  7
+     Filename C:\Documents and Settings\user\Documenti\file flac\07Traccia II.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC D7BAF9A2
+     Copy CRC D7BAF9A2
+     Copy OK
+
+Track  8
+     Filename C:\Documents and Settings\user\Documenti\file flac\08Metamorfosi.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC BBB2254A
+     Copy CRC BBB2254A
+     Copy OK
+
+No errors occured
+
+
+End of status report
+
+------------------------------------------------------------
+
+EAC extraction logfile from 20. November 2006, 21:08 for CD
+Banco del Mutuo Soccorso / Seguendo le Tracce
+
+Used drive  : _NEC    DVD+-RW ND-6450A   Adapter: 1  ID: 0
+Read mode   : Secure with NO C2, accurate stream, disable cache
+Read offset correction : 594
+Overread into Lead-In and Lead-Out : No
+
+Used output format : C:\Programmi\FLAC\flac.exe   (User Defined Encoder)
+                     320 kBit/s
+                     Additional command line options : -V --replay-gain -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s 
+
+Other options      : 
+    Fill up missing offset samples with silence : Yes
+    Delete leading and trailing silent blocks : No
+    Installed external ASPI interface
+
+
+Track  1
+     Filename C:\Documents and Settings\user\Documenti\file flac\01R.I.P. (english version).wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC EC43BAD3
+     Copy CRC EC43BAD3
+     Copy OK
+
+Track  2
+     Filename C:\Documents and Settings\user\Documenti\file flac\02L'albero del pane.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 70584B1D
+     Copy CRC 70584B1D
+     Copy OK
+
+Track  3
+     Filename C:\Documents and Settings\user\Documenti\file flac\03La danza dei grandi rettili.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 4E17BAEF
+     Copy CRC 4E17BAEF
+     Copy OK
+
+Track  4
+     Filename C:\Documents and Settings\user\Documenti\file flac\04Passaggio.wav
+
+     Peak level 44.4 %
+     Track quality 100.0 %
+     Test CRC D76BE99A
+     Copy CRC D76BE99A
+     Copy OK
+
+Track  5
+     Filename C:\Documents and Settings\user\Documenti\file flac\05Non mi rompete.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC 826A9F81
+     Copy CRC 826A9F81
+     Copy OK
+
+Track  6
+     Filename C:\Documents and Settings\user\Documenti\file flac\06Dopo... niente più è lo stesso.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC CFB6C6BA
+     Copy CRC CFB6C6BA
+     Copy OK
+
+Track  7
+     Filename C:\Documents and Settings\user\Documenti\file flac\07Traccia II.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC D7BAF9A2
+     Copy CRC D7BAF9A2
+     Copy OK
+
+Track  8
+     Filename C:\Documents and Settings\user\Documenti\file flac\08Metamorfosi.wav
+
+     Peak level 97.7 %
+     Track quality 100.0 %
+     Test CRC BBB2254A
+     Copy CRC BBB2254A
+     Copy OK
+
+No errors occured
+
+
+End of status report
