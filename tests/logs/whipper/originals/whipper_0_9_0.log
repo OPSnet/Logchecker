@@ -1,0 +1,338 @@
+Log created by: whipper 0.9.0 (internal logger)
+Log creation date: 2020-08-17T22:01:17Z
+
+Ripping phase information:
+  Drive: TSSTcorpCD/DVDW SH-S162L (revision TS05)
+  Extraction engine: cdparanoia III 10.2 libcdio 2.1.0 x86_64-unknown-linux-gnu
+  Defeat audio cache: true
+  Read offset correction: 6
+  Overread into lead-out: false
+  Gap detection: cdrdao 1.2.4
+  CD-R detected: false
+
+CD metadata:
+  Release:
+    Artist: Socialburn
+    Title: The Beauty of Letting Go
+  CDDB Disc ID: ab0b7c0c
+  MusicBrainz Disc ID: wIouaFuUciVX2jtd_fY_U2gNtns-
+  MusicBrainz lookup URL: https://musicbrainz.org/cdtoc/attach?toc=1+12+220662+150+19151+36911+56595+72049+91642+110143+124169+144001+162931+179863+200238&tracks=12&id=wIouaFuUciVX2jtd_fY_U2gNtns-
+  MusicBrainz Release URL: https://musicbrainz.org/release/d7ab0aca-fbb1-4d47-a80d-df4b617e9322
+
+TOC:
+  1:
+    Start: 00:00:00
+    Length: 04:13:26
+    Start sector: 0
+    End sector: 19000
+
+  2:
+    Start: 04:13:26
+    Length: 03:56:60
+    Start sector: 19001
+    End sector: 36760
+
+  3:
+    Start: 08:10:11
+    Length: 04:22:34
+    Start sector: 36761
+    End sector: 56444
+
+  4:
+    Start: 12:32:45
+    Length: 03:26:04
+    Start sector: 56445
+    End sector: 71898
+
+  5:
+    Start: 15:58:49
+    Length: 04:21:18
+    Start sector: 71899
+    End sector: 91491
+
+  6:
+    Start: 20:19:67
+    Length: 04:06:51
+    Start sector: 91492
+    End sector: 109992
+
+  7:
+    Start: 24:26:43
+    Length: 03:07:01
+    Start sector: 109993
+    End sector: 124018
+
+  8:
+    Start: 27:33:44
+    Length: 04:24:32
+    Start sector: 124019
+    End sector: 143850
+
+  9:
+    Start: 31:58:01
+    Length: 04:12:30
+    Start sector: 143851
+    End sector: 162780
+
+  10:
+    Start: 36:10:31
+    Length: 03:45:57
+    Start sector: 162781
+    End sector: 179712
+
+  11:
+    Start: 39:56:13
+    Length: 04:31:50
+    Start sector: 179713
+    End sector: 200087
+
+  12:
+    Start: 44:27:63
+    Length: 04:32:24
+    Start sector: 200088
+    End sector: 220511
+
+Tracks:
+  1:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/01 - Be a Man.flac
+    Peak level: 0.988647
+    Pre-emphasis:
+    Extraction speed: 3.4 X
+    Extraction quality: 100.00 %
+    Test CRC: ADDCC3B5
+    Copy CRC: ADDCC3B5
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: 76E259B3
+      Remote CRC: 76E259B3
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 6
+      Local CRC: 2AE8E1FD
+      Remote CRC: 2AE8E1FD
+    Status: Copy OK
+
+  2:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/02 - Touch the Sky.flac
+    Peak level: 0.988617
+    Pre-emphasis:
+    Extraction speed: 3.8 X
+    Extraction quality: 100.00 %
+    Test CRC: 995ED6F3
+    Copy CRC: 995ED6F3
+    AccurateRip v1:
+      Result: Track not present in AccurateRip database
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 6
+      Local CRC: '27825540'
+      Remote CRC: '27825540'
+    Status: Copy OK
+
+  3:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/03 - Cold Night.flac
+    Peak level: 0.988647
+    Pre-emphasis:
+    Extraction speed: 4.0 X
+    Extraction quality: 100.00 %
+    Test CRC: F324D9A3
+    Copy CRC: F324D9A3
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: 48A4A21E
+      Remote CRC: 48A4A21E
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: FE679D73
+      Remote CRC: FE679D73
+    Status: Copy OK
+
+  4:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/04 - Get Out Alive.flac
+    Peak level: 0.988708
+    Pre-emphasis:
+    Extraction speed: 4.3 X
+    Extraction quality: 100.00 %
+    Test CRC: D39D9043
+    Copy CRC: D39D9043
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: B561CDE9
+      Remote CRC: B561CDE9
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: 4FD283E9
+      Remote CRC: 4FD283E9
+    Status: Copy OK
+
+  5:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/05 - Speak Now.flac
+    Peak level: 0.98877
+    Pre-emphasis:
+    Extraction speed: 4.5 X
+    Extraction quality: 100.00 %
+    Test CRC: 79E8D492
+    Copy CRC: 79E8D492
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: 6B34D88D
+      Remote CRC: 6B34D88D
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: DF4DBCF3
+      Remote CRC: DF4DBCF3
+    Status: Copy OK
+
+  6:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/06 - Ride.flac
+    Peak level: 0.988556
+    Pre-emphasis:
+    Extraction speed: 4.7 X
+    Extraction quality: 100.00 %
+    Test CRC: 739B8FD6
+    Copy CRC: 739B8FD6
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: 73BD82AA
+      Remote CRC: 73BD82AA
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: 56663A75
+      Remote CRC: 56663A75
+    Status: Copy OK
+
+  7:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/07 - Paranoid.flac
+    Peak level: 0.988678
+    Pre-emphasis:
+    Extraction speed: 4.9 X
+    Extraction quality: 100.00 %
+    Test CRC: ED933109
+    Copy CRC: ED933109
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: A9C9F65D
+      Remote CRC: A9C9F65D
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: E46B2D2B
+      Remote CRC: E46B2D2B
+    Status: Copy OK
+
+  8:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/08 - Leaving Song.flac
+    Peak level: 0.988403
+    Pre-emphasis:
+    Extraction speed: 5.2 X
+    Extraction quality: 100.00 %
+    Test CRC: 98EE039B
+    Copy CRC: 98EE039B
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: 91AABB81
+      Remote CRC: 91AABB81
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: DAC108BD
+      Remote CRC: DAC108BD
+    Status: Copy OK
+
+  9:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/09 - Who Cares.flac
+    Peak level: 0.988739
+    Pre-emphasis:
+    Extraction speed: 5.4 X
+    Extraction quality: 100.00 %
+    Test CRC: DA5146FC
+    Copy CRC: DA5146FC
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: 5D4DE40B
+      Remote CRC: 5D4DE40B
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: CBE6505D
+      Remote CRC: CBE6505D
+    Status: Copy OK
+
+  10:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/10 - Love Hate.flac
+    Peak level: 0.988708
+    Pre-emphasis:
+    Extraction speed: 5.4 X
+    Extraction quality: 100.00 %
+    Test CRC: 55B3E208
+    Copy CRC: 55B3E208
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: 22A35293
+      Remote CRC: 22A35293
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: AEC08D5E
+      Remote CRC: AEC08D5E
+    Status: Copy OK
+
+  11:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/11 - Out to Sea.flac
+    Peak level: 0.988739
+    Pre-emphasis:
+    Extraction speed: 5.6 X
+    Extraction quality: 100.00 %
+    Test CRC: 55F2ECB1
+    Copy CRC: 55F2ECB1
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 2
+      Local CRC: '93319715'
+      Remote CRC: '93319715'
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: F260474C
+      Remote CRC: F260474C
+    Status: Copy OK
+
+  12:
+    Filename: /var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/12 - I'm Happy.flac
+    Peak level: 0.988831
+    Pre-emphasis:
+    Extraction speed: 6.1 X
+    Extraction quality: 100.00 %
+    Test CRC: 444CAA5C
+    Copy CRC: 444CAA5C
+    AccurateRip v1:
+      Result: Found, exact match
+      Confidence: 3
+      Local CRC: 4BF14ED4
+      Remote CRC: 4BF14ED4
+    AccurateRip v2:
+      Result: Found, exact match
+      Confidence: 5
+      Local CRC: 8BE42FF6
+      Remote CRC: 8BE42FF6
+    Status: Copy OK
+
+Conclusive status report:
+  AccurateRip summary: All tracks accurately ripped
+  Health Status: No errors occurred
+  EOF: End of status report
+
+SHA-256 hash: C65CF29DEFE991761311F474CFEAEE9BE66A3EAB59B862F7D14B9558A578384A

@@ -1,0 +1,338 @@
+Log created by: <span class='good'>whipper</span> <span class='log1'>0.9.0</span> (internal logger)
+Log creation date: 2020-08-17T22:01:17Z
+
+Ripping phase information:
+  Drive: <span class='badish'>TSSTcorpCD/DVDW SH-S162L (revision TS05) (not found in database)</span>
+  Extraction engine: cdparanoia III 10.2 libcdio 2.1.0 x86_64-unknown-linux-gnu
+  Defeat audio cache: <span class='good'>true</span>
+  Read offset correction: <span class='badish'>+6</span>
+  Overread into lead-out: <span class='log4'>false</span>
+  Gap detection: cdrdao 1.2.4
+  CD-R detected: false
+
+CD metadata:
+  Release:
+    Artist: <span class='log4'>Socialburn</span>
+    Title: <span class='log4'>The Beauty of Letting Go</span>
+  CDDB Disc ID: ab0b7c0c
+  MusicBrainz Disc ID: wIouaFuUciVX2jtd_fY_U2gNtns-
+  MusicBrainz lookup URL: https://musicbrainz.org/cdtoc/attach?toc=1+12+220662+150+19151+36911+56595+72049+91642+110143+124169+144001+162931+179863+200238&tracks=12&id=wIouaFuUciVX2jtd_fY_U2gNtns-
+  MusicBrainz Release URL: https://musicbrainz.org/release/d7ab0aca-fbb1-4d47-a80d-df4b617e9322
+
+TOC:
+  1:
+    Start: <span class='log1'>00:00:00</span>
+    Length: <span class='log1'>04:13:26</span>
+    Start sector: <span class='log1'>0</span>
+    End sector: <span class='log1'>19000</span>
+
+  2:
+    Start: <span class='log1'>04:13:26</span>
+    Length: <span class='log1'>03:56:60</span>
+    Start sector: <span class='log1'>19001</span>
+    End sector: <span class='log1'>36760</span>
+
+  3:
+    Start: <span class='log1'>08:10:11</span>
+    Length: <span class='log1'>04:22:34</span>
+    Start sector: <span class='log1'>36761</span>
+    End sector: <span class='log1'>56444</span>
+
+  4:
+    Start: <span class='log1'>12:32:45</span>
+    Length: <span class='log1'>03:26:04</span>
+    Start sector: <span class='log1'>56445</span>
+    End sector: <span class='log1'>71898</span>
+
+  5:
+    Start: <span class='log1'>15:58:49</span>
+    Length: <span class='log1'>04:21:18</span>
+    Start sector: <span class='log1'>71899</span>
+    End sector: <span class='log1'>91491</span>
+
+  6:
+    Start: <span class='log1'>20:19:67</span>
+    Length: <span class='log1'>04:06:51</span>
+    Start sector: <span class='log1'>91492</span>
+    End sector: <span class='log1'>109992</span>
+
+  7:
+    Start: <span class='log1'>24:26:43</span>
+    Length: <span class='log1'>03:07:01</span>
+    Start sector: <span class='log1'>109993</span>
+    End sector: <span class='log1'>124018</span>
+
+  8:
+    Start: <span class='log1'>27:33:44</span>
+    Length: <span class='log1'>04:24:32</span>
+    Start sector: <span class='log1'>124019</span>
+    End sector: <span class='log1'>143850</span>
+
+  9:
+    Start: <span class='log1'>31:58:01</span>
+    Length: <span class='log1'>04:12:30</span>
+    Start sector: <span class='log1'>143851</span>
+    End sector: <span class='log1'>162780</span>
+
+  10:
+    Start: <span class='log1'>36:10:31</span>
+    Length: <span class='log1'>03:45:57</span>
+    Start sector: <span class='log1'>162781</span>
+    End sector: <span class='log1'>179712</span>
+
+  11:
+    Start: <span class='log1'>39:56:13</span>
+    Length: <span class='log1'>04:31:50</span>
+    Start sector: <span class='log1'>179713</span>
+    End sector: <span class='log1'>200087</span>
+
+  12:
+    Start: <span class='log1'>44:27:63</span>
+    Length: <span class='log1'>04:32:24</span>
+    Start sector: <span class='log1'>200088</span>
+    End sector: <span class='log1'>220511</span>
+
+Tracks:
+  1:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/01 - Be a Man.flac</span>
+    Peak level: <span class='log3'>0.988647</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>3.4 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>ADDCC3B5</span>
+    Copy CRC: <span class='good'>ADDCC3B5</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>76E259B3</span>
+      Remote CRC: <span class='goodish'>76E259B3</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 6
+      Local CRC: <span class='goodish'>2AE8E1FD</span>
+      Remote CRC: <span class='goodish'>2AE8E1FD</span>
+    Status: <span class='good'>Copy OK</span>
+
+  2:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/02 - Touch the Sky.flac</span>
+    Peak level: <span class='log3'>0.988617</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>3.8 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>995ED6F3</span>
+    Copy CRC: <span class='good'>995ED6F3</span>
+    AccurateRip v1:
+      Result: <span class='badish'>Track not present in AccurateRip database</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 6
+      Local CRC: <span class='goodish'>27825540</span>
+      Remote CRC: <span class='goodish'>27825540</span>
+    Status: <span class='good'>Copy OK</span>
+
+  3:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/03 - Cold Night.flac</span>
+    Peak level: <span class='log3'>0.988647</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>4.0 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>F324D9A3</span>
+    Copy CRC: <span class='good'>F324D9A3</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>48A4A21E</span>
+      Remote CRC: <span class='goodish'>48A4A21E</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>FE679D73</span>
+      Remote CRC: <span class='goodish'>FE679D73</span>
+    Status: <span class='good'>Copy OK</span>
+
+  4:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/04 - Get Out Alive.flac</span>
+    Peak level: <span class='log3'>0.988708</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>4.3 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>D39D9043</span>
+    Copy CRC: <span class='good'>D39D9043</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>B561CDE9</span>
+      Remote CRC: <span class='goodish'>B561CDE9</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>4FD283E9</span>
+      Remote CRC: <span class='goodish'>4FD283E9</span>
+    Status: <span class='good'>Copy OK</span>
+
+  5:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/05 - Speak Now.flac</span>
+    Peak level: <span class='log3'>0.988770</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>4.5 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>79E8D492</span>
+    Copy CRC: <span class='good'>79E8D492</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>6B34D88D</span>
+      Remote CRC: <span class='goodish'>6B34D88D</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>DF4DBCF3</span>
+      Remote CRC: <span class='goodish'>DF4DBCF3</span>
+    Status: <span class='good'>Copy OK</span>
+
+  6:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/06 - Ride.flac</span>
+    Peak level: <span class='log3'>0.988556</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>4.7 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>739B8FD6</span>
+    Copy CRC: <span class='good'>739B8FD6</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>73BD82AA</span>
+      Remote CRC: <span class='goodish'>73BD82AA</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>56663A75</span>
+      Remote CRC: <span class='goodish'>56663A75</span>
+    Status: <span class='good'>Copy OK</span>
+
+  7:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/07 - Paranoid.flac</span>
+    Peak level: <span class='log3'>0.988678</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>4.9 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>ED933109</span>
+    Copy CRC: <span class='good'>ED933109</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>A9C9F65D</span>
+      Remote CRC: <span class='goodish'>A9C9F65D</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>E46B2D2B</span>
+      Remote CRC: <span class='goodish'>E46B2D2B</span>
+    Status: <span class='good'>Copy OK</span>
+
+  8:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/08 - Leaving Song.flac</span>
+    Peak level: <span class='log3'>0.988403</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>5.2 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>98EE039B</span>
+    Copy CRC: <span class='good'>98EE039B</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>91AABB81</span>
+      Remote CRC: <span class='goodish'>91AABB81</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>DAC108BD</span>
+      Remote CRC: <span class='goodish'>DAC108BD</span>
+    Status: <span class='good'>Copy OK</span>
+
+  9:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/09 - Who Cares.flac</span>
+    Peak level: <span class='log3'>0.988739</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>5.4 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>DA5146FC</span>
+    Copy CRC: <span class='good'>DA5146FC</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>5D4DE40B</span>
+      Remote CRC: <span class='goodish'>5D4DE40B</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>CBE6505D</span>
+      Remote CRC: <span class='goodish'>CBE6505D</span>
+    Status: <span class='good'>Copy OK</span>
+
+  10:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/10 - Love Hate.flac</span>
+    Peak level: <span class='log3'>0.988708</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>5.4 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>55B3E208</span>
+    Copy CRC: <span class='good'>55B3E208</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>22A35293</span>
+      Remote CRC: <span class='goodish'>22A35293</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>AEC08D5E</span>
+      Remote CRC: <span class='goodish'>AEC08D5E</span>
+    Status: <span class='good'>Copy OK</span>
+
+  11:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/11 - Out to Sea.flac</span>
+    Peak level: <span class='log3'>0.988739</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>5.6 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>55F2ECB1</span>
+    Copy CRC: <span class='good'>55F2ECB1</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 2
+      Local CRC: <span class='goodish'>93319715</span>
+      Remote CRC: <span class='goodish'>93319715</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>F260474C</span>
+      Remote CRC: <span class='goodish'>F260474C</span>
+    Status: <span class='good'>Copy OK</span>
+
+  12:
+    Filename: <span class='log3'>/var/tmp/whipper/Socialburn/The Beauty of Letting Go/Socialburn - The Beauty of Letting Go (2005) FLAC/12 - I'm Happy.flac</span>
+    Peak level: <span class='log3'>0.988831</span>
+    Pre-emphasis: 
+    Extraction speed: <span class='log3'>6.1 X</span>
+    Extraction quality: <span class='log3'>100.00 %</span>
+    Test CRC: <span class='good'>444CAA5C</span>
+    Copy CRC: <span class='good'>444CAA5C</span>
+    AccurateRip v1:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 3
+      Local CRC: <span class='goodish'>4BF14ED4</span>
+      Remote CRC: <span class='goodish'>4BF14ED4</span>
+    AccurateRip v2:
+      Result: <span class='good'>Found, exact match</span>
+      Confidence: 5
+      Local CRC: <span class='goodish'>8BE42FF6</span>
+      Remote CRC: <span class='goodish'>8BE42FF6</span>
+    Status: <span class='good'>Copy OK</span>
+
+Conclusive status report:
+  AccurateRip summary: <span class='good'>All tracks accurately ripped</span>
+  Health Status: <span class='good'>No errors occurred</span>
+  EOF: End of status report
+
+SHA-256 hash: <span class='good'>C65CF29DEFE991761311F474CFEAEE9BE66A3EAB59B862F7D14B9558A578384A</span>

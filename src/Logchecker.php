@@ -308,10 +308,13 @@ class Logchecker
         $Key = 'Conclusive status report';
         $Class = $Yaml[$Key]['AccurateRip summary'] === 'All tracks accurately ripped' ? 'good' : 'badish';
         $Yaml[$Key]['AccurateRip summary'] = "<span class='{$Class}'>{$Yaml[$Key]['AccurateRip summary']}</span>";
-        $Class = $Yaml[$Key]['Health status'] === 'No errors occurred' ? 'good' : 'bad';
-        $Yaml[$Key]['Health status'] = "<span class='{$Class}'>{$Yaml[$Key]['Health status']}</span>";
+
+        $HealthKey = isset($Yaml[$Key]['Health Status']) ? 'Health Status' : 'Health status';
+        $Class = $Yaml[$Key][$HealthKey] === 'No errors occurred' ? 'good' : 'bad';
+        $Yaml[$Key][$HealthKey] = "<span class='{$Class}'>{$Yaml[$Key][$HealthKey]}</span>";
 
         $CreationDate = gmdate("Y-m-d\TH:i:s\Z", $Yaml['Log creation date']);
+
         $this->log = "Log created by: {$Yaml['Log created by']}\nLog creation date: {$CreationDate}\n\n";
         $this->log .= "Ripping phase information:\n";
         foreach ($Yaml['Ripping phase information'] as $Key => $Value) {
@@ -324,10 +327,18 @@ class Logchecker
 
         $this->log .= "CD metadata:\n";
         foreach ($Yaml['CD metadata'] as $Key => $Value) {
-            if (is_bool($Value)) {
-                $Value = ($Value) ? 'true' : 'false';
+            if (is_array($Value)) {
+                $this->log .= "  {$Key}:\n";
+                foreach ($Value as $KKey => $VValue) {
+                    $this->log .= "    {$KKey}: {$VValue}\n";
+                }
             }
-            $this->log .= "  {$Key}: {$Value}\n";
+            else {
+                if (is_bool($Value)) {
+                    $Value = ($Value) ? 'true' : 'false';
+                }
+                $this->log .= "  {$Key}: {$Value}\n";
+            }
         }
         $this->log .= "\n";
 
