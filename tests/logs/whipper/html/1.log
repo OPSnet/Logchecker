@@ -6,7 +6,7 @@ Ripping phase information:
   Extraction engine: cdparanoia III 10.2 libcdio 2.1.0 x86_64-pc-linux-gnu
   Defeat audio cache: <span class='good'>true</span>
   Read offset correction: <span class='good'>+30</span>
-  Overread into lead-out: <span class='log4'></span>
+  Overread into lead-out: <span class='log4'>false</span>
   Gap detection: cdrdao 1.2.4
   CD-R detected: false
 

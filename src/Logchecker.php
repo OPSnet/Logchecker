@@ -243,6 +243,10 @@ class Logchecker
         }
 
         $Yaml[$Key]['Defeat audio cache'] = "<span class='{$Class}'>{$Value}</span>";
+
+        if (is_bool($Yaml[$Key]['Overread into lead-out'])) {
+            $Yaml[$Key]['Overread into lead-out'] = $Yaml[$Key]['Overread into lead-out'] ? 'true' : 'false';
+        }
         $Yaml[$Key]['Overread into lead-out'] = "<span class='log4'>{$Yaml[$Key]['Overread into lead-out']}</span>";
 
         // CD Metadata
