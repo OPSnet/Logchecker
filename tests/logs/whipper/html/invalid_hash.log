@@ -361,14 +361,14 @@ Tracks:
     Status: <span class='good'>Copy OK</span>
 
   17:
-    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/16. Not on Tour - Sign.flac</span>
+    Filename: <span class='log3'>./album/Not on Tour - Growing Pains/17. Not on Tour - Waste Your Time With Me.flac</span>
     Pre-gap length: <span class='log3'>00:02:00</span>
     Peak level: <span class='log3'>1.000000</span>
     Pre-emphasis: No
-    Extraction speed: <span class='log3'>3.3 X</span>
+    Extraction speed: <span class='log3'>3.5 X</span>
     Extraction quality: <span class='log3'>100.00 %</span>
-    Test CRC: <span class='good'>ED475001</span>
-    Copy CRC: <span class='good'>ED475001</span>
+    Test CRC: <span class='good'>DFDD20E0</span>
+    Copy CRC: <span class='good'>DFDD20E0</span>
     AccurateRip v1:
       Result: <span class='badish'>Track not present in AccurateRip database</span>
     AccurateRip v2:

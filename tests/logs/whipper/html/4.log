@@ -348,24 +348,24 @@ Tracks:
     Status: <span class='good'>Copy OK</span>
 
   13:
-    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/12. Cheryl Lynn - Sweet Kind of Life.flac</span>
+    Filename: <span class='log3'>./soundtrack/Various Artists - Shark Tale - Motion Picture Soundtrack/13. Hans Zimmer - Some of My Best Friends Are Sharks.flac</span>
     Pre-gap length: <span class='log3'>00:00:74</span>
-    Peak level: <span class='log3'>0.999969</span>
+    Peak level: <span class='log3'>0.986694</span>
     Pre-emphasis: No
-    Extraction speed: <span class='log3'>11.3 X</span>
+    Extraction speed: <span class='log3'>12.1 X</span>
     Extraction quality: <span class='log3'>100.00 %</span>
-    Test CRC: <span class='good'>4F8B805C</span>
-    Copy CRC: <span class='good'>4F8B805C</span>
+    Test CRC: <span class='good'>A6755B8E</span>
+    Copy CRC: <span class='good'>A6755B8E</span>
     AccurateRip v1:
       Result: <span class='good'>Found, exact match</span>
-      Confidence: 14
-      Local CRC: <span class='goodish'>D2765DE4</span>
-      Remote CRC: <span class='goodish'>D2765DE4</span>
+      Confidence: 13
+      Local CRC: <span class='goodish'>010845D0</span>
+      Remote CRC: <span class='goodish'>010845D0</span>
     AccurateRip v2:
       Result: <span class='good'>Found, exact match</span>
       Confidence: 10
-      Local CRC: <span class='goodish'>B0323938</span>
-      Remote CRC: <span class='goodish'>B0323938</span>
+      Local CRC: <span class='goodish'>1131D8D8</span>
+      Remote CRC: <span class='goodish'>1131D8D8</span>
     Status: <span class='good'>Copy OK</span>
 
 Conclusive status report:

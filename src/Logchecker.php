@@ -261,6 +261,7 @@ class Logchecker
                 $Track[$Key] = "<span class='log1'>{$Track[$Key]}</span>";
             }
         }
+        unset($Track);
 
         // Tracks
         foreach ($Yaml['Tracks'] as &$Track) {
@@ -297,6 +298,7 @@ class Logchecker
                 }
             }
         }
+        unset($Track);
 
         // Conclusive status report
         $Key = 'Conclusive status report';
