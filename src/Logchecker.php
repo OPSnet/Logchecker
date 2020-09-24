@@ -332,8 +332,7 @@ class Logchecker
                 foreach ($Value as $KKey => $VValue) {
                     $this->log .= "    {$KKey}: {$VValue}\n";
                 }
-            }
-            else {
+            } else {
                 if (is_bool($Value)) {
                     $Value = ($Value) ? 'true' : 'false';
                 }
