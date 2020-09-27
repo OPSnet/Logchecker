@@ -1,0 +1,271 @@
+Exact Audio Copy V0.99 prebeta 5 from 4. May 2009
+
+EAC extraction logfile from 8. January 2011, 17:50
+
+Various / Ministry Of Sound - soul heaven - [Disc 2]
+
+Used drive  : HL-DT-STDVDRRW GSA-H30L   Adapter: 0  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 102
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Installed external ASPI interface
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 1024 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files\Exact Audio Copy\Flac\flac.exe
+Additional command line options : -8 -V -T "ARTIST=%a" -T "TITLE=%t" -T "ALBUM=%g" -T "DATE=%y" -T "TRACKNUMBER=%n" -T "GENRE=%m" -T "COMMENT= EAC - FLAC - 8 - oan" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  7:22.72 |         0    |    33221   
+        2  |  7:22.72 |  4:50.26 |     33222    |    54997   
+        3  | 12:13.23 |  5:08.05 |     54998    |    78102   
+        4  | 17:21.28 |  3:09.02 |     78103    |    92279   
+        5  | 20:30.30 |  4:26.34 |     92280    |   112263   
+        6  | 24:56.64 |  2:46.23 |    112264    |   124736   
+        7  | 27:43.12 |  3:07.05 |    124737    |   138766   
+        8  | 30:50.17 |  2:38.57 |    138767    |   150673   
+        9  | 33:28.74 |  4:43.34 |    150674    |   171932   
+       10  | 38:12.33 |  3:50.41 |    171933    |   189223   
+       11  | 42:02.74 |  2:23.69 |    189224    |   200017   
+       12  | 44:26.68 |  4:15.16 |    200018    |   219158   
+       13  | 48:42.09 |  4:03.60 |    219159    |   237443   
+       14  | 52:45.69 |  2:47.67 |    237444    |   250035   
+       15  | 55:33.61 |  2:48.71 |    250036    |   262706   
+       16  | 58:22.57 |  4:44.11 |    262707    |   284017   
+       17  | 63:06.68 |  3:12.00 |    284018    |   298417   
+       18  | 66:18.68 |  3:19.52 |    298418    |   313394   
+       19  | 69:38.45 |  3:52.57 |    313395    |   330851   
+
+
+Track  1
+
+     Filename C:\oan\01 - Jay 'Sinister' Sealee - Bittersweet Love Affair.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 100.0 %
+     Track quality 99.9 %
+     Test CRC F3FC4BBC
+     Copy CRC F3FC4BBC
+     Accurately ripped (confidence 1)  [DF49795E]
+     Copy OK
+
+Track  2
+
+     Filename C:\oan\02 - N dinga Gaba Feat Scotty P - Queen [Ricanstruction Vocal Mix].wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC C119184E
+     Copy CRC C119184E
+     Accurately ripped (confidence 1)  [50B3E2FE]
+     Copy OK
+
+Track  3
+
+     Filename C:\oan\03 - Elements Of Life - Into My Life [You Brought The Sunshine] [Roots Mix].wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC C8D2466B
+     Copy CRC C8D2466B
+     Accurately ripped (confidence 1)  [4CB3CFB7]
+     Copy OK
+
+Track  4
+
+     Filename C:\oan\04 - Jovonn - First Night To Love [Edit].wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 0E6AC510
+     Copy CRC 0E6AC510
+     Accurately ripped (confidence 1)  [99431F70]
+     Copy OK
+
+Track  5
+
+     Filename C:\oan\05 - Vega - London Roots.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 560D9012
+     Copy CRC 560D9012
+     Accurately ripped (confidence 1)  [7FCB258F]
+     Copy OK
+
+Track  6
+
+     Filename C:\oan\06 - Mr. V - Circle Track.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 49FBB051
+     Copy CRC 49FBB051
+     Accurately ripped (confidence 1)  [A421AE42]
+     Copy OK
+
+Track  7
+
+     Filename C:\oan\07 - Jovonn - Feelin’ Better [Jovonn Next Moov Club Mix].wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 17E12C6E
+     Copy CRC 17E12C6E
+     Accurately ripped (confidence 1)  [286EE73E]
+     Copy OK
+
+Track  8
+
+     Filename C:\oan\08 - Agev Munsen - Alien Conversations 1.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 7AB71B10
+     Copy CRC 7AB71B10
+     Accurately ripped (confidence 1)  [F03F5306]
+     Copy OK
+
+Track  9
+
+     Filename C:\oan\09 - Ralf Gum - Little W. 12th St.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 6597CE84
+     Copy CRC 6597CE84
+     Accurately ripped (confidence 1)  [00BCD8E7]
+     Copy OK
+
+Track 10
+
+     Filename C:\oan\10 - DJN Project - Take You Away [Glenn Underground REWERK Tribute Mix].wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC B22B7920
+     Copy CRC B22B7920
+     Accurately ripped (confidence 1)  [8604CC97]
+     Copy OK
+
+Track 11
+
+     Filename C:\oan\11 - Duce Martinez - Just As Long.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 72504889
+     Copy CRC 72504889
+     Accurately ripped (confidence 1)  [90FF649E]
+     Copy OK
+
+Track 12
+
+     Filename C:\oan\12 - Lil' Louis - Feels Good Just To Feel.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 552785A3
+     Copy CRC 552785A3
+     Accurately ripped (confidence 1)  [18FBEEC4]
+     Copy OK
+
+Track 13
+
+     Filename C:\oan\13 - Fanatix - Fly.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 3CF42166
+     Copy CRC 3CF42166
+     Accurately ripped (confidence 1)  [F6EC485F]
+     Copy OK
+
+Track 14
+
+     Filename C:\oan\14 - Roots Orchestra - Child Like.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 969E39FD
+     Copy CRC 969E39FD
+     Accurately ripped (confidence 1)  [873FB0BB]
+     Copy OK
+
+Track 15
+
+     Filename C:\oan\15 - Alex Finkin - Those Days Are Gone.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 85C52F3D
+     Copy CRC 85C52F3D
+     Accurately ripped (confidence 1)  [86C0E899]
+     Copy OK
+
+Track 16
+
+     Filename C:\oan\16 - Elements Of Life - Love Will Know [Roots Demo Mix].wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC F3F986B7
+     Copy CRC F3F986B7
+     Accurately ripped (confidence 1)  [6DF4F1FA]
+     Copy OK
+
+Track 17
+
+     Filename C:\oan\17 - Nathan Adams - Circles [Vocal Mix].wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 3EEBE612
+     Copy CRC 3EEBE612
+     Accurately ripped (confidence 1)  [4DD708F6]
+     Copy OK
+
+Track 18
+
+     Filename C:\oan\18 - Alton Miller - When The Morning Comes [Main Vocal Edit].wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC B6393657
+     Copy CRC B6393657
+     Accurately ripped (confidence 1)  [70C2C185]
+     Copy OK
+
+Track 19
+
+     Filename C:\oan\19 - DJ Man X - Consequences.wav
+
+     Peak level 100.0 %
+     Track quality 99.9 %
+     Test CRC 6D5FC556
+     Copy CRC 6D5FC556
+     Accurately ripped (confidence 1)  [500CBB6E]
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report

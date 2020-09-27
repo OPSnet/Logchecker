@@ -40,7 +40,17 @@ class Util
             $results = $chardet->analyze($logPath);
             if ($results['charset'] !== 'utf-8' && $results['confidence'] > 0.7) {
                 // $log = mb_convert_encoding($log, 'UTF-8', $results['charset']);
-                $log = iconv($results['charset'], 'UTF-8', $log);
+                $tmp = @iconv($results['charset'], 'UTF-8', $log);
+
+                // depending on your iconv version, some encodings may be represented
+                // with prefix of mac-* or mac (like maccentraleurope vs mac-centraleurope)
+                if ($tmp === false && substr($results['charset'], 0, 3) === 'mac') {
+                    $tmp = @iconv('mac-' . substr($results['charset'], 3), 'UTF-8', $log);
+                }
+                $log = $tmp;
+                if ($log === false) {
+                    throw new \RuntimeException('Could not properly decode log encoding');
+                }
             } elseif ($results['charset'] !== 'utf-8' && $results['confidence'] > 0.3) {
                 // If we've got a poor confidence on our decoding, we just use a generic
                 // ISO-8859-1 as that covers a decent range of things that people would
@@ -49,6 +59,7 @@ class Util
                 $log = iconv('ISO-8859-1', 'UTF-8', $log);
             }
         }
+
         return $log;
     }
 }

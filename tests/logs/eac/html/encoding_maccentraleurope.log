@@ -1,0 +1,271 @@
+Exact Audio Copy <span class="log1">V0.99 prebeta 5</span> from <span class="log1">4. May 2009</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>8. January 2011, 17:50</span></span>
+
+<span class="log4">Various / Ministry Of Sound - soul heaven - [Disc 2]</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STDVDRRW GSA-H30L   Adapter: 0  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">102</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "ARTIST=%a" -T "TITLE=%t" -T "ALBUM=%g" -T "DATE=%y" -T "TRACKNUMBER=%n" -T "GENRE=%m" -T 
+"COMMENT= EAC - FLAC - 8 - oan" %s</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">7:22.72</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">33221</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">7:22.72</span> <strong>|</strong>  <span class="log1">4:50.26</span> <strong>|</strong>     <span class="log1">33222</span>    <strong>|</strong>    <span class="log1">54997</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">12:13.23</span> <strong>|</strong>  <span class="log1">5:08.05</span> <strong>|</strong>     <span class="log1">54998</span>    <strong>|</strong>    <span class="log1">78102</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">17:21.28</span> <strong>|</strong>  <span class="log1">3:09.02</span> <strong>|</strong>     <span class="log1">78103</span>    <strong>|</strong>    <span class="log1">92279</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">20:30.30</span> <strong>|</strong>  <span class="log1">4:26.34</span> <strong>|</strong>     <span class="log1">92280</span>    <strong>|</strong>   <span class="log1">112263</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">24:56.64</span> <strong>|</strong>  <span class="log1">2:46.23</span> <strong>|</strong>    <span class="log1">112264</span>    <strong>|</strong>   <span class="log1">124736</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">27:43.12</span> <strong>|</strong>  <span class="log1">3:07.05</span> <strong>|</strong>    <span class="log1">124737</span>    <strong>|</strong>   <span class="log1">138766</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">30:50.17</span> <strong>|</strong>  <span class="log1">2:38.57</span> <strong>|</strong>    <span class="log1">138767</span>    <strong>|</strong>   <span class="log1">150673</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">33:28.74</span> <strong>|</strong>  <span class="log1">4:43.34</span> <strong>|</strong>    <span class="log1">150674</span>    <strong>|</strong>   <span class="log1">171932</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">38:12.33</span> <strong>|</strong>  <span class="log1">3:50.41</span> <strong>|</strong>    <span class="log1">171933</span>    <strong>|</strong>   <span class="log1">189223</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">42:02.74</span> <strong>|</strong>  <span class="log1">2:23.69</span> <strong>|</strong>    <span class="log1">189224</span>    <strong>|</strong>   <span class="log1">200017</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">44:26.68</span> <strong>|</strong>  <span class="log1">4:15.16</span> <strong>|</strong>    <span class="log1">200018</span>    <strong>|</strong>   <span class="log1">219158</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">48:42.09</span> <strong>|</strong>  <span class="log1">4:03.60</span> <strong>|</strong>    <span class="log1">219159</span>    <strong>|</strong>   <span class="log1">237443</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">52:45.69</span> <strong>|</strong>  <span class="log1">2:47.67</span> <strong>|</strong>    <span class="log1">237444</span>    <strong>|</strong>   <span class="log1">250035</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">55:33.61</span> <strong>|</strong>  <span class="log1">2:48.71</span> <strong>|</strong>    <span class="log1">250036</span>    <strong>|</strong>   <span class="log1">262706</span>   
+       <span class="log4">16</span>  <strong>|</strong> <span class="log1">58:22.57</span> <strong>|</strong>  <span class="log1">4:44.11</span> <strong>|</strong>    <span class="log1">262707</span>    <strong>|</strong>   <span class="log1">284017</span>   
+       <span class="log4">17</span>  <strong>|</strong> <span class="log1">63:06.68</span> <strong>|</strong>  <span class="log1">3:12.00</span> <strong>|</strong>    <span class="log1">284018</span>    <strong>|</strong>   <span class="log1">298417</span>   
+       <span class="log4">18</span>  <strong>|</strong> <span class="log1">66:18.68</span> <strong>|</strong>  <span class="log1">3:19.52</span> <strong>|</strong>    <span class="log1">298418</span>    <strong>|</strong>   <span class="log1">313394</span>   
+       <span class="log4">19</span>  <strong>|</strong> <span class="log1">69:38.45</span> <strong>|</strong>  <span class="log1">3:52.57</span> <strong>|</strong>    <span class="log1">313395</span>    <strong>|</strong>   <span class="log1">330851</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\01 - Jay 'Sinister' Sealee - Bittersweet Love Affair.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">F3FC4BBC</span></span>
+     <span class="log4">Copy CRC <span class="good">F3FC4BBC</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [DF49795E]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\02 - N dinga Gaba Feat Scotty P - Queen [Ricanstruction Vocal Mix].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C119184E</span></span>
+     <span class="log4">Copy CRC <span class="good">C119184E</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [50B3E2FE]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\03 - Elements Of Life - Into My Life [You Brought The Sunshine] [Roots Mix].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C8D2466B</span></span>
+     <span class="log4">Copy CRC <span class="good">C8D2466B</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [4CB3CFB7]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\04 - Jovonn - First Night To Love [Edit].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0E6AC510</span></span>
+     <span class="log4">Copy CRC <span class="good">0E6AC510</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [99431F70]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\05 - Vega - London Roots.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">560D9012</span></span>
+     <span class="log4">Copy CRC <span class="good">560D9012</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [7FCB258F]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\06 - Mr. V - Circle Track.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">49FBB051</span></span>
+     <span class="log4">Copy CRC <span class="good">49FBB051</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [A421AE42]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\07 - Jovonn - Feeliní Better [Jovonn Next Moov Club Mix].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">17E12C6E</span></span>
+     <span class="log4">Copy CRC <span class="good">17E12C6E</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [286EE73E]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\08 - Agev Munsen - Alien Conversations 1.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7AB71B10</span></span>
+     <span class="log4">Copy CRC <span class="good">7AB71B10</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [F03F5306]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\09 - Ralf Gum - Little W. 12th St.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">6597CE84</span></span>
+     <span class="log4">Copy CRC <span class="good">6597CE84</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [00BCD8E7]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\10 - DJN Project - Take You Away [Glenn Underground REWERK Tribute Mix].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B22B7920</span></span>
+     <span class="log4">Copy CRC <span class="good">B22B7920</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [8604CC97]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\11 - Duce Martinez - Just As Long.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">72504889</span></span>
+     <span class="log4">Copy CRC <span class="good">72504889</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [90FF649E]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\12 - Lil' Louis - Feels Good Just To Feel.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">552785A3</span></span>
+     <span class="log4">Copy CRC <span class="good">552785A3</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [18FBEEC4]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\13 - Fanatix - Fly.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3CF42166</span></span>
+     <span class="log4">Copy CRC <span class="good">3CF42166</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [F6EC485F]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\14 - Roots Orchestra - Child Like.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">969E39FD</span></span>
+     <span class="log4">Copy CRC <span class="good">969E39FD</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [873FB0BB]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">15</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\15 - Alex Finkin - Those Days Are Gone.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">85C52F3D</span></span>
+     <span class="log4">Copy CRC <span class="good">85C52F3D</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [86C0E899]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">16</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\16 - Elements Of Life - Love Will Know [Roots Demo Mix].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F3F986B7</span></span>
+     <span class="log4">Copy CRC <span class="good">F3F986B7</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [6DF4F1FA]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">17</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\17 - Nathan Adams - Circles [Vocal Mix].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3EEBE612</span></span>
+     <span class="log4">Copy CRC <span class="good">3EEBE612</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [4DD708F6]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">18</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\18 - Alton Miller - When The Morning Comes [Main Vocal Edit].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B6393657</span></span>
+     <span class="log4">Copy CRC <span class="good">B6393657</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [70C2C185]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">19</span>
+
+     <span class="log4">Filename <span class="log3">C:\oan\19 - DJ Man X - Consequences.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">6D5FC556</span></span>
+     <span class="log4">Copy CRC <span class="good">6D5FC556</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [500CBB6E]</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="good">No errors occurred</span>
+<span class="good">End of status report</span>
