@@ -526,6 +526,7 @@ class Logchecker
                 1,
                 $XLD
             );
+
             if (!$EAC && !$XLD) {
                 if ($this->Combined) {
                     unset($this->Details);
@@ -569,6 +570,22 @@ class Logchecker
             // EAC will at least output "no checksum" for some malformed logs with checksums
             if (($eacCount > 0 || $xldCount > 0) && $this->checksumStatus === Check\Checksum::CHECKSUM_MISSING) {
                 $this->checksumStatus = Check\Checksum::CHECKSUM_INVALID;
+            }
+
+            if (
+                $EAC
+                && (
+                    preg_match("/Used output format[ ]+:[ ]+[a-z0-9 ]+MP3/i", $Log) === 1
+                    || preg_match("/Command line compressor[ ]+:.+(MP3|lame)\.exe/i", $Log) === 1
+                )
+            ) {
+                if ($this->Combined) {
+                    $this->Details[] = "Skipping Log (" . $this->CurrLog . "), MP3 Rip";
+                } else {
+                    $this->account("Invalid Log (MP3)", 100);
+                }
+                $this->logs[$LogArrayKey] = $Log;
+                continue;
             }
 
             $Log = preg_replace_callback("/Used drive( *): (.+)/i", array(

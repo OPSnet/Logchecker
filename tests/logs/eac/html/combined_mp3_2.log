@@ -1,0 +1,340 @@
+Exact Audio Copy <span class="log1">V1.4</span> from <span class="log1">3. February 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>19. February 2020, 0:20</span></span>
+
+<span class="log4">Various Artists / The Widescreen Versions</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STDVD-RW GH41N   Adapter: 1  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">667</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">896 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\FLAC\FLAC.EXE</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -e -p -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">6:10.55</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">27804</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">6:10.55</span> <strong>|</strong>  <span class="log1">5:35.70</span> <strong>|</strong>     <span class="log1">27805</span>    <strong>|</strong>    <span class="log1">52999</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">11:46.50</span> <strong>|</strong>  <span class="log1">5:47.35</span> <strong>|</strong>     <span class="log1">53000</span>    <strong>|</strong>    <span class="log1">79059</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">17:34.10</span> <strong>|</strong>  <span class="log1">5:32.17</span> <strong>|</strong>     <span class="log1">79060</span>    <strong>|</strong>   <span class="log1">103976</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">23:06.27</span> <strong>|</strong>  <span class="log1">7:25.10</span> <strong>|</strong>    <span class="log1">103977</span>    <strong>|</strong>   <span class="log1">137361</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">30:31.37</span> <strong>|</strong>  <span class="log1">5:36.35</span> <strong>|</strong>    <span class="log1">137362</span>    <strong>|</strong>   <span class="log1">162596</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">36:07.72</span> <strong>|</strong>  <span class="log1">7:09.00</span> <strong>|</strong>    <span class="log1">162597</span>    <strong>|</strong>   <span class="log1">194771</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">43:16.72</span> <strong>|</strong>  <span class="log1">5:42.23</span> <strong>|</strong>    <span class="log1">194772</span>    <strong>|</strong>   <span class="log1">220444</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rip\The Widescreen Versions\01 - Klute - LEO9 (Stasis mix).wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">68366A6F</span></span>
+     <span class="log4">Copy CRC <span class="good">68366A6F</span></span>
+     <span class="good">Accurately ripped (confidence 6)  [E40957E7]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rip\The Widescreen Versions\02 - Mainline - Dakota (Future,Past mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">1952292A</span></span>
+     <span class="log4">Copy CRC <span class="good">1952292A</span></span>
+     <span class="good">Accurately ripped (confidence 6)  [2CA57D06]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rip\The Widescreen Versions\03 - Lexis - Hypnotise (Autechre slow mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">88.4 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C2915EF1</span></span>
+     <span class="log4">Copy CRC <span class="good">C2915EF1</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [A9AABD1D]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rip\The Widescreen Versions\04 - Lexis - Irrampent (Midnight Funk Association mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">03AC4E60</span></span>
+     <span class="log4">Copy CRC <span class="good">03AC4E60</span></span>
+     <span class="good">Accurately ripped (confidence 6)  [BB4D6ABA]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rip\The Widescreen Versions\05 - Paradox + DMR - Zonation (Unorthodox remix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">505B61B5</span></span>
+     <span class="log4">Copy CRC <span class="good">505B61B5</span></span>
+     <span class="good">Accurately ripped (confidence 6)  [06630CB8]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rip\The Widescreen Versions\06 - Klute - Silent Weapons (Two Lone Swordsmen mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">8451E7D1</span></span>
+     <span class="log4">Copy CRC <span class="good">8451E7D1</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [7F8721BE]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rip\The Widescreen Versions\07 - Studio Pressure - Relics (Plaid remix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">70DFEA14</span></span>
+     <span class="log4">Copy CRC <span class="good">70DFEA14</span></span>
+     <span class="good">Accurately ripped (confidence 7)  [39D83A4B]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rip\The Widescreen Versions\08 - Klute - Perception (Override mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">6E46DE06</span></span>
+     <span class="log4">Copy CRC <span class="good">6E46DE06</span></span>
+     <span class="good">Accurately ripped (confidence 6)  [6EB952B6]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+
+---- AcoustID Plugin V1.2.0
+
+Total fingerprints: 8
+
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: kYH6G86.IlDImawe7FZM5ovfruo-] found
+Submit result: already submitted
+Track | CTDB Status
+  1   | (8/8) Accurately ripped
+  2   | (8/8) Accurately ripped
+  3   | (8/8) Accurately ripped
+  4   | (8/8) Accurately ripped
+  5   | (8/8) Accurately ripped
+  6   | (8/8) Accurately ripped
+  7   | (7/8) Accurately ripped
+  8   | (7/8) Accurately ripped
+
+<span class='good'>==== Log checksum 4F316542139212B55D1DF2651968ED5299A63AB6F3045A13E724D9B767A65333 ====</span>
+
+------------------------------------------------------------
+
+Exact Audio Copy <span class="log1">V1.4</span> from <span class="log1">3. February 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>19. February 2020, 0:20</span></span>
+
+<span class="log4">Various Artists / The Widescreen Versions</span>
+
+Used drive  : HL-DT-STDVD-RW GH41N   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 667
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous track
+
+Used output format              : L3Enc MP3 Encoder & Compatible
+Selected bitrate                : 128 kBit/s
+Quality                         : High
+Add ID3 tag                     : Yes
+Command line compressor         : MP3Encoder.exe
+Additional command line options : 
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  6:10.55 |         0    |    27804   
+        2  |  6:10.55 |  5:35.70 |     27805    |    52999   
+        3  | 11:46.50 |  5:47.35 |     53000    |    79059   
+        4  | 17:34.10 |  5:32.17 |     79060    |   103976   
+        5  | 23:06.27 |  7:25.10 |    103977    |   137361   
+        6  | 30:31.37 |  5:36.35 |    137362    |   162596   
+        7  | 36:07.72 |  7:09.00 |    162597    |   194771   
+        8  | 43:16.72 |  5:42.23 |    194772    |   220444   
+
+
+Track  1
+
+     Filename C:\EAC Rip\The Widescreen Versions\01 - Klute - LEO9 (Stasis mix).wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 100.0 %
+     Extraction speed 2.9 X
+     Track quality 100.0 %
+     Test CRC 68366A6F
+     Copy CRC 68366A6F
+     Accurately ripped (confidence 6)  [E40957E7]  (AR v2)
+     Copy OK
+
+Track  2
+
+     Filename C:\EAC Rip\The Widescreen Versions\02 - Mainline - Dakota (Future,Past mix).wav
+
+     Peak level 100.0 %
+     Extraction speed 3.3 X
+     Track quality 100.0 %
+     Test CRC 1952292A
+     Copy CRC 1952292A
+     Accurately ripped (confidence 6)  [2CA57D06]  (AR v2)
+     Copy OK
+
+Track  3
+
+     Filename C:\EAC Rip\The Widescreen Versions\03 - Lexis - Hypnotise (Autechre slow mix).wav
+
+     Peak level 88.4 %
+     Extraction speed 3.7 X
+     Track quality 100.0 %
+     Test CRC C2915EF1
+     Copy CRC C2915EF1
+     Accurately ripped (confidence 7)  [A9AABD1D]  (AR v2)
+     Copy OK
+
+Track  4
+
+     Filename C:\EAC Rip\The Widescreen Versions\04 - Lexis - Irrampent (Midnight Funk Association mix).wav
+
+     Peak level 100.0 %
+     Extraction speed 4.0 X
+     Track quality 100.0 %
+     Test CRC 03AC4E60
+     Copy CRC 03AC4E60
+     Accurately ripped (confidence 6)  [BB4D6ABA]  (AR v2)
+     Copy OK
+
+Track  5
+
+     Filename C:\EAC Rip\The Widescreen Versions\05 - Paradox + DMR - Zonation (Unorthodox remix).wav
+
+     Peak level 100.0 %
+     Extraction speed 4.4 X
+     Track quality 100.0 %
+     Test CRC 505B61B5
+     Copy CRC 505B61B5
+     Accurately ripped (confidence 6)  [06630CB8]  (AR v2)
+     Copy OK
+
+Track  6
+
+     Filename C:\EAC Rip\The Widescreen Versions\06 - Klute - Silent Weapons (Two Lone Swordsmen mix).wav
+
+     Peak level 100.0 %
+     Extraction speed 4.7 X
+     Track quality 100.0 %
+     Test CRC 8451E7D1
+     Copy CRC 8451E7D1
+     Accurately ripped (confidence 7)  [7F8721BE]  (AR v2)
+     Copy OK
+
+Track  7
+
+     Filename C:\EAC Rip\The Widescreen Versions\07 - Studio Pressure - Relics (Plaid remix).wav
+
+     Peak level 100.0 %
+     Extraction speed 5.1 X
+     Track quality 100.0 %
+     Test CRC 70DFEA14
+     Copy CRC 70DFEA14
+     Accurately ripped (confidence 7)  [39D83A4B]  (AR v2)
+     Copy OK
+
+Track  8
+
+     Filename C:\EAC Rip\The Widescreen Versions\08 - Klute - Perception (Override mix).wav
+
+     Peak level 100.0 %
+     Extraction speed 4.8 X
+     Track quality 99.9 %
+     Test CRC 6E46DE06
+     Copy CRC 6E46DE06
+     Accurately ripped (confidence 6)  [6EB952B6]  (AR v2)
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report
+
+---- AcoustID Plugin V1.2.0
+
+Total fingerprints: 8
+
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: kYH6G86.IlDImawe7FZM5ovfruo-] found
+Submit result: already submitted
+Track | CTDB Status
+  1   | (8/8) Accurately ripped
+  2   | (8/8) Accurately ripped
+  3   | (8/8) Accurately ripped
+  4   | (8/8) Accurately ripped
+  5   | (8/8) Accurately ripped
+  6   | (8/8) Accurately ripped
+  7   | (7/8) Accurately ripped
+  8   | (7/8) Accurately ripped
+
+<span class='good'>==== Log checksum 4FE0CFB19731350AFE075931B4A9E4D9EC13DE2889BF2F5A12650B927A2472A8 ====</span>

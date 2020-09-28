@@ -1,10 +1,10 @@
 {
     "ripper": "EAC",
-    "version": "1.5",
+    "version": "1.4",
     "language": "en",
     "combined": true,
     "score": 100,
-    "checksum": "checksum_invalid",
+    "checksum": "checksum_ok",
     "details": [
         "Combined Log (2)",
         "Skipping Log (2), MP3 Rip"
