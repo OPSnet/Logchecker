@@ -1,0 +1,178 @@
+Exact Audio Copy <span class="log1">V1.5</span> from <span class="log1">20. February 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>26. June 2020, 17:06</span></span>
+
+<span class="log4">Tiësto / In My Memory</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">ASUS    DRW-24D5MT   Adapter: 1  ID: 0</span>
+
+<span class="log5">Read mode                 </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache        </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers  </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                     </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out     </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence            </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks        </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                                         </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                 </span>: <span class="bad">Appended to next track</span>
+
+<span class="log5">Used output format          </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate        </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                 </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag      </span>: <span class="good">No</span>
+<span class="log5">Command line compressor           </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-5 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%/%numtracks%" -T "GENRE=%genre%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  | Length | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------------------</strong>
+       <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>   <span class="log1">11:05.43</span>   <strong>|</strong>           <span class="log1">0</span>      <strong>|</strong>      <span class="log1">49917</span>      
+       <span class="log4">2</span>  <strong>|</strong> <span class="log1">11:05.43</span> <strong>|</strong>    <span class="log1">5:00.48</span>   <strong>|</strong>       <span class="log1">49918</span>      <strong>|</strong>      <span class="log1">72465</span>      
+       <span class="log4">3</span>  <strong>|</strong> <span class="log1">16:06.16</span> <strong>|</strong>    <span class="log1">6:43.67</span>   <strong>|</strong>       <span class="log1">72466</span>      <strong>|</strong>     <span class="log1">102757</span>      
+       <span class="log4">4</span>  <strong>|</strong> <span class="log1">22:50.08</span> <strong>|</strong>    <span class="log1">6:05.71</span>   <strong>|</strong>      <span class="log1">102758</span>      <strong>|</strong>     <span class="log1">130203</span>      
+       <span class="log4">5</span>  <strong>|</strong> <span class="log1">28:56.04</span> <strong>|</strong>    <span class="log1">9:06.53</span>   <strong>|</strong>      <span class="log1">130204</span>      <strong>|</strong>     <span class="log1">171206</span>      
+       <span class="log4">6</span>  <strong>|</strong> <span class="log1">38:02.57</span> <strong>|</strong>    <span class="log1">5:09.59</span>   <strong>|</strong>      <span class="log1">171207</span>      <strong>|</strong>     <span class="log1">194440</span>      
+       <span class="log4">7</span>  <strong>|</strong> <span class="log1">43:12.41</span> <strong>|</strong>    <span class="log1">9:03.36</span>   <strong>|</strong>      <span class="log1">194441</span>      <strong>|</strong>     <span class="log1">235201</span>      
+       <span class="log4">8</span>  <strong>|</strong> <span class="log1">52:16.02</span> <strong>|</strong>    <span class="log1">6:45.69</span>   <strong>|</strong>      <span class="log1">235202</span>      <strong>|</strong>     <span class="log1">265645</span>      
+       <span class="log4">9</span>  <strong>|</strong> <span class="log1">59:01.71</span> <strong>|</strong>   <span class="log1">10:22.17</span>   <strong>|</strong>      <span class="log1">265646</span>      <strong>|</strong>     <span class="log1">312312</span>      
+      <span class="log4">10</span>  <strong>|</strong> <span class="log1">69:24.13</span> <strong>|</strong>    <span class="log1">9:09.08</span>   <strong>|</strong>      <span class="log1">312313</span>      <strong>|</strong>     <span class="log1">353495</span>      
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\01 Magik Journey.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">05EB32AA</span></span>
+     <span class="log4">Copy CRC <span class="good">05EB32AA</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 3)  [35C531D3], AccurateRip returned [8EA0A87F]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\02 Close to You.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">85D454C1</span></span>
+     <span class="log4">Copy CRC <span class="good">85D454C1</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 3)  [BAA34EA5], AccurateRip returned [9925B4CE]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\03 Dallas 4 PM.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">A42DCB78</span></span>
+     <span class="log4">Copy CRC <span class="good">A42DCB78</span></span>
+     <span class="good">Accurately ripped (confidence 2)  [2426BFF5]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\04 In My Memory.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0559D827</span></span>
+     <span class="log4">Copy CRC <span class="good">0559D827</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 3)  [223173C2], AccurateRip returned [BE82BF1E]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\05 Obsession.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">8.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DFFFAD51</span></span>
+     <span class="log4">Copy CRC <span class="good">DFFFAD51</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 3)  [A2FB78C2], AccurateRip returned [83029EEB]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\06 Battleship Grey.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">8.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">E1E66F4F</span></span>
+     <span class="log4">Copy CRC <span class="good">E1E66F4F</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 3)  [D4AB02D0], AccurateRip returned [CB8EA489]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\07 Flight 643.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">8.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">C8780705</span></span>
+     <span class="log4">Copy CRC <span class="good">C8780705</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 3)  [DA6B2B0A], AccurateRip returned [5F72ADEF]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\08 Lethal Industry.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">9.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7EA7A19F</span></span>
+     <span class="log4">Copy CRC <span class="good">7EA7A19F</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 3)  [6A0A4FEF], AccurateRip returned [F975A142]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\09 Suburban Train.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">10.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D994A104</span></span>
+     <span class="log4">Copy CRC <span class="good">D994A104</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 3)  [D0E0F886], AccurateRip returned [7CFC0BA5]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\vital\Music\10 In My Memory (Gabriel and Dresden Elephant Memory vocal).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">9.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">A824CFD1</span></span>
+     <span class="log4">Copy CRC <span class="good">A824CFD1</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 3)  [D1AF6C76], AccurateRip returned [1386AF72]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+
+ 1 Trackи скопированы точно
+ 9 Trackи не удалось проверить на точность
+
+<span class="badish">Some tracks could not be verified as accurate
+</span>
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+<span class='good'>==== Log checksum 34B5DC90918816DB245B991607949DBE41863E5FA9B8EC15E93052AC5D4D5F48 ====</span>

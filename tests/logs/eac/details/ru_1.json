@@ -1,0 +1,12 @@
+{
+    "ripper": "EAC",
+    "version": "1.5",
+    "language": "ru",
+    "combined": false,
+    "score": 90,
+    "checksum": "checksum_ok",
+    "details": [
+        "[Notice] Translated log from Русский (Russian) to English.",
+        "Gap handling should be appended to previous track (-10 points)"
+    ]
+}

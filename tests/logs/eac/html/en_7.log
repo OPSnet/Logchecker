@@ -1,0 +1,425 @@
+Exact Audio Copy <span class="log1">V1.0 beta 3</span> from <span class="log1">29. August 2011</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>20. July 2015, 13:43</span></span>
+
+<span class="log4">Fred Buscaglione / A qualcuno piace Fred (cd2)</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">Optiarc DVD RW AD-7241S   Adapter: 1  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">48</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\FLAC\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">2:54.35</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">13084</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">2:54.35</span> <strong>|</strong>  <span class="log1">2:36.42</span> <strong>|</strong>     <span class="log1">13085</span>    <strong>|</strong>    <span class="log1">24826</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">5:31.02</span> <strong>|</strong>  <span class="log1">2:30.12</span> <strong>|</strong>     <span class="log1">24827</span>    <strong>|</strong>    <span class="log1">36088</span>   
+        <span class="log4">4</span>  <strong>|</strong>  <span class="log1">8:01.14</span> <strong>|</strong>  <span class="log1">1:58.00</span> <strong>|</strong>     <span class="log1">36089</span>    <strong>|</strong>    <span class="log1">44938</span>   
+        <span class="log4">5</span>  <strong>|</strong>  <span class="log1">9:59.14</span> <strong>|</strong>  <span class="log1">2:21.62</span> <strong>|</strong>     <span class="log1">44939</span>    <strong>|</strong>    <span class="log1">55575</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">12:21.01</span> <strong>|</strong>  <span class="log1">3:12.37</span> <strong>|</strong>     <span class="log1">55576</span>    <strong>|</strong>    <span class="log1">70012</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">15:33.38</span> <strong>|</strong>  <span class="log1">2:18.12</span> <strong>|</strong>     <span class="log1">70013</span>    <strong>|</strong>    <span class="log1">80374</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">17:51.50</span> <strong>|</strong>  <span class="log1">2:08.22</span> <strong>|</strong>     <span class="log1">80375</span>    <strong>|</strong>    <span class="log1">89996</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">19:59.72</span> <strong>|</strong>  <span class="log1">3:09.59</span> <strong>|</strong>     <span class="log1">89997</span>    <strong>|</strong>   <span class="log1">104230</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">23:09.56</span> <strong>|</strong>  <span class="log1">2:11.43</span> <strong>|</strong>    <span class="log1">104231</span>    <strong>|</strong>   <span class="log1">114098</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">25:21.24</span> <strong>|</strong>  <span class="log1">3:05.10</span> <strong>|</strong>    <span class="log1">114099</span>    <strong>|</strong>   <span class="log1">127983</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">28:26.34</span> <strong>|</strong>  <span class="log1">2:13.72</span> <strong>|</strong>    <span class="log1">127984</span>    <strong>|</strong>   <span class="log1">138030</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">30:40.31</span> <strong>|</strong>  <span class="log1">2:56.62</span> <strong>|</strong>    <span class="log1">138031</span>    <strong>|</strong>   <span class="log1">151292</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">33:37.18</span> <strong>|</strong>  <span class="log1">2:09.24</span> <strong>|</strong>    <span class="log1">151293</span>    <strong>|</strong>   <span class="log1">160991</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">35:46.42</span> <strong>|</strong>  <span class="log1">2:24.69</span> <strong>|</strong>    <span class="log1">160992</span>    <strong>|</strong>   <span class="log1">171860</span>   
+       <span class="log4">16</span>  <strong>|</strong> <span class="log1">38:11.36</span> <strong>|</strong>  <span class="log1">3:17.48</span> <strong>|</strong>    <span class="log1">171861</span>    <strong>|</strong>   <span class="log1">186683</span>   
+       <span class="log4">17</span>  <strong>|</strong> <span class="log1">41:29.09</span> <strong>|</strong>  <span class="log1">2:22.00</span> <strong>|</strong>    <span class="log1">186684</span>    <strong>|</strong>   <span class="log1">197333</span>   
+       <span class="log4">18</span>  <strong>|</strong> <span class="log1">43:51.09</span> <strong>|</strong>  <span class="log1">2:49.39</span> <strong>|</strong>    <span class="log1">197334</span>    <strong>|</strong>   <span class="log1">210047</span>   
+       <span class="log4">19</span>  <strong>|</strong> <span class="log1">46:40.48</span> <strong>|</strong>  <span class="log1">2:46.37</span> <strong>|</strong>    <span class="log1">210048</span>    <strong>|</strong>   <span class="log1">222534</span>   
+       <span class="log4">20</span>  <strong>|</strong> <span class="log1">49:27.10</span> <strong>|</strong>  <span class="log1">2:38.26</span> <strong>|</strong>    <span class="log1">222535</span>    <strong>|</strong>   <span class="log1">234410</span>   
+       <span class="log4">21</span>  <strong>|</strong> <span class="log1">52:05.36</span> <strong>|</strong>  <span class="log1">2:44.26</span> <strong>|</strong>    <span class="log1">234411</span>    <strong>|</strong>   <span class="log1">246736</span>   
+       <span class="log4">22</span>  <strong>|</strong> <span class="log1">54:49.62</span> <strong>|</strong>  <span class="log1">2:31.44</span> <strong>|</strong>    <span class="log1">246737</span>    <strong>|</strong>   <span class="log1">258105</span>   
+       <span class="log4">23</span>  <strong>|</strong> <span class="log1">57:21.31</span> <strong>|</strong>  <span class="log1">2:41.49</span> <strong>|</strong>    <span class="log1">258106</span>    <strong>|</strong>   <span class="log1">270229</span>   
+       <span class="log4">24</span>  <strong>|</strong> <span class="log1">60:03.05</span> <strong>|</strong>  <span class="log1">2:33.61</span> <strong>|</strong>    <span class="log1">270230</span>    <strong>|</strong>   <span class="log1">281765</span>   
+       <span class="log4">25</span>  <strong>|</strong> <span class="log1">62:36.66</span> <strong>|</strong>  <span class="log1">2:19.30</span> <strong>|</strong>    <span class="log1">281766</span>    <strong>|</strong>   <span class="log1">292220</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\01 - Eri piccola così.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">15987E0B</span></span>
+     <span class="log4">Copy CRC <span class="good">15987E0B</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [811E0F63], AccurateRip returned [82B5D51E]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\02 - Sgancia e pedala.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4A95EE02</span></span>
+     <span class="log4">Copy CRC <span class="good">4A95EE02</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [6616FE5D], AccurateRip returned [6CE8EF7E]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\03 - Fantastica.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">316557A4</span></span>
+     <span class="log4">Copy CRC <span class="good">316557A4</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [46D8040D], AccurateRip returned [B633CDE1]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\04 - Tu che ne dici.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B75F3A1F</span></span>
+     <span class="log4">Copy CRC <span class="good">B75F3A1F</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [8B53C35B], AccurateRip returned [C2E47507]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\05 - Juke box.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F62743B6</span></span>
+     <span class="log4">Copy CRC <span class="good">F62743B6</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [14A1366E], AccurateRip returned [B1447BCF]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\06 - Lasciati baciare.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0D08A045</span></span>
+     <span class="log4">Copy CRC <span class="good">0D08A045</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [FD361A95], AccurateRip returned [41CA3901]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\07 - Boccuccia di rosa.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">6EDFD51D</span></span>
+     <span class="log4">Copy CRC <span class="good">6EDFD51D</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [7B6C77DE], AccurateRip returned [C0F766F5]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\08 - Tequila.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">9D7BDCA3</span></span>
+     <span class="log4">Copy CRC <span class="good">9D7BDCA3</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [CDD9E371], AccurateRip returned [C18F2197]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\09 - Sei chic.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">AC7C88B6</span></span>
+     <span class="log4">Copy CRC <span class="good">AC7C88B6</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [816FBE12], AccurateRip returned [B4999DE5]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\10 - Noi duri.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">6D8C3679</span></span>
+     <span class="log4">Copy CRC <span class="good">6D8C3679</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [85A0D5AE], AccurateRip returned [B18E224E]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\11 - Love in Portofino.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">BB494D40</span></span>
+     <span class="log4">Copy CRC <span class="good">BB494D40</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [B6656BF6], AccurateRip returned [0AEAC2CF]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\12 - Sofisticata.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7500E743</span></span>
+     <span class="log4">Copy CRC <span class="good">7500E743</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [929C22CD], AccurateRip returned [5A6BA6E3]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\13 - Nel blu dipinto di blu.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D5FB5DC3</span></span>
+     <span class="log4">Copy CRC <span class="good">D5FB5DC3</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [01F73FA6], AccurateRip returned [976E7B60]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\14 - Che notte.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">BFF65A11</span></span>
+     <span class="log4">Copy CRC <span class="good">BFF65A11</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [95367FB2], AccurateRip returned [FD143A7D]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">15</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\15 - Che bambola.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">47DB3A86</span></span>
+     <span class="log4">Copy CRC <span class="good">47DB3A86</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [076D8554], AccurateRip returned [52D0681C]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">16</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\16 - Ogni notte così.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.2 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">85FD8E4F</span></span>
+     <span class="log4">Copy CRC <span class="good">85FD8E4F</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [9FC2D862], AccurateRip returned [D11166F4]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">17</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\17 - Giacomino.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">FF35BF66</span></span>
+     <span class="log4">Copy CRC <span class="good">FF35BF66</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [954D7CC2], AccurateRip returned [30940402]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">18</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\18 - Giorgio (del Lago Maggiore).wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.2 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4DA03E7C</span></span>
+     <span class="log4">Copy CRC <span class="good">4DA03E7C</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [1D69B750], AccurateRip returned [CADEEFAD]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">19</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\19 - Lo stregone (Witch doctor).wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">23AF8811</span></span>
+     <span class="log4">Copy CRC <span class="good">23AF8811</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [950B4063], AccurateRip returned [2AEB4BB2]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">20</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\20 - Buonasera (signorina).wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">A7F928F4</span></span>
+     <span class="log4">Copy CRC <span class="good">A7F928F4</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [9C691163], AccurateRip returned [565C47D3]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">21</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\21 - Whisky facile.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">05F7AE87</span></span>
+     <span class="log4">Copy CRC <span class="good">05F7AE87</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [6651729A], AccurateRip returned [2927F6B4]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">22</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\22 - Le bambole d'Italia.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">2D65E982</span></span>
+     <span class="log4">Copy CRC <span class="good">2D65E982</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [E2E4744C], AccurateRip returned [63A774E3]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">23</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\23 - La tazza di tè.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">B5D24246</span></span>
+     <span class="log4">Copy CRC <span class="good">B5D24246</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [3FCE5FE4], AccurateRip returned [3E45B612]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">24</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\24 - Cocco bello.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B797FBCA</span></span>
+     <span class="log4">Copy CRC <span class="good">B797FBCA</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [A9F05E80], AccurateRip returned [005463A0]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">25</span>
+
+     <span class="log4">Filename <span class="log3">E:\FLAC\25 - Armen's theme.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F3C9DFB5</span></span>
+     <span class="log4">Copy CRC <span class="good">F3C9DFB5</span></span>
+     <span class="badish">Cannot be verified as accurate (confidence 4)  [F31A0A47], AccurateRip returned [414EB39F]  (AR v2)</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="badish">No tracks could be verified as accurate
+</span><span class="goodish">You may have a different pressing from the one(s) in the database
+</span>
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+
+---- CUETools DB Plugin V2.1.3
+
+[CTDB TOCID: 5XkX.09.ovc2q64BSzk0tVJAtU8-] found, Submit result: 5XkX.09.ovc2q64BSzk0tVJAtU8- has been confirmed
+[1cf69d9c] (6/6) Accurately ripped
+
+<span class='good'>==== Log checksum 8D73F0AE52AE13C6595F75382F0E96D40F98BF3F5047EA70F55E055FF25E6EFE ====</span>
