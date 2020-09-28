@@ -1,0 +1,237 @@
+Exact Audio Copy <span class="log1">V0.99 prebeta 4</span> from <span class="log1">23. January 2008</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>19. June 2009, 17:55</span></span>
+
+<span class="log4">Various Artists / Feedback Loop</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">TOSHIBA DVD-ROM SD-M1612   Adapter: 1  ID: 1</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">-472</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">320 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files\FLAC\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" 
+%s</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">6:23.65</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">28789</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">6:23.65</span> <strong>|</strong>  <span class="log1">6:52.01</span> <strong>|</strong>     <span class="log1">28790</span>    <strong>|</strong>    <span class="log1">59690</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">13:15.66</span> <strong>|</strong>  <span class="log1">4:46.68</span> <strong>|</strong>     <span class="log1">59691</span>    <strong>|</strong>    <span class="log1">81208</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">18:02.59</span> <strong>|</strong>  <span class="log1">4:15.24</span> <strong>|</strong>     <span class="log1">81209</span>    <strong>|</strong>   <span class="log1">100357</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">22:18.08</span> <strong>|</strong>  <span class="log1">4:37.20</span> <strong>|</strong>    <span class="log1">100358</span>    <strong>|</strong>   <span class="log1">121152</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">26:55.28</span> <strong>|</strong>  <span class="log1">5:22.11</span> <strong>|</strong>    <span class="log1">121153</span>    <strong>|</strong>   <span class="log1">145313</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">32:17.39</span> <strong>|</strong>  <span class="log1">3:23.66</span> <strong>|</strong>    <span class="log1">145314</span>    <strong>|</strong>   <span class="log1">160604</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">35:41.30</span> <strong>|</strong>  <span class="log1">5:06.30</span> <strong>|</strong>    <span class="log1">160605</span>    <strong>|</strong>   <span class="log1">183584</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">40:47.60</span> <strong>|</strong>  <span class="log1">5:06.27</span> <strong>|</strong>    <span class="log1">183585</span>    <strong>|</strong>   <span class="log1">206561</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">45:54.12</span> <strong>|</strong>  <span class="log1">5:22.21</span> <strong>|</strong>    <span class="log1">206562</span>    <strong>|</strong>   <span class="log1">230732</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">51:16.33</span> <strong>|</strong>  <span class="log1">3:01.46</span> <strong>|</strong>    <span class="log1">230733</span>    <strong>|</strong>   <span class="log1">244353</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">54:18.04</span> <strong>|</strong>  <span class="log1">6:26.11</span> <strong>|</strong>    <span class="log1">244354</span>    <strong>|</strong>   <span class="log1">273314</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">60:44.15</span> <strong>|</strong>  <span class="log1">4:01.73</span> <strong>|</strong>    <span class="log1">273315</span>    <strong>|</strong>   <span class="log1">291462</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">64:46.13</span> <strong>|</strong>  <span class="log1">7:33.62</span> <strong>|</strong>    <span class="log1">291463</span>    <strong>|</strong>   <span class="log1">325499</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\01 - D.B.S. - Spread Your Wings.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">71C8DE3F</span></span>
+     <span class="log4">Copy CRC <span class="good">71C8DE3F</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\02 - Consume - You Took The Candy, Now Get In The God-Damned Car!.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">87.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7E72AF59</span></span>
+     <span class="log4">Copy CRC <span class="good">7E72AF59</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\03 - Burn - It's Gone.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.01</span></span>
+
+     <span class="log4">Peak level <span class="log3">71.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">04A2B590</span></span>
+     <span class="log4">Copy CRC <span class="good">04A2B590</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\04 - Tyrophex14 - Dominator.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.01</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F1F47C94</span></span>
+     <span class="log4">Copy CRC <span class="good">F1F47C94</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\05 - Centyl - Chinook.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">81.1 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">17FB1736</span></span>
+     <span class="log4">Copy CRC <span class="good">17FB1736</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\06 - Form,Alkaline - Spade.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F579DF3A</span></span>
+     <span class="log4">Copy CRC <span class="good">F579DF3A</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\07 - Monotone Corrosive - Concrete.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.01</span></span>
+
+     <span class="log4">Peak level <span class="log3">91.1 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">6562D398</span></span>
+     <span class="log4">Copy CRC <span class="good">6562D398</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\08 - lxl - Bloodbox (Slit).wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.01</span></span>
+
+     <span class="log4">Peak level <span class="log3">78.3 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">54AF40AF</span></span>
+     <span class="log4">Copy CRC <span class="good">54AF40AF</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\09 - Om Fx Skole - TIPFN.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.01</span></span>
+
+     <span class="log4">Peak level <span class="log3">66.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">12F61E3B</span></span>
+     <span class="log4">Copy CRC <span class="good">12F61E3B</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\10 - C,A,T - Dying Morality.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.02</span></span>
+
+     <span class="log4">Peak level <span class="log3">85.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">482EB263</span></span>
+     <span class="log4">Copy CRC <span class="good">482EB263</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\11 - Rec!Use - Demolir.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.01</span></span>
+
+     <span class="log4">Peak level <span class="log3">85.1 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">52116E9E</span></span>
+     <span class="log4">Copy CRC <span class="good">52116E9E</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\12 - ML - Captain Woofykins.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.01</span></span>
+
+     <span class="log4">Peak level <span class="log3">81.1 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">07370E09</span></span>
+     <span class="log4">Copy CRC <span class="good">07370E09</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\13 - XSZI - ConfinedToBlinders.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.02</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.8 %</span></span>
+     <span class="log4">Test CRC <span class="good">0C1F2AD6</span></span>
+     <span class="log4">Copy CRC <span class="good">0C1F2AD6</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC Rips\VA - Feedback Loop [flac]\14 - Monitor - Closedloop.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">F1610343</span></span>
+     <span class="log4">Copy CRC <span class="good">F1610343</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="badish">None of the tracks are present in the AccurateRip database</span>
+
+<span class="good">No errors occurred</span>
+<span class="good">End of status report</span>

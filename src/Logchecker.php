@@ -1501,7 +1501,7 @@ class Logchecker
             $Distance = levenshtein($Drive, $DriveName);
             if ($Distance < LOGCHECKER_LEVENSTEIN_DISTANCE + 1) {
                 $MatchedDrives[$Distance]['drives'][] = $Drive;
-                $MatchedDrives[$Distance]['offsets'][] = preg_replace('/[^0-9]/s', '', (string) $Offset);
+                $MatchedDrives[$Distance]['offsets'][] = (string) $Offset;
             }
         }
 

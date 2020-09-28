@@ -1,0 +1,237 @@
+Exact Audio Copy V0.99 prebeta 4 from 23. January 2008
+
+EAC extraction logfile from 19. June 2009, 17:55
+
+Various Artists / Feedback Loop
+
+Used drive  : TOSHIBA DVD-ROM SD-M1612   Adapter: 1  ID: 1
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : -472
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Installed external ASPI interface
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 320 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files\FLAC\flac.exe
+Additional command line options : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.00 |  6:23.65 |         0    |    28789   
+        2  |  6:23.65 |  6:52.01 |     28790    |    59690   
+        3  | 13:15.66 |  4:46.68 |     59691    |    81208   
+        4  | 18:02.59 |  4:15.24 |     81209    |   100357   
+        5  | 22:18.08 |  4:37.20 |    100358    |   121152   
+        6  | 26:55.28 |  5:22.11 |    121153    |   145313   
+        7  | 32:17.39 |  3:23.66 |    145314    |   160604   
+        8  | 35:41.30 |  5:06.30 |    160605    |   183584   
+        9  | 40:47.60 |  5:06.27 |    183585    |   206561   
+       10  | 45:54.12 |  5:22.21 |    206562    |   230732   
+       11  | 51:16.33 |  3:01.46 |    230733    |   244353   
+       12  | 54:18.04 |  6:26.11 |    244354    |   273314   
+       13  | 60:44.15 |  4:01.73 |    273315    |   291462   
+       14  | 64:46.13 |  7:33.62 |    291463    |   325499   
+
+
+Track  1
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\01 - D.B.S. - Spread Your Wings.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 96.5 %
+     Track quality 99.9 %
+     Test CRC 71C8DE3F
+     Copy CRC 71C8DE3F
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  2
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\02 - Consume - You Took The Candy, Now Get In The God-Damned Car!.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 87.5 %
+     Track quality 100.0 %
+     Test CRC 7E72AF59
+     Copy CRC 7E72AF59
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  3
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\03 - Burn - It's Gone.wav
+
+     Pre-gap length  0:00:02.01
+
+     Peak level 71.9 %
+     Track quality 99.9 %
+     Test CRC 04A2B590
+     Copy CRC 04A2B590
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  4
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\04 - Tyrophex14 - Dominator.wav
+
+     Pre-gap length  0:00:02.01
+
+     Peak level 96.5 %
+     Track quality 100.0 %
+     Test CRC F1F47C94
+     Copy CRC F1F47C94
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  5
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\05 - Centyl - Chinook.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 81.1 %
+     Track quality 99.9 %
+     Test CRC 17FB1736
+     Copy CRC 17FB1736
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  6
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\06 - Form,Alkaline - Spade.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 96.5 %
+     Track quality 100.0 %
+     Test CRC F579DF3A
+     Copy CRC F579DF3A
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  7
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\07 - Monotone Corrosive - Concrete.wav
+
+     Pre-gap length  0:00:02.01
+
+     Peak level 91.1 %
+     Track quality 99.9 %
+     Test CRC 6562D398
+     Copy CRC 6562D398
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  8
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\08 - lxl - Bloodbox (Slit).wav
+
+     Pre-gap length  0:00:02.01
+
+     Peak level 78.3 %
+     Track quality 100.0 %
+     Test CRC 54AF40AF
+     Copy CRC 54AF40AF
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  9
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\09 - Om Fx Skole - TIPFN.wav
+
+     Pre-gap length  0:00:02.01
+
+     Peak level 66.7 %
+     Track quality 100.0 %
+     Test CRC 12F61E3B
+     Copy CRC 12F61E3B
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 10
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\10 - C,A,T - Dying Morality.wav
+
+     Pre-gap length  0:00:02.02
+
+     Peak level 85.5 %
+     Track quality 100.0 %
+     Test CRC 482EB263
+     Copy CRC 482EB263
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 11
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\11 - Rec!Use - Demolir.wav
+
+     Pre-gap length  0:00:02.01
+
+     Peak level 85.1 %
+     Track quality 100.0 %
+     Test CRC 52116E9E
+     Copy CRC 52116E9E
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 12
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\12 - ML - Captain Woofykins.wav
+
+     Pre-gap length  0:00:02.01
+
+     Peak level 81.1 %
+     Track quality 100.0 %
+     Test CRC 07370E09
+     Copy CRC 07370E09
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 13
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\13 - XSZI - ConfinedToBlinders.wav
+
+     Pre-gap length  0:00:02.02
+
+     Peak level 96.5 %
+     Track quality 99.8 %
+     Test CRC 0C1F2AD6
+     Copy CRC 0C1F2AD6
+     Track not present in AccurateRip database
+     Copy OK
+
+Track 14
+
+     Filename C:\EAC Rips\VA - Feedback Loop [flac]\14 - Monitor - Closedloop.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 96.5 %
+     Track quality 99.9 %
+     Test CRC F1610343
+     Copy CRC F1610343
+     Track not present in AccurateRip database
+     Copy OK
+
+
+None of the tracks are present in the AccurateRip database
+
+No errors occurred
+
+End of status report
