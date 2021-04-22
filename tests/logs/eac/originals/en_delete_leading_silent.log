@@ -1,0 +1,211 @@
+Exact Audio Copy V1.3 from 2. September 2016
+
+EAC extraction logfile from 30. December 2020, 19:48
+
+Dapayk Solo / Divine parts of a godless life
+
+Used Drive  : HL-DT-STBD-RE  WH16NS60   Adapter: 1  ID: 0 (not found in database)
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 6
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : Yes
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files (x86)\Exact Audio Copy\FLAC\FLAC.EXE
+Additional command line options : -8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "COMMENT=%comment%" -T "BAND=%albuminterpret%" -T "ALBUMARTIST=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" %hascover%--picture="%coverfile%"%hascover% %source% -o %dest%
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector
+    ---------------------------------------------------------
+        1  |  0:00.00 |  4:22.24 |         0    |    19673
+        2  |  4:22.24 |  4:12.05 |     19674    |    38578
+        3  |  8:34.29 |  5:50.31 |     38579    |    64859
+        4  | 14:24.60 |  3:43.30 |     64860    |    81614
+        5  | 18:08.15 |  4:55.25 |     81615    |   103764
+        6  | 23:03.40 |  4:39.43 |    103765    |   124732
+        7  | 27:43.08 |  0:31.03 |    124733    |   127060
+        8  | 28:14.11 |  5:59.17 |    127061    |   154002
+        9  | 34:13.28 |  3:35.32 |    154003    |   170159
+       10  | 37:48.60 |  6:29.39 |    170160    |   199373
+       11  | 44:18.24 |  4:48.27 |    199374    |   221000
+       12  | 49:06.51 |  4:28.37 |    221001    |   241137
+       13  | 53:35.13 |  1:59.33 |    241138    |   250095
+       14  | 55:34.46 | 14:32.22 |    250096    |   315517
+
+
+Track  1
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\01 synthsiff.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 98.8 %
+     Extraction speed 5.0 X
+     Track quality 100.0 %
+     Test CRC B633E623
+     Copy CRC B633E623
+     Copy OK
+
+Track  2
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\02 mille.wav
+
+     Peak level 98.8 %
+     Extraction speed 5.5 X
+     Track quality 100.0 %
+     Test CRC B802103E
+     Copy CRC B802103E
+     Copy OK
+
+Track  3
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\03 coupled.wav
+
+     Peak level 98.8 %
+     Extraction speed 6.3 X
+     Track quality 100.0 %
+     Test CRC 009FE6AA
+     Copy CRC 009FE6AA
+     Copy OK
+
+Track  4
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\04 sniff my hair.wav
+
+     Peak level 98.8 %
+     Extraction speed 5.2 X
+     Track quality 99.9 %
+     Test CRC 8DBDD049
+     Copy CRC 8DBDD049
+     Copy OK
+
+Track  5
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\05 synthsiff part 2.wav
+
+     Peak level 98.8 %
+     Extraction speed 6.8 X
+     Track quality 100.0 %
+     Test CRC 8C4D9C2D
+     Copy CRC 8C4D9C2D
+     Copy OK
+
+Track  6
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\06 truthpaste.wav
+
+     Peak level 98.8 %
+     Extraction speed 7.4 X
+     Track quality 100.0 %
+     Test CRC C0BAD53F
+     Copy CRC C0BAD53F
+     Copy OK
+
+Track  7
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\07 skit.wav
+
+     Peak level 61.4 %
+     Extraction speed 4.0 X
+     Track quality 100.0 %
+     Test CRC 32E73716
+     Copy CRC 32E73716
+     Copy OK
+
+Track  8
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\08 destinct.wav
+
+     Peak level 98.8 %
+     Extraction speed 7.0 X
+     Track quality 99.9 %
+     Test CRC 33939AE5
+     Copy CRC 33939AE5
+     Copy OK
+
+Track  9
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\09 dolce.wav
+
+     Peak level 98.8 %
+     Extraction speed 6.4 X
+     Track quality 99.9 %
+     Test CRC AEB42096
+     Copy CRC AEB42096
+     Copy OK
+
+Track 10
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\10 emergency edit (feat. midnight).wav
+
+     Peak level 98.8 %
+     Extraction speed 8.9 X
+     Track quality 100.0 %
+     Test CRC DF1B40B1
+     Copy CRC DF1B40B1
+     Copy OK
+
+Track 11
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\11 ozal.wav
+
+     Peak level 98.8 %
+     Extraction speed 9.0 X
+     Track quality 100.0 %
+     Test CRC 65EC821D
+     Copy CRC 65EC821D
+     Copy OK
+
+Track 12
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\12 care&call.wav
+
+     Peak level 98.8 %
+     Extraction speed 9.3 X
+     Track quality 100.0 %
+     Test CRC 91316C40
+     Copy CRC 91316C40
+     Copy OK
+
+Track 13
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\13 territori.wav
+
+     Peak level 79.3 %
+     Extraction speed 8.3 X
+     Track quality 100.0 %
+     Test CRC 110AB469
+     Copy CRC 110AB469
+     Copy OK
+
+Track 14
+
+     Filename E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\14 apartmentb5.wav
+
+     Peak level 98.8 %
+     Extraction speed 10.8 X
+     Track quality 100.0 %
+     Test CRC CDFF0DD5
+     Copy CRC CDFF0DD5
+     Copy OK
+
+No errors occurred
+
+End of status report
+
+==== Log checksum 029ED5DBABFF712ABC4F3464244BA26FADFC6D09908846A51BE96AF25AE73E8E ====

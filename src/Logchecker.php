@@ -1746,7 +1746,7 @@ class Logchecker
 
     private function deleteSilentBlocks($Matches)
     {
-        if ($Matches[2] == 'Yes') {
+        if ($Matches[3] == 'Yes') {
             $Class = 'bad';
             $this->account('Deletes leading and trailing silent blocks', 5, false, false, false);
         } else {

@@ -1,0 +1,211 @@
+Exact Audio Copy <span class="log1">V1.3</span> from <span class="log1">2. September 2016</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>30. December 2020, 19:48</span></span>
+
+<span class="log4">Dapayk Solo / Divine parts of a godless life</span>
+
+<span class="log5">Used Drive  </span>: <span class="badish">HL-DT-STBD-RE  WH16NS60   Adapter: 1  ID: 0 (not found in database) (not found in database)</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="badish">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="bad">Yes</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">768 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\FLAC\FLAC.EXE</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" 
+-T</span>
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "COMMENT=%comment%" -T "BAND=%albuminterpret%" -T "ALBUMARTIST=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" %hascover%--picture="%coverfile%"%hascover% %source% -o %dest%
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector</strong>
+    <strong>---------------------------------------------------------</strong>
+        1  |  0:00.00 |  4:22.24 |         0    |    19673
+        2  |  4:22.24 |  4:12.05 |     19674    |    38578
+        3  |  8:34.29 |  5:50.31 |     38579    |    64859
+        4  | 14:24.60 |  3:43.30 |     64860    |    81614
+        5  | 18:08.15 |  4:55.25 |     81615    |   103764
+        6  | 23:03.40 |  4:39.43 |    103765    |   124732
+        7  | 27:43.08 |  0:31.03 |    124733    |   127060
+        8  | 28:14.11 |  5:59.17 |    127061    |   154002
+        9  | 34:13.28 |  3:35.32 |    154003    |   170159
+       10  | 37:48.60 |  6:29.39 |    170160    |   199373
+       11  | 44:18.24 |  4:48.27 |    199374    |   221000
+       12  | 49:06.51 |  4:28.37 |    221001    |   241137
+       13  | 53:35.13 |  1:59.33 |    241138    |   250095
+       14  | 55:34.46 | 14:32.22 |    250096    |   315517
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\01 synthsiff.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B633E623</span></span>
+     <span class="log4">Copy CRC <span class="good">B633E623</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\02 mille.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B802103E</span></span>
+     <span class="log4">Copy CRC <span class="good">B802103E</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\03 coupled.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">009FE6AA</span></span>
+     <span class="log4">Copy CRC <span class="good">009FE6AA</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\04 sniff my hair.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.2 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">8DBDD049</span></span>
+     <span class="log4">Copy CRC <span class="good">8DBDD049</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\05 synthsiff part 2.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">8C4D9C2D</span></span>
+     <span class="log4">Copy CRC <span class="good">8C4D9C2D</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\06 truthpaste.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C0BAD53F</span></span>
+     <span class="log4">Copy CRC <span class="good">C0BAD53F</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\07 skit.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">61.4 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">32E73716</span></span>
+     <span class="log4">Copy CRC <span class="good">32E73716</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\08 destinct.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">33939AE5</span></span>
+     <span class="log4">Copy CRC <span class="good">33939AE5</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\09 dolce.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">AEB42096</span></span>
+     <span class="log4">Copy CRC <span class="good">AEB42096</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\10 emergency edit (feat. midnight).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">8.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DF1B40B1</span></span>
+     <span class="log4">Copy CRC <span class="good">DF1B40B1</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\11 ozal.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">9.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">65EC821D</span></span>
+     <span class="log4">Copy CRC <span class="good">65EC821D</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\12 care&call.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">9.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">91316C40</span></span>
+     <span class="log4">Copy CRC <span class="good">91316C40</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\13 territori.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">79.3 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">8.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">110AB469</span></span>
+     <span class="log4">Copy CRC <span class="good">110AB469</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="log4">Filename <span class="log3">E:\RIPS\Dapayk solo - Impulsion Parasite - 2006 - FLAC\CD2\14 apartmentb5.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">10.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">CDFF0DD5</span></span>
+     <span class="log4">Copy CRC <span class="good">CDFF0DD5</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+<span class='bad'>==== Log checksum 029ED5DBABFF712ABC4F3464244BA26FADFC6D09908846A51BE96AF25AE73E8E ====</span>
