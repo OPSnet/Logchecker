@@ -1,0 +1,208 @@
+Exact Audio Copy <span class="log1">V1.6</span> from <span class="log1">23. October 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>2. April 2021, 18:13</span></span>
+
+<span class="log4">Various / Cr2 Presents Live & Direct Space Ibiza - Around The World</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">hp      BD ROM BC-5501H   Adapter: 1  ID: 1</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">48</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Normalize to                                </span>: <span class="bad">98 %</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -e -p -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" 
+-T</span>
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector</strong>
+    <strong>---------------------------------------------------------</strong>
+        1  |  0:00.00 |  7:48.50 |         0    |    35149
+        2  |  7:48.50 |  5:24.43 |     35150    |    59492
+        3  | 13:13.18 |  5:32.46 |     59493    |    84438
+        4  | 18:45.64 |  7:16.41 |     84439    |   117179
+        5  | 26:02.30 |  4:01.67 |    117180    |   135321
+        6  | 30:04.22 |  5:17.37 |    135322    |   159133
+        7  | 35:21.59 |  5:02.29 |    159134    |   181812
+        8  | 40:24.13 |  3:44.67 |    181813    |   198679
+        9  | 44:09.05 |  5:53.30 |    198680    |   225184
+       10  | 50:02.35 |  6:02.63 |    225185    |   252397
+       11  | 56:05.23 |  5:17.37 |    252398    |   276209
+       12  | 61:22.60 |  8:25.04 |    276210    |   314088
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\01 - Neuroxyde Vs. Doomwork - Jazzy Stuff.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">917CD349</span></span>
+     <span class="log4">Copy CRC <span class="good">917CD349</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [BCC56ACC]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\02 - MYNC & Harry Choo Choo Romero & Jose Nunez - Boogers (Uner & Coyu Abreme La Puerta Mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">6DF27310</span></span>
+     <span class="log4">Copy CRC <span class="good">6DF27310</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [3B6E59FF]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\03 - The Junkies - Ritmo (Loko Mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">AF156D08</span></span>
+     <span class="log4">Copy CRC <span class="good">AF156D08</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [617C38F8]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\04 - Baeka - Right At It (Michel Cleis Remix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">4DBD27C3</span></span>
+     <span class="log4">Copy CRC <span class="good">4DBD27C3</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [60CE1856]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\05 - Stefano Azati - Horns (Original Mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">21CF34DD</span></span>
+     <span class="log4">Copy CRC <span class="good">21CF34DD</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [9FDB43C8]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\06 - Wolfgang Gartner - Latin Fever.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4FB566CD</span></span>
+     <span class="log4">Copy CRC <span class="good">4FB566CD</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [32024FA3]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\07 - WWW (5) - Relaxx (Uner & Coyu Remix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C272162F</span></span>
+     <span class="log4">Copy CRC <span class="good">C272162F</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [B6811E79]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\08 - Anil Chawla - 209 (Original Mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3E987E57</span></span>
+     <span class="log4">Copy CRC <span class="good">3E987E57</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [A44B17F6]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\09 - Chuckie & LMFAO - Let The Bass Kick In Miami Bitch.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">6E5E9229</span></span>
+     <span class="log4">Copy CRC <span class="good">6E5E9229</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [3D3EFFB4]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\10 - Juan Kidd Vs. Prok & Fitch - Mantra.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">69CAC0F2</span></span>
+     <span class="log4">Copy CRC <span class="good">69CAC0F2</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [C635F32E]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\11 - Nick & Danny Chatelain - Rumba (Camilo Franco Que Rumba Remix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7A356FD0</span></span>
+     <span class="log4">Copy CRC <span class="good">7A356FD0</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [A145E589]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\Matej\Desktop\Various ‎– Cr2 Presents Live & Direct Space Ibiza - Around The World (2009) [FLAC] {CDC2LD013}\CD 1\12 - Elio Riso - 24 Horas Of Happiness.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D1DA512D</span></span>
+     <span class="log4">Copy CRC <span class="good">D1DA512D</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [34BCA92A]</span>  (AR v1)
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: lnivlQfRVKD6aXMqt3tIoEq4g6A-] disk not present in database
+Submit result: lnivlQfRVKD6aXMqt3tIoEq4g6A- has been uploaded
+<span class='bad'>==== Log checksum 48A84BB714608F6DCB2D4954260BB8331D8F255BDCBCF03AEDF85E3DCA20DAA0 ====</span>

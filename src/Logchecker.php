@@ -728,6 +728,10 @@ class Logchecker
             if (!$Count && $EAC) {
                 $this->account('Could not verify null samples');
             }
+            $Log = preg_replace_callback('/Normalize to( +): ([0-9% ]+)/i', array(
+                $this,
+                'normalizeEac'
+            ), $Log, 1);
             $Log = preg_replace(
                 '/Used interface( +): ([^\n]+)/i',
                 '<span class="log5">Used interface$1</span>: <span class="log4">$2</span>',
@@ -1766,6 +1770,13 @@ class Logchecker
         }
         return '<span class="log5">Null samples used in CRC calculations' . $Matches[1] . '</span>: ' .
             '<span class="' . $Class . '">' . $Matches[2] . '</span>';
+    }
+
+    private function normalizeEac($Matches)
+    {
+        $this->account('Normalization should be not be active', 100);
+        return '<span class="log5">Normalize to'. $Matches[1] . '</span>: ' .
+            '<span class="bad">' . $Matches[2] . '</span>';
     }
 
     private function gapHandling($Matches)
