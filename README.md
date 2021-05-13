@@ -2,8 +2,8 @@
 
 A CD rip logchecker, used for analyzing the generated logs for any problems that would potentially
 indicate a non-perfect rip was produced. Of course, just because a log doesn't score a perfect 100%
-does not mean that the produced rip isn't bit perfect, it's just less likely. While this library can
-largely run on both Linux and Windows, validating of checksums is only really supported for Linux.
+does not mean that the produced rip isn't bit perfect, it's just less likely. This library should work
+on any OS where PHP and Python are supported.
 
 While this library will analyze most parts of a log, unfortunately it cannot properly validate the checksums
 for all types of logs. This is due to creators of these programs making their logchecker closed source
