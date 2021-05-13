@@ -1775,7 +1775,7 @@ class Logchecker
     private function normalizeEac($Matches)
     {
         $this->account('Normalization should be not be active', 100);
-        return '<span class="log5">Normalize to'. $Matches[1] . '</span>: ' .
+        return '<span class="log5">Normalize to' . $Matches[1] . '</span>: ' .
             '<span class="bad">' . $Matches[2] . '</span>';
     }
 
