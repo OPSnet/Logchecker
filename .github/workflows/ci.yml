@@ -1,0 +1,33 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  testsuite:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php-version: ['7.2', '7.4']
+
+  steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: ${{ matrix.php-version }}
+        coverage: pcov
+
+
+    - name: Composer install
+      run: composer install
+
+    - run: pip3 install cchardet xld_logchecker eac_logchecker
+
+    - run: composer run lint
+
+    - run: compose run static-analysis
+
+    - run: composer run test
+
+    - run: bin/logchecker --version
