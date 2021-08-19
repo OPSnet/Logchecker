@@ -1787,6 +1787,9 @@ class Logchecker
         } elseif (strpos($Matches[2], 'Appended to next track') !== false) {
             $Class = 'bad';
             $this->account('Gap handling should be appended to previous track', 10);
+        } elseif (strpos($Matches[2], 'Left out') !== false) {
+            $Class = 'bad';
+            $this->account('Gap handling should be appended to previous track', 10);
         } elseif (strpos($Matches[2], 'Appended to previous track') !== false) {
             $Class = 'good';
         } else {

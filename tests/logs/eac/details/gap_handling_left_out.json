@@ -1,0 +1,12 @@
+{
+    "ripper": "EAC",
+    "version": "1.0 beta 3",
+    "language": "en",
+    "combined": true,
+    "score": 90,
+    "checksum": "checksum_ok",
+    "details": [
+        "Combined Log (2)",
+        "Gap handling should be appended to previous track (-10 points)"
+    ]
+}

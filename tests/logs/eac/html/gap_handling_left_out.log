@@ -1,0 +1,545 @@
+Exact Audio Copy <span class="log1">V1.0 beta 3</span> from <span class="log1">29. August 2011</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>11. July 2016, 0:07</span></span>
+
+<span class="log4">Adriana Calcanhotto / Cantada</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STDVDRAM GP65NW60   Adapter: 0  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">768 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\FLAC\FLAC.EXE</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-6 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "COMMENT=%comment%" -T "BAND=%albuminterpret%" -T "ALBUMARTIST=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" %hascover%--picture="%coverfile%"%hascover% %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:46.55</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">17004</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:46.55</span> <strong>|</strong>  <span class="log1">3:45.32</span> <strong>|</strong>     <span class="log1">17005</span>    <strong>|</strong>    <span class="log1">33911</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">7:32.12</span> <strong>|</strong>  <span class="log1">3:24.20</span> <strong>|</strong>     <span class="log1">33912</span>    <strong>|</strong>    <span class="log1">49231</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">10:56.32</span> <strong>|</strong>  <span class="log1">3:57.60</span> <strong>|</strong>     <span class="log1">49232</span>    <strong>|</strong>    <span class="log1">67066</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">14:54.17</span> <strong>|</strong>  <span class="log1">3:41.73</span> <strong>|</strong>     <span class="log1">67067</span>    <strong>|</strong>    <span class="log1">83714</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">18:36.15</span> <strong>|</strong>  <span class="log1">3:43.40</span> <strong>|</strong>     <span class="log1">83715</span>    <strong>|</strong>   <span class="log1">100479</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">22:19.55</span> <strong>|</strong>  <span class="log1">4:14.20</span> <strong>|</strong>    <span class="log1">100480</span>    <strong>|</strong>   <span class="log1">119549</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">26:34.00</span> <strong>|</strong>  <span class="log1">3:46.57</span> <strong>|</strong>    <span class="log1">119550</span>    <strong>|</strong>   <span class="log1">136556</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">30:20.57</span> <strong>|</strong>  <span class="log1">4:22.08</span> <strong>|</strong>    <span class="log1">136557</span>    <strong>|</strong>   <span class="log1">156214</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">34:42.65</span> <strong>|</strong>  <span class="log1">4:07.60</span> <strong>|</strong>    <span class="log1">156215</span>    <strong>|</strong>   <span class="log1">174799</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">38:50.50</span> <strong>|</strong>  <span class="log1">3:09.40</span> <strong>|</strong>    <span class="log1">174800</span>    <strong>|</strong>   <span class="log1">189014</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">42:00.15</span> <strong>|</strong>  <span class="log1">4:00.15</span> <strong>|</strong>    <span class="log1">189015</span>    <strong>|</strong>   <span class="log1">207029</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">46:00.30</span> <strong>|</strong>  <span class="log1">3:48.55</span> <strong>|</strong>    <span class="log1">207030</span>    <strong>|</strong>   <span class="log1">224184</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">49:49.10</span> <strong>|</strong>  <span class="log1">3:16.65</span> <strong>|</strong>    <span class="log1">224185</span>    <strong>|</strong>   <span class="log1">238949</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">53:06.00</span> <strong>|</strong>  <span class="log1">1:45.30</span> <strong>|</strong>    <span class="log1">238950</span>    <strong>|</strong>   <span class="log1">246854</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[1] Programa - Adriana Calcanhotto With Moreno +2.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">E281E2B0</span></span>
+     <span class="log4">Copy CRC <span class="good">E281E2B0</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[2] Justo Agora - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.13</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">BFCC6B80</span></span>
+     <span class="log4">Copy CRC <span class="good">BFCC6B80</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[3] Pelos Ares - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.12</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.2 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DA0560E9</span></span>
+     <span class="log4">Copy CRC <span class="good">DA0560E9</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[4] Eu Espero - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.20</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0030BA90</span></span>
+     <span class="log4">Copy CRC <span class="good">0030BA90</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[5] Noite - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.15</span></span>
+
+     <span class="log4">Peak level <span class="log3">93.1 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">A7482243</span></span>
+     <span class="log4">Copy CRC <span class="good">A7482243</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[6] Calor - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.18</span></span>
+
+     <span class="log4">Peak level <span class="log3">84.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">59DE87A8</span></span>
+     <span class="log4">Copy CRC <span class="good">59DE87A8</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[7] Sobre A Tarde - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.48</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D77076E2</span></span>
+     <span class="log4">Copy CRC <span class="good">D77076E2</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[8] Cantada (Depois De Ter Você) - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.35</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.4 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">A6CAA2F7</span></span>
+     <span class="log4">Copy CRC <span class="good">A6CAA2F7</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[9] A Mulher Barbada - Adriana Calcanhotto With Los Hermanos.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.05</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4C5A1B1C</span></span>
+     <span class="log4">Copy CRC <span class="good">4C5A1B1C</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[10] Sou Sua - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.08</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F6C22632</span></span>
+     <span class="log4">Copy CRC <span class="good">F6C22632</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[11] Intimidade (Sou Seu) - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.55</span></span>
+
+     <span class="log4">Peak level <span class="log3">77.9 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">E43AA27C</span></span>
+     <span class="log4">Copy CRC <span class="good">E43AA27C</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[12] Impressive Instant - Adriana Calcanhotto With Daniel Jobim.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.35</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">893B48F2</span></span>
+     <span class="log4">Copy CRC <span class="good">893B48F2</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[13] Se Tudo Pode Acontecer - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:04.15</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4F10A145</span></span>
+     <span class="log4">Copy CRC <span class="good">4F10A145</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[14] Jornal De Serviço - Adriana Calcanhotto With BossaCucaNova.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:07.38</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">958244F3</span></span>
+     <span class="log4">Copy CRC <span class="good">958244F3</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">15</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[15] Ninar - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.73</span></span>
+
+     <span class="log4">Peak level <span class="log3">70.3 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">23846FF7</span></span>
+     <span class="log4">Copy CRC <span class="good">23846FF7</span></span>
+     <span class="good">Accurately ripped (confidence 3)  [A6C112BB]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+
+ <span class="good"><span class="log4">1 track(s) accurately ripped</span>
+</span>14 track(s) not fully ripped for AccurateRip lookup
+
+<span class="badish">Some tracks could not be verified as accurate
+</span>
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+<span class='good'>==== Log checksum 7F46B0D52AA1ED0AC0C78E003D6E17F93E3497986AC65B0ECB7DB0DF8D0A2D94 ====</span>
+
+<strong>------------------------------------------------------------</strong>
+
+Exact Audio Copy <span class="log1">V1.0 beta 3</span> from <span class="log1">29. August 2011</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>11. July 2016, 0:07</span></span>
+
+<span class="log4">Adriana Calcanhotto / Cantada</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STDVDRAM GP65NW60   Adapter: 0  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">768 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\FLAC\FLAC.EXE</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-6 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "COMMENT=%comment%" -T "BAND=%albuminterpret%" -T "ALBUMARTIST=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" %hascover%--picture="%coverfile%"%hascover% %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:46.55</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">17004</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:46.55</span> <strong>|</strong>  <span class="log1">3:45.32</span> <strong>|</strong>     <span class="log1">17005</span>    <strong>|</strong>    <span class="log1">33911</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">7:32.12</span> <strong>|</strong>  <span class="log1">3:24.20</span> <strong>|</strong>     <span class="log1">33912</span>    <strong>|</strong>    <span class="log1">49231</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">10:56.32</span> <strong>|</strong>  <span class="log1">3:57.60</span> <strong>|</strong>     <span class="log1">49232</span>    <strong>|</strong>    <span class="log1">67066</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">14:54.17</span> <strong>|</strong>  <span class="log1">3:41.73</span> <strong>|</strong>     <span class="log1">67067</span>    <strong>|</strong>    <span class="log1">83714</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">18:36.15</span> <strong>|</strong>  <span class="log1">3:43.40</span> <strong>|</strong>     <span class="log1">83715</span>    <strong>|</strong>   <span class="log1">100479</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">22:19.55</span> <strong>|</strong>  <span class="log1">4:14.20</span> <strong>|</strong>    <span class="log1">100480</span>    <strong>|</strong>   <span class="log1">119549</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">26:34.00</span> <strong>|</strong>  <span class="log1">3:46.57</span> <strong>|</strong>    <span class="log1">119550</span>    <strong>|</strong>   <span class="log1">136556</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">30:20.57</span> <strong>|</strong>  <span class="log1">4:22.08</span> <strong>|</strong>    <span class="log1">136557</span>    <strong>|</strong>   <span class="log1">156214</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">34:42.65</span> <strong>|</strong>  <span class="log1">4:07.60</span> <strong>|</strong>    <span class="log1">156215</span>    <strong>|</strong>   <span class="log1">174799</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">38:50.50</span> <strong>|</strong>  <span class="log1">3:09.40</span> <strong>|</strong>    <span class="log1">174800</span>    <strong>|</strong>   <span class="log1">189014</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">42:00.15</span> <strong>|</strong>  <span class="log1">4:00.15</span> <strong>|</strong>    <span class="log1">189015</span>    <strong>|</strong>   <span class="log1">207029</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">46:00.30</span> <strong>|</strong>  <span class="log1">3:48.55</span> <strong>|</strong>    <span class="log1">207030</span>    <strong>|</strong>   <span class="log1">224184</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">49:49.10</span> <strong>|</strong>  <span class="log1">3:16.65</span> <strong>|</strong>    <span class="log1">224185</span>    <strong>|</strong>   <span class="log1">238949</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">53:06.00</span> <strong>|</strong>  <span class="log1">1:45.30</span> <strong>|</strong>    <span class="log1">238950</span>    <strong>|</strong>   <span class="log1">246854</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[1] Programa - Adriana Calcanhotto With Moreno +2.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">E281E2B0</span></span>
+     <span class="log4">Copy CRC <span class="good">E281E2B0</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[2] Justo Agora - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.13</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">BFCC6B80</span></span>
+     <span class="log4">Copy CRC <span class="good">BFCC6B80</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[3] Pelos Ares - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.12</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.2 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DA0560E9</span></span>
+     <span class="log4">Copy CRC <span class="good">DA0560E9</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[4] Eu Espero - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.20</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0030BA90</span></span>
+     <span class="log4">Copy CRC <span class="good">0030BA90</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[5] Noite - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.15</span></span>
+
+     <span class="log4">Peak level <span class="log3">93.1 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">A7482243</span></span>
+     <span class="log4">Copy CRC <span class="good">A7482243</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[6] Calor - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.18</span></span>
+
+     <span class="log4">Peak level <span class="log3">84.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">59DE87A8</span></span>
+     <span class="log4">Copy CRC <span class="good">59DE87A8</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[7] Sobre A Tarde - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.48</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">D77076E2</span></span>
+     <span class="log4">Copy CRC <span class="good">D77076E2</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[8] Cantada (Depois De Ter Você) - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.35</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.4 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">A6CAA2F7</span></span>
+     <span class="log4">Copy CRC <span class="good">A6CAA2F7</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[9] A Mulher Barbada - Adriana Calcanhotto With Los Hermanos.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.05</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4C5A1B1C</span></span>
+     <span class="log4">Copy CRC <span class="good">4C5A1B1C</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[10] Sou Sua - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.08</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F6C22632</span></span>
+     <span class="log4">Copy CRC <span class="good">F6C22632</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[11] Intimidade (Sou Seu) - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.55</span></span>
+
+     <span class="log4">Peak level <span class="log3">77.9 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">E43AA27C</span></span>
+     <span class="log4">Copy CRC <span class="good">E43AA27C</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[12] Impressive Instant - Adriana Calcanhotto With Daniel Jobim.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.35</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">893B48F2</span></span>
+     <span class="log4">Copy CRC <span class="good">893B48F2</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[13] Se Tudo Pode Acontecer - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:04.15</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4F10A145</span></span>
+     <span class="log4">Copy CRC <span class="good">4F10A145</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[14] Jornal De Serviço - Adriana Calcanhotto With BossaCucaNova.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:07.38</span></span>
+
+     <span class="log4">Peak level <span class="log3">94.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">958244F3</span></span>
+     <span class="log4">Copy CRC <span class="good">958244F3</span></span>
+     Track not fully ripped for AccurateRip lookup
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">15</span>
+
+     <span class="log4">Filename <span class="log3">C:\FLAC\Adriana Calcanhotto - Cantada\[15] Ninar - Adriana Calcanhotto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.73</span></span>
+
+     <span class="log4">Peak level <span class="log3">70.3 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">23846FF7</span></span>
+     <span class="log4">Copy CRC <span class="good">23846FF7</span></span>
+     <span class="good">Accurately ripped (confidence 3)  [A6C112BB]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+
+ <span class="good"><span class="log4">1 track(s) accurately ripped</span>
+</span>14 track(s) not fully ripped for AccurateRip lookup
+
+<span class="badish">Some tracks could not be verified as accurate
+</span>
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+<span class='good'>==== Log checksum 7F46B0D52AA1ED0AC0C78E003D6E17F93E3497986AC65B0ECB7DB0DF8D0A2D94 ====</span>

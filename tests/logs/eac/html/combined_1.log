@@ -16,7 +16,7 @@ Exact Audio Copy <span class="log1">V0.99 prebeta 1</span> from <span class="log
 <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
 <span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
 <span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
-<span class="log5">Gap handling                                </span>: <span class="goodish">Left out</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
 
 <span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
 <span class="log5">Selected bitrate                </span>: <span class="log4">320 kBit/s</span>
@@ -168,7 +168,7 @@ Exact Audio Copy <span class="log1">V0.99 prebeta 1</span> from <span class="log
 <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
 <span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
 <span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
-<span class="log5">Gap handling                                </span>: <span class="goodish">Left out</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
 
 <span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
 <span class="log5">Selected bitrate                </span>: <span class="log4">320 kBit/s</span>
@@ -224,7 +224,7 @@ Exact Audio Copy <span class="log1">V0.99 prebeta 1</span> from <span class="log
 <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
 <span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
 <span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
-<span class="log5">Gap handling                                </span>: <span class="goodish">Left out</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
 
 <span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
 <span class="log5">Selected bitrate                </span>: <span class="log4">320 kBit/s</span>
@@ -282,7 +282,7 @@ Exact Audio Copy <span class="log1">V0.99 prebeta 1</span> from <span class="log
 <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
 <span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
 <span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
-<span class="log5">Gap handling                                </span>: <span class="goodish">Left out</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
 
 <span class="log5">Used output format </span>: <span class="log4">Internal WAV Routines</span>
 <span class="log5">Sample format      </span>: <span class="log4">44.100 Hz; 16 Bit; Stereo</span>
@@ -333,7 +333,7 @@ Exact Audio Copy <span class="log1">V0.99 prebeta 1</span> from <span class="log
 <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
 <span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
 <span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
-<span class="log5">Gap handling                                </span>: <span class="goodish">Left out</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
 
 <span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
 <span class="log5">Selected bitrate                </span>: <span class="log4">320 kBit/s</span>
@@ -389,7 +389,7 @@ Exact Audio Copy <span class="log1">V0.99 prebeta 1</span> from <span class="log
 <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
 <span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
 <span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
-<span class="log5">Gap handling                                </span>: <span class="goodish">Left out</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
 
 <span class="log5">Used output format </span>: <span class="log4">Internal WAV Routines</span>
 <span class="log5">Sample format      </span>: <span class="log4">44.100 Hz; 16 Bit; Stereo</span>
@@ -440,7 +440,7 @@ Exact Audio Copy <span class="log1">V0.99 prebeta 1</span> from <span class="log
 <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
 <span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
 <span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
-<span class="log5">Gap handling                                </span>: <span class="goodish">Left out</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
 
 <span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
 <span class="log5">Selected bitrate                </span>: <span class="log4">320 kBit/s</span>
@@ -500,7 +500,7 @@ Exact Audio Copy <span class="log1">V0.99 prebeta 1</span> from <span class="log
 <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
 <span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
 <span class="log5">Used interface                              </span>: <span class="log4">Installed external ASPI interface</span>
-<span class="log5">Gap handling                                </span>: <span class="goodish">Left out</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Left out</span>
 
 <span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
 <span class="log5">Selected bitrate                </span>: <span class="log4">320 kBit/s</span>
