@@ -3,7 +3,7 @@
     "version": "0.99 prebeta 1",
     "language": "en",
     "combined": true,
-    "score": 66,
+    "score": 69,
     "checksum": "checksum_missing",
     "details": [
         "Combined Log (8)",
@@ -12,8 +12,8 @@
         "Gap handling should be appended to previous track (-10 points)",
         "Test and copy was not used (-10 points)",
         "Could not verify id3 tag setting (-1 point)",
-        "Track 02 (1): Could not verify filename (-1 point)",
-        "Track 05 (1): Could not verify filename (-1 point)",
-        "Track 07 (1): Could not verify filename (-1 point)"
+        "Track 02 (1): Could not verify filename, too long",
+        "Track 05 (1): Could not verify filename, too long",
+        "Track 07 (1): Could not verify filename, too long"
     ]
 }

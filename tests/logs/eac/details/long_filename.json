@@ -1,0 +1,12 @@
+{
+    "ripper": "EAC",
+    "version": "1.0 beta 3",
+    "language": "en",
+    "combined": false,
+    "score": 99,
+    "checksum": "checksum_invalid",
+    "details": [
+        "Track 01: Could not verify filename or file extension (-1 point)",
+        "Track 11: Could not verify filename, too long"
+    ]
+}

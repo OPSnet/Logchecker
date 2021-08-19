@@ -1,0 +1,206 @@
+Exact Audio Copy <span class="log1">V1.0 beta 3</span> from <span class="log1">29. August 2011</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>5. April 2013, 14:40</span></span>
+
+<span class="log4">Various Artists / Modern Classics: Stravinsky's Les Noces and music by Dun, Glass, Nielsen, Tavener, Lutoslawski BBC Music Vol. VI No. 6</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STBDDVDRW CH10LS28   Adapter: 0  ID: 3</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">667</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">128 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector</strong>
+    <strong>---------------------------------------------------------</strong>
+        1  |  0:00.00 |  4:46.00 |         0    |    21449
+        2  |  4:46.00 |  5:12.07 |     21450    |    44856
+        3  |  9:58.07 |  6:05.33 |     44857    |    72264
+        4  | 16:03.40 |  3:11.10 |     72265    |    86599
+        5  | 19:14.50 | 10:32.32 |     86600    |   134031
+        6  | 29:47.07 |  7:49.20 |    134032    |   169226
+        7  | 37:36.27 | 15:14.08 |    169227    |   237784
+        8  | 52:50.35 |  6:08.25 |    237785    |   265409
+        9  | 58:58.60 |  2:47.45 |    265410    |   277979
+       10  | 61:46.30 |  5:06.27 |    277980    |   300956
+       11  | 66:52.57 |  8:35.02 |    300957    |   339583
+       12  | 77:59.59 |  1:03.33 |    350984    |   355741
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     Filename C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\01 - Philadelphia Orchestra and Eugene Ormandy - Nielsen- Maskarade Overture
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0C63A520</span></span>
+     <span class="log4">Copy CRC <span class="good">0C63A520</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [58AA7F29]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\02 - American Concert Choir, Columbia percussion Ensemble and Igor Stravinsky - Stravinsky- Les Noces - The Bride's Chamber.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:07.33</span></span>
+
+     <span class="log4">Peak level <span class="log3">86.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">BA3B2595</span></span>
+     <span class="log4">Copy CRC <span class="good">BA3B2595</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [727877A3]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\03 - American Concert Choir, Columbia percussion Ensemble and Igor Stravinsky - Stravinsky- Les Noces - At the Bridegroom's.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">10CD21A3</span></span>
+     <span class="log4">Copy CRC <span class="good">10CD21A3</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [8553EB25]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\04 - American Concert Choir, Columbia percussion Ensemble and Igor Stravinsky - Stravinsky- Les Noces - The Bride's Departure.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">80.9 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B50F5266</span></span>
+     <span class="log4">Copy CRC <span class="good">B50F5266</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [80B1BD7E]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\05 - American Concert Choir, Columbia percussion Ensemble and Igor Stravinsky - Stravinsky- Les Noces - The Wedding Feast.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">8B701CE8</span></span>
+     <span class="log4">Copy CRC <span class="good">8B701CE8</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [B19DB77F]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\06 - Philadelphia Orchestra and Eugene Ormandy - Barber- Adagio for Strings.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:07.35</span></span>
+
+     <span class="log4">Peak level <span class="log3">65.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">9638FE26</span></span>
+     <span class="log4">Copy CRC <span class="good">9638FE26</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [16106AC7]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\07 - John Shirley-Quirk, Los Aneles Philharmonic Orchestra and Esa-Pekka Salonen - Lutoslawski- Les espaces du sommeil.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:07.35</span></span>
+
+     <span class="log4">Peak level <span class="log3">66.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">916F417F</span></span>
+     <span class="log4">Copy CRC <span class="good">916F417F</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [4A2EC24D]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\08 - Philip Glass Ensemble and Martin Reisman - Glass- Floe.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:07.33</span></span>
+
+     <span class="log4">Peak level <span class="log3">83.4 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">320984BC</span></span>
+     <span class="log4">Copy CRC <span class="good">320984BC</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [B516F43C]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\09 - Westminister Abbey Chior and Martin Neary - Tavener- Hymn to the Mother of God.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:07.33</span></span>
+
+     <span class="log4">Peak level <span class="log3">47.7 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3F04210F</span></span>
+     <span class="log4">Copy CRC <span class="good">3F04210F</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [6241FBD0]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\10 - Westminister Abbey Chior and Martin Neary - Tavener- Hymn for the Dormition of the Mother of God.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">15.1 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">FA5DB906</span></span>
+     <span class="log4">Copy CRC <span class="good">FA5DB906</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [40D92044]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\EAC\Modern Classics - Stravinsky's Les Noces, etc (1998) [FLAC]\11 - Yo-Yo Ma, Imperial Bells Ensemble of China, Yips Children's Choir, Hong Kong Philharmonic Orchestra and Tan Dun - Tan Dun- Symphony 1997, `Heaven Earth Mankind'- Song of P</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:07.32</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">1527E52C</span></span>
+     <span class="log4">Copy CRC <span class="good">1527E52C</span></span>
+     <span class="good">Accurately ripped (confidence 5)  [9B8379D2]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+
+---- CUETools DB Plugin V2.1.3
+
+[CTDB TOCID: A7fUI4Bw9WkDiwqax05U3EEyntY-] disk not present in database, Submit result: A7fUI4Bw9WkDiwqax05U3EEyntY- has been uploaded
+
+<span class='bad'>==== Log checksum F56138A858854449A74BA8415C4997E1C79A4C675274AA99E7F61FCD259C5557 ====</span>
