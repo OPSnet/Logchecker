@@ -1,0 +1,552 @@
+Exact Audio Copy <span class="log1">V1.6</span> from <span class="log1">23. October 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>7. June 2022, 18:50</span></span>
+
+<span class="log4">Banda Los Recoditos / Las Bandas Románticas</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">SONY    DVD RW DRU-830A   Adapter: 1  ID: 1</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:04.54</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">13853</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:04.54</span> <strong>|</strong>  <span class="log1">3:03.01</span> <strong>|</strong>     <span class="log1">13854</span>    <strong>|</strong>    <span class="log1">27579</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">6:07.55</span> <strong>|</strong>  <span class="log1">2:12.35</span> <strong>|</strong>     <span class="log1">27580</span>    <strong>|</strong>    <span class="log1">37514</span>   
+        <span class="log4">4</span>  <strong>|</strong>  <span class="log1">8:20.15</span> <strong>|</strong>  <span class="log1">3:07.53</span> <strong>|</strong>     <span class="log1">37515</span>    <strong>|</strong>    <span class="log1">51592</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">11:27.68</span> <strong>|</strong>  <span class="log1">2:16.09</span> <strong>|</strong>     <span class="log1">51593</span>    <strong>|</strong>    <span class="log1">61801</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">13:44.02</span> <strong>|</strong>  <span class="log1">3:27.36</span> <strong>|</strong>     <span class="log1">61802</span>    <strong>|</strong>    <span class="log1">77362</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">17:11.38</span> <strong>|</strong>  <span class="log1">2:51.07</span> <strong>|</strong>     <span class="log1">77363</span>    <strong>|</strong>    <span class="log1">90194</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">20:02.45</span> <strong>|</strong>  <span class="log1">2:29.10</span> <strong>|</strong>     <span class="log1">90195</span>    <strong>|</strong>   <span class="log1">101379</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">22:31.55</span> <strong>|</strong>  <span class="log1">2:05.37</span> <strong>|</strong>    <span class="log1">101380</span>    <strong>|</strong>   <span class="log1">110791</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">24:37.17</span> <strong>|</strong>  <span class="log1">3:18.59</span> <strong>|</strong>    <span class="log1">110792</span>    <strong>|</strong>   <span class="log1">125700</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">27:56.01</span> <strong>|</strong>  <span class="log1">2:35.73</span> <strong>|</strong>    <span class="log1">125701</span>    <strong>|</strong>   <span class="log1">137398</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">30:31.74</span> <strong>|</strong>  <span class="log1">2:15.50</span> <strong>|</strong>    <span class="log1">137399</span>    <strong>|</strong>   <span class="log1">147573</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">32:47.49</span> <strong>|</strong>  <span class="log1">3:17.34</span> <strong>|</strong>    <span class="log1">147574</span>    <strong>|</strong>   <span class="log1">162382</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">36:05.08</span> <strong>|</strong>  <span class="log1">2:41.42</span> <strong>|</strong>    <span class="log1">162383</span>    <strong>|</strong>   <span class="log1">174499</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">38:46.50</span> <strong>|</strong>  <span class="log1">2:57.26</span> <strong>|</strong>    <span class="log1">174500</span>    <strong>|</strong>   <span class="log1">187800</span>   
+       <span class="log4">16</span>  <strong>|</strong> <span class="log1">41:44.01</span> <strong>|</strong>  <span class="log1">3:04.32</span> <strong>|</strong>    <span class="log1">187801</span>    <strong>|</strong>   <span class="log1">201632</span>   
+       <span class="log4">17</span>  <strong>|</strong> <span class="log1">44:48.33</span> <strong>|</strong>  <span class="log1">3:03.47</span> <strong>|</strong>    <span class="log1">201633</span>    <strong>|</strong>   <span class="log1">215404</span>   
+       <span class="log4">18</span>  <strong>|</strong> <span class="log1">47:52.05</span> <strong>|</strong>  <span class="log1">2:41.04</span> <strong>|</strong>    <span class="log1">215405</span>    <strong>|</strong>   <span class="log1">227483</span>   
+       <span class="log4">19</span>  <strong>|</strong> <span class="log1">50:33.09</span> <strong>|</strong>  <span class="log1">2:19.00</span> <strong>|</strong>    <span class="log1">227484</span>    <strong>|</strong>   <span class="log1">237908</span>   
+       <span class="log4">20</span>  <strong>|</strong> <span class="log1">52:52.09</span> <strong>|</strong>  <span class="log1">2:45.59</span> <strong>|</strong>    <span class="log1">237909</span>    <strong>|</strong>   <span class="log1">250342</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\01 Me Tocó Perder.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">9D585329</span></span>
+     <span class="log4">Copy CRC <span class="good">9D585329</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\02 Me Sobrabas Tú.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DA341566</span></span>
+     <span class="log4">Copy CRC <span class="good">DA341566</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\03 	Mientras Tú Jugabas.wav</span></span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\04 Cuando Te Entregues A Él.wav</span></span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">15</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">16</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">17</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">18</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">19</span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span> <span class="log4 log1">20</span>
+
+     <span class="bad">Copy aborted</span>
+
+
+ <span class="badish"><span class="log4">2 track(s) not present in the AccurateRip database</span>
+</span> 1 track(s) not fully ripped for AccurateRip lookup
+<span class="bad">17 track(s) canceled
+</span>
+<span class="badish">No tracks could be verified as accurate
+</span>
+<span class="bad">There were errors</span>
+
+<span class="good">End of status report</span>
+<span class='good'>==== Log checksum C4DBC5C2BD109852963040ECF07A05BD2ACF1BD94147C74CBE74A8DA008B2FC9 ====</span>
+
+<strong>------------------------------------------------------------</strong>
+
+Exact Audio Copy <span class="log1">V1.6</span> from <span class="log1">23. October 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>7. June 2022, 19:21</span></span>
+
+<span class="log4">Banda Los Recoditos / Las Bandas Románticas</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">SONY    DVD RW DRU-830A   Adapter: 1  ID: 1</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:04.54</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">13853</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:04.54</span> <strong>|</strong>  <span class="log1">3:03.01</span> <strong>|</strong>     <span class="log1">13854</span>    <strong>|</strong>    <span class="log1">27579</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">6:07.55</span> <strong>|</strong>  <span class="log1">2:12.35</span> <strong>|</strong>     <span class="log1">27580</span>    <strong>|</strong>    <span class="log1">37514</span>   
+        <span class="log4">4</span>  <strong>|</strong>  <span class="log1">8:20.15</span> <strong>|</strong>  <span class="log1">3:07.53</span> <strong>|</strong>     <span class="log1">37515</span>    <strong>|</strong>    <span class="log1">51592</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">11:27.68</span> <strong>|</strong>  <span class="log1">2:16.09</span> <strong>|</strong>     <span class="log1">51593</span>    <strong>|</strong>    <span class="log1">61801</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">13:44.02</span> <strong>|</strong>  <span class="log1">3:27.36</span> <strong>|</strong>     <span class="log1">61802</span>    <strong>|</strong>    <span class="log1">77362</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">17:11.38</span> <strong>|</strong>  <span class="log1">2:51.07</span> <strong>|</strong>     <span class="log1">77363</span>    <strong>|</strong>    <span class="log1">90194</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">20:02.45</span> <strong>|</strong>  <span class="log1">2:29.10</span> <strong>|</strong>     <span class="log1">90195</span>    <strong>|</strong>   <span class="log1">101379</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">22:31.55</span> <strong>|</strong>  <span class="log1">2:05.37</span> <strong>|</strong>    <span class="log1">101380</span>    <strong>|</strong>   <span class="log1">110791</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">24:37.17</span> <strong>|</strong>  <span class="log1">3:18.59</span> <strong>|</strong>    <span class="log1">110792</span>    <strong>|</strong>   <span class="log1">125700</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">27:56.01</span> <strong>|</strong>  <span class="log1">2:35.73</span> <strong>|</strong>    <span class="log1">125701</span>    <strong>|</strong>   <span class="log1">137398</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">30:31.74</span> <strong>|</strong>  <span class="log1">2:15.50</span> <strong>|</strong>    <span class="log1">137399</span>    <strong>|</strong>   <span class="log1">147573</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">32:47.49</span> <strong>|</strong>  <span class="log1">3:17.34</span> <strong>|</strong>    <span class="log1">147574</span>    <strong>|</strong>   <span class="log1">162382</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">36:05.08</span> <strong>|</strong>  <span class="log1">2:41.42</span> <strong>|</strong>    <span class="log1">162383</span>    <strong>|</strong>   <span class="log1">174499</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">38:46.50</span> <strong>|</strong>  <span class="log1">2:57.26</span> <strong>|</strong>    <span class="log1">174500</span>    <strong>|</strong>   <span class="log1">187800</span>   
+       <span class="log4">16</span>  <strong>|</strong> <span class="log1">41:44.01</span> <strong>|</strong>  <span class="log1">3:04.32</span> <strong>|</strong>    <span class="log1">187801</span>    <strong>|</strong>   <span class="log1">201632</span>   
+       <span class="log4">17</span>  <strong>|</strong> <span class="log1">44:48.33</span> <strong>|</strong>  <span class="log1">3:03.47</span> <strong>|</strong>    <span class="log1">201633</span>    <strong>|</strong>   <span class="log1">215404</span>   
+       <span class="log4">18</span>  <strong>|</strong> <span class="log1">47:52.05</span> <strong>|</strong>  <span class="log1">2:41.04</span> <strong>|</strong>    <span class="log1">215405</span>    <strong>|</strong>   <span class="log1">227483</span>   
+       <span class="log4">19</span>  <strong>|</strong> <span class="log1">50:33.09</span> <strong>|</strong>  <span class="log1">2:19.00</span> <strong>|</strong>    <span class="log1">227484</span>    <strong>|</strong>   <span class="log1">237908</span>   
+       <span class="log4">20</span>  <strong>|</strong> <span class="log1">52:52.09</span> <strong>|</strong>  <span class="log1">2:45.59</span> <strong>|</strong>    <span class="log1">237909</span>    <strong>|</strong>   <span class="log1">250342</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\01 Me Tocó Perder.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">9D585329</span></span>
+     <span class="log4">Copy CRC <span class="good">9D585329</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\02 Me Sobrabas Tú.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DA341566</span></span>
+     <span class="log4">Copy CRC <span class="good">DA341566</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\03 Mientras Tú Jugabas.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">C022993E</span></span>
+     <span class="log4">Copy CRC <span class="good">C022993E</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\04 Cuando Te Entregues A Él.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.2 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">20965CEF</span></span>
+     <span class="log4">Copy CRC <span class="good">20965CEF</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\05 Habitación 69.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">BD42CBA7</span></span>
+     <span class="log4">Copy CRC <span class="good">BD42CBA7</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\06 No Te Quiero Perder.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">62953902</span></span>
+     <span class="log4">Copy CRC <span class="good">62953902</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\07 Extráñame.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.2 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7957A010</span></span>
+     <span class="log4">Copy CRC <span class="good">7957A010</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\08 Eres Difícil.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3870FFA9</span></span>
+     <span class="log4">Copy CRC <span class="good">3870FFA9</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\09 La Escuelita.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">D5B580CB</span></span>
+     <span class="log4">Copy CRC <span class="good">D5B580CB</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\10 Hoy Me Di Cuenta.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">55A92E2F</span></span>
+     <span class="log4">Copy CRC <span class="good">55A92E2F</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\11 El Resumen.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">A0631E37</span></span>
+     <span class="log4">Copy CRC <span class="good">A0631E37</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\12 Para Ti Solita.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">99E4053A</span></span>
+     <span class="log4">Copy CRC <span class="good">99E4053A</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\13 Sin Autorización.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">8B25D2F4</span></span>
+     <span class="log4">Copy CRC <span class="good">8B25D2F4</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\14 Aunque Sea Por Teléfono.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.1 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0863A0C2</span></span>
+     <span class="log4">Copy CRC <span class="good">0863A0C2</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">15</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\15 Desde Que Te Ví.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.7 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">45A00E59</span></span>
+     <span class="log4">Copy CRC <span class="good">45A00E59</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">16</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\16 El Free.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3A670D0D</span></span>
+     <span class="log4">Copy CRC <span class="good">3A670D0D</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">17</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\17 Carita De Inocente.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">08CAF9CA</span></span>
+     <span class="log4">Copy CRC <span class="good">08CAF9CA</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">18</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\18 Aquí Me Quedaré.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">15C956EE</span></span>
+     <span class="log4">Copy CRC <span class="good">15C956EE</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">19</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\19 ¿Cuánto Cuesta.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4CED400A</span></span>
+     <span class="log4">Copy CRC <span class="good">4CED400A</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">20</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\20 	Que Diosito Te Perdone.wav</span></span>
+
+     <span class="bad">Copy aborted</span>
+
+
+<span class="badish"><span class="log4">19 track(s) not present in the AccurateRip database</span>
+</span> 1 track(s) not fully ripped for AccurateRip lookup
+
+<span class="badish">No tracks could be verified as accurate
+</span>
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+<span class='good'>==== Log checksum 92AF218D8E4D9A21B5C284CEEC5E5CC6A9828B7A7DECBF929F553C458354A48E ====</span>
+
+<strong>------------------------------------------------------------</strong>
+
+Exact Audio Copy <span class="log1">V1.6</span> from <span class="log1">23. October 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>7. June 2022, 19:28</span></span>
+
+<span class="log4">Banda Los Recoditos / Las Bandas Románticas</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">SONY    DVD RW DRU-830A   Adapter: 1  ID: 1</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:04.54</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">13853</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:04.54</span> <strong>|</strong>  <span class="log1">3:03.01</span> <strong>|</strong>     <span class="log1">13854</span>    <strong>|</strong>    <span class="log1">27579</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">6:07.55</span> <strong>|</strong>  <span class="log1">2:12.35</span> <strong>|</strong>     <span class="log1">27580</span>    <strong>|</strong>    <span class="log1">37514</span>   
+        <span class="log4">4</span>  <strong>|</strong>  <span class="log1">8:20.15</span> <strong>|</strong>  <span class="log1">3:07.53</span> <strong>|</strong>     <span class="log1">37515</span>    <strong>|</strong>    <span class="log1">51592</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">11:27.68</span> <strong>|</strong>  <span class="log1">2:16.09</span> <strong>|</strong>     <span class="log1">51593</span>    <strong>|</strong>    <span class="log1">61801</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">13:44.02</span> <strong>|</strong>  <span class="log1">3:27.36</span> <strong>|</strong>     <span class="log1">61802</span>    <strong>|</strong>    <span class="log1">77362</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">17:11.38</span> <strong>|</strong>  <span class="log1">2:51.07</span> <strong>|</strong>     <span class="log1">77363</span>    <strong>|</strong>    <span class="log1">90194</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">20:02.45</span> <strong>|</strong>  <span class="log1">2:29.10</span> <strong>|</strong>     <span class="log1">90195</span>    <strong>|</strong>   <span class="log1">101379</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">22:31.55</span> <strong>|</strong>  <span class="log1">2:05.37</span> <strong>|</strong>    <span class="log1">101380</span>    <strong>|</strong>   <span class="log1">110791</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">24:37.17</span> <strong>|</strong>  <span class="log1">3:18.59</span> <strong>|</strong>    <span class="log1">110792</span>    <strong>|</strong>   <span class="log1">125700</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">27:56.01</span> <strong>|</strong>  <span class="log1">2:35.73</span> <strong>|</strong>    <span class="log1">125701</span>    <strong>|</strong>   <span class="log1">137398</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">30:31.74</span> <strong>|</strong>  <span class="log1">2:15.50</span> <strong>|</strong>    <span class="log1">137399</span>    <strong>|</strong>   <span class="log1">147573</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">32:47.49</span> <strong>|</strong>  <span class="log1">3:17.34</span> <strong>|</strong>    <span class="log1">147574</span>    <strong>|</strong>   <span class="log1">162382</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">36:05.08</span> <strong>|</strong>  <span class="log1">2:41.42</span> <strong>|</strong>    <span class="log1">162383</span>    <strong>|</strong>   <span class="log1">174499</span>   
+       <span class="log4">15</span>  <strong>|</strong> <span class="log1">38:46.50</span> <strong>|</strong>  <span class="log1">2:57.26</span> <strong>|</strong>    <span class="log1">174500</span>    <strong>|</strong>   <span class="log1">187800</span>   
+       <span class="log4">16</span>  <strong>|</strong> <span class="log1">41:44.01</span> <strong>|</strong>  <span class="log1">3:04.32</span> <strong>|</strong>    <span class="log1">187801</span>    <strong>|</strong>   <span class="log1">201632</span>   
+       <span class="log4">17</span>  <strong>|</strong> <span class="log1">44:48.33</span> <strong>|</strong>  <span class="log1">3:03.47</span> <strong>|</strong>    <span class="log1">201633</span>    <strong>|</strong>   <span class="log1">215404</span>   
+       <span class="log4">18</span>  <strong>|</strong> <span class="log1">47:52.05</span> <strong>|</strong>  <span class="log1">2:41.04</span> <strong>|</strong>    <span class="log1">215405</span>    <strong>|</strong>   <span class="log1">227483</span>   
+       <span class="log4">19</span>  <strong>|</strong> <span class="log1">50:33.09</span> <strong>|</strong>  <span class="log1">2:19.00</span> <strong>|</strong>    <span class="log1">227484</span>    <strong>|</strong>   <span class="log1">237908</span>   
+       <span class="log4">20</span>  <strong>|</strong> <span class="log1">52:52.09</span> <strong>|</strong>  <span class="log1">2:45.59</span> <strong>|</strong>    <span class="log1">237909</span>    <strong>|</strong>   <span class="log1">250342</span>   
+
+
+<span class="log5">Track</span> <span class="log4 log1">20</span>
+
+     <span class="log4">Filename <span class="log3">F:\Seeding Pit\Uploads\Banda Los Recoditos-Las Bandas Románticas [CD FLAC]\20 Que Diosito Te Perdone.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F69BF55D</span></span>
+     <span class="log4">Copy CRC <span class="good">F69BF55D</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="badish">None of the tracks are present in the AccurateRip database</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+<span class='good'>==== Log checksum 85EA97156A753B6B1FD7C8150DB6A584F77ECC4C5B75C4615506EA002038315A ====</span>

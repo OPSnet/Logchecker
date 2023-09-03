@@ -1032,8 +1032,7 @@ class Logchecker
                     // it as fine, as it almost always is, and if it wouldn't have been, then
                     // some other filename will have hit the -1 deduction anyway.
                     if ($EAC) {
-                        preg_match('/Filename (.+)\n/i', $TrackBody, $Matches);
-                        if (strlen($Matches[1]) >= 243) {
+                        if (preg_match('/Filename (.+)\n/i', $TrackBody, $Matches) && strlen($Matches[1]) >= 243) {
                             $TrackBody = preg_replace(
                                 '/Filename ((.+)?)\n/i',
                                 "<span class=\"log4\">Filename <span class=\"log3\">$1</span></span>\n",
