@@ -1481,11 +1481,15 @@ class Logchecker
     // Callback functions
     private function drive($Matches)
     {
-        if (in_array(trim($Matches[2]), $this->FakeDrives)) {
+        $DriveName = trim($Matches[2]);
+        if ($DriveName === '(null) (null) (revision (null))') {
+            $this->account('Null drive used', 20);
+            return "<span class=\"log5\">Used Drive$Matches[1]</span>: <span class=\"bad\">$Matches[2]</span>";
+        }
+        if (in_array($DriveName, $this->FakeDrives)) {
             $this->account('Virtual drive used: ' . $Matches[2], 20, false, false, false);
             return "<span class=\"log5\">Used Drive$Matches[1]</span>: <span class=\"bad\">$Matches[2]</span>";
         }
-        $DriveName = $Matches[2];
 
         $this->getDrives($DriveName);
 

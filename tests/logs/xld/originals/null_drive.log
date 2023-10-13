@@ -1,0 +1,184 @@
+X Lossless Decoder version 20191004 (152.0)
+
+XLD extraction logfile from 2020-09-05 13:14:25 -0400
+
+Funkadelic / Standing on the Verge of Getting It On
+
+Used drive : (null) (null) (revision (null))
+Media type : Pressed CD
+
+Ripper mode             : XLD Secure Ripper
+Disable audio cache     : OK for the drive with a cache less than 1375KiB
+Make use of C2 pointers : NO
+Read offset correction  : 6
+Max retry count         : 100
+Gap status              : Analyzed, Appended (except HTOA)
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 04:55:63 |         0    |    22187   
+        2  | 04:55:63 | 02:29:70 |     22188    |    33432   
+        3  | 07:25:58 | 07:18:67 |     33433    |    66349   
+        4  | 14:44:50 | 03:08:15 |     66350    |    80464   
+        5  | 17:52:65 | 05:10:10 |     80465    |   103724   
+        6  | 23:03:00 | 02:33:43 |    103725    |   115242   
+        7  | 25:36:43 | 12:17:27 |    115243    |   170544   
+
+List of alternate offset correction values
+        #  | Absolute | Relative | Confidence 
+    ------------------------------------------
+        1  |   -651   |   -657   |      8     
+
+AccurateRip Summary (DiscID: 0009084d-00370534-6708e107)
+    Track 01 : OK (v1+v2, confidence 18/26)
+    Track 02 : OK (v1+v2, confidence 18/26)
+    Track 03 : OK (v1+v2, confidence 18/26)
+    Track 04 : OK (v1+v2, confidence 18/25)
+    Track 05 : OK (v1+v2, confidence 18/26)
+    Track 06 : OK (v1+v2, confidence 18/26)
+    Track 07 : OK (v1+v2, confidence 17/24)
+        ->All tracks accurately ripped.
+
+All Tracks
+    Album gain               : -6.28 dB
+    Peak                     : 0.999969
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 01
+    Filename : /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/01 Red Hot Momma.flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -7.86 dB
+    Peak                     : 0.982086
+    CRC32 hash (test run)    : 91327F69
+    CRC32 hash               : 91327F69
+    CRC32 hash (skip zero)   : 25E87801
+    AccurateRip v1 signature : 7F9252E8
+    AccurateRip v2 signature : 4584569A
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 02
+    Filename : /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/02 Alice in My Fantasies.flac
+    Pre-gap length : 00:01:55
+
+    Track gain               : -8.88 dB
+    Peak                     : 0.999969
+    CRC32 hash (test run)    : 22BC9B92
+    CRC32 hash               : 22BC9B92
+    CRC32 hash (skip zero)   : A26D49BE
+    AccurateRip v1 signature : 5FFF22F1
+    AccurateRip v2 signature : 17976722
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 03
+    Filename : /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/03 I'll Stay.flac
+    Pre-gap length : 00:02:20
+
+    Track gain               : -6.78 dB
+    Peak                     : 0.999969
+    CRC32 hash (test run)    : E21D3050
+    CRC32 hash               : E21D3050
+    CRC32 hash (skip zero)   : 2B329F6C
+    AccurateRip v1 signature : 914DE639
+    AccurateRip v2 signature : 7641EAA3
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 04
+    Filename : /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/04 Sexy Ways.flac
+    Pre-gap length : 00:01:72
+
+    Track gain               : -6.67 dB
+    Peak                     : 0.980103
+    CRC32 hash (test run)    : 7A181A4D
+    CRC32 hash               : 7A181A4D
+    CRC32 hash (skip zero)   : 0E73CE74
+    AccurateRip v1 signature : 6103F3CD
+    AccurateRip v2 signature : 24F45064
+        ->Accurately ripped (v1+v2, confidence 7+11/25)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 05
+    Filename : /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/05 Standing on the Verge of Getting It On.flac
+    Pre-gap length : 00:03:10
+
+    Track gain               : -6.76 dB
+    Peak                     : 0.992645
+    CRC32 hash (test run)    : 9CBB405D
+    CRC32 hash               : 9CBB405D
+    CRC32 hash (skip zero)   : C0F7DD25
+    AccurateRip v1 signature : 956B5D99
+    AccurateRip v2 signature : 18FEE438
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 06
+    Filename : /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/06 Jimmy's Got a Little Bit of Bitch in Him.flac
+    Pre-gap length : 00:01:57
+
+    Track gain               : -6.95 dB
+    Peak                     : 0.994995
+    CRC32 hash (test run)    : B352F9EE
+    CRC32 hash               : B352F9EE
+    CRC32 hash (skip zero)   : 8DDB1898
+    AccurateRip v1 signature : 53EF152F
+    AccurateRip v2 signature : E25537D1
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 07
+    Filename : /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/07 Good Thoughts, Bad Thoughts.flac
+    Pre-gap length : 00:02:25
+
+    Track gain               : -0.86 dB
+    Peak                     : 0.847351
+    CRC32 hash (test run)    : 8F78923C
+    CRC32 hash               : 8F78923C
+    CRC32 hash (skip zero)   : 36A5A1BB
+    AccurateRip v1 signature : 82F23A93
+    AccurateRip v2 signature : D8BFDF29
+        ->Accurately ripped (v1+v2, confidence 7+10/24)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+No errors occurred
+
+End of status report
+
+-----BEGIN XLD SIGNATURE-----
+fLpqsR4xtEoF7yHxDHh9UdW6JVjTjHaLF2CnfKaFEs6iB_DPVLCFUxiYlWoBg5gZOvKm20kDey5bhljU61gFtfvM0dfuTYtsqk9g9qu
+-----END XLD SIGNATURE-----

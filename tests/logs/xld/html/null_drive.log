@@ -1,0 +1,184 @@
+X Lossless Decoder version <span class="log1">20191004</span> (<span class="log1">152.0</span>)
+
+<span class='good'>XLD extraction logfile from <span class='log5'>2020-09-05 13:14:25 -0400</span></span>
+
+<span class="log4">Funkadelic / Standing on the Verge of Getting It On</span>
+
+<span class="log5">Used Drive </span>: <span class="bad">(null) (null) (revision (null))</span>
+<span class="log5">Media type </span>: <span class="good">Pressed CD</span>
+
+<span class="log5">Ripper mode             </span>: <span class="good">XLD Secure Ripper</span>
+<span class="log5">Disable audio cache     </span>: <span class="good">OK for the drive with a cache less than 1375KiB</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">NO</span>
+<span class="log5">Read offset correction  </span>: <span class="badish">6</span>
+<span class="log5">Max retry count         </span>: <span class="goodish">100</span>
+<span class="log5">Gap status              </span>: <span class="good">Analyzed, Appended (except HTOA)</span>
+
+<span class="log4 log5">TOC of the extracted CD</span>
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong> <span class="log1">00:00:00</span> <strong>|</strong> <span class="log1">04:55:63</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">22187</span>   
+        <span class="log4">2</span>  <strong>|</strong> <span class="log1">04:55:63</span> <strong>|</strong> <span class="log1">02:29:70</span> <strong>|</strong>     <span class="log1">22188</span>    <strong>|</strong>    <span class="log1">33432</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">07:25:58</span> <strong>|</strong> <span class="log1">07:18:67</span> <strong>|</strong>     <span class="log1">33433</span>    <strong>|</strong>    <span class="log1">66349</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">14:44:50</span> <strong>|</strong> <span class="log1">03:08:15</span> <strong>|</strong>     <span class="log1">66350</span>    <strong>|</strong>    <span class="log1">80464</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">17:52:65</span> <strong>|</strong> <span class="log1">05:10:10</span> <strong>|</strong>     <span class="log1">80465</span>    <strong>|</strong>   <span class="log1">103724</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">23:03:00</span> <strong>|</strong> <span class="log1">02:33:43</span> <strong>|</strong>    <span class="log1">103725</span>    <strong>|</strong>   <span class="log1">115242</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">25:36:43</span> <strong>|</strong> <span class="log1">12:17:27</span> <strong>|</strong>    <span class="log1">115243</span>    <strong>|</strong>   <span class="log1">170544</span>   
+
+<span class="log5">List of alternate offset correction values</span>
+<span class="log4">        #  | Absolute | Relative | Confidence
+    <strong>------------------------------------------</strong>
+        1  |   -651   |   -657   |      8     
+
+</span>
+<span class="log4 log5">AccurateRip Summary</span> (DiscID: 0009084d-00370534-6708e107)
+    Track 01 : OK (v1+v2, confidence 18/26)
+    Track 02 : OK (v1+v2, confidence 18/26)
+    Track 03 : OK (v1+v2, confidence 18/26)
+    Track 04 : OK (v1+v2, confidence 18/25)
+    Track 05 : OK (v1+v2, confidence 18/26)
+    Track 06 : OK (v1+v2, confidence 18/26)
+    Track 07 : OK (v1+v2, confidence 17/24)
+        -><span class="good">All tracks accurately ripped.</span>
+
+<span class="log5">All Tracks</span>
+<strong>    Album gain               : <span class="log3">-6.28 dB</span>
+    Peak                     : <span class="log3">0.999969</span></strong>
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">01</span>
+    <span class="log4">Filename <span class="log3">: /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/01 Red Hot Momma.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:02:00</span></span>
+
+<strong>    Track gain               : <span class="log3">-7.86 dB</span>
+    Peak                     : <span class="log3">0.982086</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">91327F69</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">91327F69</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 25E87801</span></span>
+    AccurateRip v1 signature : 7F9252E8
+    AccurateRip v2 signature : 4584569A
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">02</span>
+    <span class="log4">Filename <span class="log3">: /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/02 Alice in My Fantasies.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:55</span></span>
+
+<strong>    Track gain               : <span class="log3">-8.88 dB</span>
+    Peak                     : <span class="log3">0.999969</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">22BC9B92</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">22BC9B92</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> A26D49BE</span></span>
+    AccurateRip v1 signature : 5FFF22F1
+    AccurateRip v2 signature : 17976722
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">03</span>
+    <span class="log4">Filename <span class="log3">: /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/03 I'll Stay.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:02:20</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.78 dB</span>
+    Peak                     : <span class="log3">0.999969</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">E21D3050</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">E21D3050</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 2B329F6C</span></span>
+    AccurateRip v1 signature : 914DE639
+    AccurateRip v2 signature : 7641EAA3
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">04</span>
+    <span class="log4">Filename <span class="log3">: /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/04 Sexy Ways.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:72</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.67 dB</span>
+    Peak                     : <span class="log3">0.980103</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">7A181A4D</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">7A181A4D</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 0E73CE74</span></span>
+    AccurateRip v1 signature : 6103F3CD
+    AccurateRip v2 signature : 24F45064
+        ->Accurately ripped (v1+v2, confidence 7+11/25)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">05</span>
+    <span class="log4">Filename <span class="log3">: /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/05 Standing on the Verge of Getting It On.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:03:10</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.76 dB</span>
+    Peak                     : <span class="log3">0.992645</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">9CBB405D</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">9CBB405D</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> C0F7DD25</span></span>
+    AccurateRip v1 signature : 956B5D99
+    AccurateRip v2 signature : 18FEE438
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">06</span>
+    <span class="log4">Filename <span class="log3">: /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/06 Jimmy's Got a Little Bit of Bitch in Him.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:01:57</span></span>
+
+<strong>    Track gain               : <span class="log3">-6.95 dB</span>
+    Peak                     : <span class="log3">0.994995</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">B352F9EE</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">B352F9EE</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 8DDB1898</span></span>
+    AccurateRip v1 signature : 53EF152F
+    AccurateRip v2 signature : E25537D1
+        ->Accurately ripped (v1+v2, confidence 7+11/26)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="log5">Track</span> <span class="log4 log1">07</span>
+    <span class="log4">Filename <span class="log3">: /Users/a60/Desktop/xLD conversions/Funkadelic - 1974 - Standing on the Verge of Getting It On [FLAC]/07 Good Thoughts, Bad Thoughts.flac</span></span>
+    <span class="log4">Pre-gap length : <span class="log3">00:02:25</span></span>
+
+<strong>    Track gain               : <span class="log3">-0.86 dB</span>
+    Peak                     : <span class="log3">0.847351</span></strong>
+    <span class="log4">CRC32 hash (test run)    : <span class="good">8F78923C</span></span>
+     <span class="log4">CRC32 hash               : <span class="good">8F78923C</span></span>
+    <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 36A5A1BB</span></span>
+    AccurateRip v1 signature : 82F23A93
+    AccurateRip v2 signature : D8BFDF29
+        ->Accurately ripped (v1+v2, confidence 7+10/24)
+    <span class="log5">Statistics</span>
+        <span class="log4">Read error                           :</span> <span class="good">0</span>
+        <span class="log4">Jitter error (maybe fixed)           :</span> <span class="goodish">0</span>
+        <span class="log4">Retry sector count                   :</span> <span class="goodish">0</span>
+        <span class="log4">Damaged sector count                 :</span> <span class="good">0</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+<span class='good'>-----BEGIN XLD SIGNATURE-----
+fLpqsR4xtEoF7yHxDHh9UdW6JVjTjHaLF2CnfKaFEs6iB_DPVLCFUxiYlWoBg5gZOvKm20kDey5bhljU61gFtfvM0dfuTYtsqk9g9qu
+-----END XLD SIGNATURE-----</span>

@@ -1,0 +1,11 @@
+{
+    "ripper": "XLD",
+    "version": "20191004",
+    "language": "en",
+    "combined": false,
+    "score": 80,
+    "checksum": "checksum_ok",
+    "details": [
+        "Null drive used (-20 points)"
+    ]
+}
