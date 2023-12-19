@@ -31,11 +31,15 @@ pip3 install cchardet eac-logchecker xld-logchecker
 
 ### Installation
 
-Go to our [releases](https://github.com/OPSnet/Logchecker/releases) and grab the logchecker.phar
-file. Download this file, and then it can executed via CLI by running `php logchecker.phar`.
-Alternatively, if you `chmod +x logchecker.phar`, it can be executed directly by doing `./logchecker.phar`.
+Install via composer:
 
-To install it globally, run:
+```bash
+composer global require orpheusnet/logchecker
+```
+
+Alternatively, go to our [releases](https://github.com/OPSnet/Logchecker/releases) and grab the `logchecker.phar`
+file. Download this file, and then it can executed via CLI by running `php logchecker.phar`. If you `chmod +x` the
+file, then it should be directly executable (i.e. `./logchecker.phar`). To then install it globally, run:
 
 ```bash
 mv logchecker.phar /usr/local/bin/logchecker
@@ -44,39 +48,43 @@ chmod +x /usr/local/bin/logchecker
 
 ### Usage
 
-```
-$ logchecker --help
-Usage:
-  analyze [options] [--] <file>
+```text
+$ logchecker list
+Logchecker 0.11.1
 
-Arguments:
-  file                  Log file to analyze
+Usage:
+  command [options] [arguments]
 
 Options:
-      --output          Print the HTML log text
   -h, --help            Display this help message
   -q, --quiet           Do not output any message
   -V, --version         Display this application version
       --ansi            Force ANSI output
       --no-ansi         Disable ANSI output
   -n, --no-interaction  Do not ask any interactive question
-  -file, --out=OUT      File to write HTML log text to
   -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
 
-Help:
-  This command analyzes a log file
+Available commands:
+  analyze    [analyse] analyze log file
+  decode     Decodes log from whatever encoding into UTF-8
+  help       Displays help for a command
+  list       Lists commands
+  translate  Translates a log into english
+```
 
-$ logchecker tests/logs/wgdbcm.log
-Score   : 57
-Checksum: checksum_missing
+Main usage is through the `analyze` command, e.g.:
+
+```text
+$ logchecker analyze --no_text path/to/file.log
+Ripper  : EAC
+Version : 1.0 beta 3
+Language: en
+Score   : 59
+Checksum: checksum_ok
 Details :
-    [Notice] Translated log from Русский (Russian) to English.
-    EAC version older than 0.99 (-30 points)
-    Could not verify read mode (-1 point)
-    Could not verify read offset (-1 point)
-    Could not verify null samples
     Could not verify gap handling (-10 points)
     Could not verify id3 tag setting (-1 point)
+    Range rip detected (-30 points)
 ```
 
 ### Code
@@ -122,12 +130,9 @@ print("\nLog Text:\n\n{$logchecker->getLog()}");
 
 ## Building
 
-To build your own phar, you can checkout this repository, and then
-run the `bin/compile` script. To do this, run the following commands:
+To build your own phar, see the `release.yml` workflow, but the gist is:
 
-```bash
-git clone https://github.com/OPSnet/Logchecker
-cd Logchecker
-composer install
-php -d phar.readonly=0 bin/compile
-```
+1. Clone this repo and enter repo
+1. Install [box](https://github.com/box-project/box)
+1. Run `box compile`
+1. Get `logchecker.phar` in root of repo
