@@ -1,0 +1,35 @@
+{
+    "alias": "logchecker.phar",
+    "compactors": [
+        "KevinGH\\Box\\Compactor\\Json",
+        "KevinGH\\Box\\Compactor\\Php"
+    ],
+    "directories": ["src"],
+    "exclude-composer-files": false,
+    "files": [
+        "bin/logchecker",
+        "composer.json",
+        "LICENSE.md"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": [
+                "File",
+                "mikey179",
+                "Net",
+                "phpunit",
+                "phpunit-test-case",
+                "Tester",
+                "Tests",
+                "tests"
+            ],
+            "in": "vendor"
+        },
+        {
+            "name": "composer.json",
+            "in": "."
+        }
+    ],
+    "output": "logchecker.phar"
+}

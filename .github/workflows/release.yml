@@ -1,0 +1,32 @@
+name: Upload Release PHAR
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    name: Upload Release PHAR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Composer install
+        run: composer install
+
+      - run: composer global require humbug/box:^4.6
+
+      - name: Compile PHAR
+        run: ~/.composer/vendor/bin/box compile
+
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: logchecker.phar
