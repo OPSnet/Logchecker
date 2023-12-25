@@ -16,7 +16,7 @@
         }
     },
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.3",
         "ext-mbstring": "*",
         "symfony/console": "^3.4 | ^4.0 | ^5.0",
         "symfony/yaml": "^3.4 | ^4.0 | ^5.0",
@@ -25,12 +25,12 @@
     "bin": ["bin/logchecker"],
     "require-dev": {
         "phpstan/phpstan": "^0.12",
-        "phpunit/phpunit": "^8.5",
+        "phpunit/phpunit": "^9.6",
         "squizlabs/php_codesniffer": "^3.5",
         "brainmaestro/composer-git-hooks": "^2.8"
     },
     "scripts": {
-        "test": "phpunit -v",
+        "test": "phpunit",
         "lint": "phpcs",
         "lint:fix": "phpcbf",
         "static-analysis": "phpstan analyze src/"
@@ -41,6 +41,11 @@
                 "composer run lint:fix",
                 "composer run static-analysis"
             ]
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.3"
         }
     }
 }
