@@ -1,0 +1,11 @@
+{
+    "ripper": "EAC",
+    "version": "1.6",
+    "language": "en",
+    "combined": false,
+    "score": 0,
+    "checksum": "checksum_missing",
+    "details": [
+        "Invalid log, no tracks!"
+    ]
+}

@@ -1,0 +1,87 @@
+
+Exact Audio Copy V1.6 from 23. October 2020
+
+EAC extraction logfile from 5. October 2023, 12:20
+
+Neon Plastix / Dream , On Fire
+
+Used drive  : PLDS    DVD+-RW DS-8ABSH   Adapter: 1  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 6
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous user
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 1024 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : Z:\opt\exact-audio-copy\Flac\flac.exe
+Additional command line options : -8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T "userNUMBER=%usernr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALuserS=%numusers%" -T "COMMENT=%comment%" %source% -o %dest%
+
+
+TOC of the extracted CD
+
+     user |   Start  |  Length  | Start sector | End sector
+    ---------------------------------------------------------
+        1  |  0:00.00 |  3:13.29 |         0    |    14503
+        2  |  3:13.29 |  3:56.16 |     14504    |    32219
+        3  |  7:09.45 |  3:40.26 |     32220    |    48745
+
+
+user  1
+
+     Filename Z:\home\LinkLucky\Music\Rips\Neon Plastix - Dream , On Fire [FLAC]\01 - Dream.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 99.8 %
+     Extraction speed 2.7 X
+     user quality 100.0 %
+     Test CRC 814CB963
+     Copy CRC 814CB963
+     user not present in AccurateRip database
+     Copy OK
+
+user  2
+
+     Filename Z:\home\LinkLucky\Music\Rips\Neon Plastix - Dream , On Fire [FLAC]\02 - On Fire.wav
+
+     Pre-gap length  0:00:01.60
+
+     Peak level 99.8 %
+     Extraction speed 3.0 X
+     user quality 100.0 %
+     Test CRC 6C24A712
+     Copy CRC 6C24A712
+     user not present in AccurateRip database
+     Copy OK
+
+user  3
+
+     Filename Z:\home\LinkLucky\Music\Rips\Neon Plastix - Dream , On Fire [FLAC]\03 - Halfway to Love.wav
+
+     Pre-gap length  0:00:02.58
+
+     Peak level 99.8 %
+     Extraction speed 3.3 X
+     user quality 100.0 %
+     Test CRC DDE10390
+     Copy CRC DDE10390
+     user not present in AccurateRip database
+     Copy OK
+
+
+None of the users are present in the AccurateRip database
+
+No errors occurred
+
+End of status report

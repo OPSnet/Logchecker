@@ -1,0 +1,72 @@
+Exact Audio Copy <span class="log1">V1.6</span> from <span class="log1">23. October 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>18. September 2021, 11:48</span></span>
+
+<span class="log4">聖飢魔II / 空の雫 (BMG, BVDR-1213)</span>
+
+<span class="log5">Used Drive </span>: <span class="badish">_NEC DVD_RW ND-3550A Adapter: 1 ID: 0 (not found in database)</span>
+
+<span class="log5">Read mode </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction </span>: <span class="badish">48</span>
+<span class="log5">Overread into Lead-In and Lead-Out </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations </span>: <span class="good">Yes</span>
+<span class="log5">Used interface </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+
+<span class="log5">Used output format </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag </span>: <span class="good">No</span>
+<span class="log5">Command line compressor </span>: <span class="log4">C:\Program Files\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-V -8 -T "Date=%year%" -T "Genre=%genre%" %source%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+Track | Start | Length | Start sector | End sector
+<strong>---------------------------------------------------------</strong>
+1 | 0:00.37 | 4:58.00 | 37 | 22386
+2 | 4:58.37 | 4:46.00 | 22387 | 43836
+3 | 9:44.37 | 4:55.00 | 43837 | 65961
+
+
+<span class="bad">Range status and errors</span>
+
+<span class="bad">Selected range</span>
+
+<span class="log5">Filename</span> <span class="log4 log3">C:\Dkogure\聖飢魔II - 空の雫 (BMG, BVDR-1213).wav</span>
+
+<span class="log4">Peak level <span class="log3">100.0 %</span></span>
+<span class="log4">Extraction speed <span class="log3">3.4 X</span></span>
+<span class="log4">Range quality <span class="log3">99.9 %</span></span>
+<span class="log4">Copy CRC <span class="log3">8CB5CC70</span></span>
+<span class="good">Copy OK</span>
+
+<span class="good">No errors occurred</span>
+
+
+<span class="log4 log5">AccurateRip summary</span>
+
+<span class="badish">Track 1 not present in database</span>
+<span class="badish">Track 2 not present in database</span>
+<span class="badish">Track 3 not present in database</span>
+
+<span class="badish">None of the tracks are present in the AccurateRip database</span>
+
+<span class="good">End of status report</span>
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: nh8tQRWz5TKO_Z7CPWNNCPs3pHk-] found
+Submit result: already submitted
+Track | CTDB Status
+1 | (2/2) Accurately ripped
+2 | (2/2) Accurately ripped
+3 | (1/2) Accurately ripped, or (1/2) differs in 1 samples @04:54:71
+
+<span class='bad'>==== Log checksum 9187251CC813F706519EADCD5741514C2F7280BC14D54E2E74B2BC32B2D5C986 ====</span>

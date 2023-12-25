@@ -462,6 +462,7 @@ class Logchecker
             $this->Combined = count($this->logs);
         } //is_combined
         foreach ($this->logs as $LogArrayKey => $Log) {
+            $this->Tracks[$LogArrayKey] = [];
             $this->CurrLog = $LogArrayKey + 1;
             if (preg_match('/Exact Audio Copy (.+) from/i', $Log, $Matches)) { //eac v1 & checksum
                 if ($Matches[1]) {
@@ -982,22 +983,28 @@ class Logchecker
                 $this->account('Range rip detected', 30);
             }
             $FormattedTrackListing = '';
-            //------ Handle individual tracks ------//
+            $TrackListing = '';
+            $TrackBodies = [];
             if (!$this->Range) {
+                //------ Handle individual tracks ------//
                 preg_match('/\nTrack( +)([0-9]{1,3})([^<]+)/i', $Log, $Matches);
-                $TrackListing = $Matches[0];
-                $FullTracks   = preg_split('/\nTrack( +)([0-9]{1,3})/i', $TrackListing, -1, PREG_SPLIT_DELIM_CAPTURE);
-                array_shift($FullTracks);
-                $TrackBodies = preg_split('/\nTrack( +)([0-9]{1,3})/i', $TrackListing, -1);
-                array_shift($TrackBodies);
-                //------ Range rip ------//
+                if (count($Matches) > 0) {
+                    $TrackListing = $Matches[0];
+                    $FullTracks   = preg_split('/\nTrack( +)([0-9]{1,3})/i', $TrackListing, -1, PREG_SPLIT_DELIM_CAPTURE);
+                    array_shift($FullTracks);
+                    $TrackBodies = preg_split('/\nTrack( +)([0-9]{1,3})/i', $TrackListing, -1);
+                    array_shift($TrackBodies);
+                }
             } else {
-                preg_match('/\n( +)Filename +(.*)([^<]+)/i', $Log, $Matches);
-                $TrackListing = $Matches[0];
-                $FullTracks   = preg_split('/\n( +)Filename +(.*)/i', $TrackListing, -1, PREG_SPLIT_DELIM_CAPTURE);
-                array_shift($FullTracks);
-                $TrackBodies = preg_split('/\n( +)Filename +(.*)/i', $TrackListing, -1);
-                array_shift($TrackBodies);
+                //------ Range rip ------//
+                preg_match('/\n( *)Filename +(.*)([^<]+)/i', $Log, $Matches);
+                if (count($Matches) > 0) {
+                    $TrackListing = $Matches[0];
+                    $FullTracks   = preg_split('/\n( *)Filename +(.*)/i', $TrackListing, -1, PREG_SPLIT_DELIM_CAPTURE);
+                    array_shift($FullTracks);
+                    $TrackBodies = preg_split('/\n( *)Filename +(.*)/i', $TrackListing, -1);
+                    array_shift($TrackBodies);
+                }
             }
             $Tracks = array();
             foreach ($TrackBodies as $Key => $TrackBody) {
