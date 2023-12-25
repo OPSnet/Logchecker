@@ -985,12 +985,18 @@ class Logchecker
             $FormattedTrackListing = '';
             $TrackListing = '';
             $TrackBodies = [];
+            $FullTracks = [];
             if (!$this->Range) {
                 //------ Handle individual tracks ------//
                 preg_match('/\nTrack( +)([0-9]{1,3})([^<]+)/i', $Log, $Matches);
                 if (count($Matches) > 0) {
                     $TrackListing = $Matches[0];
-                    $FullTracks   = preg_split('/\nTrack( +)([0-9]{1,3})/i', $TrackListing, -1, PREG_SPLIT_DELIM_CAPTURE);
+                    $FullTracks   = preg_split(
+                        '/\nTrack( +)([0-9]{1,3})/i',
+                        $TrackListing,
+                        -1,
+                        PREG_SPLIT_DELIM_CAPTURE
+                    );
                     array_shift($FullTracks);
                     $TrackBodies = preg_split('/\nTrack( +)([0-9]{1,3})/i', $TrackListing, -1);
                     array_shift($TrackBodies);
