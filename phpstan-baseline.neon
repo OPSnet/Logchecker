@@ -1,0 +1,11 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Property OrpheusNET\\\\Logchecker\\\\Logchecker\\:\\:\\$ARSummary is never read, only written\\.$#"
+			count: 1
+			path: src/Logchecker.php
+
+		-
+			message: "#^Property OrpheusNET\\\\Logchecker\\\\Logchecker\\:\\:\\$ARTracks is never read, only written\\.$#"
+			count: 1
+			path: src/Logchecker.php

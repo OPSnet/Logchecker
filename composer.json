@@ -24,7 +24,7 @@
     },
     "bin": ["bin/logchecker"],
     "require-dev": {
-        "phpstan/phpstan": "^0.12",
+        "phpstan/phpstan": "^1.10",
         "phpunit/phpunit": "^9.6",
         "squizlabs/php_codesniffer": "^3.8.0",
         "brainmaestro/composer-git-hooks": "^2.8"

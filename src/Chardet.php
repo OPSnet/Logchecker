@@ -13,7 +13,7 @@ use Symfony\Component\Process\Process;
  */
 class Chardet
 {
-    private static $executable = null;
+    protected static $executable = null;
     private $executables = [
         'cchardetect',
         'chardetect',
