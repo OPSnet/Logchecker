@@ -4,14 +4,14 @@ Exact Audio Copy <span class="log1">V1.3</span> from <span class="log1">2. Septe
 
 <span class="log4">Dapayk Solo / Divine parts of a godless life</span>
 
-<span class="log5">Used Drive  </span>: <span class="badish">HL-DT-STBD-RE  WH16NS60   Adapter: 1  ID: 0 (not found in database) (not found in database)</span>
+<span class="log5">Used Drive  </span>: <span class="good">HL-DT-STBD-RE  WH16NS60   Adapter: 1  ID: 0 (not found in database)</span>
 
 <span class="log5">Read mode               </span>: <span class="good">Secure</span>
 <span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
 <span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
 <span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
 
-<span class="log5">Read offset correction                      </span>: <span class="badish">6</span>
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
 <span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
 <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
 <span class="log5">Delete leading and trailing silent blocks   </span>: <span class="bad">Yes</span>
