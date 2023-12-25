@@ -45,6 +45,7 @@ class Logchecker
     private $ARSummary = null;
     private $XLDSecureRipper = false;
     private $FakeDrives = [
+        'Generic DVD-ROM',
         'Generic DVD-ROM SCSI CdRom Device'
     ];
 
