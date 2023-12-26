@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace OrpheusNET\Logchecker\Check;
 
 use PHPUnit\Framework\TestCase;
-use OrpheusNET\Logchecker\Check\Ripper;
 use OrpheusNET\Logchecker\Exception\UnknownRipperException;
 
 class RipperTest extends TestCase

@@ -67,9 +67,7 @@ class Checksum
     {
         if ($ripper === Ripper::WHIPPER) {
             return true;
-        }
-
-        if ($ripper === Ripper::EAC) {
+        } elseif ($ripper === Ripper::EAC) {
             $command = static::EAC_LOGCHECKER;
         } elseif ($ripper === Ripper::XLD) {
             $command = static::XLD_LOGCHECKER;
