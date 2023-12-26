@@ -51,6 +51,8 @@ class Logchecker
 
     private $ValidateChecksum = true;
 
+    protected static $version;
+
     public function __construct()
     {
         $this->AllDrives = json_decode(
@@ -2110,10 +2112,13 @@ class Logchecker
 
     public static function getLogcheckerVersion(): string
     {
-        $composer = json_decode(
-            file_get_contents(implode(DIRECTORY_SEPARATOR, [__DIR__, '..', 'composer.json'])),
-            true
-        );
-        return $composer['version'];
+        if (!static::$version) {
+            $composer = json_decode(
+                file_get_contents(implode(DIRECTORY_SEPARATOR, [__DIR__, '..', 'composer.json'])),
+                true
+            );
+            static::$version = $composer['version'];
+        }
+        return static::$version;
     }
 }
