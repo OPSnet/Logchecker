@@ -1902,7 +1902,7 @@ class Logchecker
                 }
             }
             return "<span class=\"log4\">CRC32 hash (test run)$Matches[1] " .
-            "<span class=\"$Class\">$Matches[2]</span></span>\n$Matches[3] " .
+            "<span class=\"$Class\">$Matches[2]</span></span>\n$Matches[3]" .
             "<span class=\"log4\">CRC32 hash$Matches[4] <span class=\"$Class\">$Matches[5]</span></span>";
         }
     }

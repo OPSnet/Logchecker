@@ -75,7 +75,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-8.56 dB</span>
     Peak                     : <span class="log3">0.804657</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">F9CC7C54</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">F9CC7C54</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">F9CC7C54</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 6EA7583D</span></span>
     AccurateRip v1 signature : 5D6A4B49
     AccurateRip v2 signature : 470506A9
@@ -93,7 +93,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-8.78 dB</span>
     Peak                     : <span class="log3">0.824738</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">9B3FB020</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">9B3FB020</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">9B3FB020</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 35BE1021</span></span>
     AccurateRip v1 signature : 4C732EC8
     AccurateRip v2 signature : 920E5BC1
@@ -111,7 +111,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-9.77 dB</span>
     Peak                     : <span class="log3">0.894470</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">AB984779</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">AB984779</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">AB984779</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 398A192D</span></span>
     AccurateRip v1 signature : 549F414D
     AccurateRip v2 signature : 8391F85F
@@ -129,7 +129,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-8.08 dB</span>
     Peak                     : <span class="log3">0.826508</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">1C923F04</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">1C923F04</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">1C923F04</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 3AEE71BF</span></span>
     AccurateRip v1 signature : E99F2DAF
     AccurateRip v2 signature : 4CB045EC
@@ -147,7 +147,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-8.75 dB</span>
     Peak                     : <span class="log3">0.837921</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">6A8E1F96</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">6A8E1F96</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">6A8E1F96</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 10B73897</span></span>
     AccurateRip v1 signature : 7E0B5D32
     AccurateRip v2 signature : 6DEDD996
@@ -165,7 +165,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-9.09 dB</span>
     Peak                     : <span class="log3">0.862854</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">7DC15DAD</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">7DC15DAD</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">7DC15DAD</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 4B612C8E</span></span>
     AccurateRip v1 signature : 0EFCE34C
     AccurateRip v2 signature : 4AD766A4
@@ -183,7 +183,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-4.72 dB</span>
     Peak                     : <span class="log3">0.999969</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">78ACBB34</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">78ACBB34</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">78ACBB34</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 481E8C1B</span></span>
     AccurateRip v1 signature : 318F2357
     AccurateRip v2 signature : 4D33E100
@@ -201,7 +201,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-6.70 dB</span>
     Peak                     : <span class="log3">0.920288</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">26466E09</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">26466E09</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">26466E09</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 0A3E778B</span></span>
     AccurateRip v1 signature : 458C8CFB
     AccurateRip v2 signature : 9B325F0A
@@ -219,7 +219,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-7.55 dB</span>
     Peak                     : <span class="log3">0.880646</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">EEEF5987</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">EEEF5987</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">EEEF5987</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 4757A73D</span></span>
     AccurateRip v1 signature : ADBAAF78
     AccurateRip v2 signature : FD59930E
@@ -237,7 +237,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-6.82 dB</span>
     Peak                     : <span class="log3">0.966095</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">352419E8</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">352419E8</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">352419E8</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 09490B8C</span></span>
     AccurateRip v1 signature : 9147FD39
     AccurateRip v2 signature : 96E3AA66
@@ -255,7 +255,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-6.32 dB</span>
     Peak                     : <span class="log3">0.829559</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">1C7A039F</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">1C7A039F</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">1C7A039F</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> D03E1C4F</span></span>
     AccurateRip v1 signature : 1DCAFDA8
     AccurateRip v2 signature : 9CB58FE7
@@ -273,7 +273,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-5.80 dB</span>
     Peak                     : <span class="log3">0.881287</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">20B19C65</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">20B19C65</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">20B19C65</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> E67944CB</span></span>
     AccurateRip v1 signature : C15ACFE9
     AccurateRip v2 signature : C3B096E0
@@ -291,7 +291,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-7.70 dB</span>
     Peak                     : <span class="log3">0.907715</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">084E4300</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">084E4300</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">084E4300</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> D82711B2</span></span>
     AccurateRip v1 signature : F7EA5ABC
     AccurateRip v2 signature : 519DBDCD
@@ -309,7 +309,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-7.78 dB</span>
     Peak                     : <span class="log3">0.915222</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">75D40298</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">75D40298</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">75D40298</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> A77C74AF</span></span>
     AccurateRip v1 signature : 75259D8B
     AccurateRip v2 signature : EB6826C2
@@ -327,7 +327,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-6.89 dB</span>
     Peak                     : <span class="log3">0.856598</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">25E6D372</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">25E6D372</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">25E6D372</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> B7036D36</span></span>
     AccurateRip v1 signature : 1A001345
     AccurateRip v2 signature : D6F0505E
@@ -344,7 +344,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-6.94 dB</span>
     Peak                     : <span class="log3">0.903748</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">2900F8B3</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">2900F8B3</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">2900F8B3</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 26C18FD1</span></span>
     AccurateRip v1 signature : E2A61DCA
     AccurateRip v2 signature : 18383583
@@ -362,7 +362,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-7.50 dB</span>
     Peak                     : <span class="log3">0.826080</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">E4CAC9BB</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">E4CAC9BB</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">E4CAC9BB</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> E046A7C0</span></span>
     AccurateRip v1 signature : 9E353BE0
     AccurateRip v2 signature : 1F3C9FC6
@@ -380,7 +380,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-8.55 dB</span>
     Peak                     : <span class="log3">0.812531</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">C636A32C</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">C636A32C</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">C636A32C</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 4EC70E8E</span></span>
     AccurateRip v1 signature : 901DF9CD
     AccurateRip v2 signature : 447E7B89
@@ -398,7 +398,7 @@ X Lossless Decoder version <span class="log1">20181019</span> (<span class="log1
 <strong>    Track gain               : <span class="log3">-6.90 dB</span>
     Peak                     : <span class="log3">0.852905</span></strong>
     <span class="log4">CRC32 hash (test run)    : <span class="good">FFC31B33</span></span>
-     <span class="log4">CRC32 hash               : <span class="good">FFC31B33</span></span>
+    <span class="log4">CRC32 hash               : <span class="good">FFC31B33</span></span>
     <span class="log4">CRC32 hash (skip zero)   :<span class="log3"> 9A9DB814</span></span>
     AccurateRip v1 signature : CFAB3788
     AccurateRip v2 signature : 506B4187
