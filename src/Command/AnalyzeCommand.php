@@ -22,7 +22,8 @@ class AnalyzeCommand extends Command
             ->addOption('html', null, InputOption::VALUE_NONE, 'Print the HTML version of log, without color')
             ->addOption('no_text', null, InputOption::VALUE_NONE, 'Do not print log text to console')
             ->addArgument('file', InputArgument::REQUIRED, 'Log file to analyze')
-            ->addArgument('out_file', InputArgument::OPTIONAL, 'Write HTML log to outfile');
+            ->addArgument('out_file', InputArgument::OPTIONAL, 'Write HTML log to outfile')
+            ->addArgument('details', InputArgument::OPTIONAL, 'Write details to file');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -37,6 +38,17 @@ class AnalyzeCommand extends Command
         $logchecker->newFile($filename);
         $logchecker->parse();
 
+        if ($input->getArgument('details')) {
+            file_put_contents($input->getArgument('details'), json_encode([
+                "ripper" => $logchecker->getRipper(),
+                "version" => $logchecker->getRipperVersion(),
+                "language" => $logchecker->getLanguage(),
+                "combined" => $logchecker->isCombinedLog(),
+                "score" => $logchecker->getScore(),
+                "checksum" => $logchecker->getChecksumState(),
+                "details" => $logchecker->getDetails(),
+            ], JSON_PRETTY_PRINT));
+        }
         if ($input->getArgument('out_file')) {
             file_put_contents($input->getArgument('out_file'), $logchecker->getLog());
             return 0;
