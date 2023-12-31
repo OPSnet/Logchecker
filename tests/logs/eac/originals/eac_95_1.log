@@ -1,0 +1,150 @@
+EAC extraction logfile from 14. September 2006, 21:05 for CD
+2 Unlimited / No Limits!
+
+Used drive  : LITE-ON DVDRW SOHW-1633S   Adapter: 3  ID: 1
+Read mode   : Secure with NO C2, accurate stream, disable cache
+Read offset correction : 12
+Overread into Lead-In and Lead-Out : No
+
+Used output format : C:\Program Files\FLAC\flac.exe   (User Defined Encoder)
+                     192 kBit/s
+                     Additional command line options : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+Other options      : 
+    Fill up missing offset samples with silence : Yes
+    Delete leading and trailing silent blocks : No
+    Installed external ASPI interface
+
+
+Track  1
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\01 - 2 Unlimited - No Limit.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 91.4 %
+     Track quality 100.0 %
+     Test CRC 18C66FA4
+     Copy CRC 18C66FA4
+     Copy OK
+
+Track  2
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\02 - 2 Unlimited - Tribal Dance.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 449F19DC
+     Copy CRC 449F19DC
+     Copy OK
+
+Track  3
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\03 - 2 Unlimited - Mysterious.wav
+
+     Peak level 97.9 %
+     Track quality 100.0 %
+     Test CRC 54BC5922
+     Copy CRC 54BC5922
+     Copy OK
+
+Track  4
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\04 - 2 Unlimited - Faces.wav
+
+     Peak level 97.0 %
+     Track quality 100.0 %
+     Test CRC 82C61D83
+     Copy CRC 82C61D83
+     Copy OK
+
+Track  5
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\05 - 2 Unlimited - Maximum Overdrive.wav
+
+     Peak level 86.7 %
+     Track quality 100.0 %
+     Test CRC F5813958
+     Copy CRC F5813958
+     Copy OK
+
+Track  6
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\06 - 2 Unlimited - The Power Age.wav
+
+     Peak level 93.4 %
+     Track quality 100.0 %
+     Test CRC 2AC2093D
+     Copy CRC 2AC2093D
+     Copy OK
+
+Track  7
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\07 - 2 Unlimited - Break The Chain.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC C094A376
+     Copy CRC C094A376
+     Copy OK
+
+Track  8
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\08 - 2 Unlimited - Kiss Me Bliss Me.wav
+
+     Peak level 92.6 %
+     Track quality 100.0 %
+     Test CRC EFDD7065
+     Copy CRC EFDD7065
+     Copy OK
+
+Track  9
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\09 - 2 Unlimited - Throw The Groove Down.wav
+
+     Peak level 85.7 %
+     Track quality 100.0 %
+     Test CRC 78CEFB8C
+     Copy CRC 78CEFB8C
+     Copy OK
+
+Track 10
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\10 - 2 Unlimited - R.U.O.K.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC A332AB49
+     Copy CRC A332AB49
+     Copy OK
+
+Track 11
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\11 - 2 Unlimited - Let The Beat Control Your Body.wav
+
+     Peak level 93.6 %
+     Track quality 100.0 %
+     Test CRC C416AB93
+     Copy CRC C416AB93
+     Copy OK
+
+Track 12
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\12 - 2 Unlimited - Invite Me To Trance.wav
+
+     Peak level 90.2 %
+     Track quality 100.0 %
+     Test CRC 416E262F
+     Copy CRC 416E262F
+     Copy OK
+
+Track 13
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\13 - 2 Unlimited - Where Are You Now.wav
+
+     Peak level 95.8 %
+     Track quality 99.9 %
+     Test CRC 3EFA4349
+     Copy CRC 3EFA4349
+     Copy OK
+
+Track 14
+     Filename F:\_OINK UPLOADS\2 Unlimited - No Limits!\14 - 2 Unlimited - Shelter For A Rainy Day.wav
+
+     Peak level 95.8 %
+     Track quality 100.0 %
+     Test CRC 17EE74AD
+     Copy CRC 17EE74AD
+     Copy OK
+
+No errors occured
+
+
+End of status report

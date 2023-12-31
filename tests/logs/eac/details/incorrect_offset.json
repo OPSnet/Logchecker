@@ -1,0 +1,15 @@
+{
+    "ripper": "EAC",
+    "version": null,
+    "language": "en",
+    "combined": false,
+    "score": 54,
+    "checksum": "checksum_missing",
+    "details": [
+        "EAC version older than 0.99 (-30 points)",
+        "Incorrect read offset for drive. Correct offsets are: 685 (Checked against the following drive(s): nec cd-rw nr-9300a) (-5 points)",
+        "Could not verify null samples",
+        "Could not verify gap handling (-10 points)",
+        "Could not verify id3 tag setting (-1 point)"
+    ]
+}

@@ -1,0 +1,176 @@
+Exact Audio Copy <span class="log1">V1.3</span> from <span class="log1">2. September 2016</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>November 2016</span></span>
+
+<span class="log4">- / -</span>
+
+<span class="log5">Used Drive  </span>: <span class="badish">XXX  Adapter: 1  ID: 0 (not found in database)</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="badish">48</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="bad">Not detected, thus appended to previous track</span>
+
+<span class="log5">Used output format </span>: <span class="log4">Internal WAV Routines</span>
+<span class="log5">Sample format      </span>: <span class="log4">44.100 Hz; 16 Bit; Stereo</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">4:12.53</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">18952</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">4:12.53</span> <strong>|</strong>  <span class="log1">4:46.50</span> <strong>|</strong>     <span class="log1">18953</span>    <strong>|</strong>    <span class="log1">40452</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">8:59.28</span> <strong>|</strong>  <span class="log1">4:38.51</span> <strong>|</strong>     <span class="log1">40453</span>    <strong>|</strong>    <span class="log1">61353</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">13:38.04</span> <strong>|</strong>  <span class="log1">5:01.54</span> <strong>|</strong>     <span class="log1">61354</span>    <strong>|</strong>    <span class="log1">83982</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">18:39.58</span> <strong>|</strong>  <span class="log1">5:28.00</span> <strong>|</strong>     <span class="log1">83983</span>    <strong>|</strong>   <span class="log1">108582</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">24:07.58</span> <strong>|</strong>  <span class="log1">5:18.00</span> <strong>|</strong>    <span class="log1">108583</span>    <strong>|</strong>   <span class="log1">132432</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">29:25.58</span> <strong>|</strong>  <span class="log1">5:29.01</span> <strong>|</strong>    <span class="log1">132433</span>    <strong>|</strong>   <span class="log1">157108</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">34:54.59</span> <strong>|</strong>  <span class="log1">4:24.53</span> <strong>|</strong>    <span class="log1">157109</span>    <strong>|</strong>   <span class="log1">176961</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">39:19.37</span> <strong>|</strong>  <span class="log1">4:42.72</span> <strong>|</strong>    <span class="log1">176962</span>    <strong>|</strong>   <span class="log1">198183</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">44:02.34</span> <strong>|</strong>  <span class="log1">4:21.36</span> <strong>|</strong>    <span class="log1">198184</span>    <strong>|</strong>   <span class="log1">217794</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">48:23.70</span> <strong>|</strong>  <span class="log1">4:46.38</span> <strong>|</strong>    <span class="log1">217795</span>    <strong>|</strong>   <span class="log1">239282</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">53:10.33</span> <strong>|</strong>  <span class="log1">4:44.00</span> <strong>|</strong>    <span class="log1">239283</span>    <strong>|</strong>   <span class="log1">260582</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">57:54.33</span> <strong>|</strong>  <span class="log1">4:00.00</span> <strong>|</strong>    <span class="log1">260583</span>    <strong>|</strong>   <span class="log1">278582</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\01 - Destructive Tendencies - Slaves To The Darkness.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">C1DF0C44</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\02 - Destructive Tendencies Ft. MC Tha Watcher - Inner Demons.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">5.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">0F735364</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\03 - Destructive Tendencies - Fuck The Rules.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">0708DB5D</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\04 - Destructive Tendencies Ft. MC Jeff - Bash The World.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">F21246D1</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\05 - Destructive Tendencies - The Fire, The Power (Defqon.1 Australia Black Soundtrack 2016).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">6.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">3833B41C</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\06 - Destructive Tendencies - Smack My Bitch Up (Juanma & Rayden Remix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">EC22AAC4</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\07 - Destructive Tendencies - Against All The Odds (Harmony Of Hardcore 2016 Anthem).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">7.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">E41A7A7F</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\08 - Destructive Tendencies & F. Noize - Ameno (DJ Mad Dog & Unexist Mix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">8.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">BBCE5991</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\09 - Radical Redemption & Destructive Tendencies - Bring Us Some.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">9.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">9016007C</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\10 - Destructive Tendencies - I'll Let You Have Your Day (Lady Dammage Remix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">9.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">54016A18</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\11 - Destructive Tendencies - Taken From Me (Deterrent Man & Cryogenic Remix).wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">8.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">DFD7DBDF</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\12 - Destructive Tendencies & Hardbouncer - Destiny.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">9.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">144C84AA</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">C:\destructive tendencies\cd1\13 - Destructive Tendencies - Evil Is Evil.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">8.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">35F9BB6F</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="good">No errors occurred</span>
+<span class="good">End of status report</span>

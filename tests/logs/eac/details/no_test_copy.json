@@ -1,0 +1,13 @@
+{
+    "ripper": "EAC",
+    "version": "1.3",
+    "language": "en",
+    "combined": false,
+    "score": 79,
+    "checksum": "checksum_missing",
+    "details": [
+        "Gap handling was not detected (-10 points)",
+        "Could not verify id3 tag setting (-1 point)",
+        "Test and copy was not used (-10 points)"
+    ]
+}

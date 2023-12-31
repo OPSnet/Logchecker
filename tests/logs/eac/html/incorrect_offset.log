@@ -1,0 +1,129 @@
+<span class='good'>EAC extraction logfile from <span class='log5'>11. December 2005, 11:19 for CD</span></span>
+
+<span class="log4">John Lennon / Imagine [MFSL Ultradisc II]</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">_NEC    CD-RW NR-9300A   Adapter: 0  ID: 1</span>
+<span class="log5">Read mode   </span>: <span class="good">Secure</span><span class="log4"> with <span class="good">NO C2</span>, <span class="good">accurate stream</span>, <span class="good">disable cache</span></span>
+<span class="log5">Read offset correction </span>: <span class="bad">691</span>
+<span class="log5">Overread into Lead-In and Lead-Out </span>: <span class="log4">No</span>
+
+<span class="log5">Used output format </span>: <span class="log4">Internal WAV Routines</span>
+                     44.100 Hz; 16 Bit; Stereo
+
+<span class="log5">Other options      </span>: 
+    <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+    <span class="log5">Delete leading and trailing silent blocks </span>: <span class="good">No</span>
+    Installed external ASPI interface
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\01 - Imagine.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">EB4E6616</span></span>
+     <span class="log4">Copy CRC <span class="good">EB4E6616</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\02 - Crippled Inside.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.50</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7489FC46</span></span>
+     <span class="log4">Copy CRC <span class="good">7489FC46</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\03 - Jealous Guy.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.12</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">07F9B441</span></span>
+     <span class="log4">Copy CRC <span class="good">07F9B441</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\04 - It's So Hard.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.12</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">6BFC9089</span></span>
+     <span class="log4">Copy CRC <span class="good">6BFC9089</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\05 - I Don't Wanna to Be a Soldier Mama.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.38</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">AF864D26</span></span>
+     <span class="log4">Copy CRC <span class="good">AF864D26</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\06 - Gimme Some Truth.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0F923F6F</span></span>
+     <span class="log4">Copy CRC <span class="good">0F923F6F</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\07 - Oh My Love.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">83.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">BC0078C9</span></span>
+     <span class="log4">Copy CRC <span class="good">BC0078C9</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\08 - How Do You Sleep .wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.12</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0A094DFC</span></span>
+     <span class="log4">Copy CRC <span class="good">0A094DFC</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\09 - How .wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">93.6 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">37D523AC</span></span>
+     <span class="log4">Copy CRC <span class="good">37D523AC</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+     <span class="log4">Filename <span class="log3">C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\10 - Oh Yoko!.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.12</span></span>
+
+     <span class="log4">Peak level <span class="log3">96.4 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">CC8565C8</span></span>
+     <span class="log4">Copy CRC <span class="good">CC8565C8</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>

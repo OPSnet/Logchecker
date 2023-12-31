@@ -1,0 +1,237 @@
+Exact Audio Copy <span class="log1">V1.0 beta 3</span> from <span class="log1">29. August 2011</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>2. October 2012, 13:49</span></span>
+
+<span class="log4">Mary Beth Abella / What Happened to the Girls?</span>
+
+<span class="log5">Used Drive  </span>: <span class="badish">TSSTcorpCDDVDW SH-S223C   Adapter: 3  ID: 0 (not found in database)</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="badish">697</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="badish">Yes</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">3:42.04</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">16653</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">3:42.04</span> <strong>|</strong>  <span class="log1">2:47.65</span> <strong>|</strong>     <span class="log1">16654</span>    <strong>|</strong>    <span class="log1">29243</span>   
+        <span class="log4">3</span>  <strong>|</strong>  <span class="log1">6:29.69</span> <strong>|</strong>  <span class="log1">3:25.46</span> <strong>|</strong>     <span class="log1">29244</span>    <strong>|</strong>    <span class="log1">44664</span>   
+        <span class="log4">4</span>  <strong>|</strong>  <span class="log1">9:55.40</span> <strong>|</strong>  <span class="log1">4:30.19</span> <strong>|</strong>     <span class="log1">44665</span>    <strong>|</strong>    <span class="log1">64933</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">14:25.59</span> <strong>|</strong>  <span class="log1">3:35.59</span> <strong>|</strong>     <span class="log1">64934</span>    <strong>|</strong>    <span class="log1">81117</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">18:01.43</span> <strong>|</strong>  <span class="log1">3:30.47</span> <strong>|</strong>     <span class="log1">81118</span>    <strong>|</strong>    <span class="log1">96914</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">21:32.15</span> <strong>|</strong>  <span class="log1">4:51.62</span> <strong>|</strong>     <span class="log1">96915</span>    <strong>|</strong>   <span class="log1">118801</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">26:24.02</span> <strong>|</strong>  <span class="log1">4:47.00</span> <strong>|</strong>    <span class="log1">118802</span>    <strong>|</strong>   <span class="log1">140326</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">31:11.02</span> <strong>|</strong>  <span class="log1">3:13.44</span> <strong>|</strong>    <span class="log1">140327</span>    <strong>|</strong>   <span class="log1">154845</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">34:24.46</span> <strong>|</strong>  <span class="log1">3:42.23</span> <strong>|</strong>    <span class="log1">154846</span>    <strong>|</strong>   <span class="log1">171518</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">38:06.69</span> <strong>|</strong>  <span class="log1">5:18.38</span> <strong>|</strong>    <span class="log1">171519</span>    <strong>|</strong>   <span class="log1">195406</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">43:25.32</span> <strong>|</strong>  <span class="log1">4:08.50</span> <strong>|</strong>    <span class="log1">195407</span>    <strong>|</strong>   <span class="log1">214056</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">47:34.07</span> <strong>|</strong>  <span class="log1">0:04.30</span> <strong>|</strong>    <span class="log1">214057</span>    <strong>|</strong>   <span class="log1">214386</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\01 - Just Like Me.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C9204F4C</span></span>
+     <span class="log4">Copy CRC <span class="good">C9204F4C</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\02 - 'Til We Die.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.17</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4DC94197</span></span>
+     <span class="log4">Copy CRC <span class="good">4DC94197</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\03 - Springfield Wtich.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">B5B7D5F2</span></span>
+     <span class="log4">Copy CRC <span class="good">B5B7D5F2</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\04 - Leave You Behind.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.72</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">D16D109E</span></span>
+     <span class="log4">Copy CRC <span class="good">D16D109E</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\05 - Flying on a Breeze.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.64</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">EBEF8E78</span></span>
+     <span class="log4">Copy CRC <span class="good">EBEF8E78</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\06 - Miss Snitty Biddy.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">1D9A99C9</span></span>
+     <span class="log4">Copy CRC <span class="good">1D9A99C9</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\07 - Still Breathing.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.60</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.9 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">E1BFE084</span></span>
+     <span class="log4">Copy CRC <span class="good">E1BFE084</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\08 - And We Glow.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.18</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.5 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">8F959B8E</span></span>
+     <span class="log4">Copy CRC <span class="good">8F959B8E</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\09 - Last Night.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">1490B558</span></span>
+     <span class="log4">Copy CRC <span class="good">1490B558</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\10 - Four Walls.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.44</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.7 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7D716465</span></span>
+     <span class="log4">Copy CRC <span class="good">7D716465</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\11 - Your Skin.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.52</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C3C2C135</span></span>
+     <span class="log4">Copy CRC <span class="good">C3C2C135</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\12 - When Girls Ruled.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.97</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">1.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">A16E0BA8</span></span>
+     <span class="log4">Copy CRC <span class="good">A16E0BA8</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">E:\EAC\Mary Beth Abella - What Happened to the Girls - 2002\13 - [blank].wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:50.32</span></span>
+
+     <span class="log4">Peak level <span class="log3">4.6 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">0.2 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">335EEA5F</span></span>
+     <span class="log4">Copy CRC <span class="good">335EEA5F</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="badish">None of the tracks are present in the AccurateRip database</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+
+---- CUETools DB Plugin V2.1.3
+
+[CTDB TOCID: pC3JUY9xxBDYgW6_REqpsx0KLtk-] disk not present in database, Submit result: pC3JUY9xxBDYgW6_REqpsx0KLtk- has been uploaded
+
+<span class='good'>==== Log checksum 3AC11D09C4E8A3470C604B5D0F59478506E2C04CF1031B16E252CB335823BEAC ====</span>

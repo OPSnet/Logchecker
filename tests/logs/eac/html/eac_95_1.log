@@ -1,0 +1,151 @@
+<span class='good'>EAC extraction logfile from <span class='log5'>14. September 2006, 21:05 for CD</span></span>
+
+<span class="log4">2 Unlimited / No Limits!</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">LITE-ON DVDRW SOHW-1633S   Adapter: 3  ID: 1</span>
+<span class="log5">Read mode   </span>: <span class="good">Secure</span><span class="log4"> with <span class="good">NO C2</span>, <span class="good">accurate stream</span>, <span class="good">disable cache</span></span>
+<span class="log5">Read offset correction </span>: <span class="good">12</span>
+<span class="log5">Overread into Lead-In and Lead-Out </span>: <span class="log4">No</span>
+
+<span class="log5">Used output format </span>: <span class="log4">C:\Program Files\FLAC\flac.exe   (User Defined Encoder)</span>
+                     <span class="log4">192 kBit/s</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" 
+%s</span>
+
+<span class="log5">Other options      </span>: 
+    <span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+    <span class="log5">Delete leading and trailing silent blocks </span>: <span class="good">No</span>
+    Installed external ASPI interface
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\01 - 2 Unlimited - No Limit.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">91.4 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">18C66FA4</span></span>
+     <span class="log4">Copy CRC <span class="good">18C66FA4</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\02 - 2 Unlimited - Tribal Dance.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">449F19DC</span></span>
+     <span class="log4">Copy CRC <span class="good">449F19DC</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\03 - 2 Unlimited - Mysterious.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">54BC5922</span></span>
+     <span class="log4">Copy CRC <span class="good">54BC5922</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\04 - 2 Unlimited - Faces.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">97.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">82C61D83</span></span>
+     <span class="log4">Copy CRC <span class="good">82C61D83</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\05 - 2 Unlimited - Maximum Overdrive.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">86.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F5813958</span></span>
+     <span class="log4">Copy CRC <span class="good">F5813958</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\06 - 2 Unlimited - The Power Age.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">93.4 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">2AC2093D</span></span>
+     <span class="log4">Copy CRC <span class="good">2AC2093D</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\07 - 2 Unlimited - Break The Chain.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C094A376</span></span>
+     <span class="log4">Copy CRC <span class="good">C094A376</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\08 - 2 Unlimited - Kiss Me Bliss Me.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">92.6 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">EFDD7065</span></span>
+     <span class="log4">Copy CRC <span class="good">EFDD7065</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\09 - 2 Unlimited - Throw The Groove Down.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">85.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">78CEFB8C</span></span>
+     <span class="log4">Copy CRC <span class="good">78CEFB8C</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\10 - 2 Unlimited - R.U.O.K.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">A332AB49</span></span>
+     <span class="log4">Copy CRC <span class="good">A332AB49</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\11 - 2 Unlimited - Let The Beat Control Your Body.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">93.6 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C416AB93</span></span>
+     <span class="log4">Copy CRC <span class="good">C416AB93</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\12 - 2 Unlimited - Invite Me To Trance.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">90.2 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">416E262F</span></span>
+     <span class="log4">Copy CRC <span class="good">416E262F</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\13 - 2 Unlimited - Where Are You Now.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">95.8 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">3EFA4349</span></span>
+     <span class="log4">Copy CRC <span class="good">3EFA4349</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+     <span class="log4">Filename <span class="log3">F:\_OINK UPLOADS\2 Unlimited - No Limits!\14 - 2 Unlimited - Shelter For A Rainy Day.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">95.8 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">17EE74AD</span></span>
+     <span class="log4">Copy CRC <span class="good">17EE74AD</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>

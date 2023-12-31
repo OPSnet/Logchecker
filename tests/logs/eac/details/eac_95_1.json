@@ -1,0 +1,14 @@
+{
+    "ripper": "EAC",
+    "version": null,
+    "language": "en",
+    "combined": false,
+    "score": 59,
+    "checksum": "checksum_missing",
+    "details": [
+        "EAC version older than 0.99 (-30 points)",
+        "Could not verify null samples",
+        "Could not verify gap handling (-10 points)",
+        "Could not verify id3 tag setting (-1 point)"
+    ]
+}

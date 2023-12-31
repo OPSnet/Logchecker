@@ -1,0 +1,129 @@
+EAC extraction logfile from 11. December 2005, 11:19 for CD
+John Lennon / Imagine [MFSL Ultradisc II]
+
+Used drive  : _NEC    CD-RW NR-9300A   Adapter: 0  ID: 1
+Read mode   : Secure with NO C2, accurate stream, disable cache
+Read offset correction : 691
+Overread into Lead-In and Lead-Out : No
+
+Used output format : Internal WAV Routines
+                     44.100 Hz; 16 Bit; Stereo
+
+Other options      : 
+    Fill up missing offset samples with silence : Yes
+    Delete leading and trailing silent blocks : No
+    Installed external ASPI interface
+
+
+Track  1
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\01 - Imagine.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC EB4E6616
+     Copy CRC EB4E6616
+     Copy OK
+
+Track  2
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\02 - Crippled Inside.wav
+
+     Pre-gap length  0:00:01.50
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 7489FC46
+     Copy CRC 7489FC46
+     Copy OK
+
+Track  3
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\03 - Jealous Guy.wav
+
+     Pre-gap length  0:00:02.12
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 07F9B441
+     Copy CRC 07F9B441
+     Copy OK
+
+Track  4
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\04 - It's So Hard.wav
+
+     Pre-gap length  0:00:01.12
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 6BFC9089
+     Copy CRC 6BFC9089
+     Copy OK
+
+Track  5
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\05 - I Don't Wanna to Be a Soldier Mama.wav
+
+     Pre-gap length  0:00:02.38
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC AF864D26
+     Copy CRC AF864D26
+     Copy OK
+
+Track  6
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\06 - Gimme Some Truth.wav
+
+     Pre-gap length  0:00:03.00
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 0F923F6F
+     Copy CRC 0F923F6F
+     Copy OK
+
+Track  7
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\07 - Oh My Love.wav
+
+     Pre-gap length  0:00:01.00
+
+     Peak level 83.9 %
+     Track quality 99.9 %
+     Test CRC BC0078C9
+     Copy CRC BC0078C9
+     Copy OK
+
+Track  8
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\08 - How Do You Sleep .wav
+
+     Pre-gap length  0:00:02.12
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 0A094DFC
+     Copy CRC 0A094DFC
+     Copy OK
+
+Track  9
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\09 - How .wav
+
+     Peak level 93.6 %
+     Track quality 100.0 %
+     Test CRC 37D523AC
+     Copy CRC 37D523AC
+     Copy OK
+
+Track 10
+     Filename C:\Documents and Settings\Kevin\My Documents\FLAC\MFSL\John Lennon - Imagine (1971)[flac](MFSL UDCD 759)\10 - Oh Yoko!.wav
+
+     Pre-gap length  0:00:02.12
+
+     Peak level 96.4 %
+     Track quality 100.0 %
+     Test CRC CC8565C8
+     Copy CRC CC8565C8
+     Copy OK
+
+No errors occured
+
+
+End of status report
