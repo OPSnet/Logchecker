@@ -1,0 +1,244 @@
+X Lossless Decoder version 20181001 (151.0)
+
+XLD extraction logfile from 2018-10-16 18:32:59 +0900
+
+Taeko Ohnuki / Signifie
+
+Used drive : MATSHITA DVD-R   UJ-868 (revision KB19)
+Media type : Pressed CD
+
+Ripper mode             : XLD Secure Ripper
+Disable audio cache     : OK for the drive with a cache less than 1375KiB
+Make use of C2 pointers : NO
+Read offset correction  : 102
+Max retry count         : 20
+Gap status              : Analyzed, Appended (except HTOA)
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 04:44:20 |         0    |    21319   
+        2  | 04:44:20 | 04:55:55 |     21320    |    43499   
+        3  | 09:40:00 | 04:14:20 |     43500    |    62569   
+        4  | 13:54:20 | 03:52:20 |     62570    |    79989   
+        5  | 17:46:40 | 01:43:14 |     79990    |    87728   
+        6  | 19:29:54 | 03:49:68 |     87729    |   104971   
+        7  | 23:19:47 | 03:33:65 |    104972    |   121011   
+        8  | 26:53:37 | 02:07:60 |    121012    |   130596   
+        9  | 29:01:22 | 04:08:60 |    130597    |   149256   
+       10  | 33:10:07 | 03:16:03 |    149257    |   163959   
+
+List of alternate offset correction values
+        #  | Absolute | Relative | Confidence 
+    ------------------------------------------
+        1  |    108   |      6   |      2     
+
+AccurateRip Summary (DiscID: 000eb92b-0072cf34-82088a0a)
+    Track 01 : OK (v1+v2, confidence 2/4)
+    Track 02 : OK (v1+v2, confidence 2/4)
+    Track 03 : OK (v1+v2, confidence 2/4)
+    Track 04 : OK (v1+v2, confidence 2/4)
+    Track 05 : OK (v1+v2, confidence 2/4)
+    Track 06 : OK (v1+v2, confidence 2/4)
+    Track 07 : OK (v1+v2, confidence 2/4)
+    Track 08 : OK (v1+v2, confidence 2/4)
+    Track 09 : OK (v1+v2, confidence 2/4)
+    Track 10 : OK (v1+v2, confidence 2/4)
+        ->All tracks accurately ripped.
+
+All Tracks
+    Album gain               : -4.80 dB
+    Peak                     : 0.976807
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 01
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/01 - 夏に恋する女たち.flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -5.00 dB
+    Peak                     : 0.976715
+    CRC32 hash (test run)    : 9802DCD5
+    CRC32 hash               : 9802DCD5
+    CRC32 hash (skip zero)   : DAA4D9A6
+    AccurateRip v1 signature : 872CD07B
+    AccurateRip v2 signature : F308C653
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 02
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/02 - 幻惑.flac
+    Pre-gap length : 00:00:63
+
+    Track gain               : -4.83 dB
+    Peak                     : 0.976685
+    CRC32 hash (test run)    : 738A3DD9
+    CRC32 hash               : 738A3DD9
+    CRC32 hash (skip zero)   : CB14E914
+    AccurateRip v1 signature : 2454F110
+    AccurateRip v2 signature : 1B21150D
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 03
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/03 - Signe <記号>.flac
+    Pre-gap length : 00:00:50
+
+    Track gain               : -4.78 dB
+    Peak                     : 0.976807
+    CRC32 hash (test run)    : 057251A6
+    CRC32 hash               : 057251A6
+    CRC32 hash (skip zero)   : 607FB113
+    AccurateRip v1 signature : 9981BBA4
+    AccurateRip v2 signature : A043E805
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 04
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/04 - Patio <中庭>.flac
+    Pre-gap length : 00:01:05
+
+    Track gain               : -3.33 dB
+    Peak                     : 0.976593
+    CRC32 hash (test run)    : 2A9FE2A3
+    CRC32 hash               : 2A9FE2A3
+    CRC32 hash (skip zero)   : 9D8592E3
+    AccurateRip v1 signature : ABD95B9C
+    AccurateRip v2 signature : A08E11DD
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 05
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/05 - ルクレツィア.flac
+    Pre-gap length : 00:02:50
+
+    Track gain               : 3.45 dB
+    Peak                     : 0.548798
+    CRC32 hash (test run)    : 0ECD9B2C
+    CRC32 hash               : 0ECD9B2C
+    CRC32 hash (skip zero)   : 9D44AD1D
+    AccurateRip v1 signature : 0DB54EB7
+    AccurateRip v2 signature : 04C30D56
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 06
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/06 - テディ・ベア.flac
+    Pre-gap length : 00:02:54
+
+    Track gain               : -4.90 dB
+    Peak                     : 0.976654
+    CRC32 hash (test run)    : 98092E73
+    CRC32 hash               : 98092E73
+    CRC32 hash (skip zero)   : 78965114
+    AccurateRip v1 signature : CB350DB6
+    AccurateRip v2 signature : 43D06229
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 07
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/07 - Recipe <調理法>.flac
+    Pre-gap length : 00:01:02
+
+    Track gain               : -6.35 dB
+    Peak                     : 0.976685
+    CRC32 hash (test run)    : 60FE4436
+    CRC32 hash               : 60FE4436
+    CRC32 hash (skip zero)   : A0CC0F11
+    AccurateRip v1 signature : C147F2CF
+    AccurateRip v2 signature : 78D19EAA
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 08
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/08 - アーニャ.flac
+    Pre-gap length : 00:01:10
+
+    Track gain               : -2.28 dB
+    Peak                     : 0.976318
+    CRC32 hash (test run)    : 5B166603
+    CRC32 hash               : 5B166603
+    CRC32 hash (skip zero)   : 417852B6
+    AccurateRip v1 signature : B4CDFB2C
+    AccurateRip v2 signature : 3B9679E7
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 09
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/09 - Siesta <ひるね>.flac
+    Pre-gap length : 00:01:45
+
+    Track gain               : -5.63 dB
+    Peak                     : 0.976685
+    CRC32 hash (test run)    : 0A06D0BC
+    CRC32 hash               : 0A06D0BC
+    CRC32 hash (skip zero)   : 40C3611E
+    AccurateRip v1 signature : 46E13117
+    AccurateRip v2 signature : 3A4541EA
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 10
+    Filename : /konwersja/Taeko Ohnuki - Signifie (1983) [FLAC] (1999 BMG BVCK-38013)/10 - エル・トゥルマニエ <虹の神>.flac
+    Pre-gap length : 00:02:17
+
+    Track gain               : -4.72 dB
+    Peak                     : 0.976593
+    CRC32 hash (test run)    : 2E2076FF
+    CRC32 hash               : 2E2076FF
+    CRC32 hash (skip zero)   : CF3E82D5
+    AccurateRip v1 signature : F4138367
+    AccurateRip v2 signature : 2DED63E7
+        ->Accurately ripped (v1+v2, confidence 1+1/4)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+No errors occurred
+
+End of status report
+
+-----BEGIN XLD SIGNATURE-----
+8qMrdYytFEek_o9G7TIxIxzKh2MFqbk9XqQp3Xfj1Zj1A6knmzPwMu1lYswlb3KtZD0jXmudo1Nf4M9QmKo3asm.mpP08EP_qzrrbAK
+-----END XLD SIGNATURE-----

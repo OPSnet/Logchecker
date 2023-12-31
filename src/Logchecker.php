@@ -988,11 +988,36 @@ class Logchecker
             $TrackListing = '';
             $TrackBodies = [];
             $FullTracks = [];
-            if (!$this->Range) {
+            $LogEnds = [
+                'None of the tracks are present in the AccurateRip database',
+                'No errors occurred',
+                'All tracks accurately ripped',
+                'No tracks could be verified as accurate',
+                'track(s) not present in the AccurateRip database',
+                'End of status report',
+                'There were errors',
+            ];
+            $LogEndsCount = count($LogEnds);
+            // XLD range rips will still print individual tracks so we can parse those as normal,
+            // they'll just lack filename
+            if (!$this->Range || $XLD) {
                 //------ Handle individual tracks ------//
-                preg_match('/\nTrack( +)([0-9]{1,3})([^<]+)/i', $Log, $Matches);
+                preg_match('/\nTrack( +)([0-9]{1,3})([\s\S]+)/i', $Log, $Matches);
                 if (count($Matches) > 0) {
                     $TrackListing = $Matches[0];
+                    $explode = explode("\n", $TrackListing);
+                    for ($i = count($explode) - 1; $i >= 0; $i--) {
+                        for ($j = 0; $j < $LogEndsCount; $j++) {
+                            if (str_ends_with($explode[$i], $LogEnds[$j])) {
+                                $i--;
+                                break 2;
+                            }
+                        }
+                        if (preg_match('/[ \t]+ [a-z]/i', $explode[$i])) {
+                            break;
+                        }
+                    }
+                    $TrackListing = implode("\n", array_slice($explode, 0, $i + 1));
                     $FullTracks   = preg_split(
                         '/\nTrack( +)([0-9]{1,3})/i',
                         $TrackListing,
@@ -1005,9 +1030,21 @@ class Logchecker
                 }
             } else {
                 //------ Range rip ------//
-                preg_match('/\n( *)Filename +(.*)([^<]+)/i', $Log, $Matches);
+                preg_match('/\n( *)Filename +(.*)([\s\S]+)/i', $Log, $Matches);
                 if (count($Matches) > 0) {
                     $TrackListing = $Matches[0];
+                    $explode = explode("\n", $TrackListing);
+                    for ($i = count($explode) - 1; $i >= 0; $i--) {
+                        for ($j = 0; $j < $LogEndsCount; $j++) {
+                            if (str_ends_with($explode[$i], $LogEnds[$j])) {
+                                $i--;
+                                break 2;
+                            }
+                        }
+                        if (preg_match('/[ \t]+ [a-z]/i', $explode[$i])) {
+                            break;
+                        }
+                    }
                     $FullTracks   = preg_split('/\n( *)Filename +(.*)/i', $TrackListing, -1, PREG_SPLIT_DELIM_CAPTURE);
                     array_shift($FullTracks);
                     $TrackBodies = preg_split('/\n( *)Filename +(.*)/i', $TrackListing, -1);
