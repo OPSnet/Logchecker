@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class LogcheckerTest extends TestCase
 {
-    public function logDataProvider(): array
+    public static function logDataProvider(): array
     {
         $return = [];
         foreach ([Ripper::EAC, Ripper::XLD, Ripper::WHIPPER] as $ripper) {

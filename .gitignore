@@ -5,6 +5,7 @@ logchecker.phar
 .vscode/
 
 .phpunit.result.cache
+.phpunit.cache/
 report/
 
 /tests/logs/old

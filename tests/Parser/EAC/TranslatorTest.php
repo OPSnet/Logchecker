@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 
 class TranslatorTest extends TestCase
 {
-    public function foreignLogDataProvider()
+    public static function foreignLogDataProvider()
     {
         $logs = [];
         $logPath = implode(DIRECTORY_SEPARATOR, [__DIR__, '..', '..', 'logs', 'eac', 'utf8']);
@@ -53,7 +53,7 @@ class TranslatorTest extends TestCase
         );
     }
 
-    public function englishLogProvider()
+    public static function englishLogProvider()
     {
         return array_map(
             function ($file) {

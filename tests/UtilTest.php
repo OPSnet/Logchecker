@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class UtilTest extends TestCase
 {
-    public function commandExistsDataProvider(): array
+    public static function commandExistsDataProvider(): array
     {
         return [
             ['cd', true],
@@ -25,7 +25,7 @@ class UtilTest extends TestCase
         $this->assertSame($exists, Util::commandExists($command));
     }
 
-    public function decodeLogDataProvider(): array
+    public static function decodeLogDataProvider(): array
     {
         $logPath = implode(DIRECTORY_SEPARATOR, [__DIR__, 'logs', 'eac', 'originals']);
         $return = [];

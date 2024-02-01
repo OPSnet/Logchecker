@@ -9,7 +9,7 @@ use OrpheusNET\Logchecker\Exception\UnknownRipperException;
 
 class RipperTest extends TestCase
 {
-    public function ripperDataProvider()
+    public static function ripperDataProvider()
     {
         return [
             [
