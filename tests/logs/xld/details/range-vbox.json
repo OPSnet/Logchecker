@@ -1,0 +1,11 @@
+{
+    "ripper": "XLD",
+    "version": "20170729",
+    "language": "en",
+    "combined": false,
+    "score": 70,
+    "checksum": "checksum_ok",
+    "details": [
+        "Range rip detected (-30 points)"
+    ]
+}

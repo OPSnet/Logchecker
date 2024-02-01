@@ -828,11 +828,19 @@ class Logchecker
                 1,
                 $Count
             );
+            // XLD Range
+            $Log = preg_replace(
+                '/\n(All Tracks\n(?: *))(Filename)/i',
+                "\n$1<span class=\"bad\">$2</span>",
+                $Log,
+                1,
+                $XLDRange,
+            );
             // xld album gain
             $Log = preg_replace(
-                "/All Tracks\s*\n(\s*Album gain\s+:) (.*)?\n(\s*Peak\s+:) (.*)?/i",
-                "<span class=\"log5\">All Tracks</span>\n<strong>$1 <span class=\"log3\">$2</span>\n" .
-                    "$3 <span class=\"log3\">$4</span></strong>",
+                "/All Tracks(\s*\n)((?:.*)\n)?(\s*Album gain\s+:) (.*)?\n(\s*Peak\s+:) (.*)?/i",
+                "<span class=\"log5\">All Tracks</span>$1$2<strong>$3 <span class=\"log3\">$4</span>\n" .
+                    "$5 <span class=\"log3\">$6</span></strong>",
                 $Log,
                 1,
                 $Count
@@ -980,7 +988,7 @@ class Logchecker
                 1,
                 $Range2
             );
-            if ($Range1 || $Range2) {
+            if ($Range1 || $Range2 || $XLDRange) {
                 $this->Range = 1;
                 $this->account('Range rip detected', 30);
             }
