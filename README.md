@@ -14,7 +14,7 @@ setting up the necessary programs to validate the checksum, see below for the gi
 
 ## Requirements
 
-* PHP 7.0+
+* PHP 8.1+
 
 ## Optional Requirements
 
