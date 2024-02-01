@@ -1,0 +1,11 @@
+{
+    "ripper": "EAC",
+    "version": "1.6",
+    "language": "en",
+    "combined": false,
+    "score": 80,
+    "checksum": "checksum_ok",
+    "details": [
+        "Track 14: File write error (-20 points)"
+    ]
+}

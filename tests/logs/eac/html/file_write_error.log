@@ -1,0 +1,273 @@
+Exact Audio Copy <span class="log1">V1.6</span> from <span class="log1">23. October 2020</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>5. September 2021, 19:00</span></span>
+
+<span class="log4">Nation In Blue / Nothing Less </span>
+
+<span class="log5">Used Drive  </span>: <span class="good">ASUS    BW-12B1LT   Adapter: 1  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">1024 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-8 -e -p -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">7:27.08</span> <strong>|</strong>         <span class="log1">0</span>    <strong>|</strong>    <span class="log1">33532</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">7:27.08</span> <strong>|</strong>  <span class="log1">6:20.64</span> <strong>|</strong>     <span class="log1">33533</span>    <strong>|</strong>    <span class="log1">62096</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">13:47.72</span> <strong>|</strong>  <span class="log1">6:15.19</span> <strong>|</strong>     <span class="log1">62097</span>    <strong>|</strong>    <span class="log1">90240</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">20:03.16</span> <strong>|</strong>  <span class="log1">6:07.30</span> <strong>|</strong>     <span class="log1">90241</span>    <strong>|</strong>   <span class="log1">117795</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">26:10.46</span> <strong>|</strong>  <span class="log1">4:00.02</span> <strong>|</strong>    <span class="log1">117796</span>    <strong>|</strong>   <span class="log1">135797</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">30:10.48</span> <strong>|</strong>  <span class="log1">3:59.05</span> <strong>|</strong>    <span class="log1">135798</span>    <strong>|</strong>   <span class="log1">153727</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">34:09.53</span> <strong>|</strong>  <span class="log1">6:16.26</span> <strong>|</strong>    <span class="log1">153728</span>    <strong>|</strong>   <span class="log1">181953</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">40:26.04</span> <strong>|</strong>  <span class="log1">5:03.58</span> <strong>|</strong>    <span class="log1">181954</span>    <strong>|</strong>   <span class="log1">204736</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">45:29.62</span> <strong>|</strong>  <span class="log1">3:21.15</span> <strong>|</strong>    <span class="log1">204737</span>    <strong>|</strong>   <span class="log1">219826</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">48:51.02</span> <strong>|</strong>  <span class="log1">5:37.48</span> <strong>|</strong>    <span class="log1">219827</span>    <strong>|</strong>   <span class="log1">245149</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">54:28.50</span> <strong>|</strong>  <span class="log1">5:15.20</span> <strong>|</strong>    <span class="log1">245150</span>    <strong>|</strong>   <span class="log1">268794</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">59:43.70</span> <strong>|</strong>  <span class="log1">7:00.30</span> <strong>|</strong>    <span class="log1">268795</span>    <strong>|</strong>   <span class="log1">300324</span>   
+       <span class="log4">13</span>  <strong>|</strong> <span class="log1">66:44.25</span> <strong>|</strong>  <span class="log1">6:11.42</span> <strong>|</strong>    <span class="log1">300325</span>    <strong>|</strong>   <span class="log1">328191</span>   
+       <span class="log4">14</span>  <strong>|</strong> <span class="log1">72:55.67</span> <strong>|</strong>  <span class="log1">4:48.67</span> <strong>|</strong>    <span class="log1">328192</span>    <strong>|</strong>   <span class="log1">349858</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\01 - Have You Got What It Takes.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">54B008F1</span></span>
+     <span class="log4">Copy CRC <span class="good">54B008F1</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [9C841D95]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\02 - Nothing Less.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">0AEAA633</span></span>
+     <span class="log4">Copy CRC <span class="good">0AEAA633</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [8C83E89A]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\03 - Your Saviour I Will Be.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:06:20.85</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.0 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">ACF1D727</span></span>
+     <span class="log4">Copy CRC <span class="good">ACF1D727</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [81BDE364]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\04 - I Will Do Anything.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:12:36.10</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.3 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">547C040C</span></span>
+     <span class="log4">Copy CRC <span class="good">547C040C</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [496A42AD]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\05 - There Is Something.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:18:43.50</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">234B22E9</span></span>
+     <span class="log4">Copy CRC <span class="good">234B22E9</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [E01E0200]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\06 - Love Is Love It Love Can.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:22:43.53</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.5 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7222053E</span></span>
+     <span class="log4">Copy CRC <span class="good">7222053E</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [256DDB4E]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\07 - I Want U.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:26:42.60</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.8 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">87727084</span></span>
+     <span class="log4">Copy CRC <span class="good">87727084</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [289D1319]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\08 - Better Than The Best.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:32:58.94</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.1 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">01CCC2F7</span></span>
+     <span class="log4">Copy CRC <span class="good">01CCC2F7</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [745E4B75]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\09 - I Want To Be A Star.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:38:02.72</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">2.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">1F476EB3</span></span>
+     <span class="log4">Copy CRC <span class="good">1F476EB3</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [E70F7317]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\10 - Distant Land.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:41:23.92</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">3.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">12735EC1</span></span>
+     <span class="log4">Copy CRC <span class="good">12735EC1</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [4E8D144F]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\11 - Look Around.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:47:01.56</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.4 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">8B6A946D</span></span>
+     <span class="log4">Copy CRC <span class="good">8B6A946D</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [E3DE15BE]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\12 - Love Is In The Air.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:52:16.82</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.6 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">7D097AD8</span></span>
+     <span class="log4">Copy CRC <span class="good">7D097AD8</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [64EA44AC]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">13</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\13 - What Will You Do.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:59:17.22</span></span>
+
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3B95E47F</span></span>
+     <span class="log4">Copy CRC <span class="good">3B95E47F</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [7440CD18]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">14</span>
+
+     <span class="log4">Filename <span class="log3">E:\Mp3\My Latest Rips\Nation In Blue - Nothing Less (2016) [CD-FLAC]\14 - Summer Romance.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">1:05:28.78</span></span>
+
+     <span class="bad">File write error</span>
+     <span class="log4">Peak level <span class="log3">98.8 %</span></span>
+     <span class="log4">Extraction speed <span class="log3">4.7 X</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">21ED1F16</span></span>
+     <span class="log4">Copy CRC <span class="good">21ED1F16</span></span>
+     <span class="good">Accurately ripped (confidence 1)  [2ABB0E5C]</span>  (AR v2)
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="bad">There were errors</span>
+
+<span class="good">End of status report</span>
+
+---- CUETools DB Plugin V2.1.6
+
+[CTDB TOCID: hCFF6bdfgpHEy2Tib8iq0QKIW6Y-] found
+Submit result: hCFF6bdfgpHEy2Tib8iq0QKIW6Y- has been confirmed
+Track | CTDB Status
+  1   | (5/5) Accurately ripped
+  2   | (5/5) Accurately ripped
+  3   | (5/5) Accurately ripped
+  4   | (5/5) Accurately ripped
+  5   | (5/5) Accurately ripped
+  6   | (5/5) Accurately ripped
+  7   | (5/5) Accurately ripped
+  8   | (5/5) Accurately ripped
+  9   | (5/5) Accurately ripped
+ 10   | (5/5) Accurately ripped
+ 11   | (5/5) Accurately ripped
+ 12   | (5/5) Accurately ripped
+ 13   | (5/5) Accurately ripped
+ 14   | (5/5) Accurately ripped
+
+<span class='good'>==== Log checksum 02C62FCBC9B76333E517D29F962EB761FAC68546938B245A274427B94B8644B7 ====</span>

@@ -1109,6 +1109,16 @@ class Logchecker
                         $this->accountTrack('Could not verify filename or file extension', 1);
                     }
                 }
+                $TrackBody = preg_replace(
+                    "/( *)(File write error)\n/i",
+                    "$1<span class=\"bad\">$2</span>\n",
+                    $TrackBody,
+                    -1,
+                    $Count,
+                );
+                if ($Count) {
+                    $this->accountTrack('File write error', 20);
+                }
                 // xld track gain
                 $TrackBody = preg_replace(
                     "/( *Track gain\s+:) (.*)?\n(\s*Peak\s+:) (.*)?/i",
