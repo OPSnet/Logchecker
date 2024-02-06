@@ -4,7 +4,10 @@
         "KevinGH\\Box\\Compactor\\Json",
         "KevinGH\\Box\\Compactor\\Php"
     ],
-    "directories": ["src"],
+    "directories": [
+        "src",
+        "vendor/symfony/console/Resources"
+    ],
     "exclude-composer-files": false,
     "files": [
         "bin/logchecker",
