@@ -25,6 +25,8 @@ jobs:
       - name: Compile PHAR
         run: ~/.composer/vendor/bin/box compile
 
+      - run: php logchecker.phar --version
+
       - name: Upload Release Asset
         id: upload-release-asset
         uses: softprops/action-gh-release@v1
