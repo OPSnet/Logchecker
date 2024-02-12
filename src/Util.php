@@ -39,6 +39,10 @@ class Util
         } elseif ($chardet !== null) {
             $results = $chardet->analyze($logPath);
             if ($results['charset'] !== 'utf-8' && $results['confidence'] > 0.7) {
+                // ideally we'd be able to use mb_convert_encoding as it has more widespread
+                // support vs iconv, but it does not support as many encodings as iconv, such
+                // as Windows-1250 (along with others) which is a common encoding for range logs
+                // coming from rutracker
                 // $log = mb_convert_encoding($log, 'UTF-8', $results['charset']);
                 $tmp = @iconv($results['charset'], 'UTF-8', $log);
 

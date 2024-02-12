@@ -17,10 +17,11 @@
     },
     "require": {
         "php": "^8.1",
+        "ext-iconv": "*",
         "ext-mbstring": "*",
         "symfony/console": "^6.0|^7.0",
-        "symfony/yaml": "^6.0|^7.0",
-        "symfony/process": "^6.0|^7.0"
+        "symfony/process": "^6.0|^7.0",
+        "symfony/yaml": "^6.0|^7.0"
     },
     "bin": ["bin/logchecker"],
     "require-dev": {
@@ -45,6 +46,7 @@
     "config": {
         "platform": {
             "php": "8.1"
-        }
+        },
+        "sort-packages": true
     }
 }
