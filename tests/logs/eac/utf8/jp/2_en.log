@@ -1,0 +1,136 @@
+Exact Audio Copy V1.8 from 15. July 2024
+
+EAC extraction logfile from  : 27. April 2025, 23:59
+
+Monochrome Fox / Burning Red
+
+Used drive  :    : ATAPI   iHAS324   B   Adapter: 1  ID: 0
+
+Read mode            : Secure
+Utilize accurate stream : Yes
+Defeat audio cache   : Yes
+Make use of C2 pointers       : No
+
+Read offset correction       : 6
+Overread into Lead-In and Lead-Out : No
+Fill up missing offset samples with silence  : Yes
+Delete leading and trailing silent blocks      : No
+Null samples used in CRC calculations    : Yes
+Used interface             :  Native Win32 interface for XP/Vista/Win 7 
+Gap handling            : Appended to previous track
+
+Used output format         : User Defined Encoder
+Selected bitrate       : 896 kBit/s
+Quality              : High
+Add ID3 tag     : No
+Command line compressor           : C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe
+Additional command line options  : -8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T "TrackNUMBER=%Tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTrackS=%numTracks%" -T "COMMENT=%comment%" %source% -o %dest%
+
+
+TOC of the extracted CD
+
+     Track |   Start   |    Length    | Start sector | End sector 
+    -----------------------------------------------
+       1  |  0:00.00 |  4:48.00 |      0  |  21599 
+       2  |  4:48.00 |  4:40.00 |  21600  |  42599 
+       3  |  9:28.00 |  4:30.00 |  42600  |  62849 
+       4  | 13:58.00 |  4:48.00 |  62850  |  84449 
+       5  | 18:46.00 |  4:40.00 |  84450  | 105449 
+       6  | 23:26.00 |  4:30.00 | 105450  | 125699 
+
+
+Track  1
+
+     Filename Z:\Music\Burning Red\01 Burning Red.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 100.0 %
+     Extraction speed  5.8 X
+     Track Quality 100.0 %
+     Test CRC BF74E49F
+     Copy CRC BF74E49F
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  2
+
+     Filename Z:\Music\Burning Red\02 シクラメン.wav
+
+     Peak level 100.0 %
+     Extraction speed  6.2 X
+     Track Quality 100.0 %
+     Test CRC 50959519
+     Copy CRC 50959519
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  3
+
+     Filename Z:\Music\Burning Red\03 Can we say, ''See you again''.wav
+
+     Peak level 100.0 %
+     Extraction speed  6.5 X
+     Track Quality 100.0 %
+     Test CRC 91395EF1
+     Copy CRC 91395EF1
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  4
+
+     Filename Z:\Music\Burning Red\04 Burning Red[Instrumental].wav
+
+     Peak level 100.0 %
+     Extraction speed  7.3 X
+     Track Quality 100.0 %
+     Test CRC 3DC78F9A
+     Copy CRC 3DC78F9A
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  5
+
+     Filename Z:\Music\Burning Red\05 シクラメン[Instrumental].wav
+
+     Peak level 100.0 %
+     Extraction speed  7.7 X
+     Track Quality 100.0 %
+     Test CRC DDFD8730
+     Copy CRC DDFD8730
+     Track not present in AccurateRip database
+     Copy OK
+
+Track  6
+
+     Filename Z:\Music\Burning Red\06 Can we say, ''See you again''[Instrumental].wav
+
+     Peak level 100.0 %
+     Extraction speed  8.2 X
+     Track Quality 100.0 %
+     Test CRC C9882387
+     Copy CRC C9882387
+     Track not present in AccurateRip database
+     Copy OK
+
+
+None of the Tracks are present in the AccurateRip database
+
+No errors occurred
+
+End of status report
+
+---- AcoustID Plugin V1.2.0
+
+Submitting 6 results to AcoustID
+
+AcoustID successfully submitted
+
+
+---- CUETools DB Plugin V2.2.6
+
+[CTDB TOCID: GVkkACY1LQIdTg3Z78v_T9UJMv0-] disk not present in database
+Submit result: GVkkACY1LQIdTg3Z78v_T9UJMv0- has been uploaded
+
+
+====  BFD4FF0569E8A2DFE2C415F36B87548CE6FBD2930322D4CD34D3EAD2D7877094 ====

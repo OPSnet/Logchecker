@@ -73,7 +73,8 @@
         "     プリギャップ長 "
     ],
     "1271": [
-        "     テスト CRC "
+        "     テスト CRC ",
+        "     テストCRC "
     ],
     "1272": [
         "     コピー CRC ",
@@ -92,7 +93,7 @@
         "     Not accurately ripped (confidence "
     ],
     "1283": [
-        "     Track not present in AccurateRip database"
+        "     AccurateRipのデーターベースに存在しません"
     ],
     "1330": [
         "     Cannot be verified as accurate"
@@ -137,7 +138,8 @@
         "track(s) canceled"
     ],
     "1344": [
-        "どのTrackもAccurateRipのデーターベースに存在しません"
+        "どのTrackもAccurateRipのデーターベースに存在しません",
+        "どのトラックもAccurateRipのデーターベースに存在しません"
     ],
     "1284": [
         "Not all tracks ripped accurately"
@@ -403,7 +405,7 @@
         "Track"
     ],
     "1322": [
-        "Appended to previous track"
+        "前のトラックに追加する"
     ],
     "1323": [
         "Appended to next track"

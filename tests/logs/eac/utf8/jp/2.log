@@ -1,0 +1,136 @@
+Exact Audio Copy V1.8 from 15. July 2024
+
+EAC 取り込みログファイル 日付 : 27. 4月 2025, 23:59
+
+Monochrome Fox / Burning Red
+
+使用ドライブ   : ATAPI   iHAS324   B   Adapter: 1  ID: 0
+
+読み込みモード            : セキュアモード
+ドライブが正確なデータ転送能力を持つ : はい
+オーディオキャッシュを使用できる   : はい
+C2エラー情報を検出する       : いいえ
+
+読み込みサンプルオフセット訂正値       : 6
+リードイン・リードアウトをオーバーリードする : いいえ
+欠落したオフセットサンプルを無音で補完する  : はい
+曲の先頭と末端の無音領域を削除する      : いいえ
+CRC計算で無音のサンプルを使用するか    : はい
+使用インターフェース             :  XP/Vista/Win 7のWin32標準インターフェイス 
+ギャップ情報を取得する            : 前のトラックに追加する
+
+使用出力モード         : ユーザー定義のエンコーダ
+ビットレートの指定       : 896 kBit/s
+品質              : 高
+ID3 タグを追加する     : いいえ
+エンコーダ           : C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe
+追加コマンドラインオプション  : -8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T "TRACKNUMBER=%tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTRACKS=%numtracks%" -T "COMMENT=%comment%" %source% -o %dest%
+
+
+TOC情報を抜き出します
+
+     トラック |   スタート   |    長さ    | 始めのセクター | 最終セクター 
+    -----------------------------------------------
+       1  |  0:00.00 |  4:48.00 |      0  |  21599 
+       2  |  4:48.00 |  4:40.00 |  21600  |  42599 
+       3  |  9:28.00 |  4:30.00 |  42600  |  62849 
+       4  | 13:58.00 |  4:48.00 |  62850  |  84449 
+       5  | 18:46.00 |  4:40.00 |  84450  | 105449 
+       6  | 23:26.00 |  4:30.00 | 105450  | 125699 
+
+
+トラック  1
+
+     ファイル名 Z:\Music\Burning Red\01 Burning Red.wav
+
+     プリギャップ長  0:00:02.00
+
+     ピークレベル 100.0 %
+     取り込みスピード 5.8 X
+     トラック品質 100.0 %
+     テストCRC BF74E49F
+     コピーCRC BF74E49F
+     AccurateRipのデーターベースに存在しません
+     コピー OK
+
+トラック  2
+
+     ファイル名 Z:\Music\Burning Red\02 シクラメン.wav
+
+     ピークレベル 100.0 %
+     取り込みスピード 6.2 X
+     トラック品質 100.0 %
+     テストCRC 50959519
+     コピーCRC 50959519
+     AccurateRipのデーターベースに存在しません
+     コピー OK
+
+トラック  3
+
+     ファイル名 Z:\Music\Burning Red\03 Can we say, ''See you again''.wav
+
+     ピークレベル 100.0 %
+     取り込みスピード 6.5 X
+     トラック品質 100.0 %
+     テストCRC 91395EF1
+     コピーCRC 91395EF1
+     AccurateRipのデーターベースに存在しません
+     コピー OK
+
+トラック  4
+
+     ファイル名 Z:\Music\Burning Red\04 Burning Red[Instrumental].wav
+
+     ピークレベル 100.0 %
+     取り込みスピード 7.3 X
+     トラック品質 100.0 %
+     テストCRC 3DC78F9A
+     コピーCRC 3DC78F9A
+     AccurateRipのデーターベースに存在しません
+     コピー OK
+
+トラック  5
+
+     ファイル名 Z:\Music\Burning Red\05 シクラメン[Instrumental].wav
+
+     ピークレベル 100.0 %
+     取り込みスピード 7.7 X
+     トラック品質 100.0 %
+     テストCRC DDFD8730
+     コピーCRC DDFD8730
+     AccurateRipのデーターベースに存在しません
+     コピー OK
+
+トラック  6
+
+     ファイル名 Z:\Music\Burning Red\06 Can we say, ''See you again''[Instrumental].wav
+
+     ピークレベル 100.0 %
+     取り込みスピード 8.2 X
+     トラック品質 100.0 %
+     テストCRC C9882387
+     コピーCRC C9882387
+     AccurateRipのデーターベースに存在しません
+     コピー OK
+
+
+どのトラックもAccurateRipのデーターベースに存在しません
+
+エラーは発生しませんでした
+
+ステータス報告完了
+
+---- AcoustID Plugin V1.2.0
+
+Submitting 6 results to AcoustID
+
+AcoustID successfully submitted
+
+
+---- CUETools DB Plugin V2.2.6
+
+[CTDB TOCID: GVkkACY1LQIdTg3Z78v_T9UJMv0-] disk not present in database
+Submit result: GVkkACY1LQIdTg3Z78v_T9UJMv0- has been uploaded
+
+
+====  BFD4FF0569E8A2DFE2C415F36B87548CE6FBD2930322D4CD34D3EAD2D7877094 ====
