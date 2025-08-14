@@ -22,7 +22,7 @@ jobs:
       - name: Composer install
         run: composer install
 
-      - run: pip3 install cchardet xld_logchecker eac_logchecker
+      - run: pip3 install cchardet==2.2.0a2 xld_logchecker eac_logchecker
 
       - run: composer run lint
 
