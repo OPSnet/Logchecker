@@ -1,0 +1,136 @@
+Exact Audio Copy <span class="log1">V1.8</span> from <span class="log1">15. July 2024</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'> : 27. April 2025, 23:59</span></span>
+
+<span class="log4">Monochrome Fox / Burning Red</span>
+
+<span class="log5">Used Drive  </span>: <span class="badish">   : ATAPI   iHAS324   B   Adapter: 1  ID: 0 (not found in database)</span>
+
+<span class="log5">Read mode            </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache   </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers       </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction       </span>: <span class="badish">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence  </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks      </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations    </span>: <span class="good">Yes</span>
+<span class="log5">Used interface             </span>: <span class="log4"> Native Win32 interface for XP/Vista/Win 7 </span>
+<span class="log5">Gap handling            </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format         </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate       </span>: <span class="log4">896 kBit/s</span>
+<span class="log5">Quality              </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor           </span>: <span class="log4">C:\Program Files (x86)\Exact Audio Copy\Flac\flac.exe</span>
+<span class="log5">Additional command line options  </span>: <span class="log4">-8 -V -T "ARTIST=%artist%" -T "TITLE=%title%" -T "ALBUM=%albumtitle%" -T "DATE=%year%" -T 
+"TrackNUMBER=%Tracknr%" -T "GENRE=%genre%" -T "PERFORMER=%albuminterpret%" -T "COMPOSER=%composer%" %haslyrics%--tag-from-file=LYRICS="%lyricsfile%"%haslyrics% -T "ALBUMARTIST=%albumartist%" -T "DISCNUMBER=%cdnumber%" -T "TOTALDISCS=%totalcds%" -T "TOTALTrackS=%numTracks%" -T "COMMENT=%comment%" %source% -o %dest%</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start   |    Length    | Start sector | End sector </strong>
+    <strong>-----------------------------------------------</strong>
+       <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>  <span class="log1">4:48.00</span> <strong>|</strong>      <span class="log1">0</span>  <strong>|</strong>  <span class="log1">21599</span> 
+       <span class="log4">2</span>  <strong>|</strong>  <span class="log1">4:48.00</span> <strong>|</strong>  <span class="log1">4:40.00</span> <strong>|</strong>  <span class="log1">21600</span>  <strong>|</strong>  <span class="log1">42599</span> 
+       <span class="log4">3</span>  <strong>|</strong>  <span class="log1">9:28.00</span> <strong>|</strong>  <span class="log1">4:30.00</span> <strong>|</strong>  <span class="log1">42600</span>  <strong>|</strong>  <span class="log1">62849</span> 
+       <span class="log4">4</span>  <strong>|</strong> <span class="log1">13:58.00</span> <strong>|</strong>  <span class="log1">4:48.00</span> <strong>|</strong>  <span class="log1">62850</span>  <strong>|</strong>  <span class="log1">84449</span> 
+       <span class="log4">5</span>  <strong>|</strong> <span class="log1">18:46.00</span> <strong>|</strong>  <span class="log1">4:40.00</span> <strong>|</strong>  <span class="log1">84450</span>  <strong>|</strong> <span class="log1">105449</span> 
+       <span class="log4">6</span>  <strong>|</strong> <span class="log1">23:26.00</span> <strong>|</strong>  <span class="log1">4:30.00</span> <strong>|</strong> <span class="log1">105450</span>  <strong>|</strong> <span class="log1">125699</span> 
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">Z:\Music\Burning Red\01 Burning Red.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     Extraction speed  5.8 X
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">BF74E49F</span></span>
+     <span class="log4">Copy CRC <span class="good">BF74E49F</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">Z:\Music\Burning Red\02 シクラメン.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     Extraction speed  6.2 X
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">50959519</span></span>
+     <span class="log4">Copy CRC <span class="good">50959519</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">Z:\Music\Burning Red\03 Can we say, ''See you again''.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     Extraction speed  6.5 X
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">91395EF1</span></span>
+     <span class="log4">Copy CRC <span class="good">91395EF1</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">Z:\Music\Burning Red\04 Burning Red[Instrumental].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     Extraction speed  7.3 X
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3DC78F9A</span></span>
+     <span class="log4">Copy CRC <span class="good">3DC78F9A</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">Z:\Music\Burning Red\05 シクラメン[Instrumental].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     Extraction speed  7.7 X
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">DDFD8730</span></span>
+     <span class="log4">Copy CRC <span class="good">DDFD8730</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">Z:\Music\Burning Red\06 Can we say, ''See you again''[Instrumental].wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">100.0 %</span></span>
+     Extraction speed  8.2 X
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C9882387</span></span>
+     <span class="log4">Copy CRC <span class="good">C9882387</span></span>
+     <span class="badish">Track not present in AccurateRip database</span>
+     <span class="good">Copy OK</span>
+
+
+None of the Tracks are present in the AccurateRip database
+
+<span class="good">No errors occurred</span>
+
+<span class="good">End of status report</span>
+
+---- AcoustID Plugin V1.2.0
+
+Submitting 6 results to AcoustID
+
+AcoustID successfully submitted
+
+
+---- CUETools DB Plugin V2.2.6
+
+[CTDB TOCID: GVkkACY1LQIdTg3Z78v_T9UJMv0-] disk not present in database
+Submit result: GVkkACY1LQIdTg3Z78v_T9UJMv0- has been uploaded
+
+<span class='good'>====  BFD4FF0569E8A2DFE2C415F36B87548CE6FBD2930322D4CD34D3EAD2D7877094 ====</span>

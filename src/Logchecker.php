@@ -407,9 +407,16 @@ class Logchecker
 
         $this->log = str_replace(array("\r\n", "\r"), array("\n", ""), $this->log);
 
+        // Some foreign logs end up omitting "Log checksum" for whatever reason (probably bad translation file)
+        // so we allow it to be missing for those, but english should always have it, and it's also the bulk of
+        // our log uploads anyway.
+        $eacChecksumString = $this->language === 'en'
+            ? "/(====[ ]+Log checksum [\d\w ]+[ ]+====)/i"
+            : "/(====[ ]+[\d\w ]+[ ]+====)/i";
+
         // Split the log apart
-        if (preg_match("/[\=]+\s+Log checksum/i", $this->log)) { // eac checksum
-            $this->logs = preg_split("/(\n\=+\s+Log checksum.*)/i", $this->log, -1, PREG_SPLIT_DELIM_CAPTURE);
+        if (preg_match($eacChecksumString, $this->log)) { // eac checksum
+            $this->logs = preg_split("/(\n====[ ]+[\d\w ]+[ ]+====)/i", $this->log, -1, PREG_SPLIT_DELIM_CAPTURE);
         } elseif (
             preg_match(
                 "/[\-]+BEGIN XLD SIGNATURE[\S\n\-]+END XLD SIGNATURE[\-]+/i",
@@ -446,7 +453,7 @@ class Logchecker
                 unset($this->logs[$Key]);
             } elseif (
                 $this->checksumStatus === Check\Checksum::CHECKSUM_OK
-                && preg_match("/[\=]+\s+Log checksum/i", $Log)
+                && preg_match($eacChecksumString, $Log)
             ) {
                 $this->logs[$Key - 1] .= $Log;
                 unset($this->logs[$Key]);
@@ -477,7 +484,7 @@ class Logchecker
                             # that 0.99 included (-30 points)
                             $this->account("EAC version older than 0.99", 30);
                         }
-                    } elseif (!preg_match('/(\=+\s+Log checksum.*)/i', $Log)) {
+                    } elseif (!preg_match($eacChecksumString, $Log)) {
                         // Above version 1 and no checksum
                         $this->checksumStatus = Check\Checksum::CHECKSUM_MISSING;
                     }
@@ -563,7 +570,7 @@ class Logchecker
             }
 
             $Class = $this->checksumStatus === Check\Checksum::CHECKSUM_OK ? 'good' : 'bad';
-            $Log = preg_replace('/(\=+\s+Log checksum.*)/i', "<span class='{$Class}'>$1</span>", $Log, 1, $eacCount);
+            $Log = preg_replace($eacChecksumString, "<span class='{$Class}'>$1</span>", $Log, 1, $eacCount);
             $Log = preg_replace(
                 '/([\-]+BEGIN XLD SIGNATURE[\S\n\-]+END XLD SIGNATURE[\-]+)/i',
                 "<span class='{$Class}'>$1</span>",
