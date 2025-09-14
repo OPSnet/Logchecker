@@ -804,7 +804,7 @@ class Logchecker
                 'addId3Tag'
             ), $Log, 1, $Count);
             if (!$Count && $EAC) {
-                $this->account('Could not verify id3 tag setting', 1);
+                $this->account('Could not verify id3 tag setting');
             }
             $Log = preg_replace(
                 "/(Use compression offset\s+:\s+\d+)/i",

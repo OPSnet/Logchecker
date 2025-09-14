@@ -3,11 +3,11 @@
     "version": "1.0 beta 3",
     "language": "en",
     "combined": false,
-    "score": 59,
+    "score": 60,
     "checksum": "checksum_ok",
     "details": [
         "Could not verify gap handling (-10 points)",
-        "Could not verify id3 tag setting (-1 point)",
+        "Could not verify id3 tag setting",
         "Range rip detected (-30 points)"
     ]
 }
