@@ -1577,6 +1577,7 @@ class Logchecker
         } else {
             $Class = 'badish';
             $Matches[2] .= ' (not found in database)';
+            $this->DriveFound = false;
         }
         return "<span class=\"log5\">Used Drive$Matches[1]</span>: <span class=\"$Class\">$Matches[2]</span>";
     }
@@ -1610,6 +1611,9 @@ class Logchecker
                 $MatchedDrives[$Distance]['offsets'][] = (string) $Offset;
             }
         }
+
+        $this->Drives = [];
+        $this->Offsets = [];
 
         foreach ($MatchedDrives as $Match) {
             if (count($Match['drives']) > 0) {

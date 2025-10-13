@@ -1,0 +1,274 @@
+Exact Audio Copy V0.99 prebeta 5 from 4. May 2009
+
+EAC extraction logfile from 18. February 2010, 15:06
+
+Johann Christian Bach / 3 Quintets, Sextet (The English Concert, Trevor Pinnock)
+
+Used drive  : ATAPI   BD  O  DH4O1S   Adapter: 2  ID: 0
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 6
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files (x86)\FLAC\flac.exe
+Additional command line options : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.33 |  9:18.20 |        33    |    41902   
+        2  |  9:18.53 |  5:39.07 |     41903    |    67334   
+        3  | 14:57.60 |  5:25.08 |     67335    |    91717   
+        4  | 20:22.68 |  7:22.50 |     91718    |   124917   
+        5  | 27:45.43 |  5:09.57 |    124918    |   148149   
+        6  | 32:55.25 |  4:36.43 |    148150    |   168892   
+        7  | 37:31.68 |  7:23.37 |    168893    |   202154   
+        8  | 44:55.30 |  3:42.63 |    202155    |   218867   
+        9  | 48:38.18 |  2:53.50 |    218868    |   231892   
+       10  | 51:31.68 |  7:58.25 |    231893    |   267767   
+       11  | 59:30.18 |  5:07.32 |    267768    |   290824   
+       12  | 64:37.50 |  4:18.55 |    290825    |   310229   
+
+
+Track  1
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\01 - Quintet in D major for Flute, Oboe, Violin, Cello & Keyboard, Op. 22 No. 1- 1. Allegro.wav
+
+     Pre-gap length  0:00:02.44
+
+     Peak level 74.2 %
+     Track quality 100.0 %
+     Test CRC 2AE913A9
+     Copy CRC 2AE913A9
+     Accurately ripped (confidence 10)  [43E18ED6]
+     Copy OK
+
+Track  2
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\02 - Quintet in D major for Flute, Oboe, Violin, Cello & Keyboard, Op. 22 No. 1- 2. Andantino.wav
+
+     Pre-gap length  0:00:01.00
+
+     Peak level 52.9 %
+     Track quality 100.0 %
+     Test CRC 4685E44C
+     Copy CRC 4685E44C
+     Accurately ripped (confidence 8)  [A12FCBC1]
+     Copy OK
+
+Track  3
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\03 - Quintet in D major for Flute, Oboe, Violin, Cello & Keyboard, Op. 22 No. 1- 3. Allegro assai.wav
+
+     Pre-gap length  0:00:01.49
+
+     Peak level 66.4 %
+     Track quality 99.9 %
+     Test CRC 70DD487E
+     Copy CRC 70DD487E
+     Accurately ripped (confidence 10)  [1357D498]
+     Copy OK
+
+Track  4
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\04 - Sextet in C major for Oboe, 2 Horns, Violin, Cello & Keyboard- 1. Allegro.wav
+
+     Pre-gap length  0:00:04.84
+
+     Peak level 81.2 %
+     Track quality 100.0 %
+     Test CRC 807A7D80
+     Copy CRC 807A7D80
+     Accurately ripped (confidence 10)  [C8C0E676]
+     Copy OK
+
+Track  5
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\05 - Sextet in C major for Oboe, 2 Horns, Violin, Cello & Keyboard- 2. Larghetto.wav
+
+     Pre-gap length  0:00:03.10
+
+     Peak level 30.7 %
+     Track quality 100.0 %
+     Test CRC F0E2466D
+     Copy CRC F0E2466D
+     Accurately ripped (confidence 10)  [DBC1CA49]
+     Copy OK
+
+Track  6
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\06 - Sextet in C major for Oboe, 2 Horns, Violin, Cello & Keyboard- 3. Rondo Allegro.wav
+
+     Pre-gap length  0:00:00.42
+
+     Copy aborted
+
+Track  7
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\07 - Quintet in D major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 6- 1. Allegro.wav
+
+     Pre-gap length  0:00:02.66
+
+     Peak level 73.7 %
+     Track quality 100.0 %
+     Test CRC 1E8A8E1D
+     Copy CRC 1E8A8E1D
+     Accurately ripped (confidence 10)  [A1DF6589]
+     Copy OK
+
+Track  8
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\08 - Quintet in D major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 6- 2. Andantino.wav
+
+     Pre-gap length  0:00:02.48
+
+     Peak level 91.1 %
+     Track quality 99.9 %
+     Test CRC 59BF2BE4
+     Copy CRC 59BF2BE4
+     Accurately ripped (confidence 9)  [C78D1022]
+     Copy OK
+
+Track  9
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\09 - Quintet in D major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 6- 3. Allegro assai.wav
+
+     Peak level 79.8 %
+     Track quality 99.9 %
+     Test CRC 7205848C
+     Copy CRC 7205848C
+     Accurately ripped (confidence 10)  [18066A1F]
+     Copy OK
+
+Track 10
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\10 - Quintet in C major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 1- 1. Allegretto.wav
+
+     Pre-gap length  0:00:05.00
+
+     Peak level 70.1 %
+     Track quality 100.0 %
+     Test CRC 3E2E0E20
+     Copy CRC 3E2E0E20
+     Accurately ripped (confidence 9)  [BF7549BE]
+     Copy OK
+
+Track 11
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\11 - Quintet in C major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 1- 2. Andantino.wav
+
+     Pre-gap length  0:00:02.10
+
+     Peak level 55.8 %
+     Track quality 100.0 %
+     Test CRC 9DAD3C83
+     Copy CRC 9DAD3C83
+     Accurately ripped (confidence 9)  [0365A610]
+     Copy OK
+
+Track 12
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\12 - Quintet in C major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 1- 3. Menuetto con variatione.
+
+     Pre-gap length  0:00:00.56
+
+     Peak level 63.9 %
+     Track quality 100.0 %
+     Test CRC C638FBDA
+     Copy CRC C638FBDA
+     Accurately ripped (confidence 9)  [AB9A80C1]
+     Copy OK
+
+
+11 track(s) accurately ripped
+ 1 track(s) canceled
+
+Some tracks could not be verified as accurate
+
+There were errors
+
+End of status report
+
+------------------------------------------------------------
+
+Exact Audio Copy V0.99 prebeta 5 from 4. May 2009
+
+EAC extraction logfile from 18. February 2010, 15:23
+
+Johann Christian Bach / 3 Quintets, Sextet (The English Concert, Trevor Pinnock)
+
+Used drive  : MATSHITADVD-RAM UJ862AS   Adapter: 0  ID: 1
+
+Read mode               : Secure
+Utilize accurate stream : Yes
+Defeat audio cache      : Yes
+Make use of C2 pointers : No
+
+Read offset correction                      : 102
+Overread into Lead-In and Lead-Out          : No
+Fill up missing offset samples with silence : Yes
+Delete leading and trailing silent blocks   : No
+Null samples used in CRC calculations       : Yes
+Used interface                              : Native Win32 interface for Win NT & 2000
+Gap handling                                : Appended to previous track
+
+Used output format              : User Defined Encoder
+Selected bitrate                : 768 kBit/s
+Quality                         : High
+Add ID3 tag                     : No
+Command line compressor         : C:\Program Files (x86)\FLAC\flac.exe
+Additional command line options : -V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" %s
+
+
+TOC of the extracted CD
+
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  |  0:00.33 |  9:18.20 |        33    |    41902   
+        2  |  9:18.53 |  5:39.07 |     41903    |    67334   
+        3  | 14:57.60 |  5:25.08 |     67335    |    91717   
+        4  | 20:22.68 |  7:22.50 |     91718    |   124917   
+        5  | 27:45.43 |  5:09.57 |    124918    |   148149   
+        6  | 32:55.25 |  4:36.43 |    148150    |   168892   
+        7  | 37:31.68 |  7:23.37 |    168893    |   202154   
+        8  | 44:55.30 |  3:42.63 |    202155    |   218867   
+        9  | 48:38.18 |  2:53.50 |    218868    |   231892   
+       10  | 51:31.68 |  7:58.25 |    231893    |   267767   
+       11  | 59:30.18 |  5:07.32 |    267768    |   290824   
+       12  | 64:37.50 |  4:18.55 |    290825    |   310229   
+
+
+Track  6
+
+     Filename C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\06 - Sextet in C major for Oboe, 2 Horns, Violin, Cello & Keyboard- 3. Rondo Allegro.wav
+
+     Pre-gap length  0:00:00.42
+
+     Peak level 62.7 %
+     Track quality 100.0 %
+     Test CRC C1B6B81D
+     Copy CRC C1B6B81D
+     Accurately ripped (confidence 10)  [6298670B]
+     Copy OK
+
+
+All tracks accurately ripped
+
+No errors occurred
+
+End of status report

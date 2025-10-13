@@ -1,0 +1,274 @@
+Exact Audio Copy <span class="log1">V0.99 prebeta 5</span> from <span class="log1">4. May 2009</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>18. February 2010, 15:06</span></span>
+
+<span class="log4">Johann Christian Bach / 3 Quintets, Sextet (The English Concert, Trevor Pinnock)</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">ATAPI   BD  O  DH4O1S   Adapter: 2  ID: 0</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="good">6</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">768 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\FLAC\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" 
+%s</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.33</span> <strong>|</strong>  <span class="log1">9:18.20</span> <strong>|</strong>        <span class="log1">33</span>    <strong>|</strong>    <span class="log1">41902</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">9:18.53</span> <strong>|</strong>  <span class="log1">5:39.07</span> <strong>|</strong>     <span class="log1">41903</span>    <strong>|</strong>    <span class="log1">67334</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">14:57.60</span> <strong>|</strong>  <span class="log1">5:25.08</span> <strong>|</strong>     <span class="log1">67335</span>    <strong>|</strong>    <span class="log1">91717</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">20:22.68</span> <strong>|</strong>  <span class="log1">7:22.50</span> <strong>|</strong>     <span class="log1">91718</span>    <strong>|</strong>   <span class="log1">124917</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">27:45.43</span> <strong>|</strong>  <span class="log1">5:09.57</span> <strong>|</strong>    <span class="log1">124918</span>    <strong>|</strong>   <span class="log1">148149</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">32:55.25</span> <strong>|</strong>  <span class="log1">4:36.43</span> <strong>|</strong>    <span class="log1">148150</span>    <strong>|</strong>   <span class="log1">168892</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">37:31.68</span> <strong>|</strong>  <span class="log1">7:23.37</span> <strong>|</strong>    <span class="log1">168893</span>    <strong>|</strong>   <span class="log1">202154</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">44:55.30</span> <strong>|</strong>  <span class="log1">3:42.63</span> <strong>|</strong>    <span class="log1">202155</span>    <strong>|</strong>   <span class="log1">218867</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">48:38.18</span> <strong>|</strong>  <span class="log1">2:53.50</span> <strong>|</strong>    <span class="log1">218868</span>    <strong>|</strong>   <span class="log1">231892</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">51:31.68</span> <strong>|</strong>  <span class="log1">7:58.25</span> <strong>|</strong>    <span class="log1">231893</span>    <strong>|</strong>   <span class="log1">267767</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">59:30.18</span> <strong>|</strong>  <span class="log1">5:07.32</span> <strong>|</strong>    <span class="log1">267768</span>    <strong>|</strong>   <span class="log1">290824</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">64:37.50</span> <strong>|</strong>  <span class="log1">4:18.55</span> <strong>|</strong>    <span class="log1">290825</span>    <strong>|</strong>   <span class="log1">310229</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\01 - Quintet in D major for Flute, Oboe, Violin, Cello & Keyboard, Op. 22 No. 1- 1. Allegro.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.44</span></span>
+
+     <span class="log4">Peak level <span class="log3">74.2 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">2AE913A9</span></span>
+     <span class="log4">Copy CRC <span class="good">2AE913A9</span></span>
+     <span class="good">Accurately ripped (confidence 10)  [43E18ED6]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\02 - Quintet in D major for Flute, Oboe, Violin, Cello & Keyboard, Op. 22 No. 1- 2. Andantino.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">52.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">4685E44C</span></span>
+     <span class="log4">Copy CRC <span class="good">4685E44C</span></span>
+     <span class="good">Accurately ripped (confidence 8)  [A12FCBC1]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\03 - Quintet in D major for Flute, Oboe, Violin, Cello & Keyboard, Op. 22 No. 1- 3. Allegro assai.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:01.49</span></span>
+
+     <span class="log4">Peak level <span class="log3">66.4 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">70DD487E</span></span>
+     <span class="log4">Copy CRC <span class="good">70DD487E</span></span>
+     <span class="good">Accurately ripped (confidence 10)  [1357D498]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\04 - Sextet in C major for Oboe, 2 Horns, Violin, Cello & Keyboard- 1. Allegro.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:04.84</span></span>
+
+     <span class="log4">Peak level <span class="log3">81.2 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">807A7D80</span></span>
+     <span class="log4">Copy CRC <span class="good">807A7D80</span></span>
+     <span class="good">Accurately ripped (confidence 10)  [C8C0E676]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\05 - Sextet in C major for Oboe, 2 Horns, Violin, Cello & Keyboard- 2. Larghetto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:03.10</span></span>
+
+     <span class="log4">Peak level <span class="log3">30.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">F0E2466D</span></span>
+     <span class="log4">Copy CRC <span class="good">F0E2466D</span></span>
+     <span class="good">Accurately ripped (confidence 10)  [DBC1CA49]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\06 - Sextet in C major for Oboe, 2 Horns, Violin, Cello & Keyboard- 3. Rondo Allegro.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.42</span></span>
+
+     <span class="bad">Copy aborted</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\07 - Quintet in D major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 6- 1. Allegro.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.66</span></span>
+
+     <span class="log4">Peak level <span class="log3">73.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">1E8A8E1D</span></span>
+     <span class="log4">Copy CRC <span class="good">1E8A8E1D</span></span>
+     <span class="good">Accurately ripped (confidence 10)  [A1DF6589]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\08 - Quintet in D major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 6- 2. Andantino.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.48</span></span>
+
+     <span class="log4">Peak level <span class="log3">91.1 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">59BF2BE4</span></span>
+     <span class="log4">Copy CRC <span class="good">59BF2BE4</span></span>
+     <span class="good">Accurately ripped (confidence 9)  [C78D1022]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\09 - Quintet in D major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 6- 3. Allegro assai.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">79.8 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Test CRC <span class="good">7205848C</span></span>
+     <span class="log4">Copy CRC <span class="good">7205848C</span></span>
+     <span class="good">Accurately ripped (confidence 10)  [18066A1F]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\10 - Quintet in C major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 1- 1. Allegretto.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:05.00</span></span>
+
+     <span class="log4">Peak level <span class="log3">70.1 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">3E2E0E20</span></span>
+     <span class="log4">Copy CRC <span class="good">3E2E0E20</span></span>
+     <span class="good">Accurately ripped (confidence 9)  [BF7549BE]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\11 - Quintet in C major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 1- 2. Andantino.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:02.10</span></span>
+
+     <span class="log4">Peak level <span class="log3">55.8 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">9DAD3C83</span></span>
+     <span class="log4">Copy CRC <span class="good">9DAD3C83</span></span>
+     <span class="good">Accurately ripped (confidence 9)  [0365A610]</span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\12 - Quintet in C major for Flute, Oboe, Violin, Viola & Continuo, Op. 11 No. 1- 3. Menuetto con variatione.</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.56</span></span>
+
+     <span class="log4">Peak level <span class="log3">63.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C638FBDA</span></span>
+     <span class="log4">Copy CRC <span class="good">C638FBDA</span></span>
+     <span class="good">Accurately ripped (confidence 9)  [AB9A80C1]</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="good"><span class="log4">11 track(s) accurately ripped</span>
+</span> <span class="bad">1 track(s) canceled
+</span>
+<span class="badish">Some tracks could not be verified as accurate
+</span>
+<span class="bad">There were errors</span>
+<span class="good">End of status report</span>
+
+<strong>------------------------------------------------------------</strong>
+
+Exact Audio Copy <span class="log1">V0.99 prebeta 5</span> from <span class="log1">4. May 2009</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>18. February 2010, 15:23</span></span>
+
+<span class="log4">Johann Christian Bach / 3 Quintets, Sextet (The English Concert, Trevor Pinnock)</span>
+
+<span class="log5">Used Drive  </span>: <span class="badish">MATSHITADVD-RAM NOTREALDRIVE   Adapter: 0  ID: 1 (not found in database)</span>
+
+<span class="log5">Read mode               </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache      </span>: <span class="good">Yes</span>
+<span class="log5">Make use of C2 pointers </span>: <span class="good">No</span>
+
+<span class="log5">Read offset correction                      </span>: <span class="badish">102</span>
+<span class="log5">Overread into Lead-In and Lead-Out          </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks   </span>: <span class="good">No</span>
+<span class="log5">Null samples used in CRC calculations       </span>: <span class="good">Yes</span>
+<span class="log5">Used interface                              </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                                </span>: <span class="good">Appended to previous track</span>
+
+<span class="log5">Used output format              </span>: <span class="log4">User Defined Encoder</span>
+<span class="log5">Selected bitrate                </span>: <span class="log4">768 kBit/s</span>
+<span class="log5">Quality                         </span>: <span class="log4">High</span>
+<span class="log5">Add ID3 tag                     </span>: <span class="good">No</span>
+<span class="log5">Command line compressor         </span>: <span class="log4">C:\Program Files (x86)\FLAC\flac.exe</span>
+<span class="log5">Additional command line options </span>: <span class="log4">-V -8 -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" 
+%s</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  |  Length  | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------</strong>
+        <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.33</span> <strong>|</strong>  <span class="log1">9:18.20</span> <strong>|</strong>        <span class="log1">33</span>    <strong>|</strong>    <span class="log1">41902</span>   
+        <span class="log4">2</span>  <strong>|</strong>  <span class="log1">9:18.53</span> <strong>|</strong>  <span class="log1">5:39.07</span> <strong>|</strong>     <span class="log1">41903</span>    <strong>|</strong>    <span class="log1">67334</span>   
+        <span class="log4">3</span>  <strong>|</strong> <span class="log1">14:57.60</span> <strong>|</strong>  <span class="log1">5:25.08</span> <strong>|</strong>     <span class="log1">67335</span>    <strong>|</strong>    <span class="log1">91717</span>   
+        <span class="log4">4</span>  <strong>|</strong> <span class="log1">20:22.68</span> <strong>|</strong>  <span class="log1">7:22.50</span> <strong>|</strong>     <span class="log1">91718</span>    <strong>|</strong>   <span class="log1">124917</span>   
+        <span class="log4">5</span>  <strong>|</strong> <span class="log1">27:45.43</span> <strong>|</strong>  <span class="log1">5:09.57</span> <strong>|</strong>    <span class="log1">124918</span>    <strong>|</strong>   <span class="log1">148149</span>   
+        <span class="log4">6</span>  <strong>|</strong> <span class="log1">32:55.25</span> <strong>|</strong>  <span class="log1">4:36.43</span> <strong>|</strong>    <span class="log1">148150</span>    <strong>|</strong>   <span class="log1">168892</span>   
+        <span class="log4">7</span>  <strong>|</strong> <span class="log1">37:31.68</span> <strong>|</strong>  <span class="log1">7:23.37</span> <strong>|</strong>    <span class="log1">168893</span>    <strong>|</strong>   <span class="log1">202154</span>   
+        <span class="log4">8</span>  <strong>|</strong> <span class="log1">44:55.30</span> <strong>|</strong>  <span class="log1">3:42.63</span> <strong>|</strong>    <span class="log1">202155</span>    <strong>|</strong>   <span class="log1">218867</span>   
+        <span class="log4">9</span>  <strong>|</strong> <span class="log1">48:38.18</span> <strong>|</strong>  <span class="log1">2:53.50</span> <strong>|</strong>    <span class="log1">218868</span>    <strong>|</strong>   <span class="log1">231892</span>   
+       <span class="log4">10</span>  <strong>|</strong> <span class="log1">51:31.68</span> <strong>|</strong>  <span class="log1">7:58.25</span> <strong>|</strong>    <span class="log1">231893</span>    <strong>|</strong>   <span class="log1">267767</span>   
+       <span class="log4">11</span>  <strong>|</strong> <span class="log1">59:30.18</span> <strong>|</strong>  <span class="log1">5:07.32</span> <strong>|</strong>    <span class="log1">267768</span>    <strong>|</strong>   <span class="log1">290824</span>   
+       <span class="log4">12</span>  <strong>|</strong> <span class="log1">64:37.50</span> <strong>|</strong>  <span class="log1">4:18.55</span> <strong>|</strong>    <span class="log1">290825</span>    <strong>|</strong>   <span class="log1">310229</span>   
+
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\Classical Music\FLAC\Johann Christian Bach\Johann Christian Bach - 3 Quintets, Sextet (The English Concert, Trevor Pinnock) (19880)\06 - Sextet in C major for Oboe, 2 Horns, Violin, Cello & Keyboard- 3. Rondo Allegro.wav</span></span>
+
+     <span class="log4">Pre-gap length  <span class="log3">0:00:00.42</span></span>
+
+     <span class="log4">Peak level <span class="log3">62.7 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Test CRC <span class="good">C1B6B81D</span></span>
+     <span class="log4">Copy CRC <span class="good">C1B6B81D</span></span>
+     <span class="good">Accurately ripped (confidence 10)  [6298670B]</span>
+     <span class="good">Copy OK</span>
+
+
+<span class="good">All tracks accurately ripped</span>
+
+<span class="good">No errors occurred</span>
+<span class="good">End of status report</span>

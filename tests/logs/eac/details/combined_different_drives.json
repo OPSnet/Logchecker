@@ -1,0 +1,12 @@
+{
+    "ripper": "EAC",
+    "version": "0.99 prebeta 5",
+    "language": "en",
+    "combined": true,
+    "score": 100,
+    "checksum": "checksum_missing",
+    "details": [
+        "Combined Log (2)",
+        "Track 12 (1): Could not verify filename, too long"
+    ]
+}
