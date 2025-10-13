@@ -1,0 +1,19 @@
+{
+    "ripper": "EAC",
+    "version": "0.99 prebeta 1",
+    "language": "ru",
+    "combined": false,
+    "score": 55,
+    "checksum": "checksum_missing",
+    "details": [
+        "[Notice] Translated log from \u0420\u0443\u0441\u0441\u043a\u0438\u0439 (Russian) to English.",
+        "\"Defeat audio cache\" should be yes (-10 points)",
+        "C2 pointers were used (-10 points)",
+        "Could not verify read offset (-1 point)",
+        "Combined read\/write offset cannot be verified (-4 points)",
+        "Could not verify null samples",
+        "Gap handling was not detected (-10 points)",
+        "Could not verify id3 tag setting",
+        "Test and copy was not used (-10 points)"
+    ]
+}

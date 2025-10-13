@@ -19,7 +19,6 @@ class Util
         } catch (\RuntimeException $exc) {
             $chardet = null;
         }
-        /** @var Chardet $chardet */
 
         // Whipper uses UTF-8 so we don't need to bother checking, especially as it's
         // possible a log may be falsely detected as a different encoding by chardet
@@ -38,29 +37,31 @@ class Util
             $log = substr($log, 3);
         } elseif ($chardet !== null) {
             $results = $chardet->analyze($logPath);
-            if ($results['charset'] !== 'utf-8' && $results['confidence'] > 0.7) {
-                // ideally we'd be able to use mb_convert_encoding as it has more widespread
-                // support vs iconv, but it does not support as many encodings as iconv, such
-                // as Windows-1250 (along with others) which is a common encoding for range logs
-                // coming from rutracker
-                // $log = mb_convert_encoding($log, 'UTF-8', $results['charset']);
-                $tmp = @iconv($results['charset'], 'UTF-8', $log);
+            if ($results['charset'] !== 'utf-8') {
+                if ($results['confidence'] > 0.6) {
+                    // ideally we'd be able to use mb_convert_encoding as it has more widespread
+                    // support vs iconv, but it does not support as many encodings as iconv, such
+                    // as Windows-1250 (along with others) which is a common encoding for range logs
+                    // coming from rutracker
+                    // $log = mb_convert_encoding($log, 'UTF-8', $results['charset']);
+                    $tmp = @iconv($results['charset'], 'UTF-8', $log);
 
-                // depending on your iconv version, some encodings may be represented
-                // with prefix of mac-* or mac (like maccentraleurope vs mac-centraleurope)
-                if ($tmp === false && substr($results['charset'], 0, 3) === 'mac') {
-                    $tmp = @iconv('mac-' . substr($results['charset'], 3), 'UTF-8', $log);
+                    // depending on your iconv version, some encodings may be represented
+                    // with prefix of mac-* or mac (like maccentraleurope vs mac-centraleurope)
+                    if ($tmp === false && substr($results['charset'], 0, 3) === 'mac') {
+                        $tmp = @iconv('mac-' . substr($results['charset'], 3), 'UTF-8', $log);
+                    }
+                    $log = $tmp;
+                    if ($log === false) {
+                        throw new \RuntimeException('Could not properly decode log encoding');
+                    }
+                } elseif ($results['charset'] !== 'utf-8' && $results['confidence'] > 0.3) {
+                    // If we've got a poor confidence on our decoding, we just use a generic
+                    // ISO-8859-1 as that covers a decent range of things that people would
+                    // inadvertently re-encode a log into. I seriously cannot express how
+                    // much I hate how EAC does not use always UTF-8.
+                    $log = iconv('ISO-8859-1', 'UTF-8', $log);
                 }
-                $log = $tmp;
-                if ($log === false) {
-                    throw new \RuntimeException('Could not properly decode log encoding');
-                }
-            } elseif ($results['charset'] !== 'utf-8' && $results['confidence'] > 0.3) {
-                // If we've got a poor confidence on our decoding, we just use a generic
-                // ISO-8859-1 as that covers a decent range of things that people would
-                // inadvertently re-encode a log into. I seriously cannot express how
-                // much I hate how EAC does not use always UTF-8.
-                $log = iconv('ISO-8859-1', 'UTF-8', $log);
             }
         }
 

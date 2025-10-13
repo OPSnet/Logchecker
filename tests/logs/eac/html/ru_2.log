@@ -1,0 +1,152 @@
+Exact Audio Copy <span class="log1">V0.99 prebeta 1</span> from <span class="log1">25. May 2007</span>
+
+<span class='good'>EAC extraction logfile from <span class='log5'>10. March 2010, 12:34</span></span>
+
+<span class="log4">Unknown Artist / Unknown Title</span>
+
+<span class="log5">Used Drive  </span>: <span class="good">_NEC    DVD_RW ND-4571A   Adapter: 0  ID: 0</span>
+
+<span class="log5">Read mode                 </span>: <span class="good">Secure</span>
+<span class="log5">Utilize accurate stream </span>: <span class="good">Yes</span>
+<span class="log5">Defeat audio cache        </span>: <span class="bad">No</span>
+<span class="log5">Make use of C2 pointers  </span>: <span class="bad">Yes</span>
+
+<span class="bad">Combined read/write offset correction        : 0</span>
+<span class="log5">Overread into Lead-In and Lead-Out </span>: <span class="log4">No</span>
+<span class="log5">Fill up missing offset samples with silence        </span>: <span class="good">Yes</span>
+<span class="log5">Delete leading and trailing silent blocks    </span>: <span class="good">No</span>
+<span class="log5">Used interface                                     </span>: <span class="log4">Native Win32 interface for Win NT & 2000</span>
+<span class="log5">Gap handling                             </span>: <span class="bad">Not detected, thus appended to previous track</span>
+
+<span class="log5">Used output format </span>: <span class="log4">Internal WAV Routines</span>
+<span class="log5">Sample format  </span>: <span class="log4">44.100 Hz; 16 Bit; Stereo</span>
+
+
+<span class="log4 log5">TOC of the extracted CD</span>
+
+<strong>     Track |   Start  | Length | Start sector | End sector </strong>
+    <strong>---------------------------------------------------------------------</strong>
+       <span class="log4">1</span>  <strong>|</strong>  <span class="log1">0:00.00</span> <strong>|</strong>    <span class="log1">6:54.17</span>   <strong>|</strong>           <span class="log1">0</span>      <strong>|</strong>      <span class="log1">31066</span>      
+       <span class="log4">2</span>  <strong>|</strong>  <span class="log1">6:54.17</span> <strong>|</strong>    <span class="log1">5:33.72</span>   <strong>|</strong>       <span class="log1">31067</span>      <strong>|</strong>      <span class="log1">56113</span>      
+       <span class="log4">3</span>  <strong>|</strong> <span class="log1">12:28.14</span> <strong>|</strong>    <span class="log1">3:46.71</span>   <strong>|</strong>       <span class="log1">56114</span>      <strong>|</strong>      <span class="log1">73134</span>      
+       <span class="log4">4</span>  <strong>|</strong> <span class="log1">16:15.10</span> <strong>|</strong>    <span class="log1">6:46.27</span>   <strong>|</strong>       <span class="log1">73135</span>      <strong>|</strong>     <span class="log1">103611</span>      
+       <span class="log4">5</span>  <strong>|</strong> <span class="log1">23:01.37</span> <strong>|</strong>    <span class="log1">6:05.59</span>   <strong>|</strong>      <span class="log1">103612</span>      <strong>|</strong>     <span class="log1">131045</span>      
+       <span class="log4">6</span>  <strong>|</strong> <span class="log1">29:07.21</span> <strong>|</strong>    <span class="log1">6:06.74</span>   <strong>|</strong>      <span class="log1">131046</span>      <strong>|</strong>     <span class="log1">158569</span>      
+       <span class="log4">7</span>  <strong>|</strong> <span class="log1">35:14.20</span> <strong>|</strong>    <span class="log1">4:10.03</span>   <strong>|</strong>      <span class="log1">158570</span>      <strong>|</strong>     <span class="log1">177322</span>      
+       <span class="log4">8</span>  <strong>|</strong> <span class="log1">39:24.23</span> <strong>|</strong>    <span class="log1">4:15.52</span>   <strong>|</strong>      <span class="log1">177323</span>      <strong>|</strong>     <span class="log1">196499</span>      
+       <span class="log4">9</span>  <strong>|</strong> <span class="log1">43:40.00</span> <strong>|</strong>    <span class="log1">7:47.55</span>   <strong>|</strong>      <span class="log1">196500</span>      <strong>|</strong>     <span class="log1">231579</span>      
+      <span class="log4">10</span>  <strong>|</strong> <span class="log1">51:27.55</span> <strong>|</strong>    <span class="log1">5:41.56</span>   <strong>|</strong>      <span class="log1">231580</span>      <strong>|</strong>     <span class="log1">257210</span>      
+      <span class="log4">11</span>  <strong>|</strong> <span class="log1">57:09.36</span> <strong>|</strong>    <span class="log1">7:47.53</span>   <strong>|</strong>      <span class="log1">257211</span>      <strong>|</strong>     <span class="log1">292288</span>      
+      <span class="log4">12</span>  <strong>|</strong> <span class="log1">64:57.14</span> <strong>|</strong>   <span class="log1">10:59.02</span>   <strong>|</strong>      <span class="log1">292289</span>      <strong>|</strong>     <span class="log1">341715</span>      
+
+
+<span class="log5">Track</span>  <span class="log4 log1">1</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track01.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">37374B7A</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">2</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track02.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">D7016D6A</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">3</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track03.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">99.9 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">522AB415</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">4</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track04.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">56E839AA</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">5</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track05.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">5BB3F2A7</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">6</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track06.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">C3D0197E</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">7</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track07.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">F9D68CEA</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">8</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track08.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">CD24B722</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span>  <span class="log4 log1">9</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track09.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">DC1D7CA3</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">10</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track10.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">E736E801</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">11</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track11.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">DEDA10BB</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="log5">Track</span> <span class="log4 log1">12</span>
+
+     <span class="log4">Filename <span class="log3">C:\Users\BeatRokazZ\Desktop\[upload]\Freeland [2010] Cope™ Remixed [MAPACDA010]\Disc 1\Track12.wav</span></span>
+
+     <span class="log4">Peak level <span class="log3">99.9 %</span></span>
+     <span class="log4">Track quality <span class="log3">100.0 %</span></span>
+     <span class="log4">Copy CRC <span class="log3">8E4C6F91</span></span>
+     <span class="good">Copy OK</span>
+
+<span class="good">No errors occurred</span>
+<span class="good">End of status report</span>
