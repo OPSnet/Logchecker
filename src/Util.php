@@ -2,6 +2,15 @@
 
 namespace OrpheusNET\Logchecker;
 
+const MAPPINGS = [
+    'macroman' => 'macintosh',
+    'maccentraleurope' => 'mac-centraleurope',
+    'maccyrillic' => 'mac-cyrillic',
+    'macis' => 'mac-is',
+    'macsami' => 'mac-sami',
+    'macuk' => 'mac-uk',
+];
+
 class Util
 {
     public static function commandExists(string $cmd)
@@ -39,6 +48,9 @@ class Util
             $results = $chardet->analyze($logPath);
             if ($results['charset'] !== 'utf-8') {
                 if ($results['confidence'] > 0.6) {
+                    if (isset(MAPPINGS[$results['charset']])) {
+                        $results['charset'] = MAPPINGS[$results['charset']];
+                    }
                     // ideally we'd be able to use mb_convert_encoding as it has more widespread
                     // support vs iconv, but it does not support as many encodings as iconv, such
                     // as Windows-1250 (along with others) which is a common encoding for range logs

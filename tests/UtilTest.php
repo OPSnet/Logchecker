@@ -20,21 +20,29 @@ class UtilTest extends TestCase
     /**
      * @dataProvider commandExistsDataProvider
      */
-    public function testCommandExists($command, $exists)
+    public function testCommandExists(string $command, bool $exists): void
     {
         $this->assertSame($exists, Util::commandExists($command));
     }
 
     public static function decodeLogDataProvider(): array
     {
-        $logPath = implode(DIRECTORY_SEPARATOR, [__DIR__, 'logs', 'eac', 'originals']);
+        $eacPath = implode(DIRECTORY_SEPARATOR, [__DIR__, 'logs', 'eac', 'originals']);
         $return = [];
-        foreach (new FilesystemIterator($logPath) as $file) {
+        foreach (new FilesystemIterator($eacPath) as $file) {
             [$language, $logName] = explode('_', $file->getFilename());
-            if (!file_exists(implode(DIRECTORY_SEPARATOR, [$logPath, '..', 'utf8', $language]))) {
-                continue;
+            $expectedFile = implode(DIRECTORY_SEPARATOR, [$eacPath, '..', 'utf8', $language, $logName]);
+            if (file_exists($expectedFile)) {
+                $return[] = [$file->getPathname(), $expectedFile];
             }
-            $return[] = [$file->getPathname(), $language, $logName];
+        }
+
+        $xldPath = implode(DIRECTORY_SEPARATOR, [__DIR__, 'logs', 'xld', 'originals']);
+        foreach (new FilesystemIterator($xldPath) as $file) {
+            $expectedFile = implode(DIRECTORY_SEPARATOR, [$xldPath, '..', 'utf8', $file->getFilename()]);
+            if (file_exists($expectedFile)) {
+                $return[] = [$file->getPathname(), $expectedFile];
+            }
         }
         return $return;
     }
@@ -42,9 +50,8 @@ class UtilTest extends TestCase
     /**
      * @dataProvider decodeLogDataProvider
      */
-    public function testDecodeLog(string $logPath, string $language, string $logName)
+    public function testDecodeLog(string $logPath, string $expectedFile): void
     {
-        $testLog = implode(DIRECTORY_SEPARATOR, [__DIR__, 'logs', 'eac', 'utf8', $language, $logName]);
-        $this->assertStringEqualsFile($testLog, Util::decodeEncoding(file_get_contents($logPath), $logPath));
+        $this->assertStringEqualsFile($expectedFile, Util::decodeEncoding(file_get_contents($logPath), $logPath));
     }
 }

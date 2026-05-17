@@ -1,0 +1,306 @@
+X Lossless Decoder version 20250302 (157.2)
+
+XLD extraction logfile from 2026-05-14 11:26:31 +0200
+
+Looptroop / The Struggle Continues
+
+Used drive : HL-DT-ST BD-RE BU40N (revision 1.03)
+Media type : Pressed CD
+
+Ripper mode             : XLD Secure Ripper
+Disable audio cache     : OK for the drive with a cache less than 1375KiB
+Make use of C2 pointers : NO
+Read offset correction  : 6
+Max retry count         : 20
+Gap status              : Analyzed, Appended (except HTOA)
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 01:23:38 |         0    |     6262   
+        2  | 01:23:38 | 03:51:24 |      6263    |    23611   
+        3  | 05:14:62 | 04:27:46 |     23612    |    43682   
+        4  | 09:42:33 | 04:25:13 |     43683    |    63570   
+        5  | 14:07:46 | 04:08:51 |     63571    |    82221   
+        6  | 18:16:22 | 04:08:38 |     82222    |   100859   
+        7  | 22:24:60 | 04:56:41 |    100860    |   123100   
+        8  | 27:21:26 | 01:56:53 |    123101    |   131853   
+        9  | 29:18:04 | 03:57:13 |    131854    |   149641   
+       10  | 33:15:17 | 05:54:67 |    149642    |   176258   
+       11  | 39:10:09 | 04:52:13 |    176259    |   198171   
+       12  | 44:02:22 | 04:04:74 |    198172    |   216545   
+       13  | 48:07:21 | 04:44:18 |    216546    |   237863   
+       14  | 52:51:39 | 05:57:13 |    237864    |   264651   
+
+AccurateRip Summary (DiscID: 001bbebd-012f451f-da0dc80e)
+    Track 01 : OK (v1+v2, confidence 29/29)
+    Track 02 : OK (v1+v2, confidence 29/29)
+    Track 03 : OK (v1+v2, confidence 29/29)
+    Track 04 : OK (v1+v2, confidence 29/29)
+    Track 05 : OK (v1+v2, confidence 29/29)
+    Track 06 : OK (v1+v2, confidence 29/29)
+    Track 07 : OK (v1+v2, confidence 29/29)
+    Track 08 : OK (v1+v2, confidence 29/29)
+    Track 09 : OK (v1+v2, confidence 28/28)
+    Track 10 : OK (v1+v2, confidence 29/29)
+    Track 11 : OK (v1+v2, confidence 29/29)
+    Track 12 : OK (v1+v2, confidence 29/29)
+    Track 13 : OK (v1+v2, confidence 29/29)
+    Track 14 : OK (v1+v2, confidence 29/29)
+        ->All tracks accurately ripped.
+
+All Tracks
+    Album gain               : -6.28 dB
+    Peak                     : 0.989044
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 01
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/01-Looptroop - David vs. Goliath Hustlas.flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -5.71 dB
+    Peak                     : 0.988831
+    CRC32 hash (test run)    : 05B43B55
+    CRC32 hash               : 05B43B55
+    CRC32 hash (skip zero)   : 9E2012B5
+    AccurateRip v1 signature : 7AF0490B
+    AccurateRip v2 signature : E59E843E
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 02
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/02-Looptroop - Don't Hate The Player.flac
+
+    Track gain               : -6.16 dB
+    Peak                     : 0.988953
+    CRC32 hash (test run)    : 0352C9EB
+    CRC32 hash               : 0352C9EB
+    CRC32 hash (skip zero)   : 5FCE783C
+    AccurateRip v1 signature : 83582A58
+    AccurateRip v2 signature : BF24EA10
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 03
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/03-Looptroop - The Struggle Continues.flac
+
+    Track gain               : -6.53 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : 90A9D106
+    CRC32 hash               : 90A9D106
+    CRC32 hash (skip zero)   : 1E45B2B5
+    AccurateRip v1 signature : 11016445
+    AccurateRip v2 signature : 30D27F0F
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 04
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/04-Looptroop - Looptroopland.flac
+
+    Track gain               : -6.53 dB
+    Peak                     : 0.988892
+    CRC32 hash (test run)    : 84ECB02F
+    CRC32 hash               : 84ECB02F
+    CRC32 hash (skip zero)   : D24A8640
+    AccurateRip v1 signature : B5B20F56
+    AccurateRip v2 signature : 2BBB1BBC
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 05
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/05-Looptroop - Looking For Love.flac
+
+    Track gain               : -6.66 dB
+    Peak                     : 0.988953
+    CRC32 hash (test run)    : 87B33504
+    CRC32 hash               : 87B33504
+    CRC32 hash (skip zero)   : 74D4BD39
+    AccurateRip v1 signature : 383AFDA9
+    AccurateRip v2 signature : 359F8D94
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 06
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/06-Looptroop - Revolutionary Step.flac
+
+    Track gain               : -6.85 dB
+    Peak                     : 0.988983
+    CRC32 hash (test run)    : 4D381344
+    CRC32 hash               : 4D381344
+    CRC32 hash (skip zero)   : 745D5D4E
+    AccurateRip v1 signature : 08EB50A5
+    AccurateRip v2 signature : 0B0C5629
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 07
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/07-Looptroop - Musical Stampede.flac
+
+    Track gain               : -6.03 dB
+    Peak                     : 0.988922
+    CRC32 hash (test run)    : 1834558B
+    CRC32 hash               : 1834558B
+    CRC32 hash (skip zero)   : BFB99792
+    AccurateRip v1 signature : 94FB7C0C
+    AccurateRip v2 signature : D873C5C6
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 08
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/08-Looptroop - Still Looking.flac
+
+    Track gain               : -5.88 dB
+    Peak                     : 0.988922
+    CRC32 hash (test run)    : 35011FD0
+    CRC32 hash               : 35011FD0
+    CRC32 hash (skip zero)   : B476189F
+    AccurateRip v1 signature : 221843DC
+    AccurateRip v2 signature : 4C26F320
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 09
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/09-Looptroop - Who Want It.flac
+
+    Track gain               : -6.54 dB
+    Peak                     : 0.988953
+    CRC32 hash (test run)    : DF657734
+    CRC32 hash               : DF657734
+    CRC32 hash (skip zero)   : 65BB25D8
+    AccurateRip v1 signature : 0D3EA6C3
+    AccurateRip v2 signature : 61C4345E
+        ->Accurately ripped (v1+v2, confidence 12+16/28)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 10
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/10-Looptroop - Fly Away ／ Up To The Sky.flac
+
+    Track gain               : -6.76 dB
+    Peak                     : 0.988983
+    CRC32 hash (test run)    : 14C2EF21
+    CRC32 hash               : 14C2EF21
+    CRC32 hash (skip zero)   : 6C5A8F42
+    AccurateRip v1 signature : F391BD30
+    AccurateRip v2 signature : B4FD7EED
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 11
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/11-Looptroop - Bandit Queen.flac
+
+    Track gain               : -6.08 dB
+    Peak                     : 0.989014
+    CRC32 hash (test run)    : 7F23004D
+    CRC32 hash               : 7F23004D
+    CRC32 hash (skip zero)   : 3233D2BC
+    AccurateRip v1 signature : DF43FB23
+    AccurateRip v2 signature : 6FCB1FA7
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 12
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/12-Looptroop - Get Ready.flac
+
+    Track gain               : -6.21 dB
+    Peak                     : 0.988953
+    CRC32 hash (test run)    : C513901A
+    CRC32 hash               : C513901A
+    CRC32 hash (skip zero)   : 61EC36F5
+    AccurateRip v1 signature : 252A16DB
+    AccurateRip v2 signature : EFECD33D
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 13
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/13-Looptroop - Fruits Of Babylon.flac
+
+    Track gain               : -5.31 dB
+    Peak                     : 0.988953
+    CRC32 hash (test run)    : CDD5B9C8
+    CRC32 hash               : CDD5B9C8
+    CRC32 hash (skip zero)   : AEEE045A
+    AccurateRip v1 signature : 06D277BC
+    AccurateRip v2 signature : BE1B9537
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 14
+    Filename : /Users/Shared/Temp/Looptroop - The Struggle Continues (2002) [FLAC]/14-Looptroop - Last Song.flac
+
+    Track gain               : -5.81 dB
+    Peak                     : 0.989014
+    CRC32 hash (test run)    : 56E7AADE
+    CRC32 hash               : 56E7AADE
+    CRC32 hash (skip zero)   : E0B0F0B6
+    AccurateRip v1 signature : 22CEE9FE
+    AccurateRip v2 signature : D55878A1
+        ->Accurately ripped (v1+v2, confidence 13+16/29)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+No errors occurred
+
+End of status report
+
+-----BEGIN XLD SIGNATURE-----
+xFV9ortiPTpiKYPur3ZbymuvO_m72b2X1BQfjsPGP4gxDOeibqRtOBhW5ogHM0K.MMSjJYW9wyx0PHjF1rgDvAd4KhStNZVLzARU3nC
+-----END XLD SIGNATURE-----
