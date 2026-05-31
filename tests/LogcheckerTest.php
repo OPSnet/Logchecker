@@ -27,9 +27,6 @@ class LogcheckerTest extends TestCase
     public function testLogchecker(string $ripper, string $filePath, string $fileName): void
     {
         $basePath = implode(DIRECTORY_SEPARATOR, [__DIR__, 'logs', strtolower($ripper)]);
-        if (!Checksum::logcheckerExists($ripper)) {
-            $this->markTestSkipped("Need to install {$ripper} logchecker");
-        }
 
         $detailsFile = implode(DIRECTORY_SEPARATOR, [$basePath, 'details', str_replace('.log', '.json', $fileName)]);
         if (!file_exists($detailsFile)) {

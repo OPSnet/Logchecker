@@ -1,0 +1,29 @@
+EAC 展開 ログファイル 日付： 24. 12月 2005, 18:37 for CD
+Various / GWAVE 2005  1st Impact
+
+使用ドライブ  : PLEXTOR CD-R   PX-W2410A   Adapter: 1  ID: 1
+読み込みモード   : セキュア（C2 : YES / 正確なデータ転送力 : YES / キャッシュ無効 : YES）
+読み込みオフセット訂正値 : 98
+リードインとリードアウトをオーバーリードする : Yes
+
+使用出力フォーマット : C:\Program Files\Monkey's Audio\MAC.exe   (Monkey's Audio Lossless Encoder)
+                     Extra High Lossless Compression
+
+その他のオプション      : 
+    消失したオフセットサンプルを無音に置き換える : Yes
+    曲の先頭と末尾の無音部を削除する : No
+    インストール済み外部 ASPI インターフェイス
+
+
+展開範囲ステータスとエラー
+選択された範囲
+     ファイル名 I:\CDImage.wav
+
+     ピークレベル 100.0 %
+     選択範囲品質 99.9 %
+     CRC 06A8B38C
+     コピー OK
+
+エラーは検出されませんでした
+
+ステータスの報告終了

@@ -1,0 +1,280 @@
+X Lossless Decoder version 20120609 (141.0)
+
+XLD extraction logfile from 2012-06-20 18:24:04 -0700
+
+Yellow Magic Orchestra / YMO Remixes Technopolis 99-00 Complete Edition
+
+Used drive : PLEXTOR BDDVDR PX-B310U (revision 1.07)
+
+Ripper mode             : XLD Secure Ripper
+Disable audio cache     : OK for the drive with a cache less than 1375KiB
+Make use of C2 pointers : NO
+Read offset correction  : 6
+Max retry count         : 100
+Gap status              : Analyzed, Appended
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 05:50:13 |         0    |    26262   
+        2  | 05:50:13 | 06:35:17 |     26263    |    55904   
+        3  | 12:25:30 | 06:16:43 |     55905    |    84147   
+        4  | 18:41:73 | 05:50:67 |     84148    |   110464   
+        5  | 24:32:65 | 04:55:58 |    110465    |   132647   
+        6  | 29:28:48 | 05:31:57 |    132648    |   157529   
+        7  | 35:00:30 | 04:52:03 |    157530    |   179432   
+        8  | 39:52:33 | 04:56:47 |    179433    |   201679   
+        9  | 44:49:05 | 07:00:30 |    201680    |   233209   
+       10  | 51:49:35 | 07:33:35 |    233210    |   267219   
+       11  | 59:22:70 | 04:55:55 |    267220    |   289399   
+       12  | 64:18:50 | 06:45:58 |    289400    |   319832   
+
+List of alternate offset correction values
+        #  | Absolute | Relative | Confidence 
+    ------------------------------------------
+        1  |   -158   |   -164   |      3     
+        2  |    136   |    130   |      2     
+
+AccurateRip Summary (DiscID: 001f6607-01245daa-9610a80c)
+    Track 01 : OK (v1, confidence 3/5, with different offset)
+    Track 02 : OK (v1, confidence 3/5, with different offset)
+    Track 03 : OK (v1, confidence 3/5, with different offset)
+    Track 04 : OK (v1, confidence 3/5, with different offset)
+    Track 05 : OK (v1, confidence 3/5, with different offset)
+    Track 06 : OK (v1, confidence 3/5, with different offset)
+    Track 07 : OK (v1, confidence 3/5, with different offset)
+    Track 08 : OK (v1, confidence 2/4, with different offset)
+    Track 09 : OK (v1, confidence 2/4, with different offset)
+    Track 10 : OK (v1, confidence 3/5, with different offset)
+    Track 11 : OK (v1, confidence 3/5, with different offset)
+    Track 12 : OK (v1, confidence 3/5, with different offset)
+        ->All tracks accurately ripped.
+
+All Tracks
+    Album gain               : -6.61 dB
+    Peak                     : 0.989044
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 01
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/01 - Yellow Magic Orchestra - Technopolis (The Readymade--Darlin' Of Discotheque Track).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -6.13 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : FAFEE330
+    CRC32 hash               : FAFEE330
+    CRC32 hash (skip zero)   : 3CC875B6
+    AccurateRip v1 signature : 17E5CBF2 (6E3CBE62 w/correction)
+    AccurateRip v2 signature : 74B5B881
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 02
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/02 - Yellow Magic Orchestra - Tighten Up (Remixed By Ken Ishii).flac
+    Pre-gap length : 00:01:32
+
+    Track gain               : -6.82 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : 3E0E929A
+    CRC32 hash               : 3E0E929A
+    CRC32 hash (skip zero)   : C6857964
+    AccurateRip v1 signature : 977B1D09 (E3D445F5 w/correction)
+    AccurateRip v2 signature : 001653B2
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 03
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/03 - Yellow Magic Orchestra - Rydeen (SRATM (Towa Tei) Remix).flac
+    Pre-gap length : 00:01:31
+
+    Track gain               : -7.06 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : 0D8680B4
+    CRC32 hash               : 0D8680B4
+    CRC32 hash (skip zero)   : 8F5BC887
+    AccurateRip v1 signature : 6B79FD36 (445F511A w/correction)
+    AccurateRip v2 signature : DE5B6605
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 04
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/04 - Yellow Magic Orchestra - Seoul Music (Remixed By Yoshinori Sunahara).flac
+    Pre-gap length : 00:01:29
+
+    Track gain               : -4.41 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : A2FBA89F
+    CRC32 hash               : A2FBA89F
+    CRC32 hash (skip zero)   : 492709F1
+    AccurateRip v1 signature : 388446F5 (63C7C6D9 w/correction)
+    AccurateRip v2 signature : 8C7F35F1
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 05
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/05 - Yellow Magic Orchestra - Castalia (Remixed By Motor Headphone From Dragon Ash).flac
+    Pre-gap length : 00:01:31
+
+    Track gain               : -9.75 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : 84BFC076
+    CRC32 hash               : 84BFC076
+    CRC32 hash (skip zero)   : 0CE1C836
+    AccurateRip v1 signature : 1F965B9A (ABAEFBBE w/correction)
+    AccurateRip v2 signature : 6B58D8B1
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 06
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/06 - Yellow Magic Orchestra - Behind The Mask (Remixed By DJ Hasebe).flac
+    Pre-gap length : 00:01:32
+
+    Track gain               : -5.43 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : 6F74F0B3
+    CRC32 hash               : 6F74F0B3
+    CRC32 hash (skip zero)   : BE900DB7
+    AccurateRip v1 signature : 9376D786 (088D6FBE w/correction)
+    AccurateRip v2 signature : 3A3AA886
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 07
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/07 - Yellow Magic Orchestra - Pure Jam (Vigorous Jam-Toshihiko Mori Remix).flac
+    Pre-gap length : 00:01:29
+
+    Track gain               : -5.45 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : 284632C6
+    CRC32 hash               : 284632C6
+    CRC32 hash (skip zero)   : C0CECC44
+    AccurateRip v1 signature : D364D1CA (EBF838AE w/correction)
+    AccurateRip v2 signature : 2530268E
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 08
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/08 - Yellow Magic Orchestra - Nice Age (Remixed By TMVG & Ichiro Sakai).flac
+    Pre-gap length : 00:02:37
+
+    Track gain               : -8.22 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : D7D0EAF3
+    CRC32 hash               : D7D0EAF3
+    CRC32 hash (skip zero)   : BEE8EF66
+    AccurateRip v1 signature : 898951E1 (DE6E7259 w/correction)
+    AccurateRip v2 signature : 405EBB51
+        ->Accurately ripped with different offset (v1, confidence 2/4, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 09
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/09 - Yellow Magic Orchestra - Behind The Mask (F.P.M's Sweet Soul Bossa Nova).flac
+    Pre-gap length : 00:01:31
+
+    Track gain               : -6.26 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : E25ACB69
+    CRC32 hash               : E25ACB69
+    CRC32 hash (skip zero)   : 18C2A873
+    AccurateRip v1 signature : B718DFAF (B0B168DB w/correction)
+    AccurateRip v2 signature : CAE60287
+        ->Accurately ripped with different offset (v1, confidence 2/4, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 10
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/10 - Yellow Magic Orchestra - Firecracker (Remixed By Malawi Rocks).flac
+    Pre-gap length : 00:01:29
+
+    Track gain               : -5.65 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : 08EF0B31
+    CRC32 hash               : 08EF0B31
+    CRC32 hash (skip zero)   : B3E3685F
+    AccurateRip v1 signature : AC12EBA5 (CE476979 w/correction)
+    AccurateRip v2 signature : E6F2D60A
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 11
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/11 - Yellow Magic Orchestra - Kochi (Remixed By The Mad Capsule Markets).flac
+    Pre-gap length : 00:01:31
+
+    Track gain               : -3.50 dB
+    Peak                     : 0.822693
+    CRC32 hash (test run)    : A1B47B13
+    CRC32 hash               : A1B47B13
+    CRC32 hash (skip zero)   : 9011D52C
+    AccurateRip v1 signature : 6A63F3BD (F8900705 w/correction)
+    AccurateRip v2 signature : B0C7BE61
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 12
+    Filename : /Volumes/2012 FLAC 2TB/Yellow Magic Orchestra - YMO Remixes Technopolis 99-00 Complete Edition (2009) [FLAC]/CD01/12 - Yellow Magic Orchestra - Perspective (Remixed By Sugizo).flac
+    Pre-gap length : 00:02:31
+
+    Track gain               : -5.05 dB
+    Peak                     : 0.989044
+    CRC32 hash (test run)    : 474BFD63
+    CRC32 hash               : 474BFD63
+    CRC32 hash (skip zero)   : 866CE4DA
+    AccurateRip v1 signature : 430DDE01 (AE1E3439 w/correction)
+    AccurateRip v2 signature : D6A38DF5
+        ->Accurately ripped with different offset (v1, confidence 3/5, offset -164)
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+No errors occurred
+
+End of status report

@@ -1,0 +1,13 @@
+{
+    "ripper": "XLD",
+    "version": "20090320",
+    "language": "en",
+    "combined": false,
+    "score": 80,
+    "checksum": "checksum_missing",
+    "details": [
+        "C2 pointers were used (-10 points)",
+        "Could not verify gap status (-10 points)",
+        "Could not verify album gain"
+    ]
+}

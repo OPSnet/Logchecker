@@ -556,17 +556,7 @@ class Logchecker
                 && $this->checksumStatus === Check\Checksum::CHECKSUM_OK
                 && !empty($this->logPath)
             ) {
-                if (Check\Checksum::logcheckerExists($this->ripper)) {
-                    $this->checksumStatus = Check\Checksum::validate($this->logPath, $this->ripper);
-                } else {
-                    $this->account(
-                        "Could not find {$this->ripper} logchecker, checksum not validated.",
-                        false,
-                        false,
-                        false,
-                        true
-                    );
-                }
+                $this->checksumStatus = Check\Checksum::validate($this->logPath, $this->ripper);
             }
 
             $Class = $this->checksumStatus === Check\Checksum::CHECKSUM_OK ? 'good' : 'bad';

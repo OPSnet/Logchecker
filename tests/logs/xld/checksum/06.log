@@ -1,0 +1,256 @@
+X Lossless Decoder version 20141129a (148.2)
+
+XLD extraction logfile from 2015-09-26 15:29:46 +0200
+
+David Bowie / Re:Call 1
+
+Used drive : MATSHITA DVD-R   UJ-8A8 (revision HB14)
+Media type : Pressed CD
+
+Ripper mode             : XLD Secure Ripper
+Disable audio cache     : OK for the drive with a cache less than 1375KiB
+Make use of C2 pointers : NO
+Read offset correction  : 102
+Max retry count         : 20
+Gap status              : Analyzed, Appended (except HTOA)
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 04:42:53 |         0    |    21202   
+        2  | 04:42:53 | 04:52:31 |     21203    |    43133   
+        3  | 09:35:09 | 05:06:54 |     43134    |    66137   
+        4  | 14:41:63 | 03:13:47 |     66138    |    80659   
+        5  | 17:55:35 | 03:07:19 |     80660    |    94703   
+        6  | 21:02:54 | 04:03:67 |     94704    |   112995   
+        7  | 25:06:46 | 03:34:68 |    112996    |   129113   
+        8  | 28:41:39 | 03:15:29 |    129114    |   143767   
+        9  | 31:56:68 | 03:23:64 |    143768    |   159056   
+       10  | 35:20:57 | 03:13:00 |    159057    |   173531   
+       11  | 38:33:57 | 03:53:33 |    173532    |   191039   
+       12  | 42:27:15 | 02:52:02 |    191040    |   203941   
+
+AccurateRip Summary
+    Disc not found in AccurateRip DB.
+
+All Tracks
+    Album gain               : -3.28 dB
+    Peak                     : 0.985687
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 01
+    Filename : /Volumes/media/XLD/01 David Bowie - Space Oddity (Original UK Mono Single Edit).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -4.75 dB
+    Peak                     : 0.985687
+    CRC32 hash (test run)    : 20FABBF9
+    CRC32 hash               : 20FABBF9
+    CRC32 hash (skip zero)   : 05C85223
+    AccurateRip v1 signature : 35A1CABD
+    AccurateRip v2 signature : 46F75CB8
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 02
+    Filename : /Volumes/media/XLD/02 David Bowie - Wild Eyed Boy From Freecloud (Original UK Mono Single Version).flac
+
+    Track gain               : -1.89 dB
+    Peak                     : 0.710083
+    CRC32 hash (test run)    : 41ACE860
+    CRC32 hash               : 41ACE860
+    CRC32 hash (skip zero)   : 5327E6D1
+    AccurateRip v1 signature : CC59BD6E
+    AccurateRip v2 signature : 17BD1510
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 03
+    Filename : /Volumes/media/XLD/03 David Bowie - Ragazzo Solo, Ragazza Sola.flac
+
+    Track gain               : -2.94 dB
+    Peak                     : 0.838104
+    CRC32 hash (test run)    : F176BEB6
+    CRC32 hash               : F176BEB6
+    CRC32 hash (skip zero)   : 60ACE559
+    AccurateRip v1 signature : 84CC9A47
+    AccurateRip v2 signature : 69EDA4E1
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 04
+    Filename : /Volumes/media/XLD/04 David Bowie - The Prettiest Star (Original Mono Single Version).flac
+
+    Track gain               : -2.51 dB
+    Peak                     : 0.785797
+    CRC32 hash (test run)    : E7209036
+    CRC32 hash               : E7209036
+    CRC32 hash (skip zero)   : D49898C0
+    AccurateRip v1 signature : 27326E9C
+    AccurateRip v2 signature : 27F1AF65
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 05
+    Filename : /Volumes/media/XLD/05 David Bowie - Conversation Piece.flac
+
+    Track gain               : -3.18 dB
+    Peak                     : 0.900330
+    CRC32 hash (test run)    : B363D04F
+    CRC32 hash               : B363D04F
+    CRC32 hash (skip zero)   : 285BC47E
+    AccurateRip v1 signature : 1488AE65
+    AccurateRip v2 signature : AA8569BB
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 06
+    Filename : /Volumes/media/XLD/06 David Bowie - Memory Of A Free Festival (Part 1).flac
+
+    Track gain               : -3.31 dB
+    Peak                     : 0.984589
+    CRC32 hash (test run)    : 991D15B2
+    CRC32 hash               : 991D15B2
+    CRC32 hash (skip zero)   : 9814948C
+    AccurateRip v1 signature : E7D06651
+    AccurateRip v2 signature : 3918B3B9
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 07
+    Filename : /Volumes/media/XLD/07 David Bowie - Memory Of A Free Festival (Part 2).flac
+
+    Track gain               : -2.76 dB
+    Peak                     : 0.775055
+    CRC32 hash (test run)    : 5582F8D4
+    CRC32 hash               : 5582F8D4
+    CRC32 hash (skip zero)   : E305B278
+    AccurateRip v1 signature : B29E53A1
+    AccurateRip v2 signature : 3A8F31CB
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 08
+    Filename : /Volumes/media/XLD/08 David Bowie - All The Madmen (Mono Single Edit).flac
+
+    Track gain               : -4.47 dB
+    Peak                     : 0.812195
+    CRC32 hash (test run)    : 2C54046A
+    CRC32 hash               : 2C54046A
+    CRC32 hash (skip zero)   : 1A6BCD6C
+    AccurateRip v1 signature : C8AEAED4
+    AccurateRip v2 signature : 28A883C5
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 09
+    Filename : /Volumes/media/XLD/09 David Bowie - Janine.flac
+
+    Track gain               : -2.36 dB
+    Peak                     : 0.722717
+    CRC32 hash (test run)    : 661448EE
+    CRC32 hash               : 661448EE
+    CRC32 hash (skip zero)   : 8EB14767
+    AccurateRip v1 signature : 9B5655BE
+    AccurateRip v2 signature : 626E5F25
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 10
+    Filename : /Volumes/media/XLD/10 David Bowie - Holy Holy (Original Mono Single Version).flac
+
+    Track gain               : -3.31 dB
+    Peak                     : 0.924866
+    CRC32 hash (test run)    : 3290E393
+    CRC32 hash               : 3290E393
+    CRC32 hash (skip zero)   : 14AD54B0
+    AccurateRip v1 signature : C876242B
+    AccurateRip v2 signature : DBA7A331
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 11
+    Filename : /Volumes/media/XLD/11 David Bowie - Moonage Daydream (The Arnold Corns Single Version).flac
+
+    Track gain               : -2.90 dB
+    Peak                     : 0.935272
+    CRC32 hash (test run)    : 7803EDA2
+    CRC32 hash               : 7803EDA2
+    CRC32 hash (skip zero)   : AC07F596
+    AccurateRip v1 signature : 5CA06783
+    AccurateRip v2 signature : 64016590
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 12
+    Filename : /Volumes/media/XLD/12 David Bowie - Hang On To Yourself (The Arnold Corns Single Version).flac
+
+    Track gain               : -2.23 dB
+    Peak                     : 0.899200
+    CRC32 hash (test run)    : E1221034
+    CRC32 hash               : E1221034
+    CRC32 hash (skip zero)   : 39710622
+    AccurateRip v1 signature : E5A44BC9
+    AccurateRip v2 signature : 8B5D2CD8
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+No errors occurred
+
+End of status report
+
+-----BEGIN XLD SIGNATURE-----
+rC3yPA1liCmbsCEmlgVPpQWOG8sFLDItxHbusoqsF73iz9A7tZGWHhuupxtuSct4KGuBmmWXVXbe44aKwkmhW9vfukChA0KaEB90iKS
+-----END XLD SIGNATURE-----

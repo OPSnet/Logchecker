@@ -1,0 +1,256 @@
+X Lossless Decoder version 20141129a (148.2)
+
+XLD extraction logfile from 2015-09-26 17:36:44 +0200
+
+David Bowie / ReCall 1
+
+Used drive : MATSHITA DVD-R   UJ-8A8 (revision HB14)
+Media type : Pressed CD
+
+Ripper mode             : XLD Secure Ripper
+Disable audio cache     : OK for the drive with a cache less than 1375KiB
+Make use of C2 pointers : NO
+Read offset correction  : 102
+Max retry count         : 20
+Gap status              : Analyzed, Appended (except HTOA)
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 03:39:11 |         0    |    16435   
+        2  | 03:39:11 | 03:07:07 |     16436    |    30467   
+        3  | 06:46:18 | 04:17:27 |     30468    |    49769   
+        4  | 11:03:45 | 02:47:06 |     49770    |    62300   
+        5  | 13:50:51 | 04:08:02 |     62301    |    80902   
+        6  | 17:58:53 | 04:03:46 |     80903    |    99173   
+        7  | 22:02:24 | 02:42:55 |     99174    |   111378   
+        8  | 24:45:04 | 02:45:41 |    111379    |   123794   
+        9  | 27:30:45 | 03:43:25 |    123795    |   140544   
+       10  | 31:13:70 | 03:27:47 |    140545    |   156116   
+       11  | 34:41:42 | 02:18:05 |    156117    |   166471   
+       12  | 36:59:47 | 03:10:24 |    166472    |   180745   
+
+AccurateRip Summary
+    Disc not found in AccurateRip DB.
+
+All Tracks
+    Album gain               : -3.58 dB
+    Peak                     : 0.985992
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 01
+    Filename : /Volumes/media/XLD/01 David Bowie - Changes (Mono Single Version)	3：39	David Bowie	Re：Call 1	RockChanges (Mono Single Version).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -3.67 dB
+    Peak                     : 0.952118
+    CRC32 hash (test run)    : F065ADE9
+    CRC32 hash               : F065ADE9
+    CRC32 hash (skip zero)   : 2A446E20
+    AccurateRip v1 signature : DE391B36
+    AccurateRip v2 signature : 99616D84
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 02
+    Filename : /Volumes/media/XLD/02 David Bowie - Andy Warhol (Mono Single Version).flac
+
+    Track gain               : -2.90 dB
+    Peak                     : 0.782593
+    CRC32 hash (test run)    : 6881E2F8
+    CRC32 hash               : 6881E2F8
+    CRC32 hash (skip zero)   : A104C631
+    AccurateRip v1 signature : 35D326F7
+    AccurateRip v2 signature : C14CC8A1
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 03
+    Filename : /Volumes/media/XLD/03 David Bowie - Starman (Original Single Mix).flac
+
+    Track gain               : -3.26 dB
+    Peak                     : 0.900513
+    CRC32 hash (test run)    : E36F2144
+    CRC32 hash               : E36F2144
+    CRC32 hash (skip zero)   : 66164196
+    AccurateRip v1 signature : 8418FF9A
+    AccurateRip v2 signature : 2AA4F057
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 04
+    Filename : /Volumes/media/XLD/04 David Bowie - John, I'm Only Dancing (Original Single Version).flac
+
+    Track gain               : -4.73 dB
+    Peak                     : 0.967712
+    CRC32 hash (test run)    : AA03AD2C
+    CRC32 hash               : AA03AD2C
+    CRC32 hash (skip zero)   : C2CFF0E2
+    AccurateRip v1 signature : F51B23CF
+    AccurateRip v2 signature : 7AC2A889
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 05
+    Filename : /Volumes/media/XLD/05 David Bowie - The Jean Genie (Original Single Mix).flac
+
+    Track gain               : -4.75 dB
+    Peak                     : 0.917206
+    CRC32 hash (test run)    : 4DFEC726
+    CRC32 hash               : 4DFEC726
+    CRC32 hash (skip zero)   : F7B21DFA
+    AccurateRip v1 signature : 93A3BF51
+    AccurateRip v2 signature : E807120C
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 06
+    Filename : /Volumes/media/XLD/06 David Bowie - Drive-In Saturday (German Single Edit).flac
+
+    Track gain               : -3.69 dB
+    Peak                     : 0.658173
+    CRC32 hash (test run)    : 03F1293B
+    CRC32 hash               : 03F1293B
+    CRC32 hash (skip zero)   : 8D2479A4
+    AccurateRip v1 signature : 9DE4AE6B
+    AccurateRip v2 signature : 7AD195F2
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 07
+    Filename : /Volumes/media/XLD/07 David Bowie - Round and Round.flac
+
+    Track gain               : -3.36 dB
+    Peak                     : 0.884552
+    CRC32 hash (test run)    : DD173593
+    CRC32 hash               : DD173593
+    CRC32 hash (skip zero)   : 36787AFA
+    AccurateRip v1 signature : 51C07D88
+    AccurateRip v2 signature : 0EB04D3A
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 08
+    Filename : /Volumes/media/XLD/08 David Bowie - John, I'm Only Dancing (Sax Version).flac
+
+    Track gain               : -2.16 dB
+    Peak                     : 0.920349
+    CRC32 hash (test run)    : 70367AE6
+    CRC32 hash               : 70367AE6
+    CRC32 hash (skip zero)   : 85EFDF91
+    AccurateRip v1 signature : 2800412F
+    AccurateRip v2 signature : 45141282
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 09
+    Filename : /Volumes/media/XLD/09 David Bowie - Time (US Single Edit).flac
+
+    Track gain               : -1.58 dB
+    Peak                     : 0.753479
+    CRC32 hash (test run)    : 019558AB
+    CRC32 hash               : 019558AB
+    CRC32 hash (skip zero)   : A7B6BBBC
+    AccurateRip v1 signature : F5C51C29
+    AccurateRip v2 signature : 1C9D1DEC
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 10
+    Filename : /Volumes/media/XLD/10 David Bowie - Amsterdam.flac
+
+    Track gain               : -2.12 dB
+    Peak                     : 0.799835
+    CRC32 hash (test run)    : 5A8F9632
+    CRC32 hash               : 5A8F9632
+    CRC32 hash (skip zero)   : B4EA96EF
+    AccurateRip v1 signature : E8ABA7C8
+    AccurateRip v2 signature : 9BB2EDD0
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 11
+    Filename : /Volumes/media/XLD/11 David Bowie - Holy Holy (Spiders Version).flac
+
+    Track gain               : -3.85 dB
+    Peak                     : 0.985992
+    CRC32 hash (test run)    : F5F2CA98
+    CRC32 hash               : F5F2CA98
+    CRC32 hash (skip zero)   : 37736816
+    AccurateRip v1 signature : AC61C08D
+    AccurateRip v2 signature : 8AD9B828
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 12
+    Filename : /Volumes/media/XLD/12 David Bowie - Velvet Goldmine.flac
+
+    Track gain               : -3.62 dB
+    Peak                     : 0.700623
+    CRC32 hash (test run)    : A2CFD0C1
+    CRC32 hash               : A2CFD0C1
+    CRC32 hash (skip zero)   : CCBAD5B2
+    AccurateRip v1 signature : 371706E3
+    AccurateRip v2 signature : EAA7CC44
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+No errors occurred
+
+End of status report
+
+-----BEGIN XLD SIGNATURE-----
+DrZSIL91nos3b1CIaCzdm0XyQkgic1M0VD8sUZO3dLe1QGCh_h0hDB.CMjwHqHUgLNrF3u9cdbbdA8XL_lvZsF2IsPtp3B2HAmBXAbq
+-----END XLD SIGNATURE-----

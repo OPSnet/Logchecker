@@ -1,0 +1,238 @@
+X Lossless Decoder version 20140504 (147.0)
+
+XLD extraction logfile from 2014-10-14 18:10:38 +1100
+
+Drapht / Pale Rider
+
+Used drive : MATSHITA DVD-R   UJ-875 (revision DB09)
+Media type : Pressed CD
+
+Ripper mode             : XLD Secure Ripper
+Disable audio cache     : OK for the drive with a cache less than 1375KiB
+Make use of C2 pointers : NO
+Read offset correction  : 102
+Max retry count         : 100
+Gap status              : Analyzed, Appended
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 01:45:73 |         0    |     7947   
+        2  | 01:45:73 | 03:39:46 |      7948    |    24418   
+        3  | 05:25:44 | 03:42:15 |     24419    |    41083   
+        4  | 09:07:59 | 03:50:55 |     41084    |    58388   
+        5  | 12:58:39 | 01:24:44 |     58389    |    64732   
+        6  | 14:23:08 | 04:08:00 |     64733    |    83332   
+        7  | 18:31:08 | 02:55:44 |     83333    |    96501   
+        8  | 21:26:52 | 04:46:07 |     96502    |   117958   
+        9  | 26:12:59 | 04:30:30 |    117959    |   138238   
+       10  | 30:43:14 | 04:00:01 |    138239    |   156239   
+       11  | 34:43:15 | 04:20:15 |    156240    |   175754   
+
+AccurateRip Summary
+    Disc not found in AccurateRip DB.
+
+All Tracks
+    Album gain               : -6.82 dB
+    Peak                     : 0.999268
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 01
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/01 Drapht - Intro.flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -5.21 dB
+    Peak                     : 0.999207
+    CRC32 hash (test run)    : 5B7E9E6A
+    CRC32 hash               : 5B7E9E6A
+    CRC32 hash (skip zero)   : 175BF308
+    AccurateRip v1 signature : 36DCFE3A
+    AccurateRip v2 signature : 25EAC037
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 02
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/02 Drapht - Hang em High.flac
+
+    Track gain               : -5.81 dB
+    Peak                     : 0.999237
+    CRC32 hash (test run)    : C9F448DB
+    CRC32 hash               : C9F448DB
+    CRC32 hash (skip zero)   : 212D0ABA
+    AccurateRip v1 signature : 9B708162
+    AccurateRip v2 signature : C2F04972
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 03
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/03 Drapht - Cant Escape.flac
+
+    Track gain               : -7.30 dB
+    Peak                     : 0.999207
+    CRC32 hash (test run)    : 092C2CFA
+    CRC32 hash               : 092C2CFA
+    CRC32 hash (skip zero)   : D2B51947
+    AccurateRip v1 signature : 97B45E22
+    AccurateRip v2 signature : 04E602B9
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 04
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/04 Drapht - Abuse The World.flac
+
+    Track gain               : -7.70 dB
+    Peak                     : 0.999237
+    CRC32 hash (test run)    : FA850480
+    CRC32 hash               : FA850480
+    CRC32 hash (skip zero)   : 3BED85F0
+    AccurateRip v1 signature : 70BC15B0
+    AccurateRip v2 signature : ECD94D5E
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 05
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/05 Drapht - Optical Illusion.flac
+
+    Track gain               : -5.71 dB
+    Peak                     : 0.999207
+    CRC32 hash (test run)    : 9D96A4CA
+    CRC32 hash               : 9D96A4CA
+    CRC32 hash (skip zero)   : BA372CB7
+    AccurateRip v1 signature : A4919769
+    AccurateRip v2 signature : C7A744FF
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 06
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/06 Drapht - Prolific.flac
+
+    Track gain               : -5.02 dB
+    Peak                     : 0.999146
+    CRC32 hash (test run)    : CE59B623
+    CRC32 hash               : CE59B623
+    CRC32 hash (skip zero)   : 815B68EB
+    AccurateRip v1 signature : 579D1D56
+    AccurateRip v2 signature : AA97A166
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 07
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/07 Drapht - Observe.flac
+
+    Track gain               : -7.77 dB
+    Peak                     : 0.999237
+    CRC32 hash (test run)    : 5E0E2FF4
+    CRC32 hash               : 5E0E2FF4
+    CRC32 hash (skip zero)   : EF2EF62F
+    AccurateRip v1 signature : F30371D1
+    AccurateRip v2 signature : 8408B8F3
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 08
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/08 Drapht - Uncontainable.flac
+
+    Track gain               : -6.29 dB
+    Peak                     : 0.999268
+    CRC32 hash (test run)    : AF75FC04
+    CRC32 hash               : AF75FC04
+    CRC32 hash (skip zero)   : 95232ED0
+    AccurateRip v1 signature : 43E252C3
+    AccurateRip v2 signature : 3FD591CF
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 09
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/09 Drapht - Weather Man.flac
+
+    Track gain               : -7.15 dB
+    Peak                     : 0.999237
+    CRC32 hash (test run)    : 01C0459D
+    CRC32 hash               : 01C0459D
+    CRC32 hash (skip zero)   : B8AA057E
+    AccurateRip v1 signature : C3CBEA16
+    AccurateRip v2 signature : 111F50A3
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 10
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/10 Drapht - Front Line.flac
+
+    Track gain               : -6.08 dB
+    Peak                     : 0.999237
+    CRC32 hash (test run)    : E1D91EC2
+    CRC32 hash               : E1D91EC2
+    CRC32 hash (skip zero)   : AFC8B3B3
+    AccurateRip v1 signature : CA84A876
+    AccurateRip v2 signature : 2497E87B
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 11
+    Filename : /Volumes/TOSHIBA_2TB/FLACs/11 Drapht - End That Way.flac
+
+    Track gain               : -7.23 dB
+    Peak                     : 0.999207
+    CRC32 hash (test run)    : 28A4E1B3
+    CRC32 hash               : 28A4E1B3
+    CRC32 hash (skip zero)   : A601F7BD
+    AccurateRip v1 signature : 74E80966
+    AccurateRip v2 signature : 7E0F7AD9
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+No errors occurred
+
+End of status report
+
+-----BEGIN XLD SIGNATURE-----
+0_Nzj1UnwPtw0M_Qu5wxyz8e1yH2rgG.Q_.MxBeuArKRKmqSKZNGDOczNIveDtRXUaEljyZPlHU7GMq8eo33Vc6yVI9cSM26tYX91GS
+-----END XLD SIGNATURE-----

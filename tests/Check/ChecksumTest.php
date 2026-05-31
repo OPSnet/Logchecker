@@ -9,10 +9,17 @@ use OrpheusNET\Logchecker\Exception\UnknownRipperException;
 
 class ChecksumTest extends TestCase
 {
-    public function testLogcheckerExistsInvalidRipper(): void
+    public function testValidateInvalidRipper(): void
     {
         $this->expectException(UnknownRipperException::class);
         $this->expectExceptionMessage('Unknown ripper: invalid');
-        Checksum::logcheckerExists('invalid');
+        Checksum::validate(__FILE__, 'invalid');
+    }
+
+    public function testValidateMissingFile(): void
+    {
+        $this->expectException(\InvalidArgumentException::class);
+        $this->expectExceptionMessage('Log file does not exist: nonexistent.log');
+        Checksum::validate('nonexistent.log', Ripper::EAC);
     }
 }

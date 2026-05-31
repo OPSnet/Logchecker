@@ -1,0 +1,113 @@
+EAC extraction logfile from 6. February 2008, 12:03
+Sigur Rós / Ágætis Byrjun
+
+Used drive  : PLEXTOR CD-R   PREMIUM   Adapter: 1  ID: 0
+Read mode   : Secure with NO C2, accurate stream, disable cache
+Read offset correction : 30
+Overread into Lead-In and Lead-Out : Yes
+
+Used output format : C:\Programs\Exact Audio Copy 0.95\Encoders\flac.exe   (User Defined Encoder)
+                     224 kBit/s
+                     Additional command line options : -8 -V -T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" -T "comment=Exact Audio Copy 0.95 pb5 Secure Mode / FLAC q8 v. 1.1.2" %s 
+
+Other options      : 
+    Fill up missing offset samples with silence : Yes
+    Delete leading and trailing silent blocks : No
+    Installed external ASPI interface
+
+
+Track  1
+     Filename D:\gubatyi\Ágætis Byrjun\01 - Intro.wav
+
+     Pre-gap length  0:00:02.00
+
+     Peak level 77.5 %
+     Track quality 100.0 %
+     Test CRC F09DF322
+     Copy CRC F09DF322
+     Copy OK
+
+Track  2
+     Filename D:\gubatyi\Ágætis Byrjun\02 - Svefn-G-Englar.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 23948S03
+     Copy CRC 23948S03
+     Copy OK
+
+Track  3
+     Filename D:\gubatyi\Ágætis Byrjun\03 - Starálfur.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC SD393423
+     Copy CRC SD393423
+     Copy OK
+
+Track  4
+     Filename D:\gubatyi\Ágætis Byrjun\04 - Flugufrelsarinn.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 209473FF
+     Copy CRC 209473FF
+     Copy OK
+
+Track  5
+     Filename D:\gubatyi\Ágætis Byrjun\05 - Ný Batterí.wav
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC FS343423
+     Copy CRC FS343423
+     Copy OK
+
+Track  6
+     Filename D:\gubatyi\Ágætis Byrjun\06 - Hjartað Hamast (Bamm Bamm Bamm).wav
+
+     Peak level 99.5 %
+     Track quality 100.0 %
+     Test CRC A39D3234
+     Copy CRC A39D3234
+     Copy OK
+
+Track  7
+     Filename D:\gubatyi\Ágætis Byrjun\07 - Viðrar Vel Til Loftárása.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 34S9S093
+     Copy CRC 34S9S093
+     Copy OK
+
+Track  8
+     Filename D:\gubatyi\Ágætis Byrjun\08 - Olsen Olsen.wav
+
+     Peak level 100.0 %
+     Track quality 100.0 %
+     Test CRC 23434F23
+     Copy CRC 23434F23
+     Copy OK
+
+Track  9
+     Filename D:\gubatyi\Ágætis Byrjun\09 - Ágætis Byrjun.wav
+
+     Peak level 78.3 %
+     Track quality 100.0 %
+     Test CRC F3098D32
+     Copy CRC F3098D32
+     Copy OK
+
+Track 10
+     Filename D:\gubatyi\Ágætis Byrjun\10 - Avalon.wav
+
+     Peak level 70.2 %
+     Track quality 99.9 %
+     Test CRC 03487F2A
+     Copy CRC 03487F2A
+     Copy OK
+
+No errors occurred
+
+
+End of status report
