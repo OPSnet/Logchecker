@@ -19,9 +19,7 @@ setting up the necessary programs to validate the checksum, see below for the gi
 ## Optional Requirements
 
 * Python 3.5+
-* [cchardet](https://github.com/PyYoshi/cChardet) (or [chardet](https://github.com/chardet/chardet))
-* [eac_logchecker.py](https://github.com/OPSnet/eac_logchecker.py)
-* [xld_logchecker.py](https://github.com/OPSnet/xld_logchecker.py)
+* [chardet](https://github.com/chardet/chardet) (or [cchardet](https://github.com/PyYoshi/cChardet))
 
 ```bash
 pip3 install cchardet eac-logchecker xld-logchecker
